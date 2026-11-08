@@ -1,0 +1,53 @@
+{
+  "id": "ref-0013",
+  "arquivo": "grafico-linha-neon-desenhando.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "grafico-de-linha",
+  "titulo": "Gráfico de linha branca neon se desenhando com ponto vermelho no topo",
+  "descricao": "Eixos simples em fundo preto; uma linha branca com leve aberração cromática se desenha da esquerda para a direita, oscila e sobe até terminar num ponto vermelho brilhante.",
+  "tecnica": {
+    "como_e_feito": "Path da linha com trim/stroke-dashoffset de 0 a 100%; glow branco + aberração cromática RGB sutil; eixos estáticos; ponto final com glow vermelho surgindo quando a linha chega ao topo.",
+    "duracao_seg": 5,
+    "easing": "linear com leve ease-out no final",
+    "fontes": [],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "stroke draw-on",
+      "glow",
+      "aberração cromática"
+    ]
+  },
+  "quando_usar": "Mostrar crescimento, alta de preço, escalada de casos ou de dívida; versão minimalista para notícia ou documentário.",
+  "mood": [
+    "minimalista",
+    "tenso"
+  ],
+  "tags": [
+    "grafico",
+    "linha",
+    "neon",
+    "draw-on",
+    "crescimento",
+    "dados"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 5.1,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

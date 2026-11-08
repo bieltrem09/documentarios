@@ -1,0 +1,50 @@
+{
+  "id": "ref-0026",
+  "arquivo": "titulo-thunder-sans-black.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "titulo-black",
+  "titulo": "Título 'THUNDER.' em sans black extra larga branca sobre preto",
+  "descricao": "Palavra única em caixa alta, sans black larga e muito pesada, branca sobre fundo preto, terminando com ponto final.",
+  "tecnica": {
+    "como_e_feito": "Palavra única centralizada, peso black, tracking apertado, ponto final como acento. Animável: entrada com scale 110%→100% e blur, ou corte seco no beat.",
+    "duracao_seg": null,
+    "easing": "ease-out forte (cubic-bezier(0.16,1,0.3,1))",
+    "fontes": [
+      "sans black larga (alternativas: Archivo Black, Anton, Inter Black)"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Cartela de palavra única em momentos de impacto (revelação, virada, título de capítulo).",
+  "mood": [
+    "impactante",
+    "seco"
+  ],
+  "tags": [
+    "titulo",
+    "palavra-unica",
+    "black",
+    "caixa-alta",
+    "pb",
+    "cartela"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 526,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

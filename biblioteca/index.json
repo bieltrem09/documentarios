@@ -1,9 +1,1802 @@
 {
   "aviso": "ARQUIVO GERADO por `npm run index`. Não edite à mão.",
-  "gerado_em": "2026-11-08T20:31:49.463Z",
-  "total": 0,
-  "por_nicho": {},
-  "por_categoria": {},
+  "gerado_em": "2026-11-08T20:47:11.571Z",
+  "total": 30,
+  "por_nicho": {
+    "documentario": 8,
+    "noticia": 2,
+    "ambos": 20
+  },
+  "por_categoria": {
+    "documentos-jornal": 2,
+    "abertura": 1,
+    "color-grading": 1,
+    "elementos-noticia": 1,
+    "dados-graficos": 4,
+    "b-roll": 5,
+    "texturas-overlays": 2,
+    "tipografia": 5,
+    "transicoes": 1,
+    "outros": 1,
+    "arquivo-fotos": 5,
+    "thumbnails": 2
+  },
   "receitas": [],
-  "refs": []
+  "refs": [
+    {
+      "id": "ref-0001",
+      "arquivo": "mesa-evidencias-3d-dossie.mp4",
+      "tipo_midia": "video",
+      "nicho": "documentario",
+      "categoria": "documentos-jornal",
+      "subcategoria": "mesa-de-evidencias",
+      "titulo": "Mesa de evidências 3D com dossiê, tarjas nos olhos e rótulos de nomes",
+      "descricao": "Câmera virtual passeia sobre objetos de investigação vistos de cima numa mesa escura: pasta 'Private', ficha com foto P&B, raio-X, walkman, saco de 'EVIDENCE' com cápsula de bala e foto antiga. Tarjas pretas e vermelhas cobrem os olhos e nomes aparecem como rótulos. O vídeo mostra lado a lado o preview com as guias de câmera 3D e o render final, com a timeline de SFX.",
+      "tecnica": {
+        "como_e_feito": "Fotos/documentos recortados como planos 2.5D espalhados numa cena 3D; câmera com movimentos lentos de dolly/rotação passando de objeto em objeto; vinheta forte e luz pontual; destaques em vermelho (círculo à mão no nome, tarja nos olhos, linha vermelha); rótulos de texto pequenos ancorados nos rostos; muitos SFX (papel, foley) sincronizados a cada movimento.",
+        "duracao_seg": null,
+        "easing": "ease-in-out suave nos movimentos de câmera",
+        "fontes": [
+          "máquina de escrever (tipo Courier) nos documentos",
+          "manuscrita para rótulos"
+        ],
+        "cores_hex": [
+          "#0E0E0E",
+          "#E9E4D8",
+          "#C1121F",
+          "#7A7A7A"
+        ],
+        "efeitos": [
+          "câmera 3D sobre planos 2.5D",
+          "vinheta forte",
+          "tarja nos olhos",
+          "círculo desenhado à mão",
+          "sombra de contato",
+          "foley/SFX"
+        ]
+      },
+      "quando_usar": "Abertura ou apresentação de caso em documentário de crime/conspiração; mostrar provas, suspeitos e documentos sem footage real.",
+      "mood": [
+        "sombrio",
+        "investigativo",
+        "misterioso"
+      ],
+      "tags": [
+        "evidencias",
+        "dossie",
+        "camera-3d",
+        "parallax",
+        "tarja-olhos",
+        "true-crime",
+        "vermelho",
+        "mesa"
+      ],
+      "dificuldade": "dificil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 39.64,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 8
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie",
+      "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie/mesa-evidencias-3d-dossie.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0002",
+      "arquivo": "mural-investigacao-mugshots.mp4",
+      "tipo_midia": "video",
+      "nicho": "documentario",
+      "categoria": "documentos-jornal",
+      "subcategoria": "mural-de-investigacao",
+      "titulo": "Mural de investigação com mugshots, perfis e mapas em cortiça",
+      "descricao": "Quadro de cortiça com relatório de caso, crânio, mapa, fichas 'PROFILE' e 'FORENSIC REPORT', polaroids de suspeitos e post-it 'VICTIM'. A câmera faz zoom de detalhe em cada elemento e volta ao plano geral; um rosto recebe círculo vermelho desenhado à mão.",
+      "tecnica": {
+        "como_e_feito": "Elementos 2D (polaroids, papéis, post-its) montados sobre textura de cortiça com sombras; câmera 2.5D alternando plano geral e close inclinado em cada item (zoom + rotação leve); círculo vermelho animado com trim path; leve desfoque de profundidade nas bordas.",
+        "duracao_seg": 35,
+        "easing": "ease-in-out nos zooms",
+        "fontes": [
+          "sans bold condensada para títulos das fichas",
+          "manuscrita nos post-its e polaroids"
+        ],
+        "cores_hex": [
+          "#5A4A38",
+          "#EDE6D6",
+          "#E8D27A",
+          "#B3121C",
+          "#1A1410"
+        ],
+        "efeitos": [
+          "zoom/rotação 2.5D",
+          "círculo trim path",
+          "sombra projetada",
+          "vinheta",
+          "profundidade de campo"
+        ]
+      },
+      "quando_usar": "Apresentar suspeitos, vítimas e relações num documentário de true crime; recapitular o caso antes de um capítulo.",
+      "mood": [
+        "sombrio",
+        "investigativo"
+      ],
+      "tags": [
+        "mural",
+        "cortica",
+        "mugshot",
+        "polaroid",
+        "true-crime",
+        "zoom",
+        "circulo-vermelho"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 35,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 5.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots",
+      "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots/mural-investigacao-mugshots.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0003",
+      "arquivo": "template-detetive-pastas-polaroids.mp4",
+      "tipo_midia": "video",
+      "nicho": "documentario",
+      "categoria": "abertura",
+      "subcategoria": "mesa-de-detetive",
+      "titulo": "Abertura de detetive com pastas, polaroids e luz de persiana",
+      "descricao": "Template comercial ('Detective Theory'): mesa com pastas de caso, polaroids, fita de cena de crime, lupa com 'POLICE', notas de dinheiro e cápsulas. A câmera desliza entre páginas de dossiê enquanto uma luz de persiana varre a cena; no fim a luz troca entre vermelho e azul (sirene) e entra o logo.",
+      "tecnica": {
+        "como_e_feito": "Fotos encaixadas em molduras de polaroid e páginas de dossiê numa cena 3D; câmera em travelling lento; máscara de luz de persiana animada passando por cima (light wipe); transições por virada de página; grade de cor dessaturada com flash vermelho/azul de sirene no final.",
+        "duracao_seg": 85,
+        "easing": "linear/ease-in-out lento",
+        "fontes": [
+          "sans bold para títulos de pasta",
+          "sans regular pequena para textos de ficha"
+        ],
+        "cores_hex": [
+          "#D9D6CF",
+          "#2B2B2B",
+          "#8E1B1B",
+          "#2A3F8F",
+          "#C9B48A"
+        ],
+        "efeitos": [
+          "luz de persiana",
+          "câmera 3D",
+          "virada de página",
+          "flash de sirene vermelho/azul",
+          "grão leve"
+        ]
+      },
+      "quando_usar": "Abertura de documentário policial ou de investigação; pode ser reduzida para 10-15 s como vinheta de capítulo.",
+      "mood": [
+        "investigativo",
+        "tenso",
+        "noir"
+      ],
+      "tags": [
+        "detetive",
+        "polaroid",
+        "persiana",
+        "sirene",
+        "dossie",
+        "template",
+        "camera-3d"
+      ],
+      "dificuldade": "dificil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 85.03,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 8.5
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids",
+      "caminho_arquivo": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids/template-detetive-pastas-polaroids.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0004",
+      "arquivo": "documentario-cinematografico-teal-frio.mp4",
+      "tipo_midia": "video",
+      "nicho": "documentario",
+      "categoria": "color-grading",
+      "subcategoria": "teal-frio-documental",
+      "titulo": "Sequência documental com imagens cinematográficas em grade fria teal",
+      "descricao": "Reel de editor mostrando uma sequência de documentário (cerca de 85 s) feita com imagens geradas/estáticas cinematográficas: mural de provas, Capitólio, plenário, silhueta, homem com nome em vermelho sobre a imagem, arquivo, hospital, gângsteres na chuva. Tudo em grade fria azul-petróleo, com a timeline do After Effects visível abaixo.",
+      "tecnica": {
+        "como_e_feito": "Imagens estáticas com movimento de câmera (push-in/parallax) e cortes no ritmo da narração; grade unificada com sombras teal e realces dessaturados; nome de personagem em sans condensada vermelha grande sobreposto à imagem; partículas/névoa leves.",
+        "duracao_seg": 85,
+        "easing": "push-in lento constante",
+        "fontes": [
+          "sans condensada bold vermelha para nomes"
+        ],
+        "cores_hex": [
+          "#0F2A30",
+          "#1E3B42",
+          "#9FB3B5",
+          "#D11A1A"
+        ],
+        "efeitos": [
+          "grade teal",
+          "push-in",
+          "parallax 2.5D",
+          "névoa",
+          "título sobre imagem"
+        ]
+      },
+      "quando_usar": "Documentários de poder/corrupção/crime com imagens de IA ou estáticas; definir uma paleta fria e coesa para o vídeo inteiro.",
+      "mood": [
+        "sombrio",
+        "sério",
+        "cinematográfico"
+      ],
+      "tags": [
+        "teal",
+        "grade-fria",
+        "imagens-ia",
+        "push-in",
+        "parallax",
+        "nome-vermelho",
+        "documentario"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 85.85,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 6.2
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio",
+      "caminho_arquivo": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio/documentario-cinematografico-teal-frio.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0005",
+      "arquivo": "reportagem-ciberataque-banco.mp4",
+      "tipo_midia": "video",
+      "nicho": "noticia",
+      "categoria": "elementos-noticia",
+      "subcategoria": "reportagem-tv",
+      "titulo": "Reportagem de TV sobre ciberataque a banco (lower thirds, números e infográfico)",
+      "descricao": "Reportagem completa (2 min 25 s) de canal de notícias sobre ciberataque a um banco. Mostra print de notificação do app sobre a cena, entrevistas com lower thirds brancos sobre tarja preta, hacker de moletom, número grande '100 millions €' sobre a imagem e infográfico de servidores ligados a contas.",
+      "tecnica": {
+        "como_e_feito": "Estrutura de telejornal: b-roll de rua + sonoras; lower third em duas linhas (nome em caixa alta bold, cargo em regular) sobre tarja preta translúcida no canto inferior esquerdo; número grande em sans bold com desfoque do fundo; infográfico flat (ícones de servidor, setas, valores) sobre fundo desfocado; print de tela flutuando sobre o vídeo.",
+        "duracao_seg": 145,
+        "easing": null,
+        "fontes": [
+          "sans grotesca bold/regular (tipo Helvetica/Roboto)"
+        ],
+        "cores_hex": [
+          "#FFFFFF",
+          "#000000",
+          "#1BA3C6",
+          "#2E8B57"
+        ],
+        "efeitos": [
+          "lower third",
+          "print de tela sobreposto",
+          "número grande com blur de fundo",
+          "infográfico flat"
+        ]
+      },
+      "quando_usar": "Vídeos de notícia sobre golpes, vazamentos e ataques digitais; base para lower thirds, números de impacto e infográficos simples. Dividir em recortes (npm run trim) para refs específicas.",
+      "mood": [
+        "sério",
+        "informativo"
+      ],
+      "tags": [
+        "telejornal",
+        "lower-third",
+        "infografico",
+        "hacker",
+        "banco",
+        "numero-grande",
+        "ciberataque"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "youtube",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 145.15,
+        "largura": 1280,
+        "altura": 720,
+        "tamanho_mb": 18.7
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco",
+      "caminho_arquivo": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco/reportagem-ciberataque-banco.mp4",
+      "contact_sheet": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0006",
+      "arquivo": "grafico-3d-neon-vermelho-valor.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "dados-graficos",
+      "subcategoria": "grafico-3d-neon",
+      "titulo": "Gráfico 3D em neon vermelho (tempo x dinheiro x esforço)",
+      "descricao": "Gráfico conceitual em vidro escuro com linha e nós vermelhos brilhantes ligando 'Time', 'Money' e 'Effort' até 'Total Value'. A câmera gira em 3D pelo gráfico e termina num painel de vidro com título.",
+      "tecnica": {
+        "como_e_feito": "Linhas e pontos com glow vermelho intenso sobre fundo preto; painel de vidro (glassmorphism) com bordas arredondadas; câmera 3D orbitando e afastando; rótulos em sans fina; profundidade de campo e bloom.",
+        "duracao_seg": 8,
+        "easing": "ease-out na câmera",
+        "fontes": [
+          "sans geométrica fina"
+        ],
+        "cores_hex": [
+          "#0A0000",
+          "#E0141E",
+          "#FF4A4A",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "glow/bloom",
+          "câmera 3D",
+          "glassmorphism",
+          "profundidade de campo"
+        ]
+      },
+      "quando_usar": "Explicar relações entre variáveis (custo, tempo, valor) em vídeos de dinheiro/negócios; transição para um conceito-chave.",
+      "mood": [
+        "tenso",
+        "tecnológico"
+      ],
+      "tags": [
+        "grafico",
+        "neon",
+        "vermelho",
+        "3d",
+        "glow",
+        "dados",
+        "vidro"
+      ],
+      "dificuldade": "dificil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 8.09,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor",
+      "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor/grafico-3d-neon-vermelho-valor.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0007",
+      "arquivo": "mockups-tela-3d-prancheta.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "mockup-de-tela",
+      "titulo": "Mockups 3D de telas e prancheta com texto manuscrito",
+      "descricao": "Sequência rápida: webcam de um rapaz falando, cartão 3D de saldo do PayPal ('10,000,000$') sobre fundo azul, prancheta com frase escrita à mão sendo revelada ('How you yourself can make hundreds of thousands??') e páginas de site mostradas em perspectiva.",
+      "tecnica": {
+        "como_e_feito": "Capturas de tela recriadas como cartões/planos 3D com sombra e leve rotação; fundo azul com ícones; texto manuscrito revelado palavra a palavra sobre papel numa prancheta com câmera inclinada; cortes rápidos casados com a narração.",
+        "duracao_seg": 24,
+        "easing": "ease-out",
+        "fontes": [
+          "script/manuscrita",
+          "sans bold no cartão"
+        ],
+        "cores_hex": [
+          "#0B1E6B",
+          "#1D4ED8",
+          "#FFFFFF",
+          "#22303F"
+        ],
+        "efeitos": [
+          "cartão 3D",
+          "reveal de escrita",
+          "perspectiva de tela",
+          "cortes rápidos"
+        ]
+      },
+      "quando_usar": "Mostrar sites, saldos, perfis e prints em vídeos de golpe/dinheiro online sem gravar tela crua; frase-chave em prancheta.",
+      "mood": [
+        "curioso",
+        "dinâmico"
+      ],
+      "tags": [
+        "mockup",
+        "tela",
+        "3d",
+        "prancheta",
+        "manuscrito",
+        "dinheiro",
+        "ui"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 24.43,
+        "largura": 396,
+        "altura": 704,
+        "tamanho_mb": 1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta/mockups-tela-3d-prancheta.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0008",
+      "arquivo": "overlay-filme-antigo-branco.mp4",
+      "tipo_midia": "video",
+      "nicho": "documentario",
+      "categoria": "texturas-overlays",
+      "subcategoria": "filme-antigo",
+      "titulo": "Overlay de película antiga branca com riscos, sujeira e vinheta",
+      "descricao": "Loop de 9 s de película branca com riscos verticais, pontos de sujeira, um fio de cabelo passando e vinheta escura nas bordas. Feito para ser sobreposto a outro vídeo.",
+      "tecnica": {
+        "como_e_feito": "Aplicar por cima do vídeo em modo Multiply (o branco some e ficam riscos, poeira e vinheta); opacidade 40-80%; pode combinar com flicker de exposição e P&B/sépia.",
+        "duracao_seg": 9,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#2A2A2A"
+        ],
+        "efeitos": [
+          "riscos de película",
+          "poeira",
+          "vinheta",
+          "blend multiply"
+        ]
+      },
+      "quando_usar": "Imagens de arquivo, flashbacks e trechos históricos (anos 20-70) em documentário.",
+      "mood": [
+        "nostálgico",
+        "histórico"
+      ],
+      "tags": [
+        "filme-antigo",
+        "overlay",
+        "riscos",
+        "poeira",
+        "vinheta",
+        "multiply",
+        "arquivo"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 9.24,
+        "largura": 256,
+        "altura": 144,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco",
+      "caminho_arquivo": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco/overlay-filme-antigo-branco.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0009",
+      "arquivo": "bonecos-3d-grafico-bitcoin.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "dados-graficos",
+      "subcategoria": "personagens-e-grafico",
+      "titulo": "Bonecos 3D brancos diante de telão com gráfico do Bitcoin subindo e caindo",
+      "descricao": "Bonecos humanoides brancos e minimalistas olham um telão com gráfico de velas: primeiro sobe em verde (BTC a $70,000) com balões de fala ('To the moon!'), depois despenca em vermelho ($15,500) e resta um boneco sozinho. Fecha com pergunta em texto sobre fundo preto.",
+      "tecnica": {
+        "como_e_feito": "Cena 3D escura com chão em linha verde neon; personagens low-detail em material branco translúcido; telão emissivo com gráfico de candles animado; balões de fala brancos aparecendo em pop; troca de cor verde→vermelho no clímax; corte para cartela de texto com palavras destacadas em verde.",
+        "duracao_seg": 15,
+        "easing": "pop com overshoot nos balões",
+        "fontes": [
+          "sans geométrica (tipo Montserrat)"
+        ],
+        "cores_hex": [
+          "#000000",
+          "#22C55E",
+          "#E11D2E",
+          "#F5C542",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "gráfico de candles animado",
+          "personagens 3D",
+          "balões de fala",
+          "glow"
+        ]
+      },
+      "quando_usar": "Explicar bolhas, euforia e quebra de mercado (cripto, ações, golpes de pirâmide) de forma visual e narrativa.",
+      "mood": [
+        "tenso",
+        "irônico"
+      ],
+      "tags": [
+        "bitcoin",
+        "cripto",
+        "grafico",
+        "candles",
+        "personagens-3d",
+        "balao-de-fala",
+        "mercado"
+      ],
+      "dificuldade": "dificil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 14.7,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 0.8
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin",
+      "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin/bonecos-3d-grafico-bitcoin.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0010",
+      "arquivo": "sala-de-controle-monitores-cctv.mp4",
+      "tipo_midia": "video",
+      "nicho": "documentario",
+      "categoria": "b-roll",
+      "subcategoria": "vigilancia",
+      "titulo": "Sala de controle escura com monitores de vigilância",
+      "descricao": "Ambiente industrial escuro e enfumaçado com mesa cheia de cabos, teclado, notebook e monitores. Um painel suspenso mostra 4 câmeras de segurança; as telas trocam de conteúdo (rostos, multidão, mão) enquanto a câmera fica quase parada.",
+      "tecnica": {
+        "como_e_feito": "Cena 3D (ou foto) com telas como planos onde se aplicam vídeos/imagens (screen replacement); névoa volumétrica e luz fria de cima; troca de conteúdo das telas a cada beat; câmera com drift lento.",
+        "duracao_seg": 22,
+        "easing": "drift linear",
+        "fontes": [],
+        "cores_hex": [
+          "#0B0D10",
+          "#2A3138",
+          "#D8DDE2",
+          "#6B7785"
+        ],
+        "efeitos": [
+          "screen replacement",
+          "névoa volumétrica",
+          "CCTV",
+          "drift de câmera"
+        ]
+      },
+      "quando_usar": "Falar de vigilância, hackers, investigação policial ou monitoramento; moldura para mostrar imagens de arquivo dentro das telas.",
+      "mood": [
+        "sombrio",
+        "tenso",
+        "tecnológico"
+      ],
+      "tags": [
+        "cctv",
+        "vigilancia",
+        "monitores",
+        "hacker",
+        "nevoa",
+        "screen-replacement"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 22.69,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 2.8
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv/sala-de-controle-monitores-cctv.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0011",
+      "arquivo": "overlay-camera-rec-legenda-destaque.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "texturas-overlays",
+      "subcategoria": "viewfinder-rec",
+      "titulo": "Overlay de câmera REC com legenda e palavra destacada em amarelo",
+      "descricao": "Vídeo vertical de suspense com moldura de visor de câmera (cantos, 'REC', '4K 60FPS', 'HD', ícone de bateria) sobre imagens de corredor escuro. Entre as cenas, cartelas pretas com frase curta em que uma palavra fica amarela ('no te quedes afuera.').",
+      "tecnica": {
+        "como_e_feito": "Overlay vetorial de viewfinder (cantos em L, textos técnicos, ponto vermelho piscando no REC) sobre o vídeo; cartelas de texto centralizado com fade e a palavra-chave colorida; grade azulada fria alternando com luz quente laranja; desfoque de movimento nas transições.",
+        "duracao_seg": 28,
+        "easing": "fade rápido",
+        "fontes": [
+          "sans geométrica regular (tipo Inter/Poppins)"
+        ],
+        "cores_hex": [
+          "#0A0F1A",
+          "#3B5A7A",
+          "#FFFFFF",
+          "#F5B400",
+          "#E5262E"
+        ],
+        "efeitos": [
+          "viewfinder REC",
+          "cartela de texto",
+          "palavra destacada",
+          "motion blur"
+        ]
+      },
+      "quando_usar": "Simular filmagem amadora/câmera de segurança e criar suspense; cartelas de frase de impacto entre cenas.",
+      "mood": [
+        "suspense",
+        "misterioso"
+      ],
+      "tags": [
+        "rec",
+        "viewfinder",
+        "camera",
+        "overlay",
+        "cartela",
+        "palavra-destacada",
+        "amarelo"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 28.49,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 1.9
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque",
+      "caminho_arquivo": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque/overlay-camera-rec-legenda-destaque.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0012",
+      "arquivo": "palavra-destacada-troca-de-fonte.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "troca-de-fonte",
+      "titulo": "Palavra marcada com marca-texto e depois trocando de fonte sobre imagens",
+      "descricao": "Começa num texto impresso em papel amassado com a palavra 'Create' destacada em marca-texto amarelo; corta para a mesma palavra no centro da tela trocando rapidamente de fonte (script, serifada, sans bold) enquanto o fundo troca de imagem.",
+      "tecnica": {
+        "como_e_feito": "Plano 1: texto sobre papel com o resto desfocado e highlight amarelo animado (wipe da esquerda para a direita). Plano 2: palavra centralizada fixa com troca de fonte a cada 2-4 frames (hold), sincronizada com cortes de fundo; fundo escurecido para contraste.",
+        "duracao_seg": 7,
+        "easing": "cortes secos (sem easing)",
+        "fontes": [
+          "script caligráfica",
+          "serifada clássica",
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#F2EFE6",
+          "#F3E66B",
+          "#FFFFFF",
+          "#3A3A3A"
+        ],
+        "efeitos": [
+          "marca-texto animado",
+          "troca de fonte",
+          "desfoque de campo",
+          "cortes rápidos"
+        ]
+      },
+      "quando_usar": "Destacar uma palavra-chave da narração (tema do vídeo, nome de operação, conceito) com energia; transição de abertura.",
+      "mood": [
+        "dinâmico",
+        "moderno"
+      ],
+      "tags": [
+        "marca-texto",
+        "highlight",
+        "troca-de-fonte",
+        "tipografia",
+        "palavra-chave",
+        "papel"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 6.93,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 0.6
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte/palavra-destacada-troca-de-fonte.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0013",
+      "arquivo": "grafico-linha-neon-desenhando.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "dados-graficos",
+      "subcategoria": "grafico-de-linha",
+      "titulo": "Gráfico de linha branca neon se desenhando com ponto vermelho no topo",
+      "descricao": "Eixos simples em fundo preto; uma linha branca com leve aberração cromática se desenha da esquerda para a direita, oscila e sobe até terminar num ponto vermelho brilhante.",
+      "tecnica": {
+        "como_e_feito": "Path da linha com trim/stroke-dashoffset de 0 a 100%; glow branco + aberração cromática RGB sutil; eixos estáticos; ponto final com glow vermelho surgindo quando a linha chega ao topo.",
+        "duracao_seg": 5,
+        "easing": "linear com leve ease-out no final",
+        "fontes": [],
+        "cores_hex": [
+          "#000000",
+          "#FFFFFF",
+          "#E0141E"
+        ],
+        "efeitos": [
+          "stroke draw-on",
+          "glow",
+          "aberração cromática"
+        ]
+      },
+      "quando_usar": "Mostrar crescimento, alta de preço, escalada de casos ou de dívida; versão minimalista para notícia ou documentário.",
+      "mood": [
+        "minimalista",
+        "tenso"
+      ],
+      "tags": [
+        "grafico",
+        "linha",
+        "neon",
+        "draw-on",
+        "crescimento",
+        "dados"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 5.1,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando",
+      "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando/grafico-linha-neon-desenhando.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0014",
+      "arquivo": "transicoes-film-burn-leader.mp4",
+      "tipo_midia": "video",
+      "nicho": "documentario",
+      "categoria": "transicoes",
+      "subcategoria": "film-burn",
+      "titulo": "Transições de película: film burn, light leak e leader de filme",
+      "descricao": "Pacote de 6 s com elementos de película real: bolha de emenda, poeira em papel creme, letreiro 'TITLE' de leader com perfurações, explosões de luz laranja (film burn), texto espelhado 'UNIVERSAL LEADER', manchas e flashes de amarelo, vermelho e preto.",
+      "tecnica": {
+        "como_e_feito": "Clipes de película escaneada usados como transição de 4-12 frames entre cortes, em modo Screen/Add para o burn (some no preto) ou normal para o leader; combinar com flash branco no pico.",
+        "duracao_seg": 6,
+        "easing": null,
+        "fontes": [
+          "letreiros de leader (sans bold)"
+        ],
+        "cores_hex": [
+          "#F1E6D0",
+          "#FF8A1F",
+          "#FFD84D",
+          "#7A1E0E",
+          "#000000"
+        ],
+        "efeitos": [
+          "film burn",
+          "light leak",
+          "leader de filme",
+          "flash",
+          "blend screen"
+        ]
+      },
+      "quando_usar": "Transições entre capítulos ou épocas, flashbacks e aberturas com estética analógica.",
+      "mood": [
+        "nostálgico",
+        "energético"
+      ],
+      "tags": [
+        "film-burn",
+        "light-leak",
+        "pelicula",
+        "transicao",
+        "leader",
+        "analogico"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 5.97,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 0.6
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader",
+      "caminho_arquivo": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/transicoes-film-burn-leader.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0015",
+      "arquivo": "silhuetas-desfocadas-fundo-branco.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "multidao-anonima",
+      "titulo": "Silhuetas humanas desfocadas caminhando contra fundo branco",
+      "descricao": "Figuras humanas sem rosto, de costas, em tons de marrom e rosa, cruzam lentamente um fundo branco estourado, em camadas com níveis diferentes de desfoque.",
+      "tecnica": {
+        "como_e_feito": "Manequins 3D (ou footage) em contraluz com fundo superexposto; várias camadas em profundidade com desfoque diferente; movimento lateral lento em loop; leve lens flare.",
+        "duracao_seg": 10,
+        "easing": "linear",
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#3B2A26",
+          "#C9A9A6"
+        ],
+        "efeitos": [
+          "desfoque de profundidade",
+          "contraluz",
+          "loop"
+        ]
+      },
+      "quando_usar": "Representar 'pessoas comuns', vítimas anônimas, população ou estatísticas sem mostrar rostos; fundo para texto.",
+      "mood": [
+        "etéreo",
+        "melancólico"
+      ],
+      "tags": [
+        "silhueta",
+        "multidao",
+        "anonimo",
+        "desfoque",
+        "fundo-branco",
+        "loop"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 9.96,
+        "largura": 640,
+        "altura": 360,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco/silhuetas-desfocadas-fundo-branco.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0016",
+      "arquivo": "macro-cedula-euro-cortes-rapidos.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "dinheiro-macro",
+      "titulo": "Macro de cédula de euro com cortes rápidos de detalhe",
+      "descricao": "Close extremo de uma nota de 20 euros: holograma, assinatura, bandeira da UE, estrelas, '20' verde e 'EURO', em cortes de cerca de 0,6 s. Footage de banco de imagens (com marca d'água).",
+      "tecnica": {
+        "como_e_feito": "Footage macro com slide lento; edição em cortes rápidos alternando detalhes repetidos no ritmo da música; cores saturadas naturais da cédula.",
+        "duracao_seg": 10.5,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#7FC8D6",
+          "#A0307A",
+          "#E9E3C8",
+          "#1A6B3C"
+        ],
+        "efeitos": [
+          "macro",
+          "cortes rápidos",
+          "slide lento"
+        ]
+      },
+      "quando_usar": "Matérias sobre economia, inflação, fraude e lavagem de dinheiro; ritmo acelerado em montagem de dinheiro.",
+      "mood": [
+        "dinâmico",
+        "econômico"
+      ],
+      "tags": [
+        "dinheiro",
+        "euro",
+        "macro",
+        "cortes-rapidos",
+        "cedula",
+        "economia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 10.51,
+        "largura": 1280,
+        "altura": 720,
+        "tamanho_mb": 6.9
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos/macro-cedula-euro-cortes-rapidos.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0017",
+      "arquivo": "personagens-esfera-roxo-explicativo.mp4",
+      "tipo_midia": "video",
+      "nicho": "ambos",
+      "categoria": "outros",
+      "subcategoria": "personagem-minimalista",
+      "titulo": "Personagens 3D de esfera translúcida em fundo roxo (estilo explicativo)",
+      "descricao": "Personagens minimalistas formados por esfera (cabeça) e meia-esfera (corpo) translúcidas sobre gradiente roxo escuro. Aparecem, ganham expressão e um livro em wireframe surge e se abre no peito do personagem.",
+      "tecnica": {
+        "como_e_feito": "Formas primitivas com material de vidro/fresnel e borda luminosa; olhos e boca 2D simples animados; objetos em wireframe branco-lilás entrando com rotação 3D; gradiente roxo de cima para baixo; câmera aproximando.",
+        "duracao_seg": 14,
+        "easing": "ease-in-out suave",
+        "fontes": [],
+        "cores_hex": [
+          "#5B4FB8",
+          "#1A1630",
+          "#0B0A12",
+          "#E8E4FF"
+        ],
+        "efeitos": [
+          "material fresnel/vidro",
+          "wireframe",
+          "gradiente",
+          "push-in"
+        ]
+      },
+      "quando_usar": "Explicar conceitos abstratos (aprendizado, psicologia, comportamento) em tom calmo, sem personagens reais.",
+      "mood": [
+        "calmo",
+        "curioso"
+      ],
+      "tags": [
+        "personagem",
+        "3d",
+        "minimalista",
+        "roxo",
+        "wireframe",
+        "explicativo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 14.04,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 0.4
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo",
+      "caminho_arquivo": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo/personagens-esfera-roxo-explicativo.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo/contact-sheet.jpg"
+    },
+    {
+      "id": "ref-0018",
+      "arquivo": "multidao-pb-quadrado-vermelho.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "destaque-de-cor",
+      "titulo": "Multidão em P&B com quadrado vermelho destacando um grupo",
+      "descricao": "Foto de multidão vista de costas em preto e branco com vinheta escura. Um quadrado vermelho chapado (multiply) destaca um pequeno grupo, com marcas de mira/HUD discretas ao lado.",
+      "tecnica": {
+        "como_e_feito": "Foto dessaturada com contraste alto e vinheta; retângulo vermelho em modo Multiply sobre a área de interesse; pequenos colchetes de mira e texto técnico ao lado. Animável: o quadrado entra com scale/wipe e as miras piscam.",
+        "duracao_seg": null,
+        "easing": "ease-out forte para a entrada do quadrado",
+        "fontes": [
+          "mono pequena (HUD)"
+        ],
+        "cores_hex": [
+          "#0D0D0D",
+          "#BDBDBD",
+          "#E04A3A"
+        ],
+        "efeitos": [
+          "P&B alto contraste",
+          "bloco de cor multiply",
+          "vinheta",
+          "HUD"
+        ]
+      },
+      "quando_usar": "Apontar 'quem' dentro de um grupo (vítimas, alvos, os 1%) em notícia ou documentário; thumbnail.",
+      "mood": [
+        "sério",
+        "vigilância"
+      ],
+      "tags": [
+        "multidao",
+        "pb",
+        "destaque-vermelho",
+        "multiply",
+        "hud",
+        "alvo"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 734,
+        "altura": 312,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0018-multidao-pb-quadrado-vermelho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0018-multidao-pb-quadrado-vermelho/multidao-pb-quadrado-vermelho.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0019",
+      "arquivo": "hud-rastreamento-pedestre-noite.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "hud-vigilancia",
+      "titulo": "HUD de rastreamento facial sobre pedestre na faixa à noite",
+      "descricao": "Foto noturna de cima de uma mulher atravessando a faixa de pedestres, com caixas verdes de rastreamento no corpo e no rosto, recorte do rosto ampliado com dados técnicos e grade fina de interface nas bordas.",
+      "tecnica": {
+        "como_e_feito": "Foto com grade laranja/sódio; bounding boxes verdes finas; linha ligando o rosto a um painel com foto ampliada e texto mono ('LOW-LIGHT TRACKING ENABLED…'); moldura HUD com timestamp. Animável: caixas seguem o alvo (tracking) e o texto digita.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "mono pequena verde"
+        ],
+        "cores_hex": [
+          "#1C1A17",
+          "#C88B4A",
+          "#3BD16F",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "bounding box",
+          "HUD",
+          "texto digitando",
+          "tracking"
+        ]
+      },
+      "quando_usar": "Vigilância, reconhecimento facial, perseguição de suspeito, IA e privacidade.",
+      "mood": [
+        "tenso",
+        "tecnológico"
+      ],
+      "tags": [
+        "hud",
+        "rastreamento",
+        "reconhecimento-facial",
+        "cctv",
+        "noite",
+        "verde"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 920,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0019-hud-rastreamento-pedestre-noite",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0019-hud-rastreamento-pedestre-noite/hud-rastreamento-pedestre-noite.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0020",
+      "arquivo": "cctv-pessoa-de-interesse-multidao.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "hud-vigilancia",
+      "titulo": "CCTV P&B de rua lotada com 'Person of Interest' destacado",
+      "descricao": "Imagem P&B de rua de pedestres com overlay de câmera (data/hora, REC vermelho, cantos). Um homem na multidão recebe caixa verde e um painel lateral com close do rosto e dados ('SUBJECT', 'STATUS: TRACKED', 'CONFIDENCE').",
+      "tecnica": {
+        "como_e_feito": "Foto P&B com leve motion blur nas pessoas; overlay CCTV (timestamp mono, REC); caixa verde no alvo ligada por linha a um card com foto e lista de dados. Animável: zoom digital no alvo + card abrindo.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "mono (tipo VT323/Share Tech Mono)"
+        ],
+        "cores_hex": [
+          "#2B2B2B",
+          "#BFBFBF",
+          "#3BD16F",
+          "#E5262E"
+        ],
+        "efeitos": [
+          "CCTV",
+          "bounding box",
+          "card de dados",
+          "P&B"
+        ]
+      },
+      "quando_usar": "Identificar um suspeito/personagem dentro de uma multidão; abertura de caso policial.",
+      "mood": [
+        "tenso",
+        "investigativo"
+      ],
+      "tags": [
+        "cctv",
+        "person-of-interest",
+        "hud",
+        "multidao",
+        "rec",
+        "pb"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1042,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0020-cctv-pessoa-de-interesse-multidao",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0020-cctv-pessoa-de-interesse-multidao/cctv-pessoa-de-interesse-multidao.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0021",
+      "arquivo": "colagem-recorte-halftone-dinheiro.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "colagem-recorte",
+      "titulo": "Recorte de pessoa em halftone sobre notas e moedas (colagem editorial)",
+      "descricao": "Retrato P&B recortado com retícula de jornal posicionado sobre notas de 100 dólares e moedas grandes em fundo off-white, com título serifado vermelho no topo ('Buffett's formula for wealth').",
+      "tecnica": {
+        "como_e_feito": "Pessoa recortada, P&B, com efeito halftone e sombra; notas e moedas recortadas em camadas atrás (parallax 2.5D); fundo papel claro; moedas com leve aberração cromática; título serifado vermelho.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada editorial vermelha"
+        ],
+        "cores_hex": [
+          "#EFEDE8",
+          "#B23A2E",
+          "#1F1F1F",
+          "#9FA89A"
+        ],
+        "efeitos": [
+          "recorte",
+          "halftone",
+          "parallax 2.5D",
+          "sombra suave"
+        ]
+      },
+      "quando_usar": "Apresentar uma personalidade ligada a dinheiro/negócios; cena de abertura de bloco ou thumbnail.",
+      "mood": [
+        "editorial",
+        "sério"
+      ],
+      "tags": [
+        "colagem",
+        "recorte",
+        "halftone",
+        "dinheiro",
+        "retrato",
+        "parallax"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0021-colagem-recorte-halftone-dinheiro",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0021-colagem-recorte-halftone-dinheiro/colagem-recorte-halftone-dinheiro.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0022",
+      "arquivo": "cerebro-gravura-fundo-branco.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "objeto-isolado",
+      "titulo": "Cérebro em estilo gravura isolado em fundo branco",
+      "descricao": "Ilustração de cérebro em P&B com textura de gravura/halftone, centralizada em fundo branco puro, com sombra mínima.",
+      "tecnica": {
+        "como_e_feito": "Objeto recortado com filtro de gravura ou halftone fino; fundo limpo para compor em colagens; animável com rotação 3D leve, float e pulso.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#1A1A1A",
+          "#8A8A8A"
+        ],
+        "efeitos": [
+          "gravura",
+          "halftone",
+          "objeto isolado"
+        ]
+      },
+      "quando_usar": "Elemento de colagem para temas de psicologia, manipulação e mente; ícone central de um bloco explicativo.",
+      "mood": [
+        "clínico",
+        "minimalista"
+      ],
+      "tags": [
+        "cerebro",
+        "gravura",
+        "halftone",
+        "objeto",
+        "colagem",
+        "psicologia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 981,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0022-cerebro-gravura-fundo-branco",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0022-cerebro-gravura-fundo-branco/cerebro-gravura-fundo-branco.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0023",
+      "arquivo": "thumb-rosto-multidao-destaque-vermelho.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "thumbnails",
+      "subcategoria": "rosto-e-destaque",
+      "titulo": "Thumbnail: rosto sério + multidão cinza com um boneco vermelho ('Top 1%')",
+      "descricao": "Thumbnail com homem sério de óculos à esquerda, multidão de bonecos 3D cinza ao fundo, um boneco vermelho brilhante destacado com seta desenhada e o texto 'Top 1%' em branco e amarelo.",
+      "tecnica": {
+        "como_e_feito": "Rosto recortado com luz lateral; fundo 3D monocromático cinza; um único elemento em vermelho saturado com glow; seta manuscrita branca; texto curto em sans bold com número em amarelo.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica extra bold"
+        ],
+        "cores_hex": [
+          "#1A1A1A",
+          "#8C8C8C",
+          "#E01B1B",
+          "#FFD400",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "destaque de cor única",
+          "seta manuscrita",
+          "glow"
+        ]
+      },
+      "quando_usar": "Thumbnails sobre elite, 'os poucos que…', estatísticas de exclusividade.",
+      "mood": [
+        "intrigante",
+        "forte"
+      ],
+      "tags": [
+        "thumbnail",
+        "rosto",
+        "destaque-vermelho",
+        "multidao",
+        "seta",
+        "numero"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0023-thumb-rosto-multidao-destaque-vermelho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0023-thumb-rosto-multidao-destaque-vermelho/thumb-rosto-multidao-destaque-vermelho.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0024",
+      "arquivo": "ilustracao-maos-marionete-fios.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "ilustracao-conceitual",
+      "titulo": "Ilustração: mãos manipulando uma pessoa enrolada em fios sobre vermelho",
+      "descricao": "Ilustração flat em fundo vermelho: duas mãos pretas gigantes seguram fios brancos que enrolam a cabeça e o corpo de uma silhueta, como um marionetista.",
+      "tecnica": {
+        "como_e_feito": "Silhuetas pretas sólidas, fios em linha branca fina, fundo vermelho chapado com mancha mais escura atrás da cabeça. Animável: fios com trim path e mãos com movimento leve de puppet.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#C8161D",
+          "#0D0D0D",
+          "#FFFFFF",
+          "#9E0F15"
+        ],
+        "efeitos": [
+          "ilustração flat",
+          "silhueta",
+          "linhas"
+        ]
+      },
+      "quando_usar": "Manipulação, controle, seitas, propaganda, golpes psicológicos; thumbnail ou cena conceitual.",
+      "mood": [
+        "opressivo",
+        "conceitual"
+      ],
+      "tags": [
+        "ilustracao",
+        "manipulacao",
+        "marionete",
+        "vermelho",
+        "silhueta",
+        "fios"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 515,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0024-ilustracao-maos-marionete-fios",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0024-ilustracao-maos-marionete-fios/ilustracao-maos-marionete-fios.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0025",
+      "arquivo": "fonte-condensada-dethrone.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "fonte-condensada",
+      "titulo": "Fonte sans ultracondensada pesada (estilo 'Dethrone')",
+      "descricao": "Apresentação de uma fonte sans serif ultracondensada e pesada em caixa alta, branca sobre preto, com subtítulos pequenos serifados.",
+      "tecnica": {
+        "como_e_feito": "Título em caixa alta, ultracondensada, espaçamento justo, ocupando a largura; contraste com microtexto serifado espaçado. Alternativas livres: Anton, Bebas Neue, Oswald Bold, League Gothic.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans ultracondensada heavy (alternativas livres: Anton, League Gothic)"
+        ],
+        "cores_hex": [
+          "#000000",
+          "#FFFFFF"
+        ],
+        "efeitos": []
+      },
+      "quando_usar": "Títulos de capítulo, nomes de casos e palavras de impacto em documentário dark.",
+      "mood": [
+        "impactante",
+        "sério"
+      ],
+      "tags": [
+        "fonte",
+        "condensada",
+        "caixa-alta",
+        "titulo",
+        "pb"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 718,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0025-fonte-condensada-dethrone",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0025-fonte-condensada-dethrone/fonte-condensada-dethrone.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0026",
+      "arquivo": "titulo-thunder-sans-black.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "titulo-black",
+      "titulo": "Título 'THUNDER.' em sans black extra larga branca sobre preto",
+      "descricao": "Palavra única em caixa alta, sans black larga e muito pesada, branca sobre fundo preto, terminando com ponto final.",
+      "tecnica": {
+        "como_e_feito": "Palavra única centralizada, peso black, tracking apertado, ponto final como acento. Animável: entrada com scale 110%→100% e blur, ou corte seco no beat.",
+        "duracao_seg": null,
+        "easing": "ease-out forte (cubic-bezier(0.16,1,0.3,1))",
+        "fontes": [
+          "sans black larga (alternativas: Archivo Black, Anton, Inter Black)"
+        ],
+        "cores_hex": [
+          "#000000",
+          "#FFFFFF"
+        ],
+        "efeitos": []
+      },
+      "quando_usar": "Cartela de palavra única em momentos de impacto (revelação, virada, título de capítulo).",
+      "mood": [
+        "impactante",
+        "seco"
+      ],
+      "tags": [
+        "titulo",
+        "palavra-unica",
+        "black",
+        "caixa-alta",
+        "pb",
+        "cartela"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 526,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0026-titulo-thunder-sans-black",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0026-titulo-thunder-sans-black/titulo-thunder-sans-black.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0027",
+      "arquivo": "titulo-akira-preto-sobre-vermelho.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "titulo-com-subtitulo-espacado",
+      "titulo": "Título preto pesado sobre vermelho com subtítulo de letras espaçadas",
+      "descricao": "Palavra 'AKIRA' em sans condensada black preta sobre fundo vermelho chapado, com 'AWAKEN' logo abaixo em letras muito espaçadas e 'BRANDING' pequeno.",
+      "tecnica": {
+        "como_e_feito": "Título grande condensado + subtítulo com tracking enorme alinhado à largura do título; fundo vermelho saturado. Animável: título entra com wipe vertical e o subtítulo letra a letra.",
+        "duracao_seg": null,
+        "easing": "ease-out",
+        "fontes": [
+          "sans condensada black",
+          "sans regular com tracking largo"
+        ],
+        "cores_hex": [
+          "#D10A0A",
+          "#0D0D0D"
+        ],
+        "efeitos": [
+          "tracking largo"
+        ]
+      },
+      "quando_usar": "Cartela de título de capítulo ou nome de operação; abertura com cor forte.",
+      "mood": [
+        "agressivo",
+        "impactante"
+      ],
+      "tags": [
+        "titulo",
+        "vermelho",
+        "condensada",
+        "tracking",
+        "cartela"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0027-titulo-akira-preto-sobre-vermelho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0027-titulo-akira-preto-sobre-vermelho/titulo-akira-preto-sobre-vermelho.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0028",
+      "arquivo": "poster-rise-up-ultracondensada.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "fonte-condensada",
+      "titulo": "Pôster 'RISE UP' em ultracondensada preta sobre off-white",
+      "descricao": "Pôster com 'RISE UP' em duas linhas de sans ultracondensada preta ocupando quase toda a altura, sobre fundo off-white, com microtexto repetido nas bordas (inclusive girado).",
+      "tecnica": {
+        "como_e_feito": "Tipografia gigante ultracondensada preenchendo o quadro; microtexto em caixa alta nas quatro bordas como moldura. Animável: microtexto correndo como ticker nas bordas.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans ultracondensada (alternativas: League Gothic, Six Caps)"
+        ],
+        "cores_hex": [
+          "#EDEBE7",
+          "#0D0D0D"
+        ],
+        "efeitos": [
+          "moldura de microtexto"
+        ]
+      },
+      "quando_usar": "Cartela de citação/slogan, movimentos sociais, protestos; contraste claro entre blocos escuros.",
+      "mood": [
+        "militante",
+        "forte"
+      ],
+      "tags": [
+        "poster",
+        "condensada",
+        "caixa-alta",
+        "off-white",
+        "microtexto"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 736,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0028-poster-rise-up-ultracondensada",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0028-poster-rise-up-ultracondensada/poster-rise-up-ultracondensada.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0029",
+      "arquivo": "fundo-notas-dolar-vinheta-branca.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "fundo",
+      "titulo": "Fundo branco com notas de dólar espalhadas na base",
+      "descricao": "Fundo branco com vinheta cinza nas bordas e um monte de notas de 100 dólares espalhadas na parte de baixo, deixando o centro livre.",
+      "tecnica": {
+        "como_e_feito": "Imagem de fundo com área livre central para texto/recorte; notas na base podem ganhar parallax ou cair em loop.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#BDBDBD",
+          "#7C8B6F"
+        ],
+        "efeitos": [
+          "vinheta",
+          "espaço negativo"
+        ]
+      },
+      "quando_usar": "Fundo para títulos ou recortes sobre dinheiro, fortuna, salário e golpes financeiros.",
+      "mood": [
+        "neutro",
+        "financeiro"
+      ],
+      "tags": [
+        "fundo",
+        "dinheiro",
+        "dolar",
+        "espaco-negativo",
+        "vinheta"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 640,
+        "altura": 420,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0029-fundo-notas-dolar-vinheta-branca",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0029-fundo-notas-dolar-vinheta-branca/fundo-notas-dolar-vinheta-branca.jpg",
+      "contact_sheet": null
+    },
+    {
+      "id": "ref-0030",
+      "arquivo": "colagem-grafico-seta-vermelha-predios.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "noticia",
+      "categoria": "dados-graficos",
+      "subcategoria": "colagem-com-grafico",
+      "titulo": "Colagem: prédios P&B, contorno de pessoa e seta de gráfico vermelha",
+      "descricao": "Colagem editorial sobre grade escura: prédios corporativos em P&B na base, contorno branco de uma cabeça/ombros por cima, linha de gráfico vermelha em zigue-zague terminando em seta e placa 'IT SECTOR' em vermelho.",
+      "tecnica": {
+        "como_e_feito": "Recortes P&B de prédios; contorno em linha branca (stroke) de silhueta; gráfico em linha vermelha grossa com glow e seta; grade fina de fundo; placa de texto vermelha em sans condensada. Animável: seta desenhando-se (trim path) e prédios subindo com parallax.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada bold branca em placa vermelha"
+        ],
+        "cores_hex": [
+          "#111111",
+          "#E21B1B",
+          "#FFFFFF",
+          "#8A8A8A"
+        ],
+        "efeitos": [
+          "colagem",
+          "stroke",
+          "seta de gráfico",
+          "grade",
+          "parallax 2.5D"
+        ]
+      },
+      "quando_usar": "Notícias de economia/mercado de trabalho, demissões, crise de setor; abertura de matéria.",
+      "mood": [
+        "sério",
+        "editorial"
+      ],
+      "tags": [
+        "colagem",
+        "grafico",
+        "seta",
+        "vermelho",
+        "predios",
+        "economia",
+        "noticia"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/noticia/dados-graficos/ref-0030-colagem-grafico-seta-vermelha-predios",
+      "caminho_arquivo": "biblioteca/edicao/noticia/dados-graficos/ref-0030-colagem-grafico-seta-vermelha-predios/colagem-grafico-seta-vermelha-predios.jpg",
+      "contact_sheet": null
+    }
+  ]
 }

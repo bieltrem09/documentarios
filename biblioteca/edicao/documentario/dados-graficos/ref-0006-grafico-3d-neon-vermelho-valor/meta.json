@@ -1,0 +1,58 @@
+{
+  "id": "ref-0006",
+  "arquivo": "grafico-3d-neon-vermelho-valor.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "grafico-3d-neon",
+  "titulo": "Gráfico 3D em neon vermelho (tempo x dinheiro x esforço)",
+  "descricao": "Gráfico conceitual em vidro escuro com linha e nós vermelhos brilhantes ligando 'Time', 'Money' e 'Effort' até 'Total Value'. A câmera gira em 3D pelo gráfico e termina num painel de vidro com título.",
+  "tecnica": {
+    "como_e_feito": "Linhas e pontos com glow vermelho intenso sobre fundo preto; painel de vidro (glassmorphism) com bordas arredondadas; câmera 3D orbitando e afastando; rótulos em sans fina; profundidade de campo e bloom.",
+    "duracao_seg": 8,
+    "easing": "ease-out na câmera",
+    "fontes": [
+      "sans geométrica fina"
+    ],
+    "cores_hex": [
+      "#0A0000",
+      "#E0141E",
+      "#FF4A4A",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "glow/bloom",
+      "câmera 3D",
+      "glassmorphism",
+      "profundidade de campo"
+    ]
+  },
+  "quando_usar": "Explicar relações entre variáveis (custo, tempo, valor) em vídeos de dinheiro/negócios; transição para um conceito-chave.",
+  "mood": [
+    "tenso",
+    "tecnológico"
+  ],
+  "tags": [
+    "grafico",
+    "neon",
+    "vermelho",
+    "3d",
+    "glow",
+    "dados",
+    "vidro"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 8.09,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-08"
+}

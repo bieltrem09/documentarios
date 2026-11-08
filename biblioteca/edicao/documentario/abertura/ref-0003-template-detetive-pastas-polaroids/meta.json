@@ -1,0 +1,62 @@
+{
+  "id": "ref-0003",
+  "arquivo": "template-detetive-pastas-polaroids.mp4",
+  "tipo_midia": "video",
+  "nicho": "documentario",
+  "categoria": "abertura",
+  "subcategoria": "mesa-de-detetive",
+  "titulo": "Abertura de detetive com pastas, polaroids e luz de persiana",
+  "descricao": "Template comercial ('Detective Theory'): mesa com pastas de caso, polaroids, fita de cena de crime, lupa com 'POLICE', notas de dinheiro e cápsulas. A câmera desliza entre páginas de dossiê enquanto uma luz de persiana varre a cena; no fim a luz troca entre vermelho e azul (sirene) e entra o logo.",
+  "tecnica": {
+    "como_e_feito": "Fotos encaixadas em molduras de polaroid e páginas de dossiê numa cena 3D; câmera em travelling lento; máscara de luz de persiana animada passando por cima (light wipe); transições por virada de página; grade de cor dessaturada com flash vermelho/azul de sirene no final.",
+    "duracao_seg": 85,
+    "easing": "linear/ease-in-out lento",
+    "fontes": [
+      "sans bold para títulos de pasta",
+      "sans regular pequena para textos de ficha"
+    ],
+    "cores_hex": [
+      "#D9D6CF",
+      "#2B2B2B",
+      "#8E1B1B",
+      "#2A3F8F",
+      "#C9B48A"
+    ],
+    "efeitos": [
+      "luz de persiana",
+      "câmera 3D",
+      "virada de página",
+      "flash de sirene vermelho/azul",
+      "grão leve"
+    ]
+  },
+  "quando_usar": "Abertura de documentário policial ou de investigação; pode ser reduzida para 10-15 s como vinheta de capítulo.",
+  "mood": [
+    "investigativo",
+    "tenso",
+    "noir"
+  ],
+  "tags": [
+    "detetive",
+    "polaroid",
+    "persiana",
+    "sirene",
+    "dossie",
+    "template",
+    "camera-3d"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 85.03,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 8.5
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

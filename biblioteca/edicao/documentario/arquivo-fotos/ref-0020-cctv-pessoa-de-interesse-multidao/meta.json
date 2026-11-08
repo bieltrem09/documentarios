@@ -1,0 +1,57 @@
+{
+  "id": "ref-0020",
+  "arquivo": "cctv-pessoa-de-interesse-multidao.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "hud-vigilancia",
+  "titulo": "CCTV P&B de rua lotada com 'Person of Interest' destacado",
+  "descricao": "Imagem P&B de rua de pedestres com overlay de câmera (data/hora, REC vermelho, cantos). Um homem na multidão recebe caixa verde e um painel lateral com close do rosto e dados ('SUBJECT', 'STATUS: TRACKED', 'CONFIDENCE').",
+  "tecnica": {
+    "como_e_feito": "Foto P&B com leve motion blur nas pessoas; overlay CCTV (timestamp mono, REC); caixa verde no alvo ligada por linha a um card com foto e lista de dados. Animável: zoom digital no alvo + card abrindo.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "mono (tipo VT323/Share Tech Mono)"
+    ],
+    "cores_hex": [
+      "#2B2B2B",
+      "#BFBFBF",
+      "#3BD16F",
+      "#E5262E"
+    ],
+    "efeitos": [
+      "CCTV",
+      "bounding box",
+      "card de dados",
+      "P&B"
+    ]
+  },
+  "quando_usar": "Identificar um suspeito/personagem dentro de uma multidão; abertura de caso policial.",
+  "mood": [
+    "tenso",
+    "investigativo"
+  ],
+  "tags": [
+    "cctv",
+    "person-of-interest",
+    "hud",
+    "multidao",
+    "rec",
+    "pb"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1042,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

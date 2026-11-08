@@ -1,0 +1,54 @@
+{
+  "id": "ref-0024",
+  "arquivo": "ilustracao-maos-marionete-fios.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "ilustracao-conceitual",
+  "titulo": "Ilustração: mãos manipulando uma pessoa enrolada em fios sobre vermelho",
+  "descricao": "Ilustração flat em fundo vermelho: duas mãos pretas gigantes seguram fios brancos que enrolam a cabeça e o corpo de uma silhueta, como um marionetista.",
+  "tecnica": {
+    "como_e_feito": "Silhuetas pretas sólidas, fios em linha branca fina, fundo vermelho chapado com mancha mais escura atrás da cabeça. Animável: fios com trim path e mãos com movimento leve de puppet.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#C8161D",
+      "#0D0D0D",
+      "#FFFFFF",
+      "#9E0F15"
+    ],
+    "efeitos": [
+      "ilustração flat",
+      "silhueta",
+      "linhas"
+    ]
+  },
+  "quando_usar": "Manipulação, controle, seitas, propaganda, golpes psicológicos; thumbnail ou cena conceitual.",
+  "mood": [
+    "opressivo",
+    "conceitual"
+  ],
+  "tags": [
+    "ilustracao",
+    "manipulacao",
+    "marionete",
+    "vermelho",
+    "silhueta",
+    "fios"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 515,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

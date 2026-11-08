@@ -1,0 +1,59 @@
+{
+  "id": "ref-0014",
+  "arquivo": "transicoes-film-burn-leader.mp4",
+  "tipo_midia": "video",
+  "nicho": "documentario",
+  "categoria": "transicoes",
+  "subcategoria": "film-burn",
+  "titulo": "Transições de película: film burn, light leak e leader de filme",
+  "descricao": "Pacote de 6 s com elementos de película real: bolha de emenda, poeira em papel creme, letreiro 'TITLE' de leader com perfurações, explosões de luz laranja (film burn), texto espelhado 'UNIVERSAL LEADER', manchas e flashes de amarelo, vermelho e preto.",
+  "tecnica": {
+    "como_e_feito": "Clipes de película escaneada usados como transição de 4-12 frames entre cortes, em modo Screen/Add para o burn (some no preto) ou normal para o leader; combinar com flash branco no pico.",
+    "duracao_seg": 6,
+    "easing": null,
+    "fontes": [
+      "letreiros de leader (sans bold)"
+    ],
+    "cores_hex": [
+      "#F1E6D0",
+      "#FF8A1F",
+      "#FFD84D",
+      "#7A1E0E",
+      "#000000"
+    ],
+    "efeitos": [
+      "film burn",
+      "light leak",
+      "leader de filme",
+      "flash",
+      "blend screen"
+    ]
+  },
+  "quando_usar": "Transições entre capítulos ou épocas, flashbacks e aberturas com estética analógica.",
+  "mood": [
+    "nostálgico",
+    "energético"
+  ],
+  "tags": [
+    "film-burn",
+    "light-leak",
+    "pelicula",
+    "transicao",
+    "leader",
+    "analogico"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 5.97,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.6
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

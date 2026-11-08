@@ -1,0 +1,51 @@
+{
+  "id": "ref-0029",
+  "arquivo": "fundo-notas-dolar-vinheta-branca.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "fundo",
+  "titulo": "Fundo branco com notas de dólar espalhadas na base",
+  "descricao": "Fundo branco com vinheta cinza nas bordas e um monte de notas de 100 dólares espalhadas na parte de baixo, deixando o centro livre.",
+  "tecnica": {
+    "como_e_feito": "Imagem de fundo com área livre central para texto/recorte; notas na base podem ganhar parallax ou cair em loop.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#BDBDBD",
+      "#7C8B6F"
+    ],
+    "efeitos": [
+      "vinheta",
+      "espaço negativo"
+    ]
+  },
+  "quando_usar": "Fundo para títulos ou recortes sobre dinheiro, fortuna, salário e golpes financeiros.",
+  "mood": [
+    "neutro",
+    "financeiro"
+  ],
+  "tags": [
+    "fundo",
+    "dinheiro",
+    "dolar",
+    "espaco-negativo",
+    "vinheta"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 640,
+    "altura": 420,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

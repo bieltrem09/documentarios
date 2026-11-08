@@ -1,0 +1,55 @@
+{
+  "id": "ref-0017",
+  "arquivo": "personagens-esfera-roxo-explicativo.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "outros",
+  "subcategoria": "personagem-minimalista",
+  "titulo": "Personagens 3D de esfera translúcida em fundo roxo (estilo explicativo)",
+  "descricao": "Personagens minimalistas formados por esfera (cabeça) e meia-esfera (corpo) translúcidas sobre gradiente roxo escuro. Aparecem, ganham expressão e um livro em wireframe surge e se abre no peito do personagem.",
+  "tecnica": {
+    "como_e_feito": "Formas primitivas com material de vidro/fresnel e borda luminosa; olhos e boca 2D simples animados; objetos em wireframe branco-lilás entrando com rotação 3D; gradiente roxo de cima para baixo; câmera aproximando.",
+    "duracao_seg": 14,
+    "easing": "ease-in-out suave",
+    "fontes": [],
+    "cores_hex": [
+      "#5B4FB8",
+      "#1A1630",
+      "#0B0A12",
+      "#E8E4FF"
+    ],
+    "efeitos": [
+      "material fresnel/vidro",
+      "wireframe",
+      "gradiente",
+      "push-in"
+    ]
+  },
+  "quando_usar": "Explicar conceitos abstratos (aprendizado, psicologia, comportamento) em tom calmo, sem personagens reais.",
+  "mood": [
+    "calmo",
+    "curioso"
+  ],
+  "tags": [
+    "personagem",
+    "3d",
+    "minimalista",
+    "roxo",
+    "wireframe",
+    "explicativo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 14.04,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.4
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

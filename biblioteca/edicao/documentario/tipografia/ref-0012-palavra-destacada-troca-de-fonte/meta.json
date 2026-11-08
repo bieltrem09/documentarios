@@ -1,0 +1,59 @@
+{
+  "id": "ref-0012",
+  "arquivo": "palavra-destacada-troca-de-fonte.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "troca-de-fonte",
+  "titulo": "Palavra marcada com marca-texto e depois trocando de fonte sobre imagens",
+  "descricao": "Começa num texto impresso em papel amassado com a palavra 'Create' destacada em marca-texto amarelo; corta para a mesma palavra no centro da tela trocando rapidamente de fonte (script, serifada, sans bold) enquanto o fundo troca de imagem.",
+  "tecnica": {
+    "como_e_feito": "Plano 1: texto sobre papel com o resto desfocado e highlight amarelo animado (wipe da esquerda para a direita). Plano 2: palavra centralizada fixa com troca de fonte a cada 2-4 frames (hold), sincronizada com cortes de fundo; fundo escurecido para contraste.",
+    "duracao_seg": 7,
+    "easing": "cortes secos (sem easing)",
+    "fontes": [
+      "script caligráfica",
+      "serifada clássica",
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#F2EFE6",
+      "#F3E66B",
+      "#FFFFFF",
+      "#3A3A3A"
+    ],
+    "efeitos": [
+      "marca-texto animado",
+      "troca de fonte",
+      "desfoque de campo",
+      "cortes rápidos"
+    ]
+  },
+  "quando_usar": "Destacar uma palavra-chave da narração (tema do vídeo, nome de operação, conceito) com energia; transição de abertura.",
+  "mood": [
+    "dinâmico",
+    "moderno"
+  ],
+  "tags": [
+    "marca-texto",
+    "highlight",
+    "troca-de-fonte",
+    "tipografia",
+    "palavra-chave",
+    "papel"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 6.93,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.6
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

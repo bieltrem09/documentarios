@@ -1,0 +1,56 @@
+{
+  "id": "ref-0018",
+  "arquivo": "multidao-pb-quadrado-vermelho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "destaque-de-cor",
+  "titulo": "Multidão em P&B com quadrado vermelho destacando um grupo",
+  "descricao": "Foto de multidão vista de costas em preto e branco com vinheta escura. Um quadrado vermelho chapado (multiply) destaca um pequeno grupo, com marcas de mira/HUD discretas ao lado.",
+  "tecnica": {
+    "como_e_feito": "Foto dessaturada com contraste alto e vinheta; retângulo vermelho em modo Multiply sobre a área de interesse; pequenos colchetes de mira e texto técnico ao lado. Animável: o quadrado entra com scale/wipe e as miras piscam.",
+    "duracao_seg": null,
+    "easing": "ease-out forte para a entrada do quadrado",
+    "fontes": [
+      "mono pequena (HUD)"
+    ],
+    "cores_hex": [
+      "#0D0D0D",
+      "#BDBDBD",
+      "#E04A3A"
+    ],
+    "efeitos": [
+      "P&B alto contraste",
+      "bloco de cor multiply",
+      "vinheta",
+      "HUD"
+    ]
+  },
+  "quando_usar": "Apontar 'quem' dentro de um grupo (vítimas, alvos, os 1%) em notícia ou documentário; thumbnail.",
+  "mood": [
+    "sério",
+    "vigilância"
+  ],
+  "tags": [
+    "multidao",
+    "pb",
+    "destaque-vermelho",
+    "multiply",
+    "hud",
+    "alvo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 734,
+    "altura": 312,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}
