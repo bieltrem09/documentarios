@@ -39,6 +39,19 @@ Como consultar (na ordem de preferência):
 
 Ao usar referências, **cite os IDs** (ex.: `ref-0042`) e diga o que está sendo aproveitado de cada uma.
 
+## Banco de imagens (fotos e vídeos gratuitos)
+
+Quando a cena pedir footage/foto que a biblioteca não tem (ex.: "pessoas correndo"), busque no banco de imagens:
+
+- **Endpoint:** `https://biblioteca-indeep.vercel.app/api/banco?q=<termo>&tipo=foto|video&fonte=todas|pexels|unsplash|pixabay&orientacao=horizontal|vertical|todas&pagina=1`
+  (no Claude Code, use a ferramenta `web_fetch_vercel_url` do MCP da Vercel ou o MCP da biblioteca quando existir).
+- **Na interface:** aba **Banco de imagens** do app (`/banco/?q=...`).
+- Cada resultado traz `download`, `preview`, `url_pagina`, `autor`, `licenca` e `credito` (texto pronto).
+- Termos em inglês costumam render mais resultados. Padrão: horizontal (16:9).
+- Ao usar uma imagem num vídeo, registre o `credito` em `projetos/<video>/creditos.md`. Unsplash exige crédito; Pexels e Pixabay não, mas é boa prática.
+- Chaves ficam só na Vercel (`PEXELS_API_KEY`, `UNSPLASH_ACCESS_KEY`, `PIXABAY_API_KEY`). Nunca colocar chaves no repositório.
+- Código: `api/banco.js` (testes: `npm run teste:banco`).
+
 ## Estrutura (alvo)
 
 ```
@@ -61,7 +74,8 @@ Ao usar referências, **cite os IDs** (ex.: `ref-0042`) e diga o que está sendo
 ├── projetos/                    ← material de produção de cada vídeo (ex.: projetos/ueno/)
 ├── scripts/                     ← compressão, keyframes, validação, índice
 ├── mcp/                         ← servidor MCP da biblioteca
-├── app/                         ← app web para navegar na biblioteca
+├── app/                         ← app web para navegar na biblioteca (abas Referências e Banco de imagens)
+├── api/banco.js                 ← função Vercel: busca em Pexels/Unsplash/Pixabay
 └── .claude/
     ├── skills/biblioteca-edicao/SKILL.md
     └── commands/                ← /catalogar, /buscar-ref, /receita, /plano-edicao

@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { CORES, NOME_CATEGORIA, NOME_NICHO, familia, type Ref } from "@/lib/dados";
 import Card from "./Card";
 import Detalhe from "./Detalhe";
+import Topo from "./Topo";
 
 function useColunas() {
   const [n, setN] = useState(4);
@@ -160,19 +161,16 @@ export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: 
 
   return (
     <>
-      <header className="topo">
-        <div className="marca">
-          <span className="logo">
-            In<b>Deep</b>
-          </span>
-          <span className="sub">Biblioteca de referências de edição</span>
-        </div>
-        <p className="numeros">
-          <span><strong>{refs.length}</strong> refs</span>
-          <span><strong>{videos}</strong> vídeos</span>
-          <span><strong>{categoriasPresentes.length}</strong> categorias</span>
-        </p>
-      </header>
+      <Topo
+        ativo="refs"
+        numeros={
+          <>
+            <span><strong>{refs.length}</strong> refs</span>
+            <span><strong>{videos}</strong> vídeos</span>
+            <span><strong>{categoriasPresentes.length}</strong> categorias</span>
+          </>
+        }
+      />
 
       <section className="barra">
         <div className="busca">
