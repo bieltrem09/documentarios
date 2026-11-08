@@ -1,6 +1,6 @@
 {
   "aviso": "ARQUIVO GERADO por `npm run index`. Não edite à mão.",
-  "gerado_em": "2026-11-08T20:47:11.571Z",
+  "gerado_em": "2026-11-08T20:54:47.494Z",
   "total": 30,
   "por_nicho": {
     "documentario": 8,
@@ -87,7 +87,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie",
       "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie/mesa-evidencias-3d-dossie.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/documentos-jornal/ref-0001-mesa-evidencias-3d-dossie/poster.jpg"
     },
     {
       "id": "ref-0002",
@@ -151,7 +152,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots",
       "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots/mural-investigacao-mugshots.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/documentos-jornal/ref-0002-mural-investigacao-mugshots/poster.jpg"
     },
     {
       "id": "ref-0003",
@@ -216,7 +218,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids",
       "caminho_arquivo": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids/template-detetive-pastas-polaroids.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/abertura/ref-0003-template-detetive-pastas-polaroids/poster.jpg"
     },
     {
       "id": "ref-0004",
@@ -279,7 +282,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio",
       "caminho_arquivo": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio/documentario-cinematografico-teal-frio.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/color-grading/ref-0004-documentario-cinematografico-teal-frio/poster.jpg"
     },
     {
       "id": "ref-0005",
@@ -340,7 +344,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco",
       "caminho_arquivo": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco/reportagem-ciberataque-banco.mp4",
-      "contact_sheet": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco/poster.jpg"
     },
     {
       "id": "ref-0006",
@@ -401,7 +406,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor",
       "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor/grafico-3d-neon-vermelho-valor.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/dados-graficos/ref-0006-grafico-3d-neon-vermelho-valor/poster.jpg"
     },
     {
       "id": "ref-0007",
@@ -463,7 +469,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta",
       "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta/mockups-tela-3d-prancheta.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/b-roll/ref-0007-mockups-tela-3d-prancheta/poster.jpg"
     },
     {
       "id": "ref-0008",
@@ -520,7 +527,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco",
       "caminho_arquivo": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco/overlay-filme-antigo-branco.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/texturas-overlays/ref-0008-overlay-filme-antigo-branco/poster.jpg"
     },
     {
       "id": "ref-0009",
@@ -582,7 +590,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin",
       "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin/bonecos-3d-grafico-bitcoin.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/dados-graficos/ref-0009-bonecos-3d-grafico-bitcoin/poster.jpg"
     },
     {
       "id": "ref-0010",
@@ -641,7 +650,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv",
       "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv/sala-de-controle-monitores-cctv.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/b-roll/ref-0010-sala-de-controle-monitores-cctv/poster.jpg"
     },
     {
       "id": "ref-0011",
@@ -703,7 +713,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque",
       "caminho_arquivo": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque/overlay-camera-rec-legenda-destaque.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque/poster.jpg"
     },
     {
       "id": "ref-0012",
@@ -765,7 +776,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte",
       "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte/palavra-destacada-troca-de-fonte.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/tipografia/ref-0012-palavra-destacada-troca-de-fonte/poster.jpg"
     },
     {
       "id": "ref-0013",
@@ -821,7 +833,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando",
       "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando/grafico-linha-neon-desenhando.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando/poster.jpg"
     },
     {
       "id": "ref-0014",
@@ -883,7 +896,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader",
       "caminho_arquivo": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/transicoes-film-burn-leader.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/poster.jpg"
     },
     {
       "id": "ref-0015",
@@ -939,7 +953,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco",
       "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco/silhuetas-desfocadas-fundo-branco.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/b-roll/ref-0015-silhuetas-desfocadas-fundo-branco/poster.jpg"
     },
     {
       "id": "ref-0016",
@@ -996,7 +1011,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos",
       "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos/macro-cedula-euro-cortes-rapidos.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/b-roll/ref-0016-macro-cedula-euro-cortes-rapidos/poster.jpg"
     },
     {
       "id": "ref-0017",
@@ -1054,7 +1070,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo",
       "caminho_arquivo": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo/personagens-esfera-roxo-explicativo.mp4",
-      "contact_sheet": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo/contact-sheet.jpg"
+      "contact_sheet": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo/poster.jpg"
     },
     {
       "id": "ref-0018",
@@ -1113,7 +1130,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0018-multidao-pb-quadrado-vermelho",
       "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0018-multidao-pb-quadrado-vermelho/multidao-pb-quadrado-vermelho.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0019",
@@ -1173,7 +1191,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0019-hud-rastreamento-pedestre-noite",
       "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0019-hud-rastreamento-pedestre-noite/hud-rastreamento-pedestre-noite.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0020",
@@ -1233,7 +1252,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0020-cctv-pessoa-de-interesse-multidao",
       "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0020-cctv-pessoa-de-interesse-multidao/cctv-pessoa-de-interesse-multidao.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0021",
@@ -1293,7 +1313,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0021-colagem-recorte-halftone-dinheiro",
       "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0021-colagem-recorte-halftone-dinheiro/colagem-recorte-halftone-dinheiro.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0022",
@@ -1349,7 +1370,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0022-cerebro-gravura-fundo-branco",
       "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0022-cerebro-gravura-fundo-branco/cerebro-gravura-fundo-branco.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0023",
@@ -1409,7 +1431,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0023-thumb-rosto-multidao-destaque-vermelho",
       "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0023-thumb-rosto-multidao-destaque-vermelho/thumb-rosto-multidao-destaque-vermelho.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0024",
@@ -1466,7 +1489,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0024-ilustracao-maos-marionete-fios",
       "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0024-ilustracao-maos-marionete-fios/ilustracao-maos-marionete-fios.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0025",
@@ -1518,7 +1542,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/tipografia/ref-0025-fonte-condensada-dethrone",
       "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0025-fonte-condensada-dethrone/fonte-condensada-dethrone.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0026",
@@ -1571,7 +1596,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/tipografia/ref-0026-titulo-thunder-sans-black",
       "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0026-titulo-thunder-sans-black/titulo-thunder-sans-black.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0027",
@@ -1626,7 +1652,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/tipografia/ref-0027-titulo-akira-preto-sobre-vermelho",
       "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0027-titulo-akira-preto-sobre-vermelho/titulo-akira-preto-sobre-vermelho.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0028",
@@ -1680,7 +1707,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/tipografia/ref-0028-poster-rise-up-ultracondensada",
       "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0028-poster-rise-up-ultracondensada/poster-rise-up-ultracondensada.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0029",
@@ -1734,7 +1762,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/documentario/b-roll/ref-0029-fundo-notas-dolar-vinheta-branca",
       "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0029-fundo-notas-dolar-vinheta-branca/fundo-notas-dolar-vinheta-branca.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     },
     {
       "id": "ref-0030",
@@ -1796,7 +1825,8 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/noticia/dados-graficos/ref-0030-colagem-grafico-seta-vermelha-predios",
       "caminho_arquivo": "biblioteca/edicao/noticia/dados-graficos/ref-0030-colagem-grafico-seta-vermelha-predios/colagem-grafico-seta-vermelha-predios.jpg",
-      "contact_sheet": null
+      "contact_sheet": null,
+      "poster": null
     }
   ]
 }

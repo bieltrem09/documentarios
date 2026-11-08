@@ -110,6 +110,15 @@ export function gerarContactSheet(arquivo: string, forcar = false): string | nul
     ],
     { stdio: "inherit" },
   );
+  // poster (capa do card no app): frame representativo, só para refs já catalogadas
+  if (basename(saida) === "contact-sheet.jpg") {
+    const tPoster = tempos[Math.floor(tempos.length * 0.4)] ?? dur / 2;
+    execFileSync(
+      "ffmpeg",
+      ["-v", "error", "-y", "-ss", String(tPoster), "-i", arquivo, "-frames:v", "1", "-vf", "scale='min(720,iw)':-2", "-q:v", "4", join(dirname(saida), "poster.jpg")],
+      { stdio: "inherit" },
+    );
+  }
   rmSync(tmp, { recursive: true, force: true });
   console.log(`✔ ${rel(arquivo)} → ${rel(saida)}  (${tempos.length} frames)`);
   return saida;

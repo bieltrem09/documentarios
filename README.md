@@ -26,3 +26,12 @@ npm install
 
 1. Jogue os arquivos em `biblioteca/_novas/`.
 2. Peça ao Claude: `/catalogar`.
+
+## App web
+
+```bash
+cd app && npm install && npm run dev
+```
+
+Grade masonry animada, vídeo no hover, filtros (nicho, categoria, mídia, cor, tags), busca (`/`), modal com navegação por setas e página por ref (`/ref/ref-0001/`).
+Deploy: Vercel lê o `vercel.json` da raiz (build em `app/`, saída estática em `app/out`).

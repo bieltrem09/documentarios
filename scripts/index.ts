@@ -16,6 +16,7 @@ export interface EntradaIndice extends Meta {
   pasta: string;
   caminho_arquivo: string;
   contact_sheet: string | null;
+  poster: string | null;
 }
 
 const metas = lerMetas();
@@ -34,6 +35,7 @@ const refs: EntradaIndice[] = metas
       pasta: m.pasta,
       caminho_arquivo: `${m.pasta}/${meta.arquivo}`,
       contact_sheet: existsSync(join(RAIZ, cs)) ? cs : null,
+      poster: existsSync(join(RAIZ, `${m.pasta}/poster.jpg`)) ? `${m.pasta}/poster.jpg` : null,
     };
   })
   .sort((a, b) => a.id.localeCompare(b.id));

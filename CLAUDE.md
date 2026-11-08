@@ -50,7 +50,8 @@ Ao usar referências, **cite os IDs** (ex.: `ref-0042`) e diga o que está sendo
 │   │   │   └── <categoria>/<ref-id>/
 │   │   │       ├── <arquivo original>.mp4|.gif|.jpg|.png
 │   │   │       ├── meta.json
-│   │   │       └── contact-sheet.jpg   (vídeos/GIFs: grade de keyframes)
+│   │   │       ├── contact-sheet.jpg   (vídeos/GIFs: grade de keyframes)
+│   │   │       └── poster.jpg          (vídeos/GIFs: capa usada no app)
 │   │   └── noticia/
 │   ├── _novas/                  ← entrada: jogar arquivos aqui sem organizar
 │   ├── proprias/                ← referências criadas pelo Claude/usuário
