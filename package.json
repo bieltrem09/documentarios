@@ -1,0 +1,26 @@
+{
+  "name": "biblioteca-edicao-indeep",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Biblioteca de referências de edição para o canal InDeep (documentário e notícia)",
+  "scripts": {
+    "compress": "tsx scripts/compress.ts",
+    "keyframes": "tsx scripts/keyframes.ts",
+    "trim": "tsx scripts/trim.ts",
+    "validate": "tsx scripts/validate.ts",
+    "index": "tsx scripts/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  }
+}
