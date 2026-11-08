@@ -186,5 +186,7 @@ export async function GET(request) {
     orientacao: u.searchParams.get("orientacao") ?? "horizontal",
   };
   const r = await buscar(params);
-  return json(r, 200, "public, s-maxage=3600, stale-while-revalidate=86400");
+  // só guarda em cache quando todas as fontes pedidas responderam (evita cachear "sem chave" ou erro)
+  const tudoOk = Object.values(r.fontes).every((f) => f.ok);
+  return json(r, 200, tudoOk ? "public, s-maxage=3600, stale-while-revalidate=86400" : "no-store");
 }
