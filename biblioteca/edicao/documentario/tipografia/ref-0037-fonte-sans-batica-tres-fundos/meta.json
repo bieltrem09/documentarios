@@ -1,0 +1,51 @@
+{
+  "id": "ref-0037",
+  "arquivo": "fonte-sans-batica-tres-fundos.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "fonte-display",
+  "titulo": "Fonte sans larga mostrada em três fundos (creme, azul, preto)",
+  "descricao": "Três faixas empilhadas com a mesma palavra ('Batica') numa sans geométrica larga e pesada: preta sobre creme, branca sobre azul royal, branca sobre preto.",
+  "tecnica": {
+    "como_e_feito": "Teste de contraste da mesma fonte em 3 fundos; sans larga bold. Alternativas livres: Manrope ExtraBold, Plus Jakarta Sans.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica larga bold (alternativas: Manrope, Plus Jakarta Sans)"
+    ],
+    "cores_hex": [
+      "#F5F1E8",
+      "#1D4ED8",
+      "#111111",
+      "#FFFFFF"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Definir cor de fundo e fonte de cartelas; títulos limpos de notícia.",
+  "mood": [
+    "limpo",
+    "moderno"
+  ],
+  "tags": [
+    "fonte",
+    "sans",
+    "azul",
+    "creme",
+    "contraste"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1472,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

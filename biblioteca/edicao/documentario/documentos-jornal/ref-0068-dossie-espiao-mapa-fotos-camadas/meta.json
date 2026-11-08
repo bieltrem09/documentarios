@@ -1,0 +1,58 @@
+{
+  "id": "ref-0068",
+  "arquivo": "dossie-espiao-mapa-fotos-camadas.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "documentos-jornal",
+  "subcategoria": "dossie-em-camadas",
+  "titulo": "Dossiê de espião em camadas: mapa, fotos 3x4, fita e codinome",
+  "descricao": "Composição em camadas translúcidas: mapa com linhas vermelhas e alvo circulado, foto P&B de homem, fotos 3x4, tira de filme, textos datilografados e etiqueta preta com codinome entre aspas.",
+  "tecnica": {
+    "como_e_feito": "Várias camadas semitransparentes sobrepostas (mapa, fotos, documentos) com blend multiply/screen; linhas e círculos vermelhos; etiqueta preta com texto branco; paleta fria ciano-acinzentada. Animável: camadas com parallax e o círculo desenhando.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "máquina de escrever (Courier)",
+      "sans condensada na etiqueta"
+    ],
+    "cores_hex": [
+      "#CFE3E6",
+      "#1E1E1E",
+      "#D0312D",
+      "#F2F2F2"
+    ],
+    "efeitos": [
+      "camadas translúcidas",
+      "blend multiply",
+      "linhas de mapa",
+      "parallax"
+    ]
+  },
+  "quando_usar": "Apresentar espiões, agentes e operações secretas (Guerra Fria, inteligência).",
+  "mood": [
+    "investigativo",
+    "frio"
+  ],
+  "tags": [
+    "dossie",
+    "espiao",
+    "mapa",
+    "codinome",
+    "camadas",
+    "guerra-fria"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ref-0059",
+  "arquivo": "silhueta-corredor-vermelho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "b-roll",
+  "subcategoria": "silhueta",
+  "titulo": "Silhueta preta numa porta em corredor vermelho iluminado",
+  "descricao": "Silhueta humana preta e recortada na frente de um corredor/sala totalmente vermelho, com perspectiva profunda e linhas de luz.",
+  "tecnica": {
+    "como_e_feito": "Silhueta chapada sobre fundo vermelho monocromático com perspectiva central; contraluz forte. Animável: silhueta caminhando para dentro (scale down) ou push-in.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#E01B12",
+      "#0A0A0A",
+      "#7A0C08"
+    ],
+    "efeitos": [
+      "silhueta",
+      "monocromático",
+      "contraluz"
+    ]
+  },
+  "quando_usar": "Suspense, perigo, entrada de um personagem misterioso, transição de capítulo.",
+  "mood": [
+    "tenso",
+    "sombrio"
+  ],
+  "tags": [
+    "silhueta",
+    "vermelho",
+    "corredor",
+    "suspense",
+    "contraluz"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

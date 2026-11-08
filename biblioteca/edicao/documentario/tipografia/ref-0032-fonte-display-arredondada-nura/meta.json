@@ -1,0 +1,50 @@
+{
+  "id": "ref-0032",
+  "arquivo": "fonte-display-arredondada-nura.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "fonte-display",
+  "titulo": "Fonte display geométrica arredondada em caixa alta (estilo 'Nura')",
+  "descricao": "Apresentação de fonte em caixa alta com formas geométricas arredondadas e pesadas, branca sobre fundo preto, com microtextos técnicos nos cantos.",
+  "tecnica": {
+    "como_e_feito": "Título geométrico arredondado e pesado; espaço negativo amplo; microtexto em sans fina nos cantos. Alternativas livres: Unbounded, Lexend Zetta, Righteous.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "display geométrica arredondada (alternativas: Unbounded, Righteous)"
+    ],
+    "cores_hex": [
+      "#111111",
+      "#FFFFFF",
+      "#E0141E"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Títulos de tecnologia/futuro; contraste com fontes condensadas em vídeos mais modernos.",
+  "mood": [
+    "moderno",
+    "limpo"
+  ],
+  "tags": [
+    "fonte",
+    "geometrica",
+    "arredondada",
+    "caixa-alta",
+    "display"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 492,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

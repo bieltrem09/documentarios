@@ -1,0 +1,55 @@
+{
+  "id": "ref-0066",
+  "arquivo": "thumb-boneco-vermelho-multidao-genius.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "rosto-e-destaque",
+  "titulo": "Thumbnail: rosto + multidão cinza com um boneco vermelho ('Genius')",
+  "descricao": "Mesma fórmula da ref de 'Top 1%': rosto sério à esquerda, multidão de bonecos 3D cinza e um único boneco vermelho brilhante com seta e palavra branca acima.",
+  "tecnica": {
+    "como_e_feito": "Fundo 3D monocromático + 1 elemento vermelho com glow; seta manuscrita; texto curto em sans bold; rosto com luz lateral.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold"
+    ],
+    "cores_hex": [
+      "#1A1A1A",
+      "#8C8C8C",
+      "#E01B1B",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "destaque de cor única",
+      "seta manuscrita",
+      "glow"
+    ]
+  },
+  "quando_usar": "Thumbnails sobre gênios, exceções, minorias excepcionais.",
+  "mood": [
+    "intrigante",
+    "forte"
+  ],
+  "tags": [
+    "thumbnail",
+    "destaque-vermelho",
+    "multidao",
+    "seta",
+    "genio"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

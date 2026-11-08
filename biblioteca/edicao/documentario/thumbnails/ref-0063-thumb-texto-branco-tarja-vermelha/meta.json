@@ -1,0 +1,54 @@
+{
+  "id": "ref-0063",
+  "arquivo": "thumb-texto-branco-tarja-vermelha.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "texto-e-tarja",
+  "titulo": "Thumbnail: título em branco com segunda linha preta em tarja vermelha",
+  "descricao": "Homem de boina e sobretudo à direita; à esquerda, texto grande em duas linhas: a primeira branca e a segunda preta sobre bloco vermelho; fundo vermelho escuro texturizado.",
+  "tecnica": {
+    "como_e_feito": "Título condensado heavy inclinado; segunda linha invertida (preto sobre tarja vermelha); personagem recortado com contraste alto; fundo vermelho escuro com textura.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy (Anton/Bebas)"
+    ],
+    "cores_hex": [
+      "#5E0B0E",
+      "#FFFFFF",
+      "#D7141A",
+      "#111111"
+    ],
+    "efeitos": [
+      "tarja de texto",
+      "texto inclinado"
+    ]
+  },
+  "quando_usar": "Thumbnails de comportamento, poder, regras e personagens icônicos.",
+  "mood": [
+    "agressivo",
+    "impactante"
+  ],
+  "tags": [
+    "thumbnail",
+    "tarja-vermelha",
+    "titulo",
+    "condensada",
+    "personagem"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

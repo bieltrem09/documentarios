@@ -1,0 +1,56 @@
+{
+  "id": "ref-0038",
+  "arquivo": "card-preco-cripto-glass.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "card-de-cotacao",
+  "titulo": "Card escuro de cotação (Ethereum) com gráfico de linha fino",
+  "descricao": "Card de vidro escuro com bordas arredondadas mostrando nome da moeda, preço grande, variação em verde e um gráfico de linha branco fino com tooltip.",
+  "tecnica": {
+    "como_e_feito": "UI estilo app financeiro: card com fundo translúcido escuro, sombra suave, preço em sans bold, variação verde com seta, sparkline branca. Animável: número contando + linha desenhando + tooltip seguindo o ponto.",
+    "duracao_seg": null,
+    "easing": "ease-out no contador",
+    "fontes": [
+      "sans grotesca (Inter)"
+    ],
+    "cores_hex": [
+      "#0E0F12",
+      "#1A1C22",
+      "#FFFFFF",
+      "#22C55E"
+    ],
+    "efeitos": [
+      "glassmorphism",
+      "sparkline",
+      "contador de número"
+    ]
+  },
+  "quando_usar": "Mostrar cotação/preço em vídeos de cripto, ações e economia.",
+  "mood": [
+    "tecnológico",
+    "limpo"
+  ],
+  "tags": [
+    "cripto",
+    "cotacao",
+    "card",
+    "grafico",
+    "ui",
+    "preco"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 552,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

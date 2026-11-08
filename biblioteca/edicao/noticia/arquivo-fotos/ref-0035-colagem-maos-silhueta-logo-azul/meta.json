@@ -1,0 +1,53 @@
+{
+  "id": "ref-0035",
+  "arquivo": "colagem-maos-silhueta-logo-azul.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "noticia",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "colagem-recorte",
+  "titulo": "Colagem: mãos em silhueta preta segurando um símbolo azul sobre papel cinza",
+  "descricao": "Duas mãos pretas em silhueta seguram as pontas de um símbolo de infinito azul quebrado, sobre fundo de papel cinza texturizado, com logo pequeno de site de notícias no canto.",
+  "tecnica": {
+    "como_e_feito": "Silhuetas pretas chapadas + objeto colorido único; fundo papel cinza com textura; composição simétrica. Animável: as mãos puxam e o símbolo se parte.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#D6D6D6",
+      "#111111",
+      "#1877F2"
+    ],
+    "efeitos": [
+      "silhueta",
+      "textura de papel",
+      "cor única"
+    ]
+  },
+  "quando_usar": "Notícias de tecnologia/empresas (rompimento, disputa, divisão); cena conceitual.",
+  "mood": [
+    "editorial",
+    "tenso"
+  ],
+  "tags": [
+    "colagem",
+    "silhueta",
+    "maos",
+    "papel",
+    "azul",
+    "empresa"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-08"
+}

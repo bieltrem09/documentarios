@@ -1,0 +1,55 @@
+{
+  "id": "ref-0064",
+  "arquivo": "thumb-titulo-amarelo-tarja-olhos.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "titulo-e-tarja",
+  "titulo": "Thumbnail: título amarelo brilhante, trio de pessoas e tarja vermelha nos olhos",
+  "descricao": "Três pessoas recortadas em primeiro plano, a do centro com uma faixa vermelha nos olhos; título enorme amarelo-laranja com brilho no topo; fundo vermelho.",
+  "tecnica": {
+    "como_e_feito": "Recortes com contorno; tarja vermelha nos olhos do protagonista (segredo); título em gradiente amarelo→laranja com glow; fundo vermelho saturado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy"
+    ],
+    "cores_hex": [
+      "#C8161D",
+      "#FFD21F",
+      "#FF8A00",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "tarja nos olhos",
+      "glow no texto",
+      "gradiente"
+    ]
+  },
+  "quando_usar": "Segredos de família, escândalos de famosos, revelações.",
+  "mood": [
+    "sensacionalista",
+    "urgente"
+  ],
+  "tags": [
+    "thumbnail",
+    "tarja-olhos",
+    "amarelo",
+    "segredo",
+    "escandalo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

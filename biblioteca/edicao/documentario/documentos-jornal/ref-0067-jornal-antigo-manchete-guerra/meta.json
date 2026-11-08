@@ -1,0 +1,57 @@
+{
+  "id": "ref-0067",
+  "arquivo": "jornal-antigo-manchete-guerra.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "documentos-jornal",
+  "subcategoria": "jornal-antigo",
+  "titulo": "Capa de jornal antigo com manchete 'WAR!' em P&B",
+  "descricao": "Primeira página de jornal histórico em preto e branco, com manchete gigante, foto de soldados e subtítulos, filmada em ângulo com vinheta e leve desfoque nas bordas.",
+  "tecnica": {
+    "como_e_feito": "Scan de jornal antigo com câmera inclinada (perspectiva 3D) e profundidade de campo; vinheta forte; grão. Animável: push-in até a manchete + destaque da palavra.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada de jornal (blackletter no cabeçalho)"
+    ],
+    "cores_hex": [
+      "#E8E6E1",
+      "#1A1A1A",
+      "#7A7A7A"
+    ],
+    "efeitos": [
+      "jornal antigo",
+      "perspectiva",
+      "profundidade de campo",
+      "vinheta",
+      "grão"
+    ]
+  },
+  "quando_usar": "Documentários históricos: guerras, crises, eventos marcantes com imprensa da época.",
+  "mood": [
+    "histórico",
+    "dramático"
+  ],
+  "tags": [
+    "jornal",
+    "manchete",
+    "guerra",
+    "historico",
+    "pb",
+    "arquivo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 560,
+    "altura": 315,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

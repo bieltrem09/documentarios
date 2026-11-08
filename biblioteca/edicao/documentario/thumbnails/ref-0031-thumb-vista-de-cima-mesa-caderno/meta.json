@@ -1,0 +1,52 @@
+{
+  "id": "ref-0031",
+  "arquivo": "thumb-vista-de-cima-mesa-caderno.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "rosto-e-objeto",
+  "titulo": "Thumbnail vista de cima: pessoa na mesa com caderno, livro e folha de X",
+  "descricao": "Foto em plongée de um homem debruçado numa mesa de madeira olhando para a câmera, com uma folha de hábitos marcada com X, um livro e uma maçã. Sem texto.",
+  "tecnica": {
+    "como_e_feito": "Câmera totalmente de cima (top-down); rosto expressivo olhando para a lente; objetos que contam a história distribuídos na mesa; cor quente de madeira. Animável com push-in lento.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#8A5A32",
+      "#F2EEE6",
+      "#C0392B",
+      "#2B2B2B"
+    ],
+    "efeitos": [
+      "top-down",
+      "luz natural quente"
+    ]
+  },
+  "quando_usar": "Thumbnails sobre hábitos, disciplina, estudo e rotina.",
+  "mood": [
+    "curioso",
+    "casual"
+  ],
+  "tags": [
+    "thumbnail",
+    "top-down",
+    "mesa",
+    "rosto",
+    "habitos"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 720,
+    "altura": 404,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

@@ -1,25 +1,26 @@
 {
   "aviso": "ARQUIVO GERADO por `npm run index`. Não edite à mão.",
-  "gerado_em": "2026-11-08T20:54:47.494Z",
-  "total": 30,
+  "gerado_em": "2026-11-08T21:22:55.132Z",
+  "total": 71,
   "por_nicho": {
-    "documentario": 8,
-    "noticia": 2,
-    "ambos": 20
+    "documentario": 16,
+    "noticia": 6,
+    "ambos": 49
   },
   "por_categoria": {
-    "documentos-jornal": 2,
+    "documentos-jornal": 7,
     "abertura": 1,
     "color-grading": 1,
     "elementos-noticia": 1,
-    "dados-graficos": 4,
-    "b-roll": 5,
+    "dados-graficos": 6,
+    "b-roll": 11,
     "texturas-overlays": 2,
-    "tipografia": 5,
+    "tipografia": 10,
     "transicoes": 1,
-    "outros": 1,
-    "arquivo-fotos": 5,
-    "thumbnails": 2
+    "outros": 3,
+    "arquivo-fotos": 12,
+    "thumbnails": 15,
+    "mapas": 1
   },
   "receitas": [],
   "refs": [
@@ -1825,6 +1826,2363 @@
       "catalogado_em": "2026-11-08",
       "pasta": "biblioteca/edicao/noticia/dados-graficos/ref-0030-colagem-grafico-seta-vermelha-predios",
       "caminho_arquivo": "biblioteca/edicao/noticia/dados-graficos/ref-0030-colagem-grafico-seta-vermelha-predios/colagem-grafico-seta-vermelha-predios.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0031",
+      "arquivo": "thumb-vista-de-cima-mesa-caderno.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "rosto-e-objeto",
+      "titulo": "Thumbnail vista de cima: pessoa na mesa com caderno, livro e folha de X",
+      "descricao": "Foto em plongée de um homem debruçado numa mesa de madeira olhando para a câmera, com uma folha de hábitos marcada com X, um livro e uma maçã. Sem texto.",
+      "tecnica": {
+        "como_e_feito": "Câmera totalmente de cima (top-down); rosto expressivo olhando para a lente; objetos que contam a história distribuídos na mesa; cor quente de madeira. Animável com push-in lento.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#8A5A32",
+          "#F2EEE6",
+          "#C0392B",
+          "#2B2B2B"
+        ],
+        "efeitos": [
+          "top-down",
+          "luz natural quente"
+        ]
+      },
+      "quando_usar": "Thumbnails sobre hábitos, disciplina, estudo e rotina.",
+      "mood": [
+        "curioso",
+        "casual"
+      ],
+      "tags": [
+        "thumbnail",
+        "top-down",
+        "mesa",
+        "rosto",
+        "habitos"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 720,
+        "altura": 404,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0031-thumb-vista-de-cima-mesa-caderno",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0031-thumb-vista-de-cima-mesa-caderno/thumb-vista-de-cima-mesa-caderno.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0032",
+      "arquivo": "fonte-display-arredondada-nura.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "fonte-display",
+      "titulo": "Fonte display geométrica arredondada em caixa alta (estilo 'Nura')",
+      "descricao": "Apresentação de fonte em caixa alta com formas geométricas arredondadas e pesadas, branca sobre fundo preto, com microtextos técnicos nos cantos.",
+      "tecnica": {
+        "como_e_feito": "Título geométrico arredondado e pesado; espaço negativo amplo; microtexto em sans fina nos cantos. Alternativas livres: Unbounded, Lexend Zetta, Righteous.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "display geométrica arredondada (alternativas: Unbounded, Righteous)"
+        ],
+        "cores_hex": [
+          "#111111",
+          "#FFFFFF",
+          "#E0141E"
+        ],
+        "efeitos": []
+      },
+      "quando_usar": "Títulos de tecnologia/futuro; contraste com fontes condensadas em vídeos mais modernos.",
+      "mood": [
+        "moderno",
+        "limpo"
+      ],
+      "tags": [
+        "fonte",
+        "geometrica",
+        "arredondada",
+        "caixa-alta",
+        "display"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 492,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0032-fonte-display-arredondada-nura",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0032-fonte-display-arredondada-nura/fonte-display-arredondada-nura.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0033",
+      "arquivo": "catalogo-fontes-serifa-e-sans.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "combinacao-de-fontes",
+      "titulo": "Catálogo de fontes: serifada bold, grotescas e serifada itálica fina",
+      "descricao": "Quatro cartões escuros com amostras de fontes: uma serifada bold ('Azurio'), duas sans grotescas ('Goga', 'Remixa') e uma serifada itálica fina ('Emilio'), cada uma com um ponto laranja como detalhe.",
+      "tecnica": {
+        "como_e_feito": "Referência de pareamento: serifada pesada para títulos editoriais, grotesca para corpo/legenda, itálica fina para citações. Alternativas livres: Fraunces, Inter/Manrope, Playfair Display Italic.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada bold (Fraunces)",
+          "grotesca (Inter, Manrope)",
+          "serifada itálica fina (Playfair Italic)"
+        ],
+        "cores_hex": [
+          "#1C1C1C",
+          "#FFFFFF",
+          "#FF4A1C"
+        ],
+        "efeitos": []
+      },
+      "quando_usar": "Escolher a família tipográfica de um vídeo (título, citação, legenda).",
+      "mood": [
+        "editorial",
+        "elegante"
+      ],
+      "tags": [
+        "fonte",
+        "serifada",
+        "grotesca",
+        "italico",
+        "pareamento"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 920,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0033-catalogo-fontes-serifa-e-sans",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0033-catalogo-fontes-serifa-e-sans/catalogo-fontes-serifa-e-sans.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0034",
+      "arquivo": "thumb-titulo-gigante-vermelho-rosto.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "titulo-gigante",
+      "titulo": "Thumbnail com título gigante vermelho atrás da pessoa ('how to be consistent')",
+      "descricao": "Pessoa sorrindo numa mesa com livros; a palavra principal enorme em vermelho fica atrás da cabeça, com uma linha preta curva ligando os lados, e um texto menor cinza acima.",
+      "tecnica": {
+        "como_e_feito": "Texto principal gigante em sans heavy vermelha, colocado ATRÁS do recorte da pessoa (profundidade); palavra secundária pequena acima; linha curva decorativa; fundo claro desfocado.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans heavy (tipo Poppins Black)"
+        ],
+        "cores_hex": [
+          "#E3242B",
+          "#FFFFFF",
+          "#3A3A3A",
+          "#C9B79C"
+        ],
+        "efeitos": [
+          "texto atrás do sujeito",
+          "recorte"
+        ]
+      },
+      "quando_usar": "Thumbnails de educação/produtividade e cartelas de título com o narrador/personagem em destaque.",
+      "mood": [
+        "positivo",
+        "didático"
+      ],
+      "tags": [
+        "thumbnail",
+        "titulo-gigante",
+        "texto-atras",
+        "vermelho",
+        "rosto"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0034-thumb-titulo-gigante-vermelho-rosto",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0034-thumb-titulo-gigante-vermelho-rosto/thumb-titulo-gigante-vermelho-rosto.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0035",
+      "arquivo": "colagem-maos-silhueta-logo-azul.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "noticia",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "colagem-recorte",
+      "titulo": "Colagem: mãos em silhueta preta segurando um símbolo azul sobre papel cinza",
+      "descricao": "Duas mãos pretas em silhueta seguram as pontas de um símbolo de infinito azul quebrado, sobre fundo de papel cinza texturizado, com logo pequeno de site de notícias no canto.",
+      "tecnica": {
+        "como_e_feito": "Silhuetas pretas chapadas + objeto colorido único; fundo papel cinza com textura; composição simétrica. Animável: as mãos puxam e o símbolo se parte.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#D6D6D6",
+          "#111111",
+          "#1877F2"
+        ],
+        "efeitos": [
+          "silhueta",
+          "textura de papel",
+          "cor única"
+        ]
+      },
+      "quando_usar": "Notícias de tecnologia/empresas (rompimento, disputa, divisão); cena conceitual.",
+      "mood": [
+        "editorial",
+        "tenso"
+      ],
+      "tags": [
+        "colagem",
+        "silhueta",
+        "maos",
+        "papel",
+        "azul",
+        "empresa"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/noticia/arquivo-fotos/ref-0035-colagem-maos-silhueta-logo-azul",
+      "caminho_arquivo": "biblioteca/edicao/noticia/arquivo-fotos/ref-0035-colagem-maos-silhueta-logo-azul/colagem-maos-silhueta-logo-azul.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0036",
+      "arquivo": "fonte-geometrica-alro-luminaria.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "fonte-display",
+      "titulo": "Fonte geométrica minúscula grande sobre fundo escuro com luminária",
+      "descricao": "Apresentação de fonte geométrica em minúsculas ('alro'), branca e muito grande, com luminária de mesa no canto e pequenos textos em caixa alta espaçada abaixo.",
+      "tecnica": {
+        "como_e_feito": "Palavra em minúsculas geométricas com terminais retos; contraste com microtexto espaçado; fundo escuro com objeto real iluminado para dar profundidade. Alternativas livres: Outfit, Urbanist, Sora.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica (alternativas: Outfit, Urbanist)"
+        ],
+        "cores_hex": [
+          "#141414",
+          "#FFFFFF",
+          "#E8D9B0"
+        ],
+        "efeitos": []
+      },
+      "quando_usar": "Cartelas de capítulo minimalistas e títulos modernos.",
+      "mood": [
+        "minimalista",
+        "sofisticado"
+      ],
+      "tags": [
+        "fonte",
+        "geometrica",
+        "minusculas",
+        "display"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 564,
+        "altura": 376,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0036-fonte-geometrica-alro-luminaria",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0036-fonte-geometrica-alro-luminaria/fonte-geometrica-alro-luminaria.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0037",
+      "arquivo": "fonte-sans-batica-tres-fundos.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "fonte-display",
+      "titulo": "Fonte sans larga mostrada em três fundos (creme, azul, preto)",
+      "descricao": "Três faixas empilhadas com a mesma palavra ('Batica') numa sans geométrica larga e pesada: preta sobre creme, branca sobre azul royal, branca sobre preto.",
+      "tecnica": {
+        "como_e_feito": "Teste de contraste da mesma fonte em 3 fundos; sans larga bold. Alternativas livres: Manrope ExtraBold, Plus Jakarta Sans.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica larga bold (alternativas: Manrope, Plus Jakarta Sans)"
+        ],
+        "cores_hex": [
+          "#F5F1E8",
+          "#1D4ED8",
+          "#111111",
+          "#FFFFFF"
+        ],
+        "efeitos": []
+      },
+      "quando_usar": "Definir cor de fundo e fonte de cartelas; títulos limpos de notícia.",
+      "mood": [
+        "limpo",
+        "moderno"
+      ],
+      "tags": [
+        "fonte",
+        "sans",
+        "azul",
+        "creme",
+        "contraste"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1472,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0037-fonte-sans-batica-tres-fundos",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0037-fonte-sans-batica-tres-fundos/fonte-sans-batica-tres-fundos.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0038",
+      "arquivo": "card-preco-cripto-glass.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "dados-graficos",
+      "subcategoria": "card-de-cotacao",
+      "titulo": "Card escuro de cotação (Ethereum) com gráfico de linha fino",
+      "descricao": "Card de vidro escuro com bordas arredondadas mostrando nome da moeda, preço grande, variação em verde e um gráfico de linha branco fino com tooltip.",
+      "tecnica": {
+        "como_e_feito": "UI estilo app financeiro: card com fundo translúcido escuro, sombra suave, preço em sans bold, variação verde com seta, sparkline branca. Animável: número contando + linha desenhando + tooltip seguindo o ponto.",
+        "duracao_seg": null,
+        "easing": "ease-out no contador",
+        "fontes": [
+          "sans grotesca (Inter)"
+        ],
+        "cores_hex": [
+          "#0E0F12",
+          "#1A1C22",
+          "#FFFFFF",
+          "#22C55E"
+        ],
+        "efeitos": [
+          "glassmorphism",
+          "sparkline",
+          "contador de número"
+        ]
+      },
+      "quando_usar": "Mostrar cotação/preço em vídeos de cripto, ações e economia.",
+      "mood": [
+        "tecnológico",
+        "limpo"
+      ],
+      "tags": [
+        "cripto",
+        "cotacao",
+        "card",
+        "grafico",
+        "ui",
+        "preco"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 552,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0038-card-preco-cripto-glass",
+      "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0038-card-preco-cripto-glass/card-preco-cripto-glass.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0039",
+      "arquivo": "manchete-papel-rasgado-marca-texto.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "noticia",
+      "categoria": "documentos-jornal",
+      "subcategoria": "manchete-destacada",
+      "titulo": "Manchete de site em papel rasgado com trecho destacado em amarelo",
+      "descricao": "Manchete de portal de finanças recriada sobre faixa de papel claro com bordas rasgadas, logo do veículo acima, data abaixo e um trecho grifado com marca-texto amarelo; colunas de jornal desfocadas ao fundo.",
+      "tecnica": {
+        "como_e_feito": "Texto da manchete em sans bold sobre papel texturizado com bordas rasgadas (máscara); grifo amarelo animado por wipe; fundo com texto de jornal desfocado e vinheta. Câmera com push-in lento.",
+        "duracao_seg": null,
+        "easing": "ease-in-out no grifo",
+        "fontes": [
+          "sans bold (tipo Franklin Gothic/Inter)"
+        ],
+        "cores_hex": [
+          "#E9E7E2",
+          "#1E1E1E",
+          "#F2D33B",
+          "#9A9A9A"
+        ],
+        "efeitos": [
+          "papel rasgado",
+          "marca-texto",
+          "push-in",
+          "desfoque"
+        ]
+      },
+      "quando_usar": "Citar manchetes e matérias como prova na narração (notícia e documentário).",
+      "mood": [
+        "informativo",
+        "sério"
+      ],
+      "tags": [
+        "manchete",
+        "papel-rasgado",
+        "marca-texto",
+        "jornal",
+        "citacao"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/noticia/documentos-jornal/ref-0039-manchete-papel-rasgado-marca-texto",
+      "caminho_arquivo": "biblioteca/edicao/noticia/documentos-jornal/ref-0039-manchete-papel-rasgado-marca-texto/manchete-papel-rasgado-marca-texto.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0040",
+      "arquivo": "colagem-mao-robo-marionete-vermelho.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "colagem-recorte",
+      "titulo": "Colagem: mão robótica gigante manipulando pessoa de terno vermelho por fios",
+      "descricao": "Mão robótica preta e cinza no topo controla com fios vermelhos uma pequena pessoa de terno vermelho caindo, sobre fundo branco.",
+      "tecnica": {
+        "como_e_feito": "Recortes em fundo branco: objeto grande no topo, figura pequena embaixo, fios vermelhos finos ligando (trim path). Contraste de escala transmite poder.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#1A1A1A",
+          "#D61F26",
+          "#8C8C8C"
+        ],
+        "efeitos": [
+          "recorte",
+          "fios",
+          "contraste de escala"
+        ]
+      },
+      "quando_usar": "IA/tecnologia controlando pessoas, manipulação, algoritmos.",
+      "mood": [
+        "opressivo",
+        "conceitual"
+      ],
+      "tags": [
+        "colagem",
+        "marionete",
+        "robo",
+        "ia",
+        "manipulacao",
+        "vermelho"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 700,
+        "altura": 697,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0040-colagem-mao-robo-marionete-vermelho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0040-colagem-mao-robo-marionete-vermelho/colagem-mao-robo-marionete-vermelho.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0041",
+      "arquivo": "colagem-dedos-grafico-vermelho.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "dados-graficos",
+      "subcategoria": "colagem-com-grafico",
+      "titulo": "Colagem: dedos vintage apontando para gráfico em zigue-zague sobre grade vermelha",
+      "descricao": "Fundo vermelho com grade fina; linha de gráfico creme grossa em zigue-zague descendo; duas mãos recortadas em tom sépia, uma apontando para baixo e outra para cima.",
+      "tecnica": {
+        "como_e_feito": "Fundo chapado vermelho com grid; gráfico em stroke grosso creme; recortes de mãos antigas (sépia, halftone) apontando para os picos. Animável: linha desenhando + mãos entrando com parallax.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#D3302F",
+          "#F2E6D0",
+          "#B89B6A",
+          "#8E1C1C"
+        ],
+        "efeitos": [
+          "grade",
+          "stroke draw-on",
+          "recorte vintage"
+        ]
+      },
+      "quando_usar": "Altos e baixos do mercado, culpa/acusação, volatilidade econômica.",
+      "mood": [
+        "editorial",
+        "tenso"
+      ],
+      "tags": [
+        "colagem",
+        "grafico",
+        "maos",
+        "vermelho",
+        "grade",
+        "economia"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0041-colagem-dedos-grafico-vermelho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0041-colagem-dedos-grafico-vermelho/colagem-dedos-grafico-vermelho.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0042",
+      "arquivo": "multidao-pb-espaco-branco.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "multidao-anonima",
+      "titulo": "Plateia em P&B de costas com grande espaço branco acima",
+      "descricao": "Multidão de costas em preto e branco ocupando só a parte de baixo da imagem; o resto é branco puro, ideal para texto.",
+      "tecnica": {
+        "como_e_feito": "Foto P&B com fundo estourado em branco; espaço negativo superior para título. Animável: leve push-in e texto entrando no branco.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#1C1C1C",
+          "#8A8A8A"
+        ],
+        "efeitos": [
+          "espaço negativo",
+          "P&B"
+        ]
+      },
+      "quando_usar": "Fundo para títulos sobre sociedade, público, opinião pública.",
+      "mood": [
+        "neutro",
+        "social"
+      ],
+      "tags": [
+        "multidao",
+        "pb",
+        "espaco-negativo",
+        "fundo",
+        "plateia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 735,
+        "altura": 490,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0042-multidao-pb-espaco-branco",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0042-multidao-pb-espaco-branco/multidao-pb-espaco-branco.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0043",
+      "arquivo": "cerebro-halftone-recorte-borda-branca.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "objeto-isolado",
+      "titulo": "Cérebro em halftone recortado com borda branca (sticker)",
+      "descricao": "Cérebro em preto e branco com retícula grossa, recortado com contorno branco grosso, sobre fundo transparente quadriculado.",
+      "tecnica": {
+        "como_e_feito": "Objeto halftone com contorno branco tipo sticker e sombra leve; pronto para colagem. Animável: entra com pop/scale e leve rotação.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#111111",
+          "#FFFFFF",
+          "#7A7A7A"
+        ],
+        "efeitos": [
+          "halftone",
+          "sticker",
+          "recorte"
+        ]
+      },
+      "quando_usar": "Elemento de colagem para psicologia, vício, comportamento.",
+      "mood": [
+        "editorial",
+        "gráfico"
+      ],
+      "tags": [
+        "cerebro",
+        "halftone",
+        "sticker",
+        "recorte",
+        "psicologia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 736,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0043-cerebro-halftone-recorte-borda-branca",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0043-cerebro-halftone-recorte-borda-branca/cerebro-halftone-recorte-borda-branca.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0044",
+      "arquivo": "thumb-palavra-vermelha-atras-pessoa.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "titulo-gigante",
+      "titulo": "Thumbnail: palavra gigante vermelha atrás de pessoa digitando ('Psychology')",
+      "descricao": "Homem sorridente com as mãos no teclado em primeiro plano; atrás dele a palavra enorme em vermelho e, acima, texto menor cinza; fundo papel quadriculado claro.",
+      "tecnica": {
+        "como_e_feito": "Texto gigante vermelho atrás do recorte da pessoa; frase de apoio pequena em cinza; fundo grid claro; mãos em primeiro plano para profundidade.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold (tipo Inter/Poppins)"
+        ],
+        "cores_hex": [
+          "#F4F4F4",
+          "#E5322D",
+          "#4A4A4A",
+          "#1E2A38"
+        ],
+        "efeitos": [
+          "texto atrás do sujeito",
+          "recorte"
+        ]
+      },
+      "quando_usar": "Thumbnails de psicologia, persuasão, manipulação.",
+      "mood": [
+        "provocativo",
+        "didático"
+      ],
+      "tags": [
+        "thumbnail",
+        "titulo-gigante",
+        "texto-atras",
+        "vermelho",
+        "psicologia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0044-thumb-palavra-vermelha-atras-pessoa",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0044-thumb-palavra-vermelha-atras-pessoa/thumb-palavra-vermelha-atras-pessoa.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0045",
+      "arquivo": "icone-espiao-chapeu-sobretudo.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "outros",
+      "subcategoria": "icone-flat",
+      "titulo": "Ícone flat de espião anônimo (chapéu e sobretudo)",
+      "descricao": "Ilustração flat minimalista de uma figura sem rosto com chapéu fedora e sobretudo de gola alta, em branco e azul claro sobre fundo preto.",
+      "tecnica": {
+        "como_e_feito": "Formas vetoriais simples com sombreamento em 2 tons (metade clara, metade azulada); rosto vazio preto. Animável: surge com fade e o chapéu inclina.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#000000",
+          "#FFFFFF",
+          "#C7D7F2"
+        ],
+        "efeitos": [
+          "ilustração flat",
+          "2 tons"
+        ]
+      },
+      "quando_usar": "Representar espiões, informantes anônimos, hackers, agentes secretos.",
+      "mood": [
+        "misterioso",
+        "minimalista"
+      ],
+      "tags": [
+        "icone",
+        "espiao",
+        "anonimo",
+        "flat",
+        "incognito"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 720,
+        "altura": 750,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/outros/ref-0045-icone-espiao-chapeu-sobretudo",
+      "caminho_arquivo": "biblioteca/edicao/documentario/outros/ref-0045-icone-espiao-chapeu-sobretudo/icone-espiao-chapeu-sobretudo.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0046",
+      "arquivo": "thumb-quadro-equacoes-pincelada.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "personagem-historico",
+      "titulo": "Thumbnail: cientista famoso diante de quadro com equações e pincelada vermelha",
+      "descricao": "Retrato de um cientista histórico na frente de um quadro branco cheio de equações e rabiscos; frase manuscrita com uma palavra sobre pincelada vermelha.",
+      "tecnica": {
+        "como_e_feito": "Recorte de personagem com textura de giz ao fundo; palavra-chave sobre pincelada vermelha (brush) em fonte manuscrita branca; resto da frase em manuscrita escura.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "manuscrita marcador (tipo Permanent Marker)"
+        ],
+        "cores_hex": [
+          "#E9E9E9",
+          "#1E1E1E",
+          "#D7262C",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "pincelada",
+          "manuscrito",
+          "recorte"
+        ]
+      },
+      "quando_usar": "Vídeos sobre ciência, gênios, história e aprendizado.",
+      "mood": [
+        "curioso",
+        "didático"
+      ],
+      "tags": [
+        "thumbnail",
+        "quadro",
+        "equacoes",
+        "pincelada",
+        "manuscrito",
+        "historia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0046-thumb-quadro-equacoes-pincelada",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0046-thumb-quadro-equacoes-pincelada/thumb-quadro-equacoes-pincelada.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0047",
+      "arquivo": "poster-titulo-vermelho-tarja-olhos.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "thumbnails",
+      "subcategoria": "titulo-e-tarja",
+      "titulo": "Pôster: título vermelho gigante e tarja escurecendo os olhos do personagem",
+      "descricao": "Homem de terno sentado numa poltrona em fundo preto com texto vermelho miúdo; título enorme vermelho em caixa alta atrás dele e uma faixa escura cobrindo os olhos.",
+      "tecnica": {
+        "como_e_feito": "Grade vermelha/preta; título condensado heavy vermelho atrás do sujeito; tarja preta translúcida nos olhos (anonimização dramática); textura de texto pequeno ao fundo.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada heavy"
+        ],
+        "cores_hex": [
+          "#0A0A0A",
+          "#C8102E",
+          "#E6E6E6"
+        ],
+        "efeitos": [
+          "tarja nos olhos",
+          "texto atrás do sujeito",
+          "duotone vermelho"
+        ]
+      },
+      "quando_usar": "Documentários sobre fraude financeira, golpistas e crimes de colarinho branco.",
+      "mood": [
+        "sombrio",
+        "agressivo"
+      ],
+      "tags": [
+        "poster",
+        "tarja-olhos",
+        "vermelho",
+        "titulo",
+        "fraude"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0047-poster-titulo-vermelho-tarja-olhos",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0047-poster-titulo-vermelho-tarja-olhos/poster-titulo-vermelho-tarja-olhos.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0048",
+      "arquivo": "thumb-mapa-mental-post-its.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "mapa-de-ideias",
+      "titulo": "Thumbnail: pessoa no centro de um fluxo de cartões presos com alfinetes",
+      "descricao": "Rapaz sério no centro; ao redor, cartões de papel com ícones presos por alfinetes vermelhos e ligados por linha tracejada em loop; texto inferior com valor em tarja vermelha.",
+      "tecnica": {
+        "como_e_feito": "Fundo cinza escuro texturizado; cartões com ícones lineares e alfinete vermelho; linha tracejada formando ciclo; um cartão pixelado (mistério); texto com destaque em retângulo vermelho.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#2A2A2A",
+          "#E9E9E9",
+          "#D7262C",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "linha tracejada",
+          "pixelado",
+          "alfinetes"
+        ]
+      },
+      "quando_usar": "Explicar sistemas, estratégias e processos em etapas.",
+      "mood": [
+        "didático",
+        "intrigante"
+      ],
+      "tags": [
+        "thumbnail",
+        "fluxo",
+        "post-it",
+        "alfinete",
+        "pixelado",
+        "estrategia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0048-thumb-mapa-mental-post-its",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0048-thumb-mapa-mental-post-its/thumb-mapa-mental-post-its.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0049",
+      "arquivo": "colagem-predio-circulo-vermelho-silhuetas.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "noticia",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "colagem-recorte",
+      "titulo": "Colagem: prédio de tribunal P&B com círculo vermelho e silhuetas laterais",
+      "descricao": "Prédio institucional em preto e branco no centro com um grande círculo vermelho atrás da cúpula; silhuetas de um juiz e de outra pessoa nas laterais; fundo de papel claro.",
+      "tecnica": {
+        "como_e_feito": "Foto P&B de edifício com halftone; círculo vermelho chapado atrás (sol/alvo); silhuetas pretas nas bordas; arco fino de linha; textura de papel. Animável: círculo cresce, silhuetas deslizam.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#F0EFEB",
+          "#D81E1E",
+          "#1A1A1A",
+          "#9A9A9A"
+        ],
+        "efeitos": [
+          "círculo de cor",
+          "halftone",
+          "silhueta",
+          "papel"
+        ]
+      },
+      "quando_usar": "Notícias de justiça, julgamentos, política e instituições.",
+      "mood": [
+        "sério",
+        "editorial"
+      ],
+      "tags": [
+        "colagem",
+        "tribunal",
+        "circulo-vermelho",
+        "silhueta",
+        "justica",
+        "politica"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/noticia/arquivo-fotos/ref-0049-colagem-predio-circulo-vermelho-silhuetas",
+      "caminho_arquivo": "biblioteca/edicao/noticia/arquivo-fotos/ref-0049-colagem-predio-circulo-vermelho-silhuetas/colagem-predio-circulo-vermelho-silhuetas.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0050",
+      "arquivo": "colagem-notebooks-vermelho-ia.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "noticia",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "colagem-recorte",
+      "titulo": "Colagem: notebooks com logos de IA em leque sobre fundo vermelho",
+      "descricao": "Cinco notebooks em halftone preto e branco dispostos em leque com logos de empresas de IA nas telas, e as pernas de uma pessoa de terno no topo, sobre vermelho chapado.",
+      "tecnica": {
+        "como_e_feito": "Recortes halftone P&B em composição radial; fundo vermelho saturado; personagem cortado no topo (poder). Animável: notebooks abrindo em sequência.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#E8322F",
+          "#111111",
+          "#F2F2F2"
+        ],
+        "efeitos": [
+          "halftone",
+          "composição radial",
+          "cor chapada"
+        ]
+      },
+      "quando_usar": "Notícias sobre disputa entre empresas de IA/tecnologia.",
+      "mood": [
+        "editorial",
+        "tenso"
+      ],
+      "tags": [
+        "colagem",
+        "notebook",
+        "ia",
+        "halftone",
+        "vermelho",
+        "tecnologia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 368,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/noticia/arquivo-fotos/ref-0050-colagem-notebooks-vermelho-ia",
+      "caminho_arquivo": "biblioteca/edicao/noticia/arquivo-fotos/ref-0050-colagem-notebooks-vermelho-ia/colagem-notebooks-vermelho-ia.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0051",
+      "arquivo": "logo-texto-branco-fundo-preto.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "subcategoria": "wordmark",
+      "titulo": "Wordmark minimalista branco centralizado em fundo preto",
+      "descricao": "Palavra única em minúsculas numa sans geométrica bold branca, centralizada num quadro preto com muito espaço vazio.",
+      "tecnica": {
+        "como_e_feito": "Wordmark simples centralizado; peso bold; muito espaço negativo. Animável: fade + tracking abrindo levemente.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica bold minúscula"
+        ],
+        "cores_hex": [
+          "#000000",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "espaço negativo"
+        ]
+      },
+      "quando_usar": "Referência para vinheta/logo do canal e cartelas finais.",
+      "mood": [
+        "minimalista",
+        "limpo"
+      ],
+      "tags": [
+        "logo",
+        "wordmark",
+        "minimalista",
+        "pb"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 920,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0051-logo-texto-branco-fundo-preto",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0051-logo-texto-branco-fundo-preto/logo-texto-branco-fundo-preto.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0052",
+      "arquivo": "predio-afundando-buraco-azul.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "colagem-recorte",
+      "titulo": "Prédio institucional P&B afundando num buraco sobre fundo azul petróleo",
+      "descricao": "Recorte de um edifício clássico com colunas em P&B parcialmente engolido por um buraco preto elíptico, sobre fundo liso azul petróleo.",
+      "tecnica": {
+        "como_e_feito": "Recorte P&B sobre fundo chapado; elipse preta com máscara cortando a base do prédio. Animável: o prédio desce para dentro do buraco (colapso).",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#2E4650",
+          "#111111",
+          "#D9D9D9"
+        ],
+        "efeitos": [
+          "máscara",
+          "recorte",
+          "cor chapada"
+        ]
+      },
+      "quando_usar": "Colapso de banco, empresa ou instituição; crise e falência.",
+      "mood": [
+        "sério",
+        "conceitual"
+      ],
+      "tags": [
+        "colagem",
+        "predio",
+        "colapso",
+        "banco",
+        "azul",
+        "metafora"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 736,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0052-predio-afundando-buraco-azul",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0052-predio-afundando-buraco-azul/predio-afundando-buraco-azul.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0053",
+      "arquivo": "manequim-sem-rosto-terno.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "personagem-anonimo",
+      "titulo": "Figura sem rosto de terno e gravata em fundo escuro",
+      "descricao": "Figura humana com cabeça lisa e branca, sem rosto, usando terno escuro e gravata, iluminada de frente sobre fundo azul quase preto.",
+      "tecnica": {
+        "como_e_feito": "Render/foto de manequim com luz frontal suave e fundo escuro; cabeça lisa como símbolo de anonimato. Animável: push-in lento + leve parallax.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#0B1220",
+          "#1F2A44",
+          "#E6EAF0",
+          "#0A0A0A"
+        ],
+        "efeitos": [
+          "anonimato",
+          "luz frontal"
+        ]
+      },
+      "quando_usar": "Representar executivos anônimos, 'homens por trás' de esquemas, corporações sem rosto.",
+      "mood": [
+        "sombrio",
+        "misterioso"
+      ],
+      "tags": [
+        "anonimo",
+        "sem-rosto",
+        "terno",
+        "corporativo",
+        "manequim"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 736,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0053-manequim-sem-rosto-terno",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0053-manequim-sem-rosto-terno/manequim-sem-rosto-terno.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0054",
+      "arquivo": "moedas-3d-metal-escuro.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "objeto-3d",
+      "titulo": "Moedas metálicas escuras com logos em círculo (3D) sobre branco",
+      "descricao": "Seis moedas de metal escuro, com símbolos de empresas e cifrão gravados, dispostas em círculo e inclinadas, sobre fundo branco.",
+      "tecnica": {
+        "como_e_feito": "Render 3D de moedas com material metálico escuro e reflexos; composição radial; fundo branco limpo. Animável: as moedas giram em órbita.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#2B2B2B",
+          "#8C8C8C"
+        ],
+        "efeitos": [
+          "render 3D",
+          "metal"
+        ]
+      },
+      "quando_usar": "Ações, investimentos, tokenização, empresas como ativos.",
+      "mood": [
+        "financeiro",
+        "limpo"
+      ],
+      "tags": [
+        "moedas",
+        "3d",
+        "metal",
+        "acoes",
+        "investimento"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 736,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0054-moedas-3d-metal-escuro",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0054-moedas-3d-metal-escuro/moedas-3d-metal-escuro.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0055",
+      "arquivo": "mural-suspeitos-lampada-ano.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "documentos-jornal",
+      "subcategoria": "mural-de-investigacao",
+      "titulo": "Mural de suspeitos iluminado por lâmpada, com ano grande e dinheiro na mesa",
+      "descricao": "Sala escura com uma lâmpada pendurada iluminando uma parede com três fotos de suspeitos (uma silhueta), nomes em etiquetas vermelhas, símbolo vermelho atrás e o ano '1985' em grande; mesa com pilha de dinheiro em primeiro plano.",
+      "tecnica": {
+        "como_e_feito": "Cena 3D/composta com luz pontual de cima (cone de luz) e muita sombra; fotos P&B em molduras; etiquetas vermelhas com nomes; ano em fonte serifada bold branca; objetos na mesa para profundidade.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada bold para o ano",
+          "sans para etiquetas"
+        ],
+        "cores_hex": [
+          "#0A0A0A",
+          "#E8E8E8",
+          "#D11F2A",
+          "#6E7B6A"
+        ],
+        "efeitos": [
+          "luz pontual",
+          "vinheta forte",
+          "molduras",
+          "profundidade"
+        ]
+      },
+      "quando_usar": "Apresentar personagens de um caso e a época (ano) em documentário de crime/espionagem.",
+      "mood": [
+        "sombrio",
+        "investigativo"
+      ],
+      "tags": [
+        "mural",
+        "suspeitos",
+        "lampada",
+        "ano",
+        "dinheiro",
+        "true-crime"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0055-mural-suspeitos-lampada-ano",
+      "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0055-mural-suspeitos-lampada-ano/mural-suspeitos-lampada-ano.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0056",
+      "arquivo": "mockup-celular-tela-branca.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "mockup-de-tela",
+      "titulo": "Mockup de celular deitado em perspectiva com tela branca",
+      "descricao": "Smartphone moderno visto em perspectiva, deitado, com a tela totalmente branca para substituição, sobre fundo branco.",
+      "tecnica": {
+        "como_e_feito": "Mockup PNG para screen replacement: aplicar print/vídeo na tela com corner pin. Animável: celular entra girando em 3D.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#FFFFFF",
+          "#C0C0C0",
+          "#1A1A1A"
+        ],
+        "efeitos": [
+          "mockup",
+          "corner pin"
+        ]
+      },
+      "quando_usar": "Mostrar apps, mensagens, notificações e posts em vídeos de golpe/tecnologia.",
+      "mood": [
+        "neutro",
+        "limpo"
+      ],
+      "tags": [
+        "mockup",
+        "celular",
+        "tela",
+        "screen-replacement"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 736,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0056-mockup-celular-tela-branca",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0056-mockup-celular-tela-branca/mockup-celular-tela-branca.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0057",
+      "arquivo": "thumbs-rosto-dividido-fragmentado.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "rosto-fragmentado",
+      "titulo": "Thumbnails com rosto dividido em fragmentos e rostos fundidos",
+      "descricao": "Duas thumbnails: um rosto recortado em faixas deslocadas com fita vermelha, metade P&B e metade colorida; e dois rostos fundidos/derretendo um no outro sobre fundo vermelho.",
+      "tecnica": {
+        "como_e_feito": "Rosto fatiado em tiras com deslocamento (glitch de papel); contraste P&B x cor; fusão de dois rostos com distorção (liquify) sobre fundo chapado vermelho com título pequeno.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada bold"
+        ],
+        "cores_hex": [
+          "#C8161D",
+          "#1A1A1A",
+          "#E6E6E6",
+          "#F2C14E"
+        ],
+        "efeitos": [
+          "rosto fatiado",
+          "liquify",
+          "P&B x cor"
+        ]
+      },
+      "quando_usar": "Duplicidade, traição, identidade dupla, perdão/conflito entre duas pessoas.",
+      "mood": [
+        "intenso",
+        "dramático"
+      ],
+      "tags": [
+        "thumbnail",
+        "rosto",
+        "fragmentado",
+        "duplo",
+        "vermelho"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 920,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0057-thumbs-rosto-dividido-fragmentado",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0057-thumbs-rosto-dividido-fragmentado/thumbs-rosto-dividido-fragmentado.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0058",
+      "arquivo": "thumb-crianca-tarja-vermelha-titulo.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "thumbnails",
+      "subcategoria": "titulo-e-tarja",
+      "titulo": "Thumbnail: rosto de criança P&B com tarja vermelha nos olhos e título gasto",
+      "descricao": "Garoto em P&B no centro, com uma faixa vermelha cobrindo os olhos; título enorme em letras brancas desgastadas atrás; fundo vermelho escuro com recortes de documentos.",
+      "tecnica": {
+        "como_e_feito": "Sujeito P&B sobre fundo vermelho monocromático; tarja vermelha nos olhos; título em fonte grunge branca atrás do rosto; textura de papéis/fotos ao fundo.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold grunge/desgastada"
+        ],
+        "cores_hex": [
+          "#8E0F14",
+          "#E8E8E8",
+          "#D4141C",
+          "#111111"
+        ],
+        "efeitos": [
+          "tarja nos olhos",
+          "duotone vermelho",
+          "texto grunge"
+        ]
+      },
+      "quando_usar": "Documentários de denúncia, abuso, exposição de casos.",
+      "mood": [
+        "sombrio",
+        "perturbador"
+      ],
+      "tags": [
+        "thumbnail",
+        "tarja-olhos",
+        "vermelho",
+        "pb",
+        "grunge",
+        "denuncia"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0058-thumb-crianca-tarja-vermelha-titulo",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0058-thumb-crianca-tarja-vermelha-titulo/thumb-crianca-tarja-vermelha-titulo.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0059",
+      "arquivo": "silhueta-corredor-vermelho.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "b-roll",
+      "subcategoria": "silhueta",
+      "titulo": "Silhueta preta numa porta em corredor vermelho iluminado",
+      "descricao": "Silhueta humana preta e recortada na frente de um corredor/sala totalmente vermelho, com perspectiva profunda e linhas de luz.",
+      "tecnica": {
+        "como_e_feito": "Silhueta chapada sobre fundo vermelho monocromático com perspectiva central; contraluz forte. Animável: silhueta caminhando para dentro (scale down) ou push-in.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#E01B12",
+          "#0A0A0A",
+          "#7A0C08"
+        ],
+        "efeitos": [
+          "silhueta",
+          "monocromático",
+          "contraluz"
+        ]
+      },
+      "quando_usar": "Suspense, perigo, entrada de um personagem misterioso, transição de capítulo.",
+      "mood": [
+        "tenso",
+        "sombrio"
+      ],
+      "tags": [
+        "silhueta",
+        "vermelho",
+        "corredor",
+        "suspense",
+        "contraluz"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1308,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0059-silhueta-corredor-vermelho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0059-silhueta-corredor-vermelho/silhueta-corredor-vermelho.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0060",
+      "arquivo": "mockup-celular-na-mao.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "subcategoria": "mockup-de-tela",
+      "titulo": "Mockup de celular na mão com tela branca",
+      "descricao": "Mão segurando um smartphone moderno em leve inclinação, tela branca para substituição, sobre fundo cinza-claro.",
+      "tecnica": {
+        "como_e_feito": "Mockup com mão real; corner pin na tela; fundo claro neutro. Animável: leve float e rolagem do conteúdo da tela.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#E9EAEC",
+          "#FFFFFF",
+          "#2B2B2B",
+          "#E8C9B5"
+        ],
+        "efeitos": [
+          "mockup",
+          "corner pin"
+        ]
+      },
+      "quando_usar": "Mostrar mensagens, posts, apps de banco e golpes de celular.",
+      "mood": [
+        "neutro",
+        "limpo"
+      ],
+      "tags": [
+        "mockup",
+        "celular",
+        "mao",
+        "tela",
+        "screen-replacement"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 980,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0060-mockup-celular-na-mao",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0060-mockup-celular-na-mao/mockup-celular-na-mao.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0061",
+      "arquivo": "globo-pontilhado-pb.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "mapas",
+      "subcategoria": "globo",
+      "titulo": "Globo terrestre em pontos brancos sobre fundo preto",
+      "descricao": "Globo formado por pontos brancos (dot matrix) mostrando os continentes, em perspectiva, sobre fundo preto.",
+      "tecnica": {
+        "como_e_feito": "Globo em pontos (meia-tom) com sombreamento por densidade; fundo preto. Em código: esfera com pontos amostrados de um mapa, girando lentamente; destacar país com ponto vermelho e arco.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#000000",
+          "#FFFFFF",
+          "#6B6B6B"
+        ],
+        "efeitos": [
+          "dot matrix",
+          "globo 3D"
+        ]
+      },
+      "quando_usar": "Abrir matérias internacionais, mostrar localização/rotas, transição para mapa.",
+      "mood": [
+        "global",
+        "minimalista"
+      ],
+      "tags": [
+        "globo",
+        "mapa",
+        "pontos",
+        "dot-matrix",
+        "mundo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 658,
+        "altura": 658,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/mapas/ref-0061-globo-pontilhado-pb",
+      "caminho_arquivo": "biblioteca/edicao/documentario/mapas/ref-0061-globo-pontilhado-pb/globo-pontilhado-pb.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0062",
+      "arquivo": "thumb-mao-marionete-logos.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "marionete",
+      "titulo": "Thumbnail: mão gigante controlando logos de marcas como marionetes",
+      "descricao": "Mão enorme no topo segura fios que penduram círculos com logos de marcas; título com nome em tarja amarela e pergunta em branco; fundo de rua escuro.",
+      "tecnica": {
+        "como_e_feito": "Mão recortada no topo + fios + elementos pendurados (marionete); título com palavra em tarja amarela; fundo escuro desfocado.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold condensada"
+        ],
+        "cores_hex": [
+          "#1E1E1E",
+          "#F7E21B",
+          "#FFFFFF",
+          "#C8102E"
+        ],
+        "efeitos": [
+          "marionete",
+          "tarja de texto"
+        ]
+      },
+      "quando_usar": "Empresas/donos por trás de várias marcas, monopólios, manipulação de mercado.",
+      "mood": [
+        "denúncia",
+        "provocativo"
+      ],
+      "tags": [
+        "thumbnail",
+        "marionete",
+        "marcas",
+        "mao",
+        "monopolio"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 480,
+        "altura": 360,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0062-thumb-mao-marionete-logos",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0062-thumb-mao-marionete-logos/thumb-mao-marionete-logos.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0063",
+      "arquivo": "thumb-texto-branco-tarja-vermelha.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "texto-e-tarja",
+      "titulo": "Thumbnail: título em branco com segunda linha preta em tarja vermelha",
+      "descricao": "Homem de boina e sobretudo à direita; à esquerda, texto grande em duas linhas: a primeira branca e a segunda preta sobre bloco vermelho; fundo vermelho escuro texturizado.",
+      "tecnica": {
+        "como_e_feito": "Título condensado heavy inclinado; segunda linha invertida (preto sobre tarja vermelha); personagem recortado com contraste alto; fundo vermelho escuro com textura.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada heavy (Anton/Bebas)"
+        ],
+        "cores_hex": [
+          "#5E0B0E",
+          "#FFFFFF",
+          "#D7141A",
+          "#111111"
+        ],
+        "efeitos": [
+          "tarja de texto",
+          "texto inclinado"
+        ]
+      },
+      "quando_usar": "Thumbnails de comportamento, poder, regras e personagens icônicos.",
+      "mood": [
+        "agressivo",
+        "impactante"
+      ],
+      "tags": [
+        "thumbnail",
+        "tarja-vermelha",
+        "titulo",
+        "condensada",
+        "personagem"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0063-thumb-texto-branco-tarja-vermelha",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0063-thumb-texto-branco-tarja-vermelha/thumb-texto-branco-tarja-vermelha.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0064",
+      "arquivo": "thumb-titulo-amarelo-tarja-olhos.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "titulo-e-tarja",
+      "titulo": "Thumbnail: título amarelo brilhante, trio de pessoas e tarja vermelha nos olhos",
+      "descricao": "Três pessoas recortadas em primeiro plano, a do centro com uma faixa vermelha nos olhos; título enorme amarelo-laranja com brilho no topo; fundo vermelho.",
+      "tecnica": {
+        "como_e_feito": "Recortes com contorno; tarja vermelha nos olhos do protagonista (segredo); título em gradiente amarelo→laranja com glow; fundo vermelho saturado.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada heavy"
+        ],
+        "cores_hex": [
+          "#C8161D",
+          "#FFD21F",
+          "#FF8A00",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "tarja nos olhos",
+          "glow no texto",
+          "gradiente"
+        ]
+      },
+      "quando_usar": "Segredos de família, escândalos de famosos, revelações.",
+      "mood": [
+        "sensacionalista",
+        "urgente"
+      ],
+      "tags": [
+        "thumbnail",
+        "tarja-olhos",
+        "amarelo",
+        "segredo",
+        "escandalo"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0064-thumb-titulo-amarelo-tarja-olhos",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0064-thumb-titulo-amarelo-tarja-olhos/thumb-titulo-amarelo-tarja-olhos.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0065",
+      "arquivo": "thumb-notificacoes-saindo-da-cabeca.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "titulo-gigante",
+      "titulo": "Thumbnail: notificações de apps saindo da cabeça aberta de uma pessoa",
+      "descricao": "Rosto sério no centro com o topo da cabeça aberto e uma pilha de notificações de celular saindo dele; palavra gigante vermelha atrás da pessoa sobre fundo branco.",
+      "tecnica": {
+        "como_e_feito": "Recorte da pessoa com máscara no topo da cabeça; cards de notificação (UI) empilhados em perspectiva; título condensado vermelho atrás do sujeito; fundo branco.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada heavy itálica"
+        ],
+        "cores_hex": [
+          "#FFFFFF",
+          "#E31B23",
+          "#1E1E1E",
+          "#2C2C2E"
+        ],
+        "efeitos": [
+          "texto atrás do sujeito",
+          "cards de UI",
+          "surreal"
+        ]
+      },
+      "quando_usar": "Vício em redes sociais, dopamina, atenção, tecnologia e mente.",
+      "mood": [
+        "provocativo",
+        "moderno"
+      ],
+      "tags": [
+        "thumbnail",
+        "notificacoes",
+        "cabeca",
+        "dopamina",
+        "redes-sociais",
+        "vermelho"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0065-thumb-notificacoes-saindo-da-cabeca",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0065-thumb-notificacoes-saindo-da-cabeca/thumb-notificacoes-saindo-da-cabeca.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0066",
+      "arquivo": "thumb-boneco-vermelho-multidao-genius.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "thumbnails",
+      "subcategoria": "rosto-e-destaque",
+      "titulo": "Thumbnail: rosto + multidão cinza com um boneco vermelho ('Genius')",
+      "descricao": "Mesma fórmula da ref de 'Top 1%': rosto sério à esquerda, multidão de bonecos 3D cinza e um único boneco vermelho brilhante com seta e palavra branca acima.",
+      "tecnica": {
+        "como_e_feito": "Fundo 3D monocromático + 1 elemento vermelho com glow; seta manuscrita; texto curto em sans bold; rosto com luz lateral.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica bold"
+        ],
+        "cores_hex": [
+          "#1A1A1A",
+          "#8C8C8C",
+          "#E01B1B",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "destaque de cor única",
+          "seta manuscrita",
+          "glow"
+        ]
+      },
+      "quando_usar": "Thumbnails sobre gênios, exceções, minorias excepcionais.",
+      "mood": [
+        "intrigante",
+        "forte"
+      ],
+      "tags": [
+        "thumbnail",
+        "destaque-vermelho",
+        "multidao",
+        "seta",
+        "genio"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/thumbnails/ref-0066-thumb-boneco-vermelho-multidao-genius",
+      "caminho_arquivo": "biblioteca/edicao/documentario/thumbnails/ref-0066-thumb-boneco-vermelho-multidao-genius/thumb-boneco-vermelho-multidao-genius.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0067",
+      "arquivo": "jornal-antigo-manchete-guerra.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "documentos-jornal",
+      "subcategoria": "jornal-antigo",
+      "titulo": "Capa de jornal antigo com manchete 'WAR!' em P&B",
+      "descricao": "Primeira página de jornal histórico em preto e branco, com manchete gigante, foto de soldados e subtítulos, filmada em ângulo com vinheta e leve desfoque nas bordas.",
+      "tecnica": {
+        "como_e_feito": "Scan de jornal antigo com câmera inclinada (perspectiva 3D) e profundidade de campo; vinheta forte; grão. Animável: push-in até a manchete + destaque da palavra.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada de jornal (blackletter no cabeçalho)"
+        ],
+        "cores_hex": [
+          "#E8E6E1",
+          "#1A1A1A",
+          "#7A7A7A"
+        ],
+        "efeitos": [
+          "jornal antigo",
+          "perspectiva",
+          "profundidade de campo",
+          "vinheta",
+          "grão"
+        ]
+      },
+      "quando_usar": "Documentários históricos: guerras, crises, eventos marcantes com imprensa da época.",
+      "mood": [
+        "histórico",
+        "dramático"
+      ],
+      "tags": [
+        "jornal",
+        "manchete",
+        "guerra",
+        "historico",
+        "pb",
+        "arquivo"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 560,
+        "altura": 315,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0067-jornal-antigo-manchete-guerra",
+      "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0067-jornal-antigo-manchete-guerra/jornal-antigo-manchete-guerra.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0068",
+      "arquivo": "dossie-espiao-mapa-fotos-camadas.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "documentos-jornal",
+      "subcategoria": "dossie-em-camadas",
+      "titulo": "Dossiê de espião em camadas: mapa, fotos 3x4, fita e codinome",
+      "descricao": "Composição em camadas translúcidas: mapa com linhas vermelhas e alvo circulado, foto P&B de homem, fotos 3x4, tira de filme, textos datilografados e etiqueta preta com codinome entre aspas.",
+      "tecnica": {
+        "como_e_feito": "Várias camadas semitransparentes sobrepostas (mapa, fotos, documentos) com blend multiply/screen; linhas e círculos vermelhos; etiqueta preta com texto branco; paleta fria ciano-acinzentada. Animável: camadas com parallax e o círculo desenhando.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "máquina de escrever (Courier)",
+          "sans condensada na etiqueta"
+        ],
+        "cores_hex": [
+          "#CFE3E6",
+          "#1E1E1E",
+          "#D0312D",
+          "#F2F2F2"
+        ],
+        "efeitos": [
+          "camadas translúcidas",
+          "blend multiply",
+          "linhas de mapa",
+          "parallax"
+        ]
+      },
+      "quando_usar": "Apresentar espiões, agentes e operações secretas (Guerra Fria, inteligência).",
+      "mood": [
+        "investigativo",
+        "frio"
+      ],
+      "tags": [
+        "dossie",
+        "espiao",
+        "mapa",
+        "codinome",
+        "camadas",
+        "guerra-fria"
+      ],
+      "dificuldade": "dificil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0068-dossie-espiao-mapa-fotos-camadas",
+      "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0068-dossie-espiao-mapa-fotos-camadas/dossie-espiao-mapa-fotos-camadas.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0069",
+      "arquivo": "icones-redes-sociais-3d.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "ambos",
+      "categoria": "outros",
+      "subcategoria": "icones",
+      "titulo": "Grade de ícones de redes sociais em estilo 3D suave",
+      "descricao": "Quinze ícones de apps e redes sociais em quadrados arredondados com leve volume e sombra, em grade 5x3 sobre fundo transparente.",
+      "tecnica": {
+        "como_e_feito": "Ícones com bevel/sombra suave para compor cenas sobre redes sociais. Usar só como referência de estilo; recriar ícones genéricos para não depender de marcas.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#1877F2",
+          "#E1306C",
+          "#25D366",
+          "#FF0000",
+          "#000000"
+        ],
+        "efeitos": [
+          "ícones 3D suaves",
+          "sombra"
+        ]
+      },
+      "quando_usar": "Cenas sobre redes sociais, viralização, plataformas.",
+      "mood": [
+        "moderno",
+        "neutro"
+      ],
+      "tags": [
+        "icones",
+        "redes-sociais",
+        "apps",
+        "3d"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 456,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/outros/ref-0069-icones-redes-sociais-3d",
+      "caminho_arquivo": "biblioteca/edicao/documentario/outros/ref-0069-icones-redes-sociais-3d/icones-redes-sociais-3d.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0070",
+      "arquivo": "pintura-homens-mesa-mapa-mundo.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "arquivo-fotos",
+      "subcategoria": "pintura-historica",
+      "titulo": "Pintura: homens em silhueta em volta de mesa com mapa-múndi sob lâmpada",
+      "descricao": "Ilustração em estilo pintura a óleo: quatro homens de casaca em silhueta ao redor de uma mesa verde com mapa do mundo e peças, sob uma lâmpada, em sala de madeira com mapa na parede.",
+      "tecnica": {
+        "como_e_feito": "Imagem estilo pintura (IA ou arquivo) com luz pontual de cima e contraluz; tons marrons quentes. Animável: Ken Burns lento + parallax separando as silhuetas do fundo.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#2B1D14",
+          "#5A3E2B",
+          "#3F6B4A",
+          "#E8C77A"
+        ],
+        "efeitos": [
+          "pintura a óleo",
+          "luz pontual",
+          "Ken Burns"
+        ]
+      },
+      "quando_usar": "Conspirações, elites dividindo o mundo, geopolítica, sociedades secretas.",
+      "mood": [
+        "conspiratório",
+        "sombrio"
+      ],
+      "tags": [
+        "pintura",
+        "conspiracao",
+        "mapa",
+        "elite",
+        "geopolitica",
+        "historico"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 552,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0070-pintura-homens-mesa-mapa-mundo",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0070-pintura-homens-mesa-mapa-mundo/pintura-homens-mesa-mapa-mundo.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "id": "ref-0071",
+      "arquivo": "fichas-pessoais-mesa-escura.jpg",
+      "tipo_midia": "imagem",
+      "nicho": "documentario",
+      "categoria": "documentos-jornal",
+      "subcategoria": "fichas",
+      "titulo": "Fichas pessoais com fotos 3x4 e código de barras sobre mesa escura",
+      "descricao": "Vista de cima de uma pilha de fichas de identificação com fotos 3x4, código de barras e campos preenchidos, sobre um envelope pardo numa mesa de madeira escura.",
+      "tecnica": {
+        "como_e_feito": "Documentos fictícios gerados com template (foto, barcode, campos) empilhados com leve rotação; luz de cima suave e vinheta. Animável: fichas deslizam uma sobre a outra.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "máquina de escrever / sans pequena de formulário"
+        ],
+        "cores_hex": [
+          "#1C1714",
+          "#EDEBE6",
+          "#B08A5A",
+          "#2B2B2B"
+        ],
+        "efeitos": [
+          "top-down",
+          "pilha de papéis",
+          "vinheta"
+        ]
+      },
+      "quando_usar": "Apresentar personagens de um caso como 'arquivos' (suspeitos, vítimas, agentes).",
+      "mood": [
+        "investigativo",
+        "sóbrio"
+      ],
+      "tags": [
+        "fichas",
+        "documentos",
+        "dossie",
+        "foto-3x4",
+        "top-down"
+      ],
+      "dificuldade": "facil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1308,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-08",
+      "pasta": "biblioteca/edicao/documentario/documentos-jornal/ref-0071-fichas-pessoais-mesa-escura",
+      "caminho_arquivo": "biblioteca/edicao/documentario/documentos-jornal/ref-0071-fichas-pessoais-mesa-escura/fichas-pessoais-mesa-escura.jpg",
       "contact_sheet": null,
       "poster": null
     }

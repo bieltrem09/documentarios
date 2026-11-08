@@ -1,0 +1,53 @@
+{
+  "id": "ref-0052",
+  "arquivo": "predio-afundando-buraco-azul.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "colagem-recorte",
+  "titulo": "Prédio institucional P&B afundando num buraco sobre fundo azul petróleo",
+  "descricao": "Recorte de um edifício clássico com colunas em P&B parcialmente engolido por um buraco preto elíptico, sobre fundo liso azul petróleo.",
+  "tecnica": {
+    "como_e_feito": "Recorte P&B sobre fundo chapado; elipse preta com máscara cortando a base do prédio. Animável: o prédio desce para dentro do buraco (colapso).",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#2E4650",
+      "#111111",
+      "#D9D9D9"
+    ],
+    "efeitos": [
+      "máscara",
+      "recorte",
+      "cor chapada"
+    ]
+  },
+  "quando_usar": "Colapso de banco, empresa ou instituição; crise e falência.",
+  "mood": [
+    "sério",
+    "conceitual"
+  ],
+  "tags": [
+    "colagem",
+    "predio",
+    "colapso",
+    "banco",
+    "azul",
+    "metafora"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

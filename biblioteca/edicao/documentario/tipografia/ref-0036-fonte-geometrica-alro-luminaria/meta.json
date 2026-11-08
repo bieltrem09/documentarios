@@ -1,0 +1,49 @@
+{
+  "id": "ref-0036",
+  "arquivo": "fonte-geometrica-alro-luminaria.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "fonte-display",
+  "titulo": "Fonte geométrica minúscula grande sobre fundo escuro com luminária",
+  "descricao": "Apresentação de fonte geométrica em minúsculas ('alro'), branca e muito grande, com luminária de mesa no canto e pequenos textos em caixa alta espaçada abaixo.",
+  "tecnica": {
+    "como_e_feito": "Palavra em minúsculas geométricas com terminais retos; contraste com microtexto espaçado; fundo escuro com objeto real iluminado para dar profundidade. Alternativas livres: Outfit, Urbanist, Sora.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica (alternativas: Outfit, Urbanist)"
+    ],
+    "cores_hex": [
+      "#141414",
+      "#FFFFFF",
+      "#E8D9B0"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Cartelas de capítulo minimalistas e títulos modernos.",
+  "mood": [
+    "minimalista",
+    "sofisticado"
+  ],
+  "tags": [
+    "fonte",
+    "geometrica",
+    "minusculas",
+    "display"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 564,
+    "altura": 376,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ref-0051",
+  "arquivo": "logo-texto-branco-fundo-preto.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "wordmark",
+  "titulo": "Wordmark minimalista branco centralizado em fundo preto",
+  "descricao": "Palavra única em minúsculas numa sans geométrica bold branca, centralizada num quadro preto com muito espaço vazio.",
+  "tecnica": {
+    "como_e_feito": "Wordmark simples centralizado; peso bold; muito espaço negativo. Animável: fade + tracking abrindo levemente.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold minúscula"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "espaço negativo"
+    ]
+  },
+  "quando_usar": "Referência para vinheta/logo do canal e cartelas finais.",
+  "mood": [
+    "minimalista",
+    "limpo"
+  ],
+  "tags": [
+    "logo",
+    "wordmark",
+    "minimalista",
+    "pb"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 920,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-08"
+}

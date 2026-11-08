@@ -1,0 +1,52 @@
+{
+  "id": "ref-0053",
+  "arquivo": "manequim-sem-rosto-terno.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "personagem-anonimo",
+  "titulo": "Figura sem rosto de terno e gravata em fundo escuro",
+  "descricao": "Figura humana com cabeça lisa e branca, sem rosto, usando terno escuro e gravata, iluminada de frente sobre fundo azul quase preto.",
+  "tecnica": {
+    "como_e_feito": "Render/foto de manequim com luz frontal suave e fundo escuro; cabeça lisa como símbolo de anonimato. Animável: push-in lento + leve parallax.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#0B1220",
+      "#1F2A44",
+      "#E6EAF0",
+      "#0A0A0A"
+    ],
+    "efeitos": [
+      "anonimato",
+      "luz frontal"
+    ]
+  },
+  "quando_usar": "Representar executivos anônimos, 'homens por trás' de esquemas, corporações sem rosto.",
+  "mood": [
+    "sombrio",
+    "misterioso"
+  ],
+  "tags": [
+    "anonimo",
+    "sem-rosto",
+    "terno",
+    "corporativo",
+    "manequim"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

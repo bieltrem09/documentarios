@@ -1,0 +1,56 @@
+{
+  "id": "ref-0048",
+  "arquivo": "thumb-mapa-mental-post-its.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "mapa-de-ideias",
+  "titulo": "Thumbnail: pessoa no centro de um fluxo de cartões presos com alfinetes",
+  "descricao": "Rapaz sério no centro; ao redor, cartões de papel com ícones presos por alfinetes vermelhos e ligados por linha tracejada em loop; texto inferior com valor em tarja vermelha.",
+  "tecnica": {
+    "como_e_feito": "Fundo cinza escuro texturizado; cartões com ícones lineares e alfinete vermelho; linha tracejada formando ciclo; um cartão pixelado (mistério); texto com destaque em retângulo vermelho.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#2A2A2A",
+      "#E9E9E9",
+      "#D7262C",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "linha tracejada",
+      "pixelado",
+      "alfinetes"
+    ]
+  },
+  "quando_usar": "Explicar sistemas, estratégias e processos em etapas.",
+  "mood": [
+    "didático",
+    "intrigante"
+  ],
+  "tags": [
+    "thumbnail",
+    "fluxo",
+    "post-it",
+    "alfinete",
+    "pixelado",
+    "estrategia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

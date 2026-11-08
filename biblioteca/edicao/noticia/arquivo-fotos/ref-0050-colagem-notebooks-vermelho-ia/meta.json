@@ -1,0 +1,53 @@
+{
+  "id": "ref-0050",
+  "arquivo": "colagem-notebooks-vermelho-ia.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "noticia",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "colagem-recorte",
+  "titulo": "Colagem: notebooks com logos de IA em leque sobre fundo vermelho",
+  "descricao": "Cinco notebooks em halftone preto e branco dispostos em leque com logos de empresas de IA nas telas, e as pernas de uma pessoa de terno no topo, sobre vermelho chapado.",
+  "tecnica": {
+    "como_e_feito": "Recortes halftone P&B em composição radial; fundo vermelho saturado; personagem cortado no topo (poder). Animável: notebooks abrindo em sequência.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#E8322F",
+      "#111111",
+      "#F2F2F2"
+    ],
+    "efeitos": [
+      "halftone",
+      "composição radial",
+      "cor chapada"
+    ]
+  },
+  "quando_usar": "Notícias sobre disputa entre empresas de IA/tecnologia.",
+  "mood": [
+    "editorial",
+    "tenso"
+  ],
+  "tags": [
+    "colagem",
+    "notebook",
+    "ia",
+    "halftone",
+    "vermelho",
+    "tecnologia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 368,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-08"
+}

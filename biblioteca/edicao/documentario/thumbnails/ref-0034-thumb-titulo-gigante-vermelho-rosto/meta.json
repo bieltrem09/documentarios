@@ -1,0 +1,54 @@
+{
+  "id": "ref-0034",
+  "arquivo": "thumb-titulo-gigante-vermelho-rosto.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "titulo-gigante",
+  "titulo": "Thumbnail com título gigante vermelho atrás da pessoa ('how to be consistent')",
+  "descricao": "Pessoa sorrindo numa mesa com livros; a palavra principal enorme em vermelho fica atrás da cabeça, com uma linha preta curva ligando os lados, e um texto menor cinza acima.",
+  "tecnica": {
+    "como_e_feito": "Texto principal gigante em sans heavy vermelha, colocado ATRÁS do recorte da pessoa (profundidade); palavra secundária pequena acima; linha curva decorativa; fundo claro desfocado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans heavy (tipo Poppins Black)"
+    ],
+    "cores_hex": [
+      "#E3242B",
+      "#FFFFFF",
+      "#3A3A3A",
+      "#C9B79C"
+    ],
+    "efeitos": [
+      "texto atrás do sujeito",
+      "recorte"
+    ]
+  },
+  "quando_usar": "Thumbnails de educação/produtividade e cartelas de título com o narrador/personagem em destaque.",
+  "mood": [
+    "positivo",
+    "didático"
+  ],
+  "tags": [
+    "thumbnail",
+    "titulo-gigante",
+    "texto-atras",
+    "vermelho",
+    "rosto"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

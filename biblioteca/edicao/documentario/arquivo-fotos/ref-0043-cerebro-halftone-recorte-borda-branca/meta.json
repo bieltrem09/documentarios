@@ -1,0 +1,52 @@
+{
+  "id": "ref-0043",
+  "arquivo": "cerebro-halftone-recorte-borda-branca.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "objeto-isolado",
+  "titulo": "Cérebro em halftone recortado com borda branca (sticker)",
+  "descricao": "Cérebro em preto e branco com retícula grossa, recortado com contorno branco grosso, sobre fundo transparente quadriculado.",
+  "tecnica": {
+    "como_e_feito": "Objeto halftone com contorno branco tipo sticker e sombra leve; pronto para colagem. Animável: entra com pop/scale e leve rotação.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#111111",
+      "#FFFFFF",
+      "#7A7A7A"
+    ],
+    "efeitos": [
+      "halftone",
+      "sticker",
+      "recorte"
+    ]
+  },
+  "quando_usar": "Elemento de colagem para psicologia, vício, comportamento.",
+  "mood": [
+    "editorial",
+    "gráfico"
+  ],
+  "tags": [
+    "cerebro",
+    "halftone",
+    "sticker",
+    "recorte",
+    "psicologia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ref-0062",
+  "arquivo": "thumb-mao-marionete-logos.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "marionete",
+  "titulo": "Thumbnail: mão gigante controlando logos de marcas como marionetes",
+  "descricao": "Mão enorme no topo segura fios que penduram círculos com logos de marcas; título com nome em tarja amarela e pergunta em branco; fundo de rua escuro.",
+  "tecnica": {
+    "como_e_feito": "Mão recortada no topo + fios + elementos pendurados (marionete); título com palavra em tarja amarela; fundo escuro desfocado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold condensada"
+    ],
+    "cores_hex": [
+      "#1E1E1E",
+      "#F7E21B",
+      "#FFFFFF",
+      "#C8102E"
+    ],
+    "efeitos": [
+      "marionete",
+      "tarja de texto"
+    ]
+  },
+  "quando_usar": "Empresas/donos por trás de várias marcas, monopólios, manipulação de mercado.",
+  "mood": [
+    "denúncia",
+    "provocativo"
+  ],
+  "tags": [
+    "thumbnail",
+    "marionete",
+    "marcas",
+    "mao",
+    "monopolio"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 480,
+    "altura": 360,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

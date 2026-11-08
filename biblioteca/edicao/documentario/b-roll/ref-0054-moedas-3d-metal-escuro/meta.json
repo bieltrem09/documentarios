@@ -1,0 +1,51 @@
+{
+  "id": "ref-0054",
+  "arquivo": "moedas-3d-metal-escuro.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "objeto-3d",
+  "titulo": "Moedas metálicas escuras com logos em círculo (3D) sobre branco",
+  "descricao": "Seis moedas de metal escuro, com símbolos de empresas e cifrão gravados, dispostas em círculo e inclinadas, sobre fundo branco.",
+  "tecnica": {
+    "como_e_feito": "Render 3D de moedas com material metálico escuro e reflexos; composição radial; fundo branco limpo. Animável: as moedas giram em órbita.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#2B2B2B",
+      "#8C8C8C"
+    ],
+    "efeitos": [
+      "render 3D",
+      "metal"
+    ]
+  },
+  "quando_usar": "Ações, investimentos, tokenização, empresas como ativos.",
+  "mood": [
+    "financeiro",
+    "limpo"
+  ],
+  "tags": [
+    "moedas",
+    "3d",
+    "metal",
+    "acoes",
+    "investimento"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}
