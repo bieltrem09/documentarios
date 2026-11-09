@@ -174,7 +174,8 @@ export async function buscar(params, env = process.env, fetcher = fetch) {
       if (!chave) { fontes[nome] = { ok: false, erro: `sem chave (${f.env} não configurada na Vercel)` }; return []; }
       try {
         const r = await f.buscar(params, chave, fetcher);
-        const tem_mais = !r.fim && r.itens.length > 0 && params.pagina * POR_FONTE[nome] < r.total && params.pagina < MAX_PAGINA;
+        // continua enquanto a fonte devolver página cheia (o "total" do Pixabay é só uma estimativa)
+        const tem_mais = !r.fim && r.itens.length >= POR_FONTE[nome] && params.pagina < MAX_PAGINA;
         fontes[nome] = {
           ok: true, total: r.total, recebidos: r.itens.length, tem_mais,
           ...(nome === "unsplash" && params.q_en && params.q_en !== params.q ? { termo_usado: params.q_en } : {}),

@@ -99,8 +99,14 @@ r = await buscar({ q: "dinheiro", tipo: "foto", fonte: "pixabay", pagina: 1, ori
 assert.equal(r.resultados.length, 100);
 assert.equal(r.fontes.pixabay.tem_mais, true);
 assert.equal(r.tem_mais, true);
-r = await buscar({ q: "dinheiro", tipo: "foto", fonte: "pixabay", pagina: 5, orientacao: "todas" }, env, muitos);
-assert.equal(r.fontes.pixabay.tem_mais, false, "página 5 x 100 = 500 = fim");
+r = await buscar({ q: "dinheiro", tipo: "foto", fonte: "pixabay", pagina: 6, orientacao: "todas" }, env, muitos);
+assert.equal(r.fontes.pixabay.tem_mais, true, "página cheia continua mesmo passando do total estimado de 500");
+const parcial = async (url, o) => {
+  if (url.includes("pixabay.com/api/?")) return { ok: true, status: 200, json: async () => ({ totalHits: 500, hits: Array.from({ length: 37 }, (_, i) => ({ ...respostas["pixabay.com/api/?"].hits[0], id: i })) }) };
+  return fetcher(url, o);
+};
+r = await buscar({ q: "dinheiro", tipo: "foto", fonte: "pixabay", pagina: 7, orientacao: "todas" }, env, parcial);
+assert.equal(r.fontes.pixabay.tem_mais, false, "página incompleta = fim");
 
 // Pixabay além do limite responde 400 -> fim, sem erro
 const alem = async (url, o) => (url.includes("pixabay") ? { ok: false, status: 400, json: async () => ({}) } : fetcher(url, o));
