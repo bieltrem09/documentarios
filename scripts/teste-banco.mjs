@@ -119,4 +119,15 @@ const semTraducao = async (url, o) => (url.includes("mymemory") ? Promise.reject
 const { traduzir } = await import("../api/banco.js");
 assert.equal(await traduzir("termo inédito xyz", semTraducao), "termo inédito xyz");
 
+// vídeo do Pixabay sem medidas (width/height 0) não pode gerar NaN
+const semMedida = async (url, o) => {
+  if (url.includes("pixabay.com/api/videos/")) return { ok: true, status: 200, json: async () => ({ totalHits: 1, hits: [{ id: 1643, pageURL: "p", tags: "multidão", duration: 14, user: "u", user_id: 1,
+    videos: { large: { url: "", width: 0, height: 0, thumbnail: "" }, medium: { url: "M.mp4", width: 0, height: 0, thumbnail: "mt.jpg" }, small: { url: "S.mp4", width: 0, height: 0, thumbnail: "st.jpg" } } }] }) };
+  return fetcher(url, o);
+};
+r = await buscar({ q: "multidão", tipo: "video", fonte: "pixabay", pagina: 1, orientacao: "horizontal" }, env, semMedida);
+assert.equal(r.resultados[0].largura, 1920);
+assert.equal(r.resultados[0].altura, 1080);
+assert.equal(r.resultados[0].download, "M.mp4");
+
 console.log("✔ api/banco.js: todos os testes passaram");

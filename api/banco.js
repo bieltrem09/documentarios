@@ -121,10 +121,14 @@ export async function buscarPixabay({ q, tipo, pagina, orientacao }, chave, fetc
         const vs = v.videos ?? {};
         const medio = vs.medium ?? vs.small ?? vs.tiny;
         const grande = vs.large?.url ? vs.large : medio;
+        // alguns vídeos antigos vêm com width/height 0: usa a primeira variante com medidas ou assume 16:9
+        const comMedida = [vs.large, vs.medium, vs.small, vs.tiny].find((x) => x?.width > 0 && x?.height > 0);
+        const larg = comMedida?.width ?? 1920;
+        const alt = comMedida?.height ?? 1080;
         return finalizar({
           fonte: "pixabay", tipo: "video", id: `pixabay-v-${v.id}`, titulo: v.tags || "vídeo",
           autor: v.user, autor_url: `https://pixabay.com/users/${v.user}-${v.user_id}/`, url_pagina: v.pageURL,
-          largura: grande?.width ?? medio?.width, altura: grande?.height ?? medio?.height, duracao_seg: v.duration ?? null,
+          largura: larg, altura: alt, duracao_seg: v.duration ?? null,
           thumb: medio?.thumbnail ?? vs.tiny?.thumbnail, preview: (vs.small ?? medio)?.url, download: grande?.url,
         });
       }),

@@ -1,5 +1,7 @@
 "use client";
 
+import { proporcao } from "@/lib/proporcao";
+
 import { useRef, useState } from "react";
 import { NOME_CATEGORIA, midia, poster, type Ref } from "@/lib/dados";
 
@@ -7,7 +9,7 @@ export default function Card({ r, onAbrir }: { r: Ref; onAbrir: () => void }) {
   const video = useRef<HTMLVideoElement>(null);
   const [tocando, setTocando] = useState(false);
   const ehVideo = r.tipo_midia !== "imagem";
-  const prop = Math.min(1.6, Math.max(0.42, r.media.altura / r.media.largura));
+  const prop = proporcao(r.media.altura, r.media.largura);
 
   const entrar = () => {
     if (!video.current) return;

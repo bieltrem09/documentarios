@@ -1,5 +1,7 @@
 "use client";
 
+import { proporcao } from "@/lib/proporcao";
+
 import Fuse from "fuse.js";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { CORES, NOME_CATEGORIA, NOME_NICHO, familia, type Ref } from "@/lib/dados";
@@ -89,7 +91,7 @@ export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: 
     const cols: Ref[][] = Array.from({ length: colunas }, () => []);
     const alturas = new Array(colunas).fill(0);
     filtradas.forEach((r) => {
-      const prop = Math.min(1.6, Math.max(0.42, r.media.altura / r.media.largura));
+      const prop = proporcao(r.media.altura, r.media.largura);
       const i = alturas.indexOf(Math.min(...alturas));
       cols[i].push(r);
       alturas[i] += prop + 0.18;

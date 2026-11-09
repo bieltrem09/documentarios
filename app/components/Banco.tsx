@@ -1,5 +1,7 @@
 "use client";
 
+import { proporcao } from "@/lib/proporcao";
+
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Topo from "./Topo";
 
@@ -43,7 +45,7 @@ function useColunas() {
 
 function CardBanco({ r, onAbrir }: { r: Resultado; onAbrir: () => void }) {
   const video = useRef<HTMLVideoElement>(null);
-  const prop = Math.min(1.6, Math.max(0.42, r.altura / r.largura));
+  const prop = proporcao(r.altura, r.largura);
   return (
     <article
       className="card"
@@ -167,7 +169,7 @@ export default function Banco() {
     const cols: Resultado[][] = Array.from({ length: colunas }, () => []);
     const alturas = new Array(colunas).fill(0);
     itens.forEach((r) => {
-      const prop = Math.min(1.6, Math.max(0.42, r.altura / r.largura));
+      const prop = proporcao(r.altura, r.largura);
       const i = alturas.indexOf(Math.min(...alturas));
       cols[i].push(r);
       alturas[i] += prop + 0.18;
