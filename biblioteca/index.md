@@ -2,7 +2,7 @@
 
 > Arquivo GERADO por `npm run index`. Não edite à mão.
 
-**163 referências** (109 de edição · 54 de sites) · 0 receitas · gerado em 2026-11-09
+**176 referências** (122 de edição · 54 de sites) · 0 receitas · gerado em 2026-11-09
 
 # Edição de vídeo
 
@@ -20,11 +20,12 @@
 |---|---|---|---|---|
 | [ref-0014](edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/) | Transições de película: film burn, light leak e leader de filme | video | Transições entre capítulos ou épocas, flashbacks e aberturas com estética analógica. | film-burn, light-leak, pelicula, transicao, leader, analogico |
 
-### mapas (1)
+### mapas (2)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
 | [ref-0092](edicao/documentario/mapas/ref-0092-mapa-neon-fluxo-dinheiro-china-eua/) | Mapa neon com rede de fluxo de dinheiro entre China, EUA e México | imagem | Explicar esquemas de lavagem, cartéis, rotas de dinheiro ou tráfico entre países. | mapa, rede, lavagem, dinheiro, neon, fluxo, cartel |
+| [ref-0117](edicao/documentario/mapas/ref-0117-mapa-tatico-verde-territorio-vermelho/) | Mapa tático verde com território vermelho se expandindo e cerco tracejado | video | Guerras, revoluções, ocupações e cercos em documentário histórico. | mapa, guerra, territorio, cerco, historia, verde |
 
 ### arquivo-fotos (1)
 
@@ -107,7 +108,7 @@
 |---|---|---|---|---|
 | [ref-0103](edicao/documentario/transicoes/ref-0103-portas-scifi-abrindo-3d/) | Portas sci-fi abrindo em sequência (3D) | video | Transição para revelar algo (dossiê, personagem, segredo). | porta, scifi, transicao, 3d, chroma-key |
 
-### tipografia (19)
+### tipografia (24)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -130,14 +131,21 @@
 | [ref-0088](edicao/documentario/tipografia/ref-0088-fontes-display-metal-gotico/) | Fontes display ultracondensadas, góticas e 'metal' em fundo preto | imagem | Títulos de true crime, terror, seitas, subculturas. | fonte, gotica, metal, display, condensada |
 | [ref-0096](edicao/documentario/tipografia/ref-0096-explicativo-azul-livro-icones/) | Motion explicativo azul: livro de regras, pessoa no celular e frases reveladas | video | Explicar métodos, estratégias e 'segredos' em ritmo de narração. | explicativo, azul, icones, lupa, texto-animado |
 | [ref-0107](edicao/documentario/tipografia/ref-0107-chat-3d-texto-cinetico-predios/) | Chat 3D em celular e texto cinético projetado em prédios | video | Lyric-style, citações, pensamentos do personagem em cenário urbano. | texto-cinetico, chat, celular, 3d, predios, tracking |
+| [ref-0111](edicao/documentario/tipografia/ref-0111-explicativo-sofa-avatares-pergunta-roxo/) | Quadro explicativo: pessoa no sofá, avatares com '?' e texto em destaque (roxo) | imagem | Explicações rápidas de negócios/comportamento com narrador; quadros de 'quem é?'. | explicativo, roxo, avatar, silhueta, pergunta |
+| [ref-0114](edicao/documentario/tipografia/ref-0114-explicativo-cinza-cerebro-palavras/) | Motion explicativo cinza: cérebro 3D, dinheiro e palavras-chave (priming) | video | Explicar psicologia, manipulação, marketing de forma limpa e sóbria. | explicativo, cerebro, texto-cinetico, 3d, cinza, psicologia |
+| [ref-0116](edicao/documentario/tipografia/ref-0116-explicativo-branding-copos-cafe/) | Motion 'O segredo do branding' com copos de café e ícones (PT) | video | Explicar marketing/branding com produtos conhecidos (recriar com produtos genéricos). | explicativo, branding, cafe, produto, portugues |
+| [ref-0119](edicao/documentario/tipografia/ref-0119-explicativo-branco-blobs-pilula/) | Motion clean branco com blobs pretos e pílula 3D ('No magic') | video | Vídeos motivacionais/explicativos minimalistas, sobre atalhos e trabalho duro. | explicativo, blob, pilula, branco, minimalista |
+| [ref-0121](edicao/documentario/tipografia/ref-0121-explicativo-serifado-cerebro-design/) | Motion editorial serifado: 'seu cérebro lê o visual' com cérebro 3D | video | Explicações elegantes sobre design, percepção e marketing. | explicativo, serifada, cerebro, design, editorial |
 
-### mapas (1)
+### mapas (3)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
 | [ref-0061](edicao/documentario/mapas/ref-0061-globo-pontilhado-pb/) | Globo terrestre em pontos brancos sobre fundo preto | imagem | Abrir matérias internacionais, mostrar localização/rotas, transição para mapa. | globo, mapa, pontos, dot-matrix, mundo |
+| [ref-0110](edicao/documentario/mapas/ref-0110-mapa-pais-vermelho-relevo-escuro/) | Mapa em relevo escuro com país destacado em vermelho brilhante | imagem | Apresentar o país/região de uma história em documentário ou notícia. | mapa, pais, vermelho, relevo, destaque |
+| [ref-0122](edicao/documentario/mapas/ref-0122-mapa-relevo-paises-contorno-brilho/) | Mapa em relevo escuro com países acendendo (azul e dourado) e brasões | video | Comparar países, conflitos e relações internacionais. | mapa, relevo, pais, geopolitica, brilho |
 
-### dados-graficos (8)
+### dados-graficos (10)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -149,8 +157,10 @@
 | [ref-0076](edicao/documentario/dados-graficos/ref-0076-contador-views-celulares-3d/) | Contador de visualizações com celulares de vidro flutuando | imagem | Mostrar viralização, audiência, alcance de vídeo/notícia. | contador, views, 3d, celular, viral |
 | [ref-0102](edicao/documentario/dados-graficos/ref-0102-contador-dolares-subindo/) | Contador de dólares subindo rapidamente | video | Mostrar acúmulo de dinheiro, prejuízos, fortunas. | contador, dinheiro, numero, count-up |
 | [ref-0108](edicao/documentario/dados-graficos/ref-0108-contadores-likes-comentarios-seguidores/) | Painel 'Community' com likes, comentários e seguidores subindo | video | Crescimento de perfil, viralização, engajamento. | contador, likes, seguidores, redes-sociais |
+| [ref-0112](edicao/documentario/dados-graficos/ref-0112-orbita-empresas-predio-valor/) | Órbitas com logos de empresas em volta de um empresário sobre arranha-céu | imagem | Mostrar império/empresas de uma pessoa, conglomerados, fortunas. | orbita, empresas, valor, contador, diagrama, roxo |
+| [ref-0118](edicao/documentario/dados-graficos/ref-0118-piramide-niveis-vermelha-top-1/) | Pirâmide vermelha de níveis com 'Top 1%' e linha desenhada | video | Hierarquias sociais/financeiras, 'quem chega ao topo', níveis de riqueza. | piramide, niveis, top-1, vermelho, hierarquia |
 
-### arquivo-fotos (8)
+### arquivo-fotos (9)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -162,6 +172,7 @@
 | [ref-0040](edicao/documentario/arquivo-fotos/ref-0040-colagem-mao-robo-marionete-vermelho/) | Colagem: mão robótica gigante manipulando pessoa de terno vermelho por fios | imagem | IA/tecnologia controlando pessoas, manipulação, algoritmos. | colagem, marionete, robo, ia, manipulacao, vermelho |
 | [ref-0043](edicao/documentario/arquivo-fotos/ref-0043-cerebro-halftone-recorte-borda-branca/) | Cérebro em halftone recortado com borda branca (sticker) | imagem | Elemento de colagem para psicologia, vício, comportamento. | cerebro, halftone, sticker, recorte, psicologia |
 | [ref-0052](edicao/documentario/arquivo-fotos/ref-0052-predio-afundando-buraco-azul/) | Prédio institucional P&B afundando num buraco sobre fundo azul petróleo | imagem | Colapso de banco, empresa ou instituição; crise e falência. | colagem, predio, colapso, banco, azul, metafora |
+| [ref-0113](edicao/documentario/arquivo-fotos/ref-0113-silhueta-interrogacao-pergunta/) | Silhueta preta com ponto de interrogação e frase com destaque roxo | imagem | Pessoa desconhecida, suspeito, pergunta-chave da narração. | silhueta, interrogacao, anonimo, pergunta, roxo |
 
 ### documentos-jornal (1)
 
@@ -179,13 +190,14 @@
 | [ref-0101](edicao/documentario/texturas-overlays/ref-0101-alerta-erro-critico-glitch/) | Ícone de alerta vermelho 'CRITICAL ERROR' com glitch | video | Falhas de sistema, ataques, alertas, perigo. | alerta, erro, glitch, vermelho, overlay |
 | [ref-0105](edicao/documentario/texturas-overlays/ref-0105-x-neon-vermelho/) | X vermelho em néon aparecendo e sumindo | video | Negar, errado, proibido, falha, eliminação de opção. | x, neon, erro, vermelho, icone |
 
-### ritmo-cortes (1)
+### ritmo-cortes (2)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
 | [ref-0099](edicao/documentario/ritmo-cortes/ref-0099-explicativo-vermelho-busca-local/) | Motion explicativo vermelho e escuro: Google, mapas e loja (cortes rápidos) | video | Explicações rápidas de negócio/marketing com ritmo alto. | explicativo, cortes-rapidos, google, mapa, vermelho |
+| [ref-0120](edicao/documentario/ritmo-cortes/ref-0120-portfolio-editor-audio-para-video/) | Portfólio de editor: áudio do cliente vira vídeo com imagens e texto | video | Referência de ritmo para vídeos narrados: uma imagem por ideia, 1-2 s cada. | ritmo, narracao, cortes, portfolio, sincronia |
 
-### b-roll (19)
+### b-roll (20)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -208,6 +220,7 @@
 | [ref-0097](edicao/documentario/b-roll/ref-0097-janela-trem-paisagem-montanhas-loop/) | Janela de trem com montanhas passando (loop ilustrado) | video | Viagens, transição de tempo, reflexão, fundo para texto/site. | trem, janela, paisagem, loop, viagem |
 | [ref-0100](edicao/documentario/b-roll/ref-0100-cofre-banco-3d-animacao/) | Animação 3D de cofre de banco abrindo até cofres individuais | video | Explicar como bancos guardam valores, roubos e segredos. | cofre, banco, 3d, animacao, deposito |
 | [ref-0104](edicao/documentario/b-roll/ref-0104-busca-google-digitando/) | Busca no Google sendo digitada (tema escuro) | video | Mostrar pesquisas, curiosidade pública, tendências. | google, busca, digitacao, tela, ui |
+| [ref-0115](edicao/documentario/b-roll/ref-0115-ui-app-loja-aparecendo/) | Card de app em loja de aplicativos surgindo com glow | video | Mostrar um app ou ferramenta citada na narração (IA, redes, golpes de app). | app, ui, loja, card, glow |
 
 ### thumbnails (16)
 

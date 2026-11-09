@@ -1,0 +1,54 @@
+{
+  "id": "ref-0120",
+  "area": "edicao",
+  "arquivo": "portfolio-editor-audio-para-video.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "ritmo-cortes",
+  "subcategoria": "antes-e-depois",
+  "titulo": "Portfólio de editor: áudio do cliente vira vídeo com imagens e texto",
+  "descricao": "Tela dividida: à esquerda, 'Client Audio File' com forma de onda; à direita, 'Our Work' com cortes rápidos de imagens de empresários, ícones 3D e pessoas estressadas, cada uma com uma palavra da narração.",
+  "tecnica": {
+    "como_e_feito": "Mostra a edição sincronizada à narração: cada frase ganha uma imagem e uma palavra-chave; cortes no ritmo da fala; fundo cinza com moldura de celular e timeline.",
+    "duracao_seg": 50,
+    "easing": null,
+    "fontes": [
+      "sans + serifada"
+    ],
+    "cores_hex": [
+      "#EDEDED",
+      "#111111",
+      "#1E5A3C"
+    ],
+    "efeitos": [
+      "cortes no ritmo da fala",
+      "palavra-chave por imagem"
+    ]
+  },
+  "quando_usar": "Referência de ritmo para vídeos narrados: uma imagem por ideia, 1-2 s cada.",
+  "mood": [
+    "dinâmico",
+    "didático"
+  ],
+  "tags": [
+    "ritmo",
+    "narracao",
+    "cortes",
+    "portfolio",
+    "sincronia"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 50.18,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 4.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

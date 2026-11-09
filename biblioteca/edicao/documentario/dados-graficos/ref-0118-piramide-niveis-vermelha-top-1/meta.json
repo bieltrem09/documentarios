@@ -1,0 +1,55 @@
+{
+  "id": "ref-0118",
+  "area": "edicao",
+  "arquivo": "piramide-niveis-vermelha-top-1.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "piramide",
+  "titulo": "Pirâmide vermelha de níveis com 'Top 1%' e linha desenhada",
+  "descricao": "Pirâmide vermelha dividida em 5 níveis ('Level 1' a 'Level 5') com topo branco 'Top 1%'; uma linha branca desenhada à mão serpenteia pelos níveis inferiores e uma faixa tracejada marca um limite.",
+  "tecnica": {
+    "como_e_feito": "Formas vetoriais com gradiente e vinheta vermelha; texto serifado fino; linha manuscrita com trim path; zoom in/out na pirâmide.",
+    "duracao_seg": 8.6,
+    "easing": null,
+    "fontes": [
+      "serifada condensada fina"
+    ],
+    "cores_hex": [
+      "#3A0006",
+      "#C8102E",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "trim path",
+      "zoom",
+      "vinheta"
+    ]
+  },
+  "quando_usar": "Hierarquias sociais/financeiras, 'quem chega ao topo', níveis de riqueza.",
+  "mood": [
+    "dramático",
+    "didático"
+  ],
+  "tags": [
+    "piramide",
+    "niveis",
+    "top-1",
+    "vermelho",
+    "hierarquia"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 8.63,
+    "largura": 1280,
+    "altura": 720,
+    "tamanho_mb": 0.7
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

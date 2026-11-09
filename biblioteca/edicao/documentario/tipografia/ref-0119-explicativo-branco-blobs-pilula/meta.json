@@ -1,0 +1,55 @@
+{
+  "id": "ref-0119",
+  "area": "edicao",
+  "arquivo": "explicativo-branco-blobs-pilula.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "texto-explicativo-animado",
+  "titulo": "Motion clean branco com blobs pretos e pílula 3D ('No magic')",
+  "descricao": "Card branco vertical sobre a timeline do editor: frases curtas com destaque ('Everyone is chasing shortcuts', 'NO MAGIC'), pílula 3D girando, blobs pretos líquidos entrando pelos cantos e corte para vídeo de celular.",
+  "tecnica": {
+    "como_e_feito": "Fundo branco com metaballs pretas animadas nas bordas como transição; tipografia sans com palavras desfocando/entrando; objeto 3D central; inserção de vídeo em tela de celular.",
+    "duracao_seg": 15,
+    "easing": null,
+    "fontes": [
+      "sans geométrica"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#111111",
+      "#9A9A9A"
+    ],
+    "efeitos": [
+      "blobs líquidos",
+      "desfoque de texto",
+      "objeto 3D"
+    ]
+  },
+  "quando_usar": "Vídeos motivacionais/explicativos minimalistas, sobre atalhos e trabalho duro.",
+  "mood": [
+    "minimalista",
+    "moderno"
+  ],
+  "tags": [
+    "explicativo",
+    "blob",
+    "pilula",
+    "branco",
+    "minimalista"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 15.04,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.4
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

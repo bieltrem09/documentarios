@@ -1,15 +1,15 @@
 {
   "aviso": "ARQUIVO GERADO por `npm run index`. Não edite à mão.",
-  "gerado_em": "2026-11-09T15:41:14.513Z",
-  "total": 163,
+  "gerado_em": "2026-11-09T23:12:07.198Z",
+  "total": 176,
   "por_area": {
-    "edicao": 109,
+    "edicao": 122,
     "site": 54
   },
   "por_nicho": {
-    "documentario": 17,
+    "documentario": 18,
     "noticia": 7,
-    "ambos": 85,
+    "ambos": 97,
     "web": 54
   },
   "por_categoria": {
@@ -17,16 +17,16 @@
     "abertura": 1,
     "color-grading": 1,
     "elementos-noticia": 2,
-    "dados-graficos": 9,
-    "b-roll": 21,
+    "dados-graficos": 11,
+    "b-roll": 22,
     "texturas-overlays": 6,
-    "tipografia": 19,
+    "tipografia": 24,
     "transicoes": 2,
     "outros": 6,
-    "arquivo-fotos": 12,
+    "arquivo-fotos": 13,
     "thumbnails": 19,
-    "mapas": 2,
-    "ritmo-cortes": 1,
+    "mapas": 5,
+    "ritmo-cortes": 2,
     "ecommerce": 2,
     "landing-page": 20,
     "mockup-apresentacao": 5,
@@ -6474,6 +6474,777 @@
       "caminho_arquivo": "biblioteca/edicao/noticia/elementos-noticia/ref-0109-estudio-virtual-telejornal-vermelho/estudio-virtual-telejornal-vermelho.mp4",
       "contact_sheet": "biblioteca/edicao/noticia/elementos-noticia/ref-0109-estudio-virtual-telejornal-vermelho/contact-sheet.jpg",
       "poster": "biblioteca/edicao/noticia/elementos-noticia/ref-0109-estudio-virtual-telejornal-vermelho/poster.jpg"
+    },
+    {
+      "arquivo": "mapa-pais-vermelho-relevo-escuro.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "pais-destacado",
+      "titulo": "Mapa em relevo escuro com país destacado em vermelho brilhante",
+      "descricao": "Mapa de satélite em P&B escuro com relevo; a Índia aparece preenchida em vermelho com textura de terreno e contorno branco brilhante.",
+      "tecnica": {
+        "como_e_feito": "Mapa em relevo dessaturado + máscara do país com preenchimento vermelho (multiply sobre o relevo) e stroke branco com glow. Animável: preenchimento entrando e câmera aproximando.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#1A1A1A",
+          "#C8161D",
+          "#FFFFFF",
+          "#6E6E6E"
+        ],
+        "efeitos": [
+          "relevo",
+          "país destacado",
+          "glow no contorno"
+        ]
+      },
+      "quando_usar": "Apresentar o país/região de uma história em documentário ou notícia.",
+      "mood": [
+        "sério",
+        "geopolítico"
+      ],
+      "tags": [
+        "mapa",
+        "pais",
+        "vermelho",
+        "relevo",
+        "destaque"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1104,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0110",
+      "nicho": "ambos",
+      "categoria": "mapas",
+      "pasta": "biblioteca/edicao/documentario/mapas/ref-0110-mapa-pais-vermelho-relevo-escuro",
+      "caminho_arquivo": "biblioteca/edicao/documentario/mapas/ref-0110-mapa-pais-vermelho-relevo-escuro/mapa-pais-vermelho-relevo-escuro.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "explicativo-sofa-avatares-pergunta-roxo.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "texto-explicativo-animado",
+      "titulo": "Quadro explicativo: pessoa no sofá, avatares com '?' e texto em destaque (roxo)",
+      "descricao": "Fundo branco com manchas roxas nas bordas; empresário lendo jornal num sofá preto, três círculos roxos com silhuetas e '?', e frase em sans bold ('isn't the real game').",
+      "tecnica": {
+        "como_e_feito": "Recorte de pessoa + ícones circulares com borda roxa; texto em dois tamanhos (frase pequena + palavra grande); blobs roxos entrando pelas bordas como transição.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica bold (tipo Poppins)"
+        ],
+        "cores_hex": [
+          "#FFFFFF",
+          "#7E57C2",
+          "#111111"
+        ],
+        "efeitos": [
+          "recorte",
+          "avatares com ?",
+          "blobs nas bordas"
+        ]
+      },
+      "quando_usar": "Explicações rápidas de negócios/comportamento com narrador; quadros de 'quem é?'.",
+      "mood": [
+        "didático",
+        "curioso"
+      ],
+      "tags": [
+        "explicativo",
+        "roxo",
+        "avatar",
+        "silhueta",
+        "pergunta"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1308,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0111",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0111-explicativo-sofa-avatares-pergunta-roxo",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0111-explicativo-sofa-avatares-pergunta-roxo/explicativo-sofa-avatares-pergunta-roxo.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "orbita-empresas-predio-valor.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "orbita-de-empresas",
+      "titulo": "Órbitas com logos de empresas em volta de um empresário sobre arranha-céu",
+      "descricao": "Fundo cinza claro com um prédio escuro na base; acima, círculos concêntricos com a foto do empresário no centro e logos de empresas orbitando; no topo, valor em dólares grande em roxo.",
+      "tecnica": {
+        "como_e_feito": "Diagrama de órbitas (círculos finos) com ícones girando; foto central em círculo com borda roxa; contador de valor; prédio como base visual.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold + manuscrita"
+        ],
+        "cores_hex": [
+          "#D9D9D9",
+          "#111111",
+          "#7E57C2",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "órbitas",
+          "contador",
+          "ícones girando"
+        ]
+      },
+      "quando_usar": "Mostrar império/empresas de uma pessoa, conglomerados, fortunas.",
+      "mood": [
+        "informativo",
+        "poderoso"
+      ],
+      "tags": [
+        "orbita",
+        "empresas",
+        "valor",
+        "contador",
+        "diagrama",
+        "roxo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1308,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0112",
+      "nicho": "ambos",
+      "categoria": "dados-graficos",
+      "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0112-orbita-empresas-predio-valor",
+      "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0112-orbita-empresas-predio-valor/orbita-empresas-predio-valor.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "silhueta-interrogacao-pergunta.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "silhueta-anonima",
+      "titulo": "Silhueta preta com ponto de interrogação e frase com destaque roxo",
+      "descricao": "Silhueta de busto preta com '?' branco no rosto, desvanecendo para o branco, e frase centralizada com a segunda linha em roxo.",
+      "tecnica": {
+        "como_e_feito": "Silhueta com gradiente para branco; ícone '?' recortado; texto em duas cores.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica bold"
+        ],
+        "cores_hex": [
+          "#FFFFFF",
+          "#111111",
+          "#7E57C2"
+        ],
+        "efeitos": [
+          "silhueta",
+          "degradê"
+        ]
+      },
+      "quando_usar": "Pessoa desconhecida, suspeito, pergunta-chave da narração.",
+      "mood": [
+        "misterioso",
+        "didático"
+      ],
+      "tags": [
+        "silhueta",
+        "interrogacao",
+        "anonimo",
+        "pergunta",
+        "roxo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1308,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0113",
+      "nicho": "ambos",
+      "categoria": "arquivo-fotos",
+      "pasta": "biblioteca/edicao/documentario/arquivo-fotos/ref-0113-silhueta-interrogacao-pergunta",
+      "caminho_arquivo": "biblioteca/edicao/documentario/arquivo-fotos/ref-0113-silhueta-interrogacao-pergunta/silhueta-interrogacao-pergunta.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "explicativo-cinza-cerebro-palavras.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "texto-explicativo-animado",
+      "titulo": "Motion explicativo cinza: cérebro 3D, dinheiro e palavras-chave (priming)",
+      "descricao": "Vídeo vertical em fundo cinza claro com grade em perspectiva: palavras surgem em tamanhos diferentes ('priming', 'tiny hints', 'mood'), com objetos 3D cinza (cérebro, maço de dinheiro, poltrona, celular) e uma mão de marionete.",
+      "tecnica": {
+        "como_e_feito": "Tipografia cinética palavra a palavra com hierarquia de tamanho; objetos 3D monocromáticos entrando e girando; linhas tracejadas conectando palavras; grade de chão em perspectiva; paleta toda cinza.",
+        "duracao_seg": 54,
+        "easing": "ease-out",
+        "fontes": [
+          "sans grotesca (tipo Inter)"
+        ],
+        "cores_hex": [
+          "#EFEFEF",
+          "#2B2B2B",
+          "#9A9A9A"
+        ],
+        "efeitos": [
+          "texto cinético",
+          "objetos 3D cinza",
+          "linhas tracejadas",
+          "grade em perspectiva"
+        ]
+      },
+      "quando_usar": "Explicar psicologia, manipulação, marketing de forma limpa e sóbria.",
+      "mood": [
+        "minimalista",
+        "didático"
+      ],
+      "tags": [
+        "explicativo",
+        "cerebro",
+        "texto-cinetico",
+        "3d",
+        "cinza",
+        "psicologia"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 54.04,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 3
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0114",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0114-explicativo-cinza-cerebro-palavras",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0114-explicativo-cinza-cerebro-palavras/explicativo-cinza-cerebro-palavras.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/tipografia/ref-0114-explicativo-cinza-cerebro-palavras/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/tipografia/ref-0114-explicativo-cinza-cerebro-palavras/poster.jpg"
+    },
+    {
+      "arquivo": "ui-app-loja-aparecendo.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "ui-app",
+      "titulo": "Card de app em loja de aplicativos surgindo com glow",
+      "descricao": "Fundo preto; um card de app com ícone e botão 'Open' surge, expande para mostrar telas do app e lista de apps, ganha brilho roxo e volta a ser só o ícone.",
+      "tecnica": {
+        "como_e_feito": "UI recriada de loja de apps em cards arredondados; animação de expandir/encolher; glow roxo no destaque. Recriar com app genérico em vez de marca real.",
+        "duracao_seg": 6.3,
+        "easing": null,
+        "fontes": [
+          "sans do sistema"
+        ],
+        "cores_hex": [
+          "#000000",
+          "#2C2C2E",
+          "#FFFFFF",
+          "#A238FF"
+        ],
+        "efeitos": [
+          "expand/collapse",
+          "glow",
+          "UI de loja"
+        ]
+      },
+      "quando_usar": "Mostrar um app ou ferramenta citada na narração (IA, redes, golpes de app).",
+      "mood": [
+        "tecnológico",
+        "limpo"
+      ],
+      "tags": [
+        "app",
+        "ui",
+        "loja",
+        "card",
+        "glow"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 6.29,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 0.5
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0115",
+      "nicho": "ambos",
+      "categoria": "b-roll",
+      "pasta": "biblioteca/edicao/documentario/b-roll/ref-0115-ui-app-loja-aparecendo",
+      "caminho_arquivo": "biblioteca/edicao/documentario/b-roll/ref-0115-ui-app-loja-aparecendo/ui-app-loja-aparecendo.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/b-roll/ref-0115-ui-app-loja-aparecendo/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/b-roll/ref-0115-ui-app-loja-aparecendo/poster.jpg"
+    },
+    {
+      "arquivo": "explicativo-branding-copos-cafe.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "texto-explicativo-animado",
+      "titulo": "Motion 'O segredo do branding' com copos de café e ícones (PT)",
+      "descricao": "Vídeo vertical dentro de uma moldura de celular sobre a timeline do editor: título 'O segredo do Branding', copos de café recortados girando, palavra 'definitivo' e personagens em ícones para 'Autoridade'.",
+      "tecnica": {
+        "como_e_feito": "Produtos recortados com rotação e sombra; tipografia com palavras de pesos diferentes; folhas pretas decorativas entrando pelas bordas; ilustrações flat de pessoas.",
+        "duracao_seg": 21.3,
+        "easing": null,
+        "fontes": [
+          "sans fina + bold"
+        ],
+        "cores_hex": [
+          "#F2EFEC",
+          "#111111",
+          "#1E5A3C"
+        ],
+        "efeitos": [
+          "produto recortado",
+          "tipografia mista",
+          "elementos decorativos"
+        ]
+      },
+      "quando_usar": "Explicar marketing/branding com produtos conhecidos (recriar com produtos genéricos).",
+      "mood": [
+        "didático",
+        "elegante"
+      ],
+      "tags": [
+        "explicativo",
+        "branding",
+        "cafe",
+        "produto",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 21.34,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 1.7
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0116",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0116-explicativo-branding-copos-cafe",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0116-explicativo-branding-copos-cafe/explicativo-branding-copos-cafe.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/tipografia/ref-0116-explicativo-branding-copos-cafe/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/tipografia/ref-0116-explicativo-branding-copos-cafe/poster.jpg"
+    },
+    {
+      "arquivo": "mapa-tatico-verde-territorio-vermelho.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "mapa-tatico",
+      "titulo": "Mapa tático verde com território vermelho se expandindo e cerco tracejado",
+      "descricao": "Mapa da Ásia em P&B que aproxima até um mapa verde de províncias; manchas vermelhas surgem e se unem num território com triângulo 'RED ARMY', rótulo da região e um círculo tracejado de forças inimigas cercando.",
+      "tecnica": {
+        "como_e_feito": "Mapa em camadas com zoom; regiões em vermelho semitransparente crescendo (máscaras animadas); ícone triangular com texto; linhas de chamada; círculo tracejado girando; grão e textura de papel quadriculado nas bordas.",
+        "duracao_seg": 22.8,
+        "easing": null,
+        "fontes": [
+          "sans condensada bold"
+        ],
+        "cores_hex": [
+          "#0F3B2E",
+          "#3FAE7A",
+          "#D42A2A",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "zoom de mapa",
+          "território crescendo",
+          "círculo tracejado",
+          "rótulos com linha"
+        ]
+      },
+      "quando_usar": "Guerras, revoluções, ocupações e cercos em documentário histórico.",
+      "mood": [
+        "histórico",
+        "tenso"
+      ],
+      "tags": [
+        "mapa",
+        "guerra",
+        "territorio",
+        "cerco",
+        "historia",
+        "verde"
+      ],
+      "dificuldade": "dificil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 22.78,
+        "largura": 736,
+        "altura": 414,
+        "tamanho_mb": 1.7
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0117",
+      "nicho": "documentario",
+      "categoria": "mapas",
+      "pasta": "biblioteca/edicao/documentario/mapas/ref-0117-mapa-tatico-verde-territorio-vermelho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/mapas/ref-0117-mapa-tatico-verde-territorio-vermelho/mapa-tatico-verde-territorio-vermelho.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/mapas/ref-0117-mapa-tatico-verde-territorio-vermelho/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/mapas/ref-0117-mapa-tatico-verde-territorio-vermelho/poster.jpg"
+    },
+    {
+      "arquivo": "piramide-niveis-vermelha-top-1.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "piramide",
+      "titulo": "Pirâmide vermelha de níveis com 'Top 1%' e linha desenhada",
+      "descricao": "Pirâmide vermelha dividida em 5 níveis ('Level 1' a 'Level 5') com topo branco 'Top 1%'; uma linha branca desenhada à mão serpenteia pelos níveis inferiores e uma faixa tracejada marca um limite.",
+      "tecnica": {
+        "como_e_feito": "Formas vetoriais com gradiente e vinheta vermelha; texto serifado fino; linha manuscrita com trim path; zoom in/out na pirâmide.",
+        "duracao_seg": 8.6,
+        "easing": null,
+        "fontes": [
+          "serifada condensada fina"
+        ],
+        "cores_hex": [
+          "#3A0006",
+          "#C8102E",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "trim path",
+          "zoom",
+          "vinheta"
+        ]
+      },
+      "quando_usar": "Hierarquias sociais/financeiras, 'quem chega ao topo', níveis de riqueza.",
+      "mood": [
+        "dramático",
+        "didático"
+      ],
+      "tags": [
+        "piramide",
+        "niveis",
+        "top-1",
+        "vermelho",
+        "hierarquia"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 8.63,
+        "largura": 1280,
+        "altura": 720,
+        "tamanho_mb": 0.7
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0118",
+      "nicho": "ambos",
+      "categoria": "dados-graficos",
+      "pasta": "biblioteca/edicao/documentario/dados-graficos/ref-0118-piramide-niveis-vermelha-top-1",
+      "caminho_arquivo": "biblioteca/edicao/documentario/dados-graficos/ref-0118-piramide-niveis-vermelha-top-1/piramide-niveis-vermelha-top-1.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/dados-graficos/ref-0118-piramide-niveis-vermelha-top-1/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/dados-graficos/ref-0118-piramide-niveis-vermelha-top-1/poster.jpg"
+    },
+    {
+      "arquivo": "explicativo-branco-blobs-pilula.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "texto-explicativo-animado",
+      "titulo": "Motion clean branco com blobs pretos e pílula 3D ('No magic')",
+      "descricao": "Card branco vertical sobre a timeline do editor: frases curtas com destaque ('Everyone is chasing shortcuts', 'NO MAGIC'), pílula 3D girando, blobs pretos líquidos entrando pelos cantos e corte para vídeo de celular.",
+      "tecnica": {
+        "como_e_feito": "Fundo branco com metaballs pretas animadas nas bordas como transição; tipografia sans com palavras desfocando/entrando; objeto 3D central; inserção de vídeo em tela de celular.",
+        "duracao_seg": 15,
+        "easing": null,
+        "fontes": [
+          "sans geométrica"
+        ],
+        "cores_hex": [
+          "#FFFFFF",
+          "#111111",
+          "#9A9A9A"
+        ],
+        "efeitos": [
+          "blobs líquidos",
+          "desfoque de texto",
+          "objeto 3D"
+        ]
+      },
+      "quando_usar": "Vídeos motivacionais/explicativos minimalistas, sobre atalhos e trabalho duro.",
+      "mood": [
+        "minimalista",
+        "moderno"
+      ],
+      "tags": [
+        "explicativo",
+        "blob",
+        "pilula",
+        "branco",
+        "minimalista"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 15.04,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 1.4
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0119",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0119-explicativo-branco-blobs-pilula",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0119-explicativo-branco-blobs-pilula/explicativo-branco-blobs-pilula.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/tipografia/ref-0119-explicativo-branco-blobs-pilula/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/tipografia/ref-0119-explicativo-branco-blobs-pilula/poster.jpg"
+    },
+    {
+      "arquivo": "portfolio-editor-audio-para-video.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "antes-e-depois",
+      "titulo": "Portfólio de editor: áudio do cliente vira vídeo com imagens e texto",
+      "descricao": "Tela dividida: à esquerda, 'Client Audio File' com forma de onda; à direita, 'Our Work' com cortes rápidos de imagens de empresários, ícones 3D e pessoas estressadas, cada uma com uma palavra da narração.",
+      "tecnica": {
+        "como_e_feito": "Mostra a edição sincronizada à narração: cada frase ganha uma imagem e uma palavra-chave; cortes no ritmo da fala; fundo cinza com moldura de celular e timeline.",
+        "duracao_seg": 50,
+        "easing": null,
+        "fontes": [
+          "sans + serifada"
+        ],
+        "cores_hex": [
+          "#EDEDED",
+          "#111111",
+          "#1E5A3C"
+        ],
+        "efeitos": [
+          "cortes no ritmo da fala",
+          "palavra-chave por imagem"
+        ]
+      },
+      "quando_usar": "Referência de ritmo para vídeos narrados: uma imagem por ideia, 1-2 s cada.",
+      "mood": [
+        "dinâmico",
+        "didático"
+      ],
+      "tags": [
+        "ritmo",
+        "narracao",
+        "cortes",
+        "portfolio",
+        "sincronia"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 50.18,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 4.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0120",
+      "nicho": "ambos",
+      "categoria": "ritmo-cortes",
+      "pasta": "biblioteca/edicao/documentario/ritmo-cortes/ref-0120-portfolio-editor-audio-para-video",
+      "caminho_arquivo": "biblioteca/edicao/documentario/ritmo-cortes/ref-0120-portfolio-editor-audio-para-video/portfolio-editor-audio-para-video.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/ritmo-cortes/ref-0120-portfolio-editor-audio-para-video/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/ritmo-cortes/ref-0120-portfolio-editor-audio-para-video/poster.jpg"
+    },
+    {
+      "arquivo": "explicativo-serifado-cerebro-design.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "texto-explicativo-animado",
+      "titulo": "Motion editorial serifado: 'seu cérebro lê o visual' com cérebro 3D",
+      "descricao": "Fundo cinza claro com estrelas pretas 3D nos cantos e linha de gráfico ao fundo; frases em serifada itálica bold aparecem ('Let's suppose you're', 'Because your brain read visual'), com cérebro rosa e cards de fotos arredondados.",
+      "tecnica": {
+        "como_e_feito": "Serifada itálica com contraste de pesos; elementos 3D decorativos nos cantos; imagens em cards com sombra; texto entrando com desfoque.",
+        "duracao_seg": 23.7,
+        "easing": null,
+        "fontes": [
+          "serifada itálica bold (tipo Playfair Display)"
+        ],
+        "cores_hex": [
+          "#E9E9E9",
+          "#111111",
+          "#E57A8A"
+        ],
+        "efeitos": [
+          "serifada itálica",
+          "cards com sombra",
+          "objetos 3D decorativos"
+        ]
+      },
+      "quando_usar": "Explicações elegantes sobre design, percepção e marketing.",
+      "mood": [
+        "elegante",
+        "didático"
+      ],
+      "tags": [
+        "explicativo",
+        "serifada",
+        "cerebro",
+        "design",
+        "editorial"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 23.66,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 1.6
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0121",
+      "nicho": "ambos",
+      "categoria": "tipografia",
+      "pasta": "biblioteca/edicao/documentario/tipografia/ref-0121-explicativo-serifado-cerebro-design",
+      "caminho_arquivo": "biblioteca/edicao/documentario/tipografia/ref-0121-explicativo-serifado-cerebro-design/explicativo-serifado-cerebro-design.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/tipografia/ref-0121-explicativo-serifado-cerebro-design/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/tipografia/ref-0121-explicativo-serifado-cerebro-design/poster.jpg"
+    },
+    {
+      "arquivo": "mapa-relevo-paises-contorno-brilho.mp4",
+      "tipo_midia": "video",
+      "subcategoria": "pais-destacado",
+      "titulo": "Mapa em relevo escuro com países acendendo (azul e dourado) e brasões",
+      "descricao": "Mapa em relevo 3D cinza escuro; a Índia acende com contorno azul brilhante e o emblema nacional no centro, depois o Irã se ilumina em dourado com seu emblema.",
+      "tecnica": {
+        "como_e_feito": "Mapa de relevo (heightmap) com luz rasante; país com preenchimento/contorno emissivo colorido; emblema em linha branca no centro; câmera desliza entre países.",
+        "duracao_seg": 9.5,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#1A1A1A",
+          "#4A8BFF",
+          "#C9A65A",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "relevo 3D",
+          "contorno emissivo",
+          "câmera entre países"
+        ]
+      },
+      "quando_usar": "Comparar países, conflitos e relações internacionais.",
+      "mood": [
+        "geopolítico",
+        "sério"
+      ],
+      "tags": [
+        "mapa",
+        "relevo",
+        "pais",
+        "geopolitica",
+        "brilho"
+      ],
+      "dificuldade": "dificil",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": 9.5,
+        "largura": 720,
+        "altura": 1280,
+        "tamanho_mb": 1.3
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-09",
+      "area": "edicao",
+      "id": "ref-0122",
+      "nicho": "ambos",
+      "categoria": "mapas",
+      "pasta": "biblioteca/edicao/documentario/mapas/ref-0122-mapa-relevo-paises-contorno-brilho",
+      "caminho_arquivo": "biblioteca/edicao/documentario/mapas/ref-0122-mapa-relevo-paises-contorno-brilho/mapa-relevo-paises-contorno-brilho.mp4",
+      "contact_sheet": "biblioteca/edicao/documentario/mapas/ref-0122-mapa-relevo-paises-contorno-brilho/contact-sheet.jpg",
+      "poster": "biblioteca/edicao/documentario/mapas/ref-0122-mapa-relevo-paises-contorno-brilho/poster.jpg"
     },
     {
       "arquivo": "silvana-ecommerce-banquinho.jpg",
