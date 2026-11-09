@@ -2,9 +2,10 @@ import indice from "@/data/index.json";
 
 export interface Ref {
   id: string;
+  area: "edicao" | "site";
   arquivo: string;
   tipo_midia: "video" | "gif" | "imagem";
-  nicho: "documentario" | "noticia" | "ambos";
+  nicho: "documentario" | "noticia" | "ambos" | "web";
   categoria: string;
   subcategoria: string | null;
   titulo: string;
@@ -62,12 +63,33 @@ export const NOME_CATEGORIA: Record<string, string> = {
   "censura-blur": "Censura & blur",
   thumbnails: "Thumbnails",
   outros: "Outros",
+  // área de sites
+  hero: "Hero",
+  "landing-page": "Landing page",
+  ecommerce: "E-commerce",
+  institucional: "Institucional",
+  "portfolio-editorial": "Portfólio & editorial",
+  "mockup-apresentacao": "Mockups & apresentação",
+  "identidade-marca": "Identidade & logo",
+  "social-media": "Social media",
 };
+
+const SEGMENTOS: Record<string, string> = {
+  comida: "Comida", bebida: "Bebida", logistica: "Logística", esporte: "Esporte", fintech: "Fintech",
+  moveis: "Móveis", aviacao: "Aviação", logo: "Logo", moda: "Moda", "ia-saas": "IA & SaaS",
+  construcao: "Construção", seguranca: "Segurança", viagem: "Viagem", tecnologia: "Tecnologia",
+  "nft-cripto": "NFT & cripto", arquitetura: "Arquitetura", produtividade: "Produtividade",
+  imobiliario: "Imobiliário", saude: "Saúde", mobilidade: "Mobilidade", arte: "Arte", joias: "Joias",
+  curadoria: "Curadoria", historia: "História", automotivo: "Automotivo", agencia: "Agência", relojoaria: "Relojoaria",
+};
+/** nome legível de segmento (subcategoria dos sites) */
+export const nomeSegmento = (s: string) => SEGMENTOS[s] ?? s.replace(/-/g, " ").replace(/^./, (c) => c.toUpperCase());
 
 export const NOME_NICHO: Record<string, string> = {
   documentario: "Documentário",
   noticia: "Notícia",
   ambos: "Ambos",
+  web: "Site",
 };
 
 export const NOME_DIFICULDADE: Record<string, string> = { facil: "Fácil", media: "Média", dificil: "Difícil" };

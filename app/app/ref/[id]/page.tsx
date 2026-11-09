@@ -22,8 +22,8 @@ export default async function PaginaRef({ params }: { params: Promise<{ id: stri
   if (!r) notFound();
   return (
     <main className="pagina-ref">
-      <Link href="/" className="voltar">
-        ← Biblioteca
+      <Link href={r.area === "site" ? "/sites/" : "/"} className="voltar">
+        ← {r.area === "site" ? "Sites" : "Edição"}
       </Link>
       <Detalhe r={r} receitas={dados.receitas_md} />
     </main>

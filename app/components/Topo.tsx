@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Topo({ ativo, numeros }: { ativo: "refs" | "banco"; numeros?: React.ReactNode }) {
+export default function Topo({ ativo, numeros }: { ativo: "edicao" | "sites" | "banco"; numeros?: React.ReactNode }) {
   return (
     <header className="topo">
       <div className="marca">
@@ -8,8 +8,11 @@ export default function Topo({ ativo, numeros }: { ativo: "refs" | "banco"; nume
           In<b>Deep</b>
         </Link>
         <nav className="abas" aria-label="Seções">
-          <Link href="/" className={ativo === "refs" ? "ativo" : ""} aria-current={ativo === "refs" ? "page" : undefined}>
-            Referências
+          <Link href="/" className={ativo === "edicao" ? "ativo" : ""} aria-current={ativo === "edicao" ? "page" : undefined}>
+            Edição
+          </Link>
+          <Link href="/sites/" className={ativo === "sites" ? "ativo" : ""} aria-current={ativo === "sites" ? "page" : undefined}>
+            Sites
           </Link>
           <Link href="/banco/" className={ativo === "banco" ? "ativo" : ""} aria-current={ativo === "banco" ? "page" : undefined}>
             Banco de imagens

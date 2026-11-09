@@ -15,6 +15,7 @@ Argumento: $ARGUMENTS (número = tamanho do lote; caminho = arquivo/pasta espec�
 4. Escreva `.cache/lote-NN.json`: uma lista com os campos do `meta.json` **exceto** `id`, `arquivo`, `media` e `catalogado_em` (preenchidos pelo script), mais:
    - `origem_arquivo`: caminho atual (ex.: `biblioteca/_novas/abc.jpg`)
    - `slug`: nome kebab-case descritivo (vira pasta e nome do arquivo)
+   - `area`: `"edicao"` (vídeo) ou `"site"` (web design). Sites usam as categorias de site do CLAUDE.md, `subcategoria` = segmento; o script define `nicho: "web"` e o id `web-XXXX`.
    Regras de conteúdo:
    - descreva **só o que se vê** nos frames; campos incertos = `null`, e ajuste `confianca`;
    - `como_e_feito` deve permitir recriar a técnica em código (Remotion/React): camadas, movimento, blend, timing;

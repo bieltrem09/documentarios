@@ -4,7 +4,7 @@ import { proporcao } from "@/lib/proporcao";
 
 import Fuse from "fuse.js";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { CORES, NOME_CATEGORIA, NOME_NICHO, familia, type Ref } from "@/lib/dados";
+import { CORES, NOME_CATEGORIA, NOME_NICHO, familia, nomeSegmento, type Ref } from "@/lib/dados";
 import Card from "./Card";
 import Detalhe from "./Detalhe";
 import Topo from "./Topo";
@@ -31,7 +31,17 @@ function Chip({ ativo, onClick, children }: { ativo: boolean; onClick: () => voi
   );
 }
 
-export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: Record<string, string> }) {
+export default function Biblioteca({
+  refs,
+  receitas,
+  area,
+}: {
+  refs: Ref[];
+  receitas: Record<string, string>;
+  area: "edicao" | "site";
+}) {
+  const ehSite = area === "site";
+  const [segmento, setSegmento] = useState("todos");
   const [busca, setBusca] = useState("");
   const [nicho, setNicho] = useState("todos");
   const [categoria, setCategoria] = useState("todas");
@@ -74,17 +84,24 @@ export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: 
     return [...c.entries()].filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]).slice(0, 18).map(([t]) => t);
   }, [refs]);
 
+  const segmentos = useMemo(() => {
+    const c = new Map<string, number>();
+    refs.forEach((r) => r.subcategoria && c.set(r.subcategoria, (c.get(r.subcategoria) ?? 0) + 1));
+    return [...c.entries()].sort((a, b) => b[1] - a[1]);
+  }, [refs]);
+
   const filtradas = useMemo(() => {
     const base = busca.trim() ? fuse.search(busca.trim()).map((x) => x.item) : refs;
     return base.filter(
       (r) =>
-        (nicho === "todos" || r.nicho === nicho || r.nicho === "ambos") &&
+        (ehSite || nicho === "todos" || r.nicho === nicho || r.nicho === "ambos") &&
+        (!ehSite || segmento === "todos" || r.subcategoria === segmento) &&
         (categoria === "todas" || r.categoria === categoria) &&
         (tipo === "todos" || (tipo === "video" ? r.tipo_midia !== "imagem" : r.tipo_midia === "imagem")) &&
         (!cor || r.tecnica.cores_hex.some((h) => familia(h) === cor)) &&
         [...tags].every((t) => r.tags.includes(t)),
     );
-  }, [refs, fuse, busca, nicho, categoria, tipo, cor, tags]);
+  }, [refs, fuse, busca, nicho, categoria, tipo, cor, tags, ehSite, segmento]);
 
   // masonry: cada card vai para a coluna mais curta (altura estimada pela proporção)
   const grade = useMemo(() => {
@@ -153,18 +170,19 @@ export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: 
   const limpar = () => {
     setBusca("");
     setNicho("todos");
+    setSegmento("todos");
     setCategoria("todas");
     setTipo("todos");
     setCor(null);
     setTags(new Set());
   };
-  const temFiltro = busca || nicho !== "todos" || categoria !== "todas" || tipo !== "todos" || cor || tags.size > 0;
+  const temFiltro = busca || nicho !== "todos" || segmento !== "todos" || categoria !== "todas" || tipo !== "todos" || cor || tags.size > 0;
   const videos = refs.filter((r) => r.tipo_midia !== "imagem").length;
 
   return (
     <>
       <Topo
-        ativo="refs"
+        ativo={ehSite ? "sites" : "edicao"}
         numeros={
           <>
             <span><strong>{refs.length}</strong> refs</span>
@@ -181,20 +199,26 @@ export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: 
             ref={buscaRef}
             value={busca}
             onChange={(e) => setBusca(e.target.value)}
-            placeholder="Buscar técnica, efeito, mood… (ex.: film burn, mapa, tarja vermelha)"
+            placeholder={
+              ehSite
+                ? "Buscar estilo de site… (ex.: hero com produto, landing de comida, scroll animado)"
+                : "Buscar técnica, efeito, mood… (ex.: film burn, mapa, tarja vermelha)"
+            }
             aria-label="Buscar referências"
           />
           <kbd>/</kbd>
         </div>
 
         <div className="filtros-linha">
-          <div className="grupo">
-            {(["todos", "documentario", "noticia"] as const).map((n) => (
-              <Chip key={n} ativo={nicho === n} onClick={() => setNicho(n)}>
-                {n === "todos" ? "Todos" : NOME_NICHO[n]}
-              </Chip>
-            ))}
-          </div>
+          {!ehSite && (
+            <div className="grupo">
+              {(["todos", "documentario", "noticia"] as const).map((n) => (
+                <Chip key={n} ativo={nicho === n} onClick={() => setNicho(n)}>
+                  {n === "todos" ? "Todos" : NOME_NICHO[n]}
+                </Chip>
+              ))}
+            </div>
+          )}
           <div className="grupo">
             {(["todos", "video", "imagem"] as const).map((t) => (
               <Chip key={t} ativo={tipo === t} onClick={() => setTipo(t)}>
@@ -227,6 +251,19 @@ export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: 
             </Chip>
           ))}
         </div>
+
+        {ehSite && (
+          <div className="filtros-linha rolavel">
+            <Chip ativo={segmento === "todos"} onClick={() => setSegmento("todos")}>
+              Todos os segmentos
+            </Chip>
+            {segmentos.map(([sg, n]) => (
+              <Chip key={sg} ativo={segmento === sg} onClick={() => setSegmento(sg)}>
+                {nomeSegmento(sg)} <small>{n}</small>
+              </Chip>
+            ))}
+          </div>
+        )}
 
         <div className="filtros-linha rolavel tags">
           {tagsPopulares.map((t) => (
@@ -265,7 +302,7 @@ export default function Biblioteca({ refs, receitas }: { refs: Ref[]; receitas: 
       </main>
 
       <footer className="rodape">
-        Biblioteca InDeep · referências de terceiros para estudo de técnica · <kbd>/</kbd> busca · <kbd>←</kbd> <kbd>→</kbd> navegar · <kbd>Esc</kbd> fechar
+        Biblioteca InDeep · {ehSite ? "referências de sites" : "referências de edição"} de terceiros para estudo de técnica · <kbd>/</kbd> busca · <kbd>←</kbd> <kbd>→</kbd> navegar · <kbd>Esc</kbd> fechar
       </footer>
 
       {refAberta && (

@@ -39,6 +39,22 @@ Como consultar (na ordem de preferência):
 
 Ao usar referências, **cite os IDs** (ex.: `ref-0042`) e diga o que está sendo aproveitado de cada uma.
 
+## Área de sites (criação de sites / web design)
+
+A biblioteca tem **duas áreas separadas**; nunca misture:
+
+| Área | Pasta | IDs | `nicho` | Categorias |
+|---|---|---|---|---|
+| Edição de vídeo | `biblioteca/edicao/<nicho>/<categoria>/` | `ref-XXXX` | documentario · noticia · ambos | taxonomia de edição (abaixo) |
+| Criação de sites | `biblioteca/sites/<categoria>/` | `web-XXXX` | `web` | `hero` · `landing-page` · `ecommerce` · `institucional` · `portfolio-editorial` · `mockup-apresentacao` · `identidade-marca` · `social-media` · `outros` |
+
+- Todo `meta.json` tem `"area": "edicao"` ou `"area": "site"`.
+- Em sites, `subcategoria` = **segmento** (comida, fintech, logistica, esporte, moda, ia-saas…).
+- Em sites, `tecnica.como_e_feito` descreve como construir (layout, CSS, animação de scroll com GSAP, 3D com Three.js/Spline etc.).
+- Ao catalogar, decida a área olhando o conteúdo: layout de página/UI/marca/post → `site`; técnica de vídeo, thumbnail, overlay, b-roll → `edicao`. Catálogos de fontes ficam em edição › tipografia.
+- No app: abas **Edição**, **Sites** e **Banco de imagens**.
+- Gatilhos para consultar a área de sites: criar/redesenhar site, landing page, hero, e-commerce, portfólio, identidade/logo, posts de redes sociais.
+
 ## Banco de imagens (fotos e vídeos gratuitos)
 
 Quando a cena pedir footage/foto que a biblioteca não tem (ex.: "pessoas correndo"), busque no banco de imagens:
@@ -58,6 +74,7 @@ Quando a cena pedir footage/foto que a biblioteca não tem (ex.: "pessoas corren
 /
 ├── CLAUDE.md
 ├── biblioteca/
+│   ├── sites/<categoria>/<web-id>/   ← refs de criação de sites (área separada)
 │   ├── edicao/
 │   │   ├── documentario/        ← refs originais organizadas por categoria
 │   │   │   └── <categoria>/<ref-id>/

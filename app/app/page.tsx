@@ -2,5 +2,5 @@ import Biblioteca from "@/components/Biblioteca";
 import { dados } from "@/lib/dados";
 
 export default function Home() {
-  return <Biblioteca refs={dados.refs} receitas={dados.receitas_md} />;
+  return <Biblioteca area="edicao" refs={dados.refs.filter((r) => r.area !== "site")} receitas={dados.receitas_md} />;
 }
