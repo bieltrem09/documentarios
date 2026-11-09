@@ -21,8 +21,8 @@ interface Resultado {
   licenca: { nome: string; url: string; credito_obrigatorio: boolean };
   credito: string;
 }
-interface StatusFonte { ok: boolean; total?: number; erro?: string; aviso?: string }
-interface Resposta { resultados: Resultado[]; fontes: Record<string, StatusFonte> }
+interface StatusFonte { ok: boolean; total?: number; recebidos?: number; tem_mais?: boolean; termo_usado?: string; erro?: string; aviso?: string }
+interface Resposta { resultados: Resultado[]; fontes: Record<string, StatusFonte>; tem_mais: boolean }
 
 const NOME_FONTE: Record<string, string> = { pexels: "Pexels", unsplash: "Unsplash", pixabay: "Pixabay" };
 const SUGESTOES = ["pessoas correndo", "cidade à noite", "multidão", "dinheiro", "tribunal", "chuva na janela", "polícia", "computador hacker"];
@@ -84,7 +84,9 @@ export default function Banco() {
   const [buscado, setBuscado] = useState<string | null>(null);
   const [aberto, setAberto] = useState<Resultado | null>(null);
   const [copiado, setCopiado] = useState(false);
+  const [comMais, setComMais] = useState<string[]>([]);
   const colunas = useColunas();
+  const sentinela = useRef<HTMLDivElement>(null);
 
   const executar = useCallback(
     async (termo: string, opts: { tipo: string; fonte: string; orientacao: string; pagina: number }, anexar: boolean) => {
@@ -96,8 +98,19 @@ export default function Banco() {
         const res = await fetch(`/api/banco?${p}`);
         if (!res.ok) throw new Error(`a busca respondeu ${res.status}`);
         const d: Resposta = await res.json();
-        setItens((atual) => (anexar ? [...atual, ...d.resultados.filter((x) => !atual.some((a) => a.id === x.id))] : d.resultados));
-        setFontes(d.fontes);
+        setItens((atual) => {
+          if (!anexar) return d.resultados;
+          const ids = new Set(atual.map((a) => a.id));
+          return [...atual, ...d.resultados.filter((x) => !ids.has(x.id))];
+        });
+        // mantém o total de cada fonte da 1ª página; atualiza só quem respondeu agora
+        setFontes((atual) => {
+          if (!anexar) return d.fontes;
+          const n = { ...atual };
+          for (const [k, v] of Object.entries(d.fontes)) n[k] = { ...v, total: atual[k]?.total ?? v.total, termo_usado: atual[k]?.termo_usado ?? v.termo_usado };
+          return n;
+        });
+        setComMais(Object.entries(d.fontes).filter(([, v]) => v.tem_mais).map(([k]) => k));
         setBuscado(termo.trim());
         const url = new URLSearchParams({ q: termo.trim(), tipo: opts.tipo });
         window.history.replaceState(null, "", `?${url}`);
@@ -133,11 +146,22 @@ export default function Banco() {
     if (termo.trim()) executar(termo, opts, false);
   };
 
-  const mais = () => {
+  const mais = useCallback(() => {
+    if (carregando || comMais.length === 0) return;
     const p = pagina + 1;
     setPagina(p);
-    executar(buscado ?? q, { tipo, fonte, orientacao, pagina: p }, true);
-  };
+    // pede a próxima página só das fontes que ainda têm resultados
+    executar(buscado ?? q, { tipo, fonte: comMais.join(","), orientacao, pagina: p }, true);
+  }, [carregando, comMais, pagina, executar, buscado, q, tipo, orientacao]);
+
+  // rolagem infinita: carrega a próxima página quando o fim da grade aparece
+  useEffect(() => {
+    const el = sentinela.current;
+    if (!el) return;
+    const obs = new IntersectionObserver((ent) => ent[0].isIntersecting && mais(), { rootMargin: "1200px 0px" });
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [mais]);
 
   const grade = useMemo(() => {
     const cols: Resultado[][] = Array.from({ length: colunas }, () => []);
@@ -242,11 +266,15 @@ export default function Banco() {
         <div className="resultado">
           {buscado ? (
             <>
-              <span>{itens.length}</span>&nbsp;resultados para “{buscado}”
+              <span>{itens.length.toLocaleString("pt-BR")}</span>&nbsp;carregados de{" "}
+              {Object.values(fontes).filter((f) => f.ok).reduce((a, f) => a + (f.total ?? 0), 0).toLocaleString("pt-BR")} para “{buscado}”
               {Object.entries(fontes)
                 .filter(([, s]) => s.ok)
                 .map(([n, s]) => (
-                  <em key={n} className="fonte-total">· {NOME_FONTE[n]} {s.total?.toLocaleString("pt-BR")}</em>
+                  <em key={n} className="fonte-total">
+                    · {NOME_FONTE[n]} {s.total?.toLocaleString("pt-BR")}
+                    {s.termo_usado ? ` (busca: “${s.termo_usado}”)` : ""}
+                  </em>
                 ))}
             </>
           ) : (
@@ -277,9 +305,14 @@ export default function Banco() {
         </div>
 
         {buscado && !carregando && itens.length === 0 && !erro && <div className="vazio"><p>Nada encontrado. Tente outras palavras (em inglês costuma render mais).</p></div>}
+        <div ref={sentinela} aria-hidden />
         {itens.length > 0 && (
           <div className="mais">
-            <button onClick={mais} disabled={carregando}>{carregando ? "Carregando…" : "Carregar mais"}</button>
+            {comMais.length > 0 ? (
+              <button onClick={mais} disabled={carregando}>{carregando ? "Carregando mais…" : "Carregar mais"}</button>
+            ) : (
+              <p className="mudo">Fim dos resultados: tudo o que as fontes oferecem para essa busca foi carregado.</p>
+            )}
           </div>
         )}
       </main>

@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { buscar } from "../api/banco.js";
 
 const respostas = {
+  "api.mymemory.translated.net": { responseData: { translatedText: "people running" } },
   "api.pexels.com/v1/search": {
     total_results: 2,
     photos: [{ id: 1, width: 6000, height: 4000, url: "https://www.pexels.com/photo/correndo-1/", photographer: "Ana", photographer_url: "https://www.pexels.com/@ana", alt: "pessoas correndo no parque", src: { original: "o.jpg", large2x: "l2.jpg", large: "l.jpg", medium: "m.jpg" } }],
@@ -76,5 +77,40 @@ const quebrado = async (url, o) => (url.includes("unsplash") ? { ok: false, stat
 r = await buscar({ q: "x", tipo: "foto", fonte: "todas", pagina: 1, orientacao: "todas" }, env, quebrado);
 assert.equal(r.fontes.unsplash.erro, "Unsplash respondeu 401");
 assert.equal(r.resultados.length, 2);
+
+// tradução para o Unsplash e paginação
+chamadas.length = 0;
+r = await buscar({ q: "pessoas correndo", tipo: "foto", fonte: "todas", pagina: 1, orientacao: "horizontal" }, env, fetcher);
+const urlUn = chamadas.find((c) => c.url.includes("unsplash")).url;
+assert.ok(urlUn.includes("query=people+running"), "Unsplash busca com o termo em inglês");
+assert.ok(chamadas.find((c) => c.url.includes("pixabay")).url.includes("q=pessoas+correndo"), "Pixabay busca em português");
+assert.equal(r.fontes.unsplash.termo_usado, "people running");
+assert.ok(chamadas.find((c) => c.url.includes("pexels")).url.includes("per_page=80"));
+assert.ok(chamadas.find((c) => c.url.includes("pixabay")).url.includes("per_page=100"));
+assert.ok(urlUn.includes("per_page=30"));
+assert.equal(r.tem_mais, false, "fixtures com total pequeno não têm mais páginas");
+
+// total grande -> tem_mais
+const muitos = async (url, o) => {
+  if (url.includes("pixabay.com/api/?")) return { ok: true, status: 200, json: async () => ({ totalHits: 500, hits: Array.from({ length: 100 }, (_, i) => ({ ...respostas["pixabay.com/api/?"].hits[0], id: i })) }) };
+  return fetcher(url, o);
+};
+r = await buscar({ q: "dinheiro", tipo: "foto", fonte: "pixabay", pagina: 1, orientacao: "todas" }, env, muitos);
+assert.equal(r.resultados.length, 100);
+assert.equal(r.fontes.pixabay.tem_mais, true);
+assert.equal(r.tem_mais, true);
+r = await buscar({ q: "dinheiro", tipo: "foto", fonte: "pixabay", pagina: 5, orientacao: "todas" }, env, muitos);
+assert.equal(r.fontes.pixabay.tem_mais, false, "página 5 x 100 = 500 = fim");
+
+// Pixabay além do limite responde 400 -> fim, sem erro
+const alem = async (url, o) => (url.includes("pixabay") ? { ok: false, status: 400, json: async () => ({}) } : fetcher(url, o));
+r = await buscar({ q: "dinheiro", tipo: "foto", fonte: "pixabay", pagina: 6, orientacao: "todas" }, env, alem);
+assert.equal(r.fontes.pixabay.ok, true);
+assert.equal(r.fontes.pixabay.tem_mais, false);
+
+// tradução falhando não derruba a busca
+const semTraducao = async (url, o) => (url.includes("mymemory") ? Promise.reject(new Error("rede")) : fetcher(url, o));
+const { traduzir } = await import("../api/banco.js");
+assert.equal(await traduzir("termo inédito xyz", semTraducao), "termo inédito xyz");
 
 console.log("✔ api/banco.js: todos os testes passaram");

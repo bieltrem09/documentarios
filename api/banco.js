@@ -3,7 +3,31 @@
 // Chaves (variáveis de ambiente na Vercel): PEXELS_API_KEY, UNSPLASH_ACCESS_KEY, PIXABAY_API_KEY
 // Também usado pelo Claude (MCP / web fetch) para buscar b-roll para os vídeos.
 
-const POR_FONTE = 15;
+// máximo por página que cada API aceita (Pexels 80, Unsplash 30, Pixabay 200)
+export const POR_FONTE = { pexels: 80, unsplash: 30, pixabay: 100 };
+// Pixabay só entrega até 500 resultados por busca; Unsplash/Pexels limitam páginas muito altas
+const MAX_PAGINA = 50;
+
+// ---------- tradução PT → EN (Unsplash só busca bem em inglês) ----------
+const cacheTraducao = new Map();
+export async function traduzir(q, fetcher = fetch) {
+  const chave = q.toLowerCase();
+  if (cacheTraducao.has(chave)) return cacheTraducao.get(chave);
+  let en = q;
+  try {
+    const u = `https://api.mymemory.translated.net/get?${new URLSearchParams({ q, langpair: "pt-BR|en" })}`;
+    const res = await fetcher(u, { signal: AbortSignal.timeout(3000) });
+    if (res.ok) {
+      const d = await res.json();
+      const t = d?.responseData?.translatedText;
+      if (t && typeof t === "string" && !/MYMEMORY WARNING|INVALID/i.test(t)) en = t.trim();
+    }
+  } catch {
+    /* sem tradução: segue com o termo original */
+  }
+  cacheTraducao.set(chave, en);
+  return en;
+}
 
 const LICENCAS = {
   pexels: { nome: "Licença Pexels", url: "https://www.pexels.com/pt-br/licenca/", credito_obrigatorio: false },
@@ -25,7 +49,7 @@ const orientUnsplash = { horizontal: "landscape", vertical: "portrait" };
 const orientPixabay = { horizontal: "horizontal", vertical: "vertical" };
 
 export async function buscarPexels({ q, tipo, pagina, orientacao }, chave, fetcher = fetch) {
-  const p = new URLSearchParams({ query: q, per_page: String(POR_FONTE), page: String(pagina), locale: "pt-BR" });
+  const p = new URLSearchParams({ query: q, per_page: String(POR_FONTE.pexels), page: String(pagina), locale: "pt-BR" });
   if (orientPexels[orientacao]) p.set("orientation", orientPexels[orientacao]);
   const base = tipo === "video" ? "https://api.pexels.com/videos/search" : "https://api.pexels.com/v1/search";
   const res = await fetcher(`${base}?${p}`, { headers: { Authorization: chave } });
@@ -59,9 +83,9 @@ export async function buscarPexels({ q, tipo, pagina, orientacao }, chave, fetch
   };
 }
 
-export async function buscarUnsplash({ q, tipo, pagina, orientacao }, chave, fetcher = fetch) {
+export async function buscarUnsplash({ q, q_en, tipo, pagina, orientacao }, chave, fetcher = fetch) {
   if (tipo === "video") return { total: 0, itens: [], aviso: "Unsplash não tem vídeos" };
-  const p = new URLSearchParams({ query: q, per_page: String(POR_FONTE), page: String(pagina), lang: "pt" });
+  const p = new URLSearchParams({ query: q_en || q, per_page: String(POR_FONTE.unsplash), page: String(pagina) });
   if (orientUnsplash[orientacao]) p.set("orientation", orientUnsplash[orientacao]);
   const res = await fetcher(`https://api.unsplash.com/search/photos?${p}`, {
     headers: { Authorization: `Client-ID ${chave}`, "Accept-Version": "v1" },
@@ -85,9 +109,10 @@ export async function buscarUnsplash({ q, tipo, pagina, orientacao }, chave, fet
 }
 
 export async function buscarPixabay({ q, tipo, pagina, orientacao }, chave, fetcher = fetch) {
-  const p = new URLSearchParams({ key: chave, q, lang: "pt", per_page: String(POR_FONTE), page: String(pagina), safesearch: "true" });
+  const p = new URLSearchParams({ key: chave, q, lang: "pt", per_page: String(POR_FONTE.pixabay), page: String(pagina), safesearch: "true" });
   if (tipo === "video") {
     const res = await fetcher(`https://pixabay.com/api/videos/?${p}`);
+    if (res.status === 400 && pagina > 1) return { total: 0, itens: [], fim: true };
     if (!res.ok) throw new Error(`Pixabay respondeu ${res.status}`);
     const d = await res.json();
     return {
@@ -108,6 +133,7 @@ export async function buscarPixabay({ q, tipo, pagina, orientacao }, chave, fetc
   p.set("image_type", "photo");
   if (orientPixabay[orientacao]) p.set("orientation", orientPixabay[orientacao]);
   const res = await fetcher(`https://pixabay.com/api/?${p}`);
+  if (res.status === 400 && pagina > 1) return { total: 0, itens: [], fim: true };
   if (!res.ok) throw new Error(`Pixabay respondeu ${res.status}`);
   const d = await res.json();
   return {
@@ -136,8 +162,10 @@ export function intercalar(listas) {
 }
 
 export async function buscar(params, env = process.env, fetcher = fetch) {
-  const nomes = params.fonte && params.fonte !== "todas" ? [params.fonte] : Object.keys(FONTES);
+  // fonte: "todas", uma fonte ou lista separada por vírgula (usada na paginação para pedir só quem ainda tem resultados)
+  const nomes = params.fonte && params.fonte !== "todas" ? [...new Set(params.fonte.split(",").map((x) => x.trim()).filter(Boolean))] : Object.keys(FONTES);
   const fontes = {};
+  if (nomes.includes("unsplash") && params.tipo !== "video" && !params.q_en) params = { ...params, q_en: await traduzir(params.q, fetcher) };
   const listas = await Promise.all(
     nomes.map(async (nome) => {
       const f = FONTES[nome];
@@ -146,7 +174,12 @@ export async function buscar(params, env = process.env, fetcher = fetch) {
       if (!chave) { fontes[nome] = { ok: false, erro: `sem chave (${f.env} não configurada na Vercel)` }; return []; }
       try {
         const r = await f.buscar(params, chave, fetcher);
-        fontes[nome] = { ok: true, total: r.total, ...(r.aviso ? { aviso: r.aviso } : {}) };
+        const tem_mais = !r.fim && r.itens.length > 0 && params.pagina * POR_FONTE[nome] < r.total && params.pagina < MAX_PAGINA;
+        fontes[nome] = {
+          ok: true, total: r.total, recebidos: r.itens.length, tem_mais,
+          ...(nome === "unsplash" && params.q_en && params.q_en !== params.q ? { termo_usado: params.q_en } : {}),
+          ...(r.aviso ? { aviso: r.aviso } : {}),
+        };
         return r.itens;
       } catch (e) {
         fontes[nome] = { ok: false, erro: String(e.message ?? e) };
@@ -154,7 +187,8 @@ export async function buscar(params, env = process.env, fetcher = fetch) {
       }
     }),
   );
-  return { consulta: params.q, tipo: params.tipo, pagina: params.pagina, fontes, resultados: intercalar(listas) };
+  const tem_mais = Object.values(fontes).some((f) => f.tem_mais);
+  return { consulta: params.q, tipo: params.tipo, pagina: params.pagina, tem_mais, fontes, resultados: intercalar(listas) };
 }
 
 function json(corpo, status = 200, cache = "no-store") {
@@ -182,7 +216,7 @@ export async function GET(request) {
     q,
     tipo: u.searchParams.get("tipo") === "video" ? "video" : "foto",
     fonte: u.searchParams.get("fonte") ?? "todas",
-    pagina: Math.max(1, Math.min(20, Number(u.searchParams.get("pagina")) || 1)),
+    pagina: Math.max(1, Math.min(MAX_PAGINA, Number(u.searchParams.get("pagina")) || 1)),
     orientacao: u.searchParams.get("orientacao") ?? "horizontal",
   };
   const r = await buscar(params);
