@@ -1,0 +1,54 @@
+{
+  "id": "web-0003",
+  "area": "site",
+  "arquivo": "novura-vitrine-design.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "bebida",
+  "titulo": "Vitrine 'Latest Design' de site de bebida (Novura)",
+  "descricao": "Apresentação de portfólio com várias telas de um site de bebida: pessoa bebendo lata, logo grande, garrafas e seções, montadas sobre fundo creme com título 'Latest Design'.",
+  "tecnica": {
+    "como_e_feito": "Mosaico de telas com sombras suaves e cantos arredondados; tipografia fina; imagens lifestyle ensolaradas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina",
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#FBF3E8",
+      "#F08A3C",
+      "#3A7BD5"
+    ],
+    "efeitos": [
+      "mosaico de telas",
+      "sombra suave"
+    ]
+  },
+  "quando_usar": "Apresentar projeto de site em portfólio/Behance.",
+  "mood": [
+    "fresco",
+    "solar"
+  ],
+  "tags": [
+    "vitrine",
+    "bebida",
+    "portfolio",
+    "mockup"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1022,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

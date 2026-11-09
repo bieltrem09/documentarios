@@ -1,0 +1,54 @@
+{
+  "id": "web-0017",
+  "area": "site",
+  "arquivo": "suco-laranja-landing-vibrante.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "bebida",
+  "titulo": "Landing de sucos com fundo laranja padronizado",
+  "descricao": "Landing com moldura laranja estampada, hero com mãos segurando garrafas de suco contra céu azul, faixa preta com benefícios e grade de sabores.",
+  "tecnica": {
+    "como_e_feito": "Display bold irregular; padrão de fundo; fotos de produto contra céu; contraste preto/laranja.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "display bold irregular"
+    ],
+    "cores_hex": [
+      "#F47B20",
+      "#FFFFFF",
+      "#111111",
+      "#5EB3E8"
+    ],
+    "efeitos": [
+      "padrão de fundo",
+      "foto contra céu"
+    ]
+  },
+  "quando_usar": "Bebidas, sucos, marcas jovens.",
+  "mood": [
+    "energético",
+    "divertido"
+  ],
+  "tags": [
+    "bebida",
+    "suco",
+    "laranja",
+    "landing"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1017,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

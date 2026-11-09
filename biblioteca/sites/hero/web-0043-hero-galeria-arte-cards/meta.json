@@ -1,0 +1,54 @@
+{
+  "id": "web-0043",
+  "area": "site",
+  "arquivo": "hero-galeria-arte-cards.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "arte",
+  "titulo": "Hero 'A place to display your masterpiece' com leque de cards",
+  "descricao": "Hero claro com título centralizado e um leque de cards de arte coloridos com etiquetas de usuário flutuando.",
+  "tecnica": {
+    "como_e_feito": "Cards rotacionados em leque (fan) com sombra; tags de usuário; muito branco.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#F2F4F6",
+      "#111111",
+      "#1E77E6"
+    ],
+    "efeitos": [
+      "leque de cards",
+      "tags flutuantes"
+    ]
+  },
+  "quando_usar": "Marketplaces criativos, portfólios.",
+  "mood": [
+    "criativo",
+    "limpo"
+  ],
+  "tags": [
+    "hero",
+    "arte",
+    "galeria",
+    "cards",
+    "marketplace"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 552,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

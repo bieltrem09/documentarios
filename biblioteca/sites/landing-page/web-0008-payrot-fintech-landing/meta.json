@@ -1,0 +1,56 @@
+{
+  "id": "web-0008",
+  "area": "site",
+  "arquivo": "payrot-fintech-landing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "fintech",
+  "titulo": "Landing fintech 'Payrot' azul com arara e globo",
+  "descricao": "Landing azul clara com arara azul, cartões de pagamento, globo 3D, foto de atendente e seção escura arredondada 'Grow beyond borders'.",
+  "tecnica": {
+    "como_e_feito": "Gradientes azuis suaves; elementos 3D (globo, cartões); seções com cantos muito arredondados; CTA em pílula.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica"
+    ],
+    "cores_hex": [
+      "#EAF3FF",
+      "#1F4FAE",
+      "#0E2A55",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "3D",
+      "gradiente",
+      "cantos arredondados"
+    ]
+  },
+  "quando_usar": "Fintechs, pagamentos internacionais, SaaS financeiro.",
+  "mood": [
+    "confiável",
+    "moderno"
+  ],
+  "tags": [
+    "fintech",
+    "pagamento",
+    "azul",
+    "3d",
+    "landing"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 544,
+    "altura": 1088,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

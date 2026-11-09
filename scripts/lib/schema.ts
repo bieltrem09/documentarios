@@ -19,21 +19,32 @@ export const CATEGORIAS = [
   "outros",
 ] as const;
 
+/** Taxonomia da área de criação de sites (tipo de página). O segmento (comida, fintech…) vai em subcategoria. */
+export const SITE_CATEGORIAS = [
+  "hero",
+  "landing-page",
+  "ecommerce",
+  "institucional",
+  "portfolio-editorial",
+  "mockup-apresentacao",
+  "identidade-marca",
+  "social-media",
+  "outros",
+] as const;
+
+export const AREAS = ["edicao", "site"] as const;
+
 const kebab = z
   .string()
   .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "use kebab-case sem acentos");
 
 const hex = z.string().regex(/^#[0-9A-Fa-f]{6}$/, "cor deve ser #RRGGBB");
 
-export const MetaSchema = z
-  .object({
-    id: z.string().regex(/^(ref|own)-\d{4}$/, "id no formato ref-0001 ou own-0001"),
+const Base = z.object({
     arquivo: z
       .string()
       .regex(/^[a-z0-9][a-z0-9.-]*\.(mp4|gif|jpg|jpeg|png|webp)$/, "nome do arquivo em kebab-case"),
     tipo_midia: z.enum(["video", "gif", "imagem"]),
-    nicho: z.enum(["documentario", "noticia", "ambos"]),
-    categoria: z.enum(CATEGORIAS),
     subcategoria: kebab.nullable(),
     titulo: z.string().min(5),
     descricao: z.string().min(20),
@@ -62,7 +73,24 @@ export const MetaSchema = z
     receitas: z.array(kebab),
     confianca: z.enum(["alta", "media", "baixa"]),
     catalogado_em: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-  })
-  .strict();
+});
+
+/** Referência de edição de vídeo (documentário / notícia). */
+const EdicaoSchema = Base.extend({
+  area: z.literal("edicao"),
+  id: z.string().regex(/^(ref|own)-\d{4}$/, "id no formato ref-0001 ou own-0001"),
+  nicho: z.enum(["documentario", "noticia", "ambos"]),
+  categoria: z.enum(CATEGORIAS),
+}).strict();
+
+/** Referência de criação de site (web design). */
+const SiteSchema = Base.extend({
+  area: z.literal("site"),
+  id: z.string().regex(/^web-\d{4}$/, "id de site no formato web-0001"),
+  nicho: z.literal("web"),
+  categoria: z.enum(SITE_CATEGORIAS),
+}).strict();
+
+export const MetaSchema = z.discriminatedUnion("area", [EdicaoSchema, SiteSchema]);
 
 export type Meta = z.infer<typeof MetaSchema>;

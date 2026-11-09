@@ -1,0 +1,53 @@
+{
+  "id": "web-0011",
+  "area": "site",
+  "arquivo": "aviacao-luxo-paginas-escuras.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "aviacao",
+  "titulo": "Aviação de luxo: janela de avião, foguete/jato e globo",
+  "descricao": "Sequência vertical de seções: janela de avião com céu, jato bege em fundo neutro com 'Fly in Luxury' e globo escuro, com tipografia fina e textos curtos.",
+  "tecnica": {
+    "como_e_feito": "Seções full-screen com objeto central e texto dividido nas laterais; paleta marrom/bege; scroll storytelling.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#2B241F",
+      "#D8C8B4",
+      "#F2EEE8"
+    ],
+    "efeitos": [
+      "texto dividido",
+      "scroll storytelling"
+    ]
+  },
+  "quando_usar": "Marcas premium de viagem, aviação executiva.",
+  "mood": [
+    "luxuoso",
+    "calmo"
+  ],
+  "tags": [
+    "aviacao",
+    "luxo",
+    "storytelling",
+    "bege"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1334,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

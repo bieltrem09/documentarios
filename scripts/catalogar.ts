@@ -32,11 +32,13 @@ if (!posicionais[0]) {
 const dry = flags.has("--dry");
 const spec: any[] = JSON.parse(readFileSync(resolve(posicionais[0]), "utf8"));
 
-const usados = lerMetas()
-  .map((m) => m.meta?.id)
-  .filter((id): id is string => !!id && id.startsWith("ref-"))
-  .map((id) => Number(id.slice(4)));
-let proximo = (usados.length ? Math.max(...usados) : 0) + 1;
+// próximo número livre por prefixo (ref- para edição, web- para sites)
+const ids = lerMetas().map((m) => m.meta?.id).filter((id): id is string => !!id);
+const proximo: Record<string, number> = {};
+for (const prefixo of ["ref", "web"]) {
+  const usados = ids.filter((id) => id.startsWith(prefixo + "-")).map((id) => Number(id.slice(4)));
+  proximo[prefixo] = (usados.length ? Math.max(...usados) : 0) + 1;
+}
 const hoje = new Date().toISOString().slice(0, 10);
 
 let ok = 0;
@@ -47,11 +49,18 @@ for (const item of spec) {
     console.error(`✖ não encontrado: ${origem_arquivo}`);
     continue;
   }
-  const id = `ref-${String(proximo).padStart(4, "0")}`;
+  const area = resto.area === "site" ? "site" : "edicao";
+  resto.area = area;
+  if (area === "site") resto.nicho = "web";
+  const prefixo = area === "site" ? "web" : "ref";
+  const id = `${prefixo}-${String(proximo[prefixo]).padStart(4, "0")}`;
   const ext = extname(origem).toLowerCase().replace(".jpeg", ".jpg");
   const arquivo = `${slug}${ext}`;
   const pastaNicho = resto.nicho === "noticia" ? "noticia" : "documentario";
-  const pasta = join(BIBLIOTECA, "edicao", pastaNicho, resto.categoria, `${id}-${slug}`);
+  const pasta =
+    area === "site"
+      ? join(BIBLIOTECA, "sites", resto.categoria, `${id}-${slug}`)
+      : join(BIBLIOTECA, "edicao", pastaNicho, resto.categoria, `${id}-${slug}`);
   const tipo = tipoMidia(origem)!;
   const info = probe(origem);
 
@@ -69,7 +78,7 @@ for (const item of spec) {
     catalogado_em: hoje,
   };
   // ordem das chaves igual ao CLAUDE.md
-  const ordem = ["id", "arquivo", "tipo_midia", "nicho", "categoria", "subcategoria", "titulo", "descricao", "tecnica",
+  const ordem = ["id", "area", "arquivo", "tipo_midia", "nicho", "categoria", "subcategoria", "titulo", "descricao", "tecnica",
     "quando_usar", "mood", "tags", "dificuldade", "origem", "media", "receitas", "confianca", "catalogado_em"];
   const ordenado = Object.fromEntries(ordem.map((k) => [k, (meta as any)[k]]));
 
@@ -80,7 +89,7 @@ for (const item of spec) {
   }
   if (dry) {
     console.log(`(dry) ${origem_arquivo} → ${rel(pasta)}/${arquivo}`);
-    proximo++;
+    proximo[prefixo]++;
     ok++;
     continue;
   }
@@ -89,7 +98,7 @@ for (const item of spec) {
   writeFileSync(join(pasta, "meta.json"), JSON.stringify(ordenado, null, 2) + "\n");
   if (tipo !== "imagem") gerarContactSheet(join(pasta, arquivo), true);
   console.log(`✔ ${id}  ${rel(pasta)}`);
-  proximo++;
+  proximo[prefixo]++;
   ok++;
 }
 console.log(`\n${ok}/${spec.length} ref(s) catalogada(s). Agora: npm run validate && npm run index`);

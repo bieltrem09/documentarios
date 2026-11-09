@@ -1,0 +1,54 @@
+{
+  "id": "ref-0077",
+  "area": "edicao",
+  "arquivo": "pessoa-cadeira-colina-ceu.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "cenario-ia",
+  "titulo": "Pessoa sentada numa cadeira no alto de uma colina florida sob céu azul",
+  "descricao": "Foto/imagem de IA em ângulo baixo: uma pessoa de camisa listrada sentada numa cadeira no topo de uma colina com flores rosas desfocadas em primeiro plano e nuvens.",
+  "tecnica": {
+    "como_e_feito": "Imagem estática com desfoque de primeiro plano; animável com push-in lento e parallax entre flores, colina e céu.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#7FB2E5",
+      "#FFFFFF",
+      "#5E8C3A",
+      "#E7A3C4"
+    ],
+    "efeitos": [
+      "profundidade de campo",
+      "parallax"
+    ]
+  },
+  "quando_usar": "Momentos reflexivos, solidão, paz, 'olhar para o futuro'.",
+  "mood": [
+    "contemplativo",
+    "calmo"
+  ],
+  "tags": [
+    "ceu",
+    "colina",
+    "pessoa",
+    "sonho",
+    "calmo",
+    "cenario"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 535,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

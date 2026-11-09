@@ -1,0 +1,54 @@
+{
+  "id": "web-0015",
+  "area": "site",
+  "arquivo": "forma-studio-hero-poltrona.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "moveis",
+  "titulo": "Hero 'forma studio' com poltrona azul e palavra gigante",
+  "descricao": "Hero azul com a palavra gigante 'forma' em branco atravessada por uma poltrona azul de veludo, menu em pílula, card de atendimento e setas de navegação.",
+  "tecnica": {
+    "como_e_feito": "Moldura branca arredondada dentro de fundo azul; produto 3D sobre o título; UI flutuante (card com foto, bolinhas de cor).",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans arredondada bold"
+    ],
+    "cores_hex": [
+      "#1F5FD0",
+      "#FFFFFF",
+      "#0E2F78"
+    ],
+    "efeitos": [
+      "texto atrás do produto",
+      "moldura arredondada"
+    ]
+  },
+  "quando_usar": "Marcas de móveis/decoração e produtos hero.",
+  "mood": [
+    "ousado",
+    "moderno"
+  ],
+  "tags": [
+    "hero",
+    "moveis",
+    "azul",
+    "produto",
+    "3d"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 552,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

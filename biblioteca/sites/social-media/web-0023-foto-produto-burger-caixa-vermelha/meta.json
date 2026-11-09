@@ -1,0 +1,51 @@
+{
+  "id": "web-0023",
+  "area": "site",
+  "arquivo": "foto-produto-burger-caixa-vermelha.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "social-media",
+  "subcategoria": "comida",
+  "titulo": "Foto de produto: burger sobre caixa vermelha quadriculada",
+  "descricao": "Hambúrguer duplo com molho escorrendo em cima de uma caixa vermelha com padrão quadriculado e logo, sobre fundo vermelho.",
+  "tecnica": {
+    "como_e_feito": "Foto de estúdio com fundo monocromático da cor da marca; embalagem como pedestal; luz frontal dura.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#D9161E",
+      "#FFFFFF",
+      "#C88A3A"
+    ],
+    "efeitos": [
+      "fundo monocromático",
+      "produto herói"
+    ]
+  },
+  "quando_usar": "Posts e anúncios de food service; hero de site de restaurante.",
+  "mood": [
+    "apetitoso",
+    "forte"
+  ],
+  "tags": [
+    "burger",
+    "foto-produto",
+    "vermelho",
+    "social"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 980,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

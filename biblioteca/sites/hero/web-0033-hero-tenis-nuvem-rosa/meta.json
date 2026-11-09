@@ -1,0 +1,55 @@
+{
+  "id": "web-0033",
+  "area": "site",
+  "arquivo": "hero-tenis-nuvem-rosa.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "moda",
+  "titulo": "Hero de tênis flutuando em nuvens rosas",
+  "descricao": "Hero com tênis rosa flutuando sobre nuvens cor-de-rosa contra céu azul, título gigante branco atrás e botão escuro.",
+  "tecnica": {
+    "como_e_feito": "Produto 3D/composição surreal; título atrás do produto; navbar de loja.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#7EC3F2",
+      "#F7B3D2",
+      "#FFFFFF",
+      "#111111"
+    ],
+    "efeitos": [
+      "surreal",
+      "texto atrás do produto"
+    ]
+  },
+  "quando_usar": "Lançamento de calçados e produtos de moda.",
+  "mood": [
+    "sonhador",
+    "divertido"
+  ],
+  "tags": [
+    "hero",
+    "tenis",
+    "moda",
+    "nuvem",
+    "rosa"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

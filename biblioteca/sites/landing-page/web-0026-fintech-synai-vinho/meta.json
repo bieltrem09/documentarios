@@ -1,0 +1,53 @@
+{
+  "id": "web-0026",
+  "area": "site",
+  "arquivo": "fintech-synai-vinho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "fintech",
+  "titulo": "Landing fintech 'Synai' creme e vinho",
+  "descricao": "Página com topo creme, mão segurando dispositivo, título fino, seção vinho com números e cards de ferramentas com brilho dourado.",
+  "tecnica": {
+    "como_e_feito": "Paleta creme/vinho; tipografia leve; métricas grandes; cards escuros com luz dourada.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#F2ECE4",
+      "#5E1A1E",
+      "#C9A15A"
+    ],
+    "efeitos": [
+      "métricas",
+      "luz dourada"
+    ]
+  },
+  "quando_usar": "Fintechs e consultorias financeiras premium.",
+  "mood": [
+    "sofisticado",
+    "sério"
+  ],
+  "tags": [
+    "fintech",
+    "vinho",
+    "creme",
+    "landing"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1445,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

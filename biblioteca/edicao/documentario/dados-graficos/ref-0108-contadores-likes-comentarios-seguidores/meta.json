@@ -1,0 +1,53 @@
+{
+  "id": "ref-0108",
+  "area": "edicao",
+  "arquivo": "contadores-likes-comentarios-seguidores.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "contador",
+  "titulo": "Painel 'Community' com likes, comentários e seguidores subindo",
+  "descricao": "Card branco inclinado com ícones azuis de like, comentário e seguidores e números aumentando continuamente.",
+  "tecnica": {
+    "como_e_feito": "UI simples em perspectiva com count-up em três linhas; leve movimento de câmera.",
+    "duracao_seg": 20.9,
+    "easing": null,
+    "fontes": [
+      "sans"
+    ],
+    "cores_hex": [
+      "#F2F2F2",
+      "#1E77E6",
+      "#444444"
+    ],
+    "efeitos": [
+      "count-up",
+      "perspectiva"
+    ]
+  },
+  "quando_usar": "Crescimento de perfil, viralização, engajamento.",
+  "mood": [
+    "positivo",
+    "informativo"
+  ],
+  "tags": [
+    "contador",
+    "likes",
+    "seguidores",
+    "redes-sociais"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 20.87,
+    "largura": 960,
+    "altura": 540,
+    "tamanho_mb": 3.8
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

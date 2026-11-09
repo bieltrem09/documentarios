@@ -1,0 +1,50 @@
+{
+  "id": "ref-0082",
+  "area": "edicao",
+  "arquivo": "fontes-marcas-esportivas.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "catalogo-de-fontes",
+  "titulo": "Fontes de marcas esportivas (estilo Adidas, Puma, Nike…) em fundo azul",
+  "descricao": "Grade de nomes de marcas esportivas escritos em fontes display que imitam cada logotipo, em branco sobre fundo azul marinho com faixa diagonal.",
+  "tecnica": {
+    "como_e_feito": "Referência de fontes condensadas/esportivas. Usar só como estilo; não reproduzir logotipos de marcas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "condensadas esportivas (alternativas: Bebas Neue, Saira Condensed)"
+    ],
+    "cores_hex": [
+      "#1E2A78",
+      "#FFFFFF",
+      "#3B4CC0"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Títulos de vídeos sobre esporte, competição, marcas.",
+  "mood": [
+    "esportivo",
+    "forte"
+  ],
+  "tags": [
+    "fonte",
+    "esporte",
+    "condensada",
+    "catalogo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1100,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "web-0024",
+  "area": "site",
+  "arquivo": "nft-samurai-digital-kensei.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "nft-cripto",
+  "titulo": "Landing de coleção NFT 'Digital Kensei' (samurai cyber)",
+  "descricao": "Página escura com título 'DIGITAL KENSEI' em branco e vermelho, samurai cyber de chapéu, card branco com texto e seção de estatísticas.",
+  "tecnica": {
+    "como_e_feito": "Contraste preto/branco com vermelho; ilustração de personagem; card branco arredondado; números grandes.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#FFFFFF",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "contraste",
+      "personagem"
+    ]
+  },
+  "quando_usar": "Coleções digitais, games, marcas com estética japonesa cyber.",
+  "mood": [
+    "ousado",
+    "cyber"
+  ],
+  "tags": [
+    "nft",
+    "samurai",
+    "landing",
+    "escuro",
+    "japao"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1461,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

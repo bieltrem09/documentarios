@@ -2,7 +2,9 @@
 
 > Arquivo GERADO por `npm run index`. Não edite à mão.
 
-**71 referências** · 0 receitas · gerado em 2026-11-08
+**163 referências** (109 de edição · 54 de sites) · 0 receitas · gerado em 2026-11-09
+
+# Edição de vídeo
 
 ## Documentário
 
@@ -17,6 +19,12 @@
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
 | [ref-0014](edicao/documentario/transicoes/ref-0014-transicoes-film-burn-leader/) | Transições de película: film burn, light leak e leader de filme | video | Transições entre capítulos ou épocas, flashbacks e aberturas com estética analógica. | film-burn, light-leak, pelicula, transicao, leader, analogico |
+
+### mapas (1)
+
+| ID | Título | Mídia | Quando usar | Tags |
+|---|---|---|---|---|
+| [ref-0092](edicao/documentario/mapas/ref-0092-mapa-neon-fluxo-dinheiro-china-eua/) | Mapa neon com rede de fluxo de dinheiro entre China, EUA e México | imagem | Explicar esquemas de lavagem, cartéis, rotas de dinheiro ou tráfico entre países. | mapa, rede, lavagem, dinheiro, neon, fluxo, cartel |
 
 ### arquivo-fotos (1)
 
@@ -84,15 +92,22 @@
 |---|---|---|---|---|
 | [ref-0039](edicao/noticia/documentos-jornal/ref-0039-manchete-papel-rasgado-marca-texto/) | Manchete de site em papel rasgado com trecho destacado em amarelo | imagem | Citar manchetes e matérias como prova na narração (notícia e documentário). | manchete, papel-rasgado, marca-texto, jornal, citacao |
 
-### elementos-noticia (1)
+### elementos-noticia (2)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
 | [ref-0005](edicao/noticia/elementos-noticia/ref-0005-reportagem-ciberataque-banco/) | Reportagem de TV sobre ciberataque a banco (lower thirds, números e infográfico) | video | Vídeos de notícia sobre golpes, vazamentos e ataques digitais; base para lower thirds, números de impacto e infográficos simples. Dividir em recortes (npm run trim) para refs específicas. | telejornal, lower-third, infografico, hacker, banco, numero-grande, ciberataque |
+| [ref-0109](edicao/noticia/elementos-noticia/ref-0109-estudio-virtual-telejornal-vermelho/) | Estúdio virtual de telejornal vermelho com telão chroma key | video | Abertura e blocos de vídeos de notícia; moldura para mostrar footage. | telejornal, estudio, chroma-key, globo, vermelho |
 
 ## Ambos
 
-### tipografia (10)
+### transicoes (1)
+
+| ID | Título | Mídia | Quando usar | Tags |
+|---|---|---|---|---|
+| [ref-0103](edicao/documentario/transicoes/ref-0103-portas-scifi-abrindo-3d/) | Portas sci-fi abrindo em sequência (3D) | video | Transição para revelar algo (dossiê, personagem, segredo). | porta, scifi, transicao, 3d, chroma-key |
+
+### tipografia (19)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -106,6 +121,15 @@
 | [ref-0036](edicao/documentario/tipografia/ref-0036-fonte-geometrica-alro-luminaria/) | Fonte geométrica minúscula grande sobre fundo escuro com luminária | imagem | Cartelas de capítulo minimalistas e títulos modernos. | fonte, geometrica, minusculas, display |
 | [ref-0037](edicao/documentario/tipografia/ref-0037-fonte-sans-batica-tres-fundos/) | Fonte sans larga mostrada em três fundos (creme, azul, preto) | imagem | Definir cor de fundo e fonte de cartelas; títulos limpos de notícia. | fonte, sans, azul, creme, contraste |
 | [ref-0051](edicao/documentario/tipografia/ref-0051-logo-texto-branco-fundo-preto/) | Wordmark minimalista branco centralizado em fundo preto | imagem | Referência para vinheta/logo do canal e cartelas finais. | logo, wordmark, minimalista, pb |
+| [ref-0073](edicao/documentario/tipografia/ref-0073-fontes-classicas-sistema/) | Catálogo de fontes clássicas de sistema (Arial, Times, Helvetica, Courier…) | imagem | Escolher fonte neutra para legendas, documentos simulados e interfaces. | fonte, catalogo, serifada, sans, sistema |
+| [ref-0074](edicao/documentario/tipografia/ref-0074-fonte-logo-aveton/) | Fonte geométrica de logotipo 'Aveton' sobre fundo marrom sedoso | imagem | Títulos e marcas com visual corporativo premium. | fonte, logo, geometrica, corporativa |
+| [ref-0078](edicao/documentario/tipografia/ref-0078-fontes-corporativas-sans/) | Catálogo de fontes sans corporativas (Neutiva, Gutica, Rumeno, Batica, Berneo) | imagem | Escolher família de títulos limpa para vídeo ou site. | fonte, catalogo, sans, corporativa |
+| [ref-0082](edicao/documentario/tipografia/ref-0082-fontes-marcas-esportivas/) | Fontes de marcas esportivas (estilo Adidas, Puma, Nike…) em fundo azul | imagem | Títulos de vídeos sobre esporte, competição, marcas. | fonte, esporte, condensada, catalogo |
+| [ref-0083](edicao/documentario/tipografia/ref-0083-anatomia-fonte-acting/) | Anatomia tipográfica da palavra 'Acting' (cap-height, x-height, baseline) | imagem | Explicar design/marcas; estética de 'análise' para títulos. | fonte, anatomia, tipografia, diagrama |
+| [ref-0085](edicao/documentario/tipografia/ref-0085-colecao-fontes-display-2025/) | Coleção de fontes display 2025 (Bebas, Dharma Gothic, Futura, Octin…) | imagem | Escolher a fonte de títulos e thumbnails do canal. | fonte, catalogo, condensada, display, titulo |
+| [ref-0088](edicao/documentario/tipografia/ref-0088-fontes-display-metal-gotico/) | Fontes display ultracondensadas, góticas e 'metal' em fundo preto | imagem | Títulos de true crime, terror, seitas, subculturas. | fonte, gotica, metal, display, condensada |
+| [ref-0096](edicao/documentario/tipografia/ref-0096-explicativo-azul-livro-icones/) | Motion explicativo azul: livro de regras, pessoa no celular e frases reveladas | video | Explicar métodos, estratégias e 'segredos' em ritmo de narração. | explicativo, azul, icones, lupa, texto-animado |
+| [ref-0107](edicao/documentario/tipografia/ref-0107-chat-3d-texto-cinetico-predios/) | Chat 3D em celular e texto cinético projetado em prédios | video | Lyric-style, citações, pensamentos do personagem em cenário urbano. | texto-cinetico, chat, celular, 3d, predios, tracking |
 
 ### mapas (1)
 
@@ -113,7 +137,7 @@
 |---|---|---|---|---|
 | [ref-0061](edicao/documentario/mapas/ref-0061-globo-pontilhado-pb/) | Globo terrestre em pontos brancos sobre fundo preto | imagem | Abrir matérias internacionais, mostrar localização/rotas, transição para mapa. | globo, mapa, pontos, dot-matrix, mundo |
 
-### dados-graficos (5)
+### dados-graficos (8)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -122,6 +146,9 @@
 | [ref-0013](edicao/documentario/dados-graficos/ref-0013-grafico-linha-neon-desenhando/) | Gráfico de linha branca neon se desenhando com ponto vermelho no topo | video | Mostrar crescimento, alta de preço, escalada de casos ou de dívida; versão minimalista para notícia ou documentário. | grafico, linha, neon, draw-on, crescimento, dados |
 | [ref-0038](edicao/documentario/dados-graficos/ref-0038-card-preco-cripto-glass/) | Card escuro de cotação (Ethereum) com gráfico de linha fino | imagem | Mostrar cotação/preço em vídeos de cripto, ações e economia. | cripto, cotacao, card, grafico, ui, preco |
 | [ref-0041](edicao/documentario/dados-graficos/ref-0041-colagem-dedos-grafico-vermelho/) | Colagem: dedos vintage apontando para gráfico em zigue-zague sobre grade vermelha | imagem | Altos e baixos do mercado, culpa/acusação, volatilidade econômica. | colagem, grafico, maos, vermelho, grade, economia |
+| [ref-0076](edicao/documentario/dados-graficos/ref-0076-contador-views-celulares-3d/) | Contador de visualizações com celulares de vidro flutuando | imagem | Mostrar viralização, audiência, alcance de vídeo/notícia. | contador, views, 3d, celular, viral |
+| [ref-0102](edicao/documentario/dados-graficos/ref-0102-contador-dolares-subindo/) | Contador de dólares subindo rapidamente | video | Mostrar acúmulo de dinheiro, prejuízos, fortunas. | contador, dinheiro, numero, count-up |
+| [ref-0108](edicao/documentario/dados-graficos/ref-0108-contadores-likes-comentarios-seguidores/) | Painel 'Community' com likes, comentários e seguidores subindo | video | Crescimento de perfil, viralização, engajamento. | contador, likes, seguidores, redes-sociais |
 
 ### arquivo-fotos (8)
 
@@ -136,13 +163,29 @@
 | [ref-0043](edicao/documentario/arquivo-fotos/ref-0043-cerebro-halftone-recorte-borda-branca/) | Cérebro em halftone recortado com borda branca (sticker) | imagem | Elemento de colagem para psicologia, vício, comportamento. | cerebro, halftone, sticker, recorte, psicologia |
 | [ref-0052](edicao/documentario/arquivo-fotos/ref-0052-predio-afundando-buraco-azul/) | Prédio institucional P&B afundando num buraco sobre fundo azul petróleo | imagem | Colapso de banco, empresa ou instituição; crise e falência. | colagem, predio, colapso, banco, azul, metafora |
 
-### texturas-overlays (1)
+### documentos-jornal (1)
+
+| ID | Título | Mídia | Quando usar | Tags |
+|---|---|---|---|---|
+| [ref-0093](edicao/documentario/documentos-jornal/ref-0093-artigo-papel-destaque-texto/) | Trecho de artigo acadêmico impresso com frase destacada em vermelho | imagem | Citar estudos, artigos e fontes como prova na narração. | artigo, marca-texto, citacao, papel, fonte |
+
+### texturas-overlays (5)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
 | [ref-0011](edicao/documentario/texturas-overlays/ref-0011-overlay-camera-rec-legenda-destaque/) | Overlay de câmera REC com legenda e palavra destacada em amarelo | video | Simular filmagem amadora/câmera de segurança e criar suspense; cartelas de frase de impacto entre cenas. | rec, viewfinder, camera, overlay, cartela, palavra-destacada, amarelo |
+| [ref-0094](edicao/documentario/texturas-overlays/ref-0094-overlay-codigo-matrix-vermelho/) | Chuva de código estilo Matrix em vermelho (vertical) | video | Hackers, ataques, vazamentos, invasão digital. | matrix, codigo, hacker, vermelho, overlay, loop |
+| [ref-0095](edicao/documentario/texturas-overlays/ref-0095-scan-digital-verde-hud/) | Leitura de impressão digital em túnel verde (HUD) | video | Biometria, identificação, segurança, invasão de sistemas. | digital, biometria, hud, verde, scan |
+| [ref-0101](edicao/documentario/texturas-overlays/ref-0101-alerta-erro-critico-glitch/) | Ícone de alerta vermelho 'CRITICAL ERROR' com glitch | video | Falhas de sistema, ataques, alertas, perigo. | alerta, erro, glitch, vermelho, overlay |
+| [ref-0105](edicao/documentario/texturas-overlays/ref-0105-x-neon-vermelho/) | X vermelho em néon aparecendo e sumindo | video | Negar, errado, proibido, falha, eliminação de opção. | x, neon, erro, vermelho, icone |
 
-### b-roll (9)
+### ritmo-cortes (1)
+
+| ID | Título | Mídia | Quando usar | Tags |
+|---|---|---|---|---|
+| [ref-0099](edicao/documentario/ritmo-cortes/ref-0099-explicativo-vermelho-busca-local/) | Motion explicativo vermelho e escuro: Google, mapas e loja (cortes rápidos) | video | Explicações rápidas de negócio/marketing com ritmo alto. | explicativo, cortes-rapidos, google, mapa, vermelho |
+
+### b-roll (19)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -155,8 +198,18 @@
 | [ref-0054](edicao/documentario/b-roll/ref-0054-moedas-3d-metal-escuro/) | Moedas metálicas escuras com logos em círculo (3D) sobre branco | imagem | Ações, investimentos, tokenização, empresas como ativos. | moedas, 3d, metal, acoes, investimento |
 | [ref-0056](edicao/documentario/b-roll/ref-0056-mockup-celular-tela-branca/) | Mockup de celular deitado em perspectiva com tela branca | imagem | Mostrar apps, mensagens, notificações e posts em vídeos de golpe/tecnologia. | mockup, celular, tela, screen-replacement |
 | [ref-0060](edicao/documentario/b-roll/ref-0060-mockup-celular-na-mao/) | Mockup de celular na mão com tela branca | imagem | Mostrar mensagens, posts, apps de banco e golpes de celular. | mockup, celular, mao, tela, screen-replacement |
+| [ref-0077](edicao/documentario/b-roll/ref-0077-pessoa-cadeira-colina-ceu/) | Pessoa sentada numa cadeira no alto de uma colina florida sob céu azul | imagem | Momentos reflexivos, solidão, paz, 'olhar para o futuro'. | ceu, colina, pessoa, sonho, calmo, cenario |
+| [ref-0081](edicao/documentario/b-roll/ref-0081-janela-aviao-nuvens-ilustracao/) | Interior de avião com poltrona e janelas mostrando nuvens (estilo 3D suave) | imagem | Viagens, fuga, deslocamento, início de capítulo. | aviao, janela, nuvens, viagem, 3d |
+| [ref-0084](edicao/documentario/b-roll/ref-0084-colina-grama-ceu-azul/) | Colina de grama verde com flores sob céu azul (render) | imagem | Cenário neutro/positivo para colagens, transições calmas e fundos de texto. | colina, grama, ceu, fundo, natureza |
+| [ref-0086](edicao/documentario/b-roll/ref-0086-cofre-lasers-vermelhos/) | Porta de cofre circular protegida por lasers vermelhos (3D) | imagem | Roubos, segurança bancária, segredos protegidos. | cofre, laser, banco, roubo, 3d, seguranca |
+| [ref-0087](edicao/documentario/b-roll/ref-0087-vagao-metro-vazio-3d/) | Interior vazio de vagão de metrô antigo (render Unreal) | imagem | Cenas urbanas noturnas, solidão, crimes em transporte público. | metro, vagao, urbano, 3d, abandonado |
+| [ref-0090](edicao/documentario/b-roll/ref-0090-cofre-aberto-pilhas-dinheiro/) | Porta de cofre aberta com pilhas de dinheiro transbordando (3D) | imagem | Fortunas, lavagem de dinheiro, bancos, roubos. | cofre, dinheiro, banco, 3d, fortuna |
+| [ref-0091](edicao/documentario/b-roll/ref-0091-colina-grama-vertical-bolhas/) | Topo de colina verde com bolhas de sabão no céu (vertical) | imagem | Fundos leves, transições, conteúdo infantil ou positivo (formato vertical). | colina, bolhas, ceu, vertical, fundo |
+| [ref-0097](edicao/documentario/b-roll/ref-0097-janela-trem-paisagem-montanhas-loop/) | Janela de trem com montanhas passando (loop ilustrado) | video | Viagens, transição de tempo, reflexão, fundo para texto/site. | trem, janela, paisagem, loop, viagem |
+| [ref-0100](edicao/documentario/b-roll/ref-0100-cofre-banco-3d-animacao/) | Animação 3D de cofre de banco abrindo até cofres individuais | video | Explicar como bancos guardam valores, roubos e segredos. | cofre, banco, 3d, animacao, deposito |
+| [ref-0104](edicao/documentario/b-roll/ref-0104-busca-google-digitando/) | Busca no Google sendo digitada (tema escuro) | video | Mostrar pesquisas, curiosidade pública, tendências. | google, busca, digitacao, tela, ui |
 
-### thumbnails (12)
+### thumbnails (16)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
@@ -172,11 +225,114 @@
 | [ref-0064](edicao/documentario/thumbnails/ref-0064-thumb-titulo-amarelo-tarja-olhos/) | Thumbnail: título amarelo brilhante, trio de pessoas e tarja vermelha nos olhos | imagem | Segredos de família, escândalos de famosos, revelações. | thumbnail, tarja-olhos, amarelo, segredo, escandalo |
 | [ref-0065](edicao/documentario/thumbnails/ref-0065-thumb-notificacoes-saindo-da-cabeca/) | Thumbnail: notificações de apps saindo da cabeça aberta de uma pessoa | imagem | Vício em redes sociais, dopamina, atenção, tecnologia e mente. | thumbnail, notificacoes, cabeca, dopamina, redes-sociais, vermelho |
 | [ref-0066](edicao/documentario/thumbnails/ref-0066-thumb-boneco-vermelho-multidao-genius/) | Thumbnail: rosto + multidão cinza com um boneco vermelho ('Genius') | imagem | Thumbnails sobre gênios, exceções, minorias excepcionais. | thumbnail, destaque-vermelho, multidao, seta, genio |
+| [ref-0072](edicao/documentario/thumbnails/ref-0072-thumb-retrato-recortado-titulo-gigante-rabiscos/) | Thumbnail: retrato P&B recortado, título gigante vermelho e rabiscos à mão | imagem | Thumbnails de documentário sobre bilionários, polêmicas e perfis psicológicos. | thumbnail, recorte, rabisco, vermelho, bilionario, papel |
+| [ref-0075](edicao/documentario/thumbnails/ref-0075-poster-samurai-titulo-vermelho/) | Pôster: samurai ilustrado sobre título preto gigante em fundo vermelho | imagem | Capas e cartelas de capítulos sobre história do Japão, guerra, guerreiros. | poster, samurai, vermelho, titulo-gigante, ilustracao, japao |
+| [ref-0079](edicao/documentario/thumbnails/ref-0079-thumb-retrato-cedula-papel-rasgado/) | Thumbnail: retrato de bilionário fundido a uma cédula de 100 dólares | imagem | Documentários sobre fortunas, filantropia questionada, poder do dinheiro. | thumbnail, cedula, dinheiro, colagem, papel-rasgado, bilionario |
+| [ref-0080](edicao/documentario/thumbnails/ref-0080-thumb-cabeca-aberta-cerebro-logos/) | Thumbnail: empresário com o topo da cabeça aberto mostrando o cérebro conectado | imagem | Tecnologia, implantes cerebrais, mente de empreendedores. | thumbnail, cerebro, surreal, tecnologia, rosto |
 
-### outros (3)
+### outros (6)
 
 | ID | Título | Mídia | Quando usar | Tags |
 |---|---|---|---|---|
 | [ref-0017](edicao/documentario/outros/ref-0017-personagens-esfera-roxo-explicativo/) | Personagens 3D de esfera translúcida em fundo roxo (estilo explicativo) | video | Explicar conceitos abstratos (aprendizado, psicologia, comportamento) em tom calmo, sem personagens reais. | personagem, 3d, minimalista, roxo, wireframe, explicativo |
 | [ref-0045](edicao/documentario/outros/ref-0045-icone-espiao-chapeu-sobretudo/) | Ícone flat de espião anônimo (chapéu e sobretudo) | imagem | Representar espiões, informantes anônimos, hackers, agentes secretos. | icone, espiao, anonimo, flat, incognito |
 | [ref-0069](edicao/documentario/outros/ref-0069-icones-redes-sociais-3d/) | Grade de ícones de redes sociais em estilo 3D suave | imagem | Cenas sobre redes sociais, viralização, plataformas. | icones, redes-sociais, apps, 3d |
+| [ref-0089](edicao/documentario/outros/ref-0089-boneco-3d-puxado-por-corda/) | Figura 3D cinza sem rosto sendo puxada por uma corda | imagem | Metáfora de dívida, controle, opressão, vício (evitar em temas de suicídio). | 3d, conceitual, corda, controle, opressao |
+| [ref-0098](edicao/documentario/outros/ref-0098-baloes-chat-mensagens-aparecendo/) | Balões de mensagem de chat surgindo (estilo WhatsApp) | video | Recriar conversas (golpes, ameaças, provas) sem prints reais. | chat, mensagem, whatsapp, conversa, template |
+| [ref-0106](edicao/documentario/outros/ref-0106-mockups-celular-motion-perfil/) | Motion com telas de celular: notificações, perfis e textos | video | Contar história de pessoa/influenciador por meio de telas de celular. | celular, mockup, perfil, notificacao, motion |
+
+# Criação de sites
+
+## hero (11)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0007](sites/hero/web-0007-hero-seguranca-moldura-device/) | Hero 'SECURITY' com foto surreal dentro de moldura de dispositivo | seguranca | imagem | Produtos de tecnologia/segurança com estética tech-industrial. | hero, seguranca, tech, moldura, condensada |
+| [web-0010](sites/hero/web-0010-hero-logistica-caminhao-estrada/) | Hero de transportadora com caminhão na estrada e números | logistica | imagem | Transportadoras e empresas de serviços. | hero, logistica, caminhao, metricas |
+| [web-0015](sites/hero/web-0015-forma-studio-hero-poltrona/) | Hero 'forma studio' com poltrona azul e palavra gigante | moveis | imagem | Marcas de móveis/decoração e produtos hero. | hero, moveis, azul, produto, 3d |
+| [web-0018](sites/hero/web-0018-hero-leite-organico-coco/) | Hero de leite orgânico com cocos e palavra gigante | bebida | imagem | Produtos naturais, laticínios, cosméticos. | hero, leite, organico, produto |
+| [web-0021](sites/hero/web-0021-hero-headset-vr-minimalista/) | Hero minimalista de headset de realidade mista | tecnologia | imagem | Lançamento de produto tech premium. | hero, tecnologia, vr, minimalista, branco |
+| [web-0025](sites/hero/web-0025-hero-ia-ponte-natureza/) | Hero de SaaS de IA com ponte de pedra entre montanhas | ia-saas | imagem | SaaS/IA que quer fugir do visual tech genérico. | hero, ia, saas, natureza, metafora |
+| [web-0029](sites/hero/web-0029-hero-janela-trem-produtividade/) | Hero 'Focus in a Constantly Distracted World' visto pela janela de trem | produtividade | imagem | Apps de produtividade/foco, lista de espera de lançamento. | hero, janela, trem, waitlist, produtividade |
+| [web-0032](sites/hero/web-0032-hero-aviacao-luxury-affordable/) | Hero 'Luxury. Affordable.' com turbina de jato | aviacao | imagem | Viagens premium, aviação, serviços de luxo acessível. | hero, aviacao, luxo, minimalista |
+| [web-0033](sites/hero/web-0033-hero-tenis-nuvem-rosa/) | Hero de tênis flutuando em nuvens rosas | moda | imagem | Lançamento de calçados e produtos de moda. | hero, tenis, moda, nuvem, rosa |
+| [web-0041](sites/hero/web-0041-hero-moped-eletrico/) | Hero 'Super fast electric Moped' com scooter branca | mobilidade | imagem | Mobilidade elétrica, produtos de tecnologia. | hero, moped, mobilidade, produto |
+| [web-0043](sites/hero/web-0043-hero-galeria-arte-cards/) | Hero 'A place to display your masterpiece' com leque de cards | arte | imagem | Marketplaces criativos, portfólios. | hero, arte, galeria, cards, marketplace |
+
+## landing-page (20)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0002](sites/landing-page/web-0002-nutella-biscoitos-landing/) | Landing de biscoitos com faixas onduladas e chocolate escorrendo | comida | imagem | Produtos alimentícios divertidos e campanhas de lançamento. | landing, comida, marquee, doce, colorido |
+| [web-0006](sites/landing-page/web-0006-burger-delivery-azul-xadrez/) | Landing de delivery de burger azul com faixa xadrez | comida | imagem | Restaurantes, food trucks, delivery. | comida, burger, delivery, azul, landing |
+| [web-0008](sites/landing-page/web-0008-payrot-fintech-landing/) | Landing fintech 'Payrot' azul com arara e globo | fintech | imagem | Fintechs, pagamentos internacionais, SaaS financeiro. | fintech, pagamento, azul, 3d, landing |
+| [web-0009](sites/landing-page/web-0009-genesis-viagem-monitor/) | Site de viagens 'Genesis' com avião saindo das nuvens (em monitor) | viagem | imagem | Agências de viagem e turismo. | viagem, aviao, hero, busca, nuvens |
+| [web-0011](sites/landing-page/web-0011-aviacao-luxo-paginas-escuras/) | Aviação de luxo: janela de avião, foguete/jato e globo | aviacao | imagem | Marcas premium de viagem, aviação executiva. | aviacao, luxo, storytelling, bege |
+| [web-0013](sites/landing-page/web-0013-tenis-play-strong-landing/) | Landing de tênis 'Play Strong' com atleta saltando | esporte | imagem | Academias, clubes e escolas de esporte. | esporte, tenis, landing, condensada |
+| [web-0014](sites/landing-page/web-0014-confeitaria-golden-landing/) | Confeitaria 'Golden Creations' vinho e rosa | comida | imagem | Padarias, confeitarias, cafés. | confeitaria, padaria, comida, landing, rosa |
+| [web-0017](sites/landing-page/web-0017-suco-laranja-landing-vibrante/) | Landing de sucos com fundo laranja padronizado | bebida | imagem | Bebidas, sucos, marcas jovens. | bebida, suco, laranja, landing |
+| [web-0019](sites/landing-page/web-0019-padaria-azul-russa-landing/) | Landing de padaria azul com pães flutuando (russo) | comida | imagem | Padarias e cafés com identidade forte. | padaria, comida, azul, landing, russo |
+| [web-0020](sites/landing-page/web-0020-burger-crave-amarelo-landing/) | Landing de burger 'Crave it' amarelo e vinho com versão mobile | comida | imagem | Fast food e apps de pedido. | burger, comida, amarelo, landing, mobile |
+| [web-0022](sites/landing-page/web-0022-cardapio-frango-vermelho-amarelo/) | Cardápio online de frango com fogo e tipografia retrô | comida | imagem | Restaurantes e cardápios digitais. | cardapio, restaurante, frango, retro, vermelho |
+| [web-0024](sites/landing-page/web-0024-nft-samurai-digital-kensei/) | Landing de coleção NFT 'Digital Kensei' (samurai cyber) | nft-cripto | imagem | Coleções digitais, games, marcas com estética japonesa cyber. | nft, samurai, landing, escuro, japao |
+| [web-0026](sites/landing-page/web-0026-fintech-synai-vinho/) | Landing fintech 'Synai' creme e vinho | fintech | imagem | Fintechs e consultorias financeiras premium. | fintech, vinho, creme, landing |
+| [web-0027](sites/landing-page/web-0027-fintech-charter-pagina-longa/) | Página longa de app financeiro 'Charter' (mobile) | fintech | imagem | Referência de estrutura de landing mobile de app. | fintech, mobile, app, landing |
+| [web-0037](sites/landing-page/web-0037-snacks-mellow-neon/) | Landing de snacks 'Mellow' com neon e adesivos | comida | imagem | Marcas jovens de snacks/bebidas. | snacks, neon, landing, adesivo, jovem |
+| [web-0038](sites/landing-page/web-0038-eclair-confeitaria-russa/) | Landing de éclairs vermelha com ilustração (russo) | comida | imagem | Confeitarias e cafés. | confeitaria, doce, vermelho, landing, russo |
+| [web-0039](sites/landing-page/web-0039-evento-atletas-showcase/) | Página de evento 'Athlete Showcase' com atletas e contagem | esporte | imagem | Eventos esportivos, campeonatos. | esporte, evento, atletas, landing |
+| [web-0044](sites/landing-page/web-0044-tenis-move-faster-pagina/) | Página de escola de tênis 'Move Faster' azul | esporte | imagem | Escolas de esporte, academias. | esporte, tenis, landing, azul |
+| [web-0052](sites/landing-page/web-0052-aluguel-carros-premium/) | Landing de aluguel de carros premium em Nova York (vídeo) | automotivo | video | Locadoras, concessionárias, serviços automotivos. | carros, aluguel, landing, automotivo |
+| [web-0054](sites/landing-page/web-0054-relogio-acf-produto-scroll/) | Página de relógio mecânico 'ACF-01' com explosão de peças (vídeo) | relojoaria | video | Produtos de engenharia/luxo: relógios, carros, hardware. | relogio, 3d, explodido, produto, scroll |
+
+## ecommerce (2)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0001](sites/ecommerce/web-0001-silvana-ecommerce-banquinho/) | Loja de móveis minimalista 'Silvana Stool' (desktop + mobile) | moveis | imagem | Lojas de design/móveis e produtos premium minimalistas. | ecommerce, moveis, minimalista, hero, bege |
+| [web-0016](sites/ecommerce/web-0016-jaqueta-inverno-produto/) | Página de produto de jaqueta de inverno (marrom acinzentado) | moda | imagem | Lojas de moda e páginas de produto único. | ecommerce, moda, jaqueta, produto |
+
+## institucional (7)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0004](sites/institucional/web-0004-logistica-caminhoes-pagina-escura/) | Página escura de logística com caminhões, contêiner e números | logistica | imagem | Sites de transporte, indústria e serviços pesados. | logistica, caminhao, institucional, escuro, industria |
+| [web-0005](sites/institucional/web-0005-construcao-apresentacao-russa/) | Apresentação de construtora com cards claros sobre fundo escuro | construcao | imagem | Apresentações e sites de construção/imobiliário. | construcao, institucional, cards, russo |
+| [web-0028](sites/institucional/web-0028-arquitetura-vela-armon/) | Site de arquitetura 'vela armon' com casas modernas | arquitetura | imagem | Escritórios de arquitetura e imobiliárias de alto padrão. | arquitetura, imobiliario, minimalista, institucional |
+| [web-0030](sites/institucional/web-0030-centro-empresarial-russo/) | Site de centro empresarial 'Meridian' (russo) com cards | imobiliario | imagem | Imobiliário comercial e apresentações de venda. | imobiliario, institucional, cards, russo |
+| [web-0031](sites/institucional/web-0031-clinica-dental-verde-claro/) | Site de clínica odontológica claro com verde-limão | saude | imagem | Clínicas, saúde e estética. | saude, dentista, clinica, institucional, verde |
+| [web-0047](sites/institucional/web-0047-logistica-scroll-animado-caminhao/) | Logística com scroll animado: caminhão, estrada, navio e avião (vídeo) | logistica | video | Sites institucionais que precisam contar um processo. | logistica, scroll, gsap, storytelling, caminhao |
+| [web-0048](sites/institucional/web-0048-logistica-scroll-navio-depoimentos/) | Logística: navio no oceano, benefícios e depoimentos (vídeo) | logistica | video | Complementa web-scroll de logística; seções de benefícios e prova social. | logistica, navio, depoimentos, scroll |
+
+## portfolio-editorial (3)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0036](sites/portfolio-editorial/web-0036-f1-editorial-pagina/) | Site editorial de Fórmula 1 com contagem regressiva | esporte | imagem | Portais esportivos e páginas de evento. | f1, esporte, editorial, contador |
+| [web-0049](sites/portfolio-editorial/web-0049-cosmos-curadoria-imagens/) | Site 'COSMOS' de curadoria de imagens com imagens flutuando (vídeo) | curadoria | video | Ferramentas criativas, portfólios de fotografia, apps de curadoria. | curadoria, portfolio, 3d, parallax, editorial |
+| [web-0050](sites/portfolio-editorial/web-0050-oda-nobunaga-site-historia/) | Site ilustrado 'Unifiers of Japan' (Oda Nobunaga) vermelho e creme (vídeo) | historia | video | Sites/vídeos de história, biografias e storytelling cultural (também inspira cenas de documentário). | historia, japao, ilustracao, timeline, editorial, vermelho |
+
+## mockup-apresentacao (5)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0003](sites/mockup-apresentacao/web-0003-novura-vitrine-design/) | Vitrine 'Latest Design' de site de bebida (Novura) | bebida | imagem | Apresentar projeto de site em portfólio/Behance. | vitrine, bebida, portfolio, mockup |
+| [web-0045](sites/mockup-apresentacao/web-0045-joias-anel-site-escuro/) | Apresentação de site de joias com anéis cromados (vídeo) | joias | video | Joalherias e produtos de luxo. | joias, anel, luxo, escuro, mockup |
+| [web-0046](sites/mockup-apresentacao/web-0046-cookie-antes-depois-site/) | 'From boring to wow': site de cookies em animação | comida | video | Mostrar redesign/antes-depois para clientes. | cookie, comida, antes-depois, mockup |
+| [web-0051](sites/mockup-apresentacao/web-0051-template-3d-rocha-glass/) | Template de site 3D com rocha flutuante e anel de vidro (vídeo) | ia-saas | video | Landing de SaaS/IA com visual 3D premium. | 3d, template, vidro, saas, ia |
+| [web-0053](sites/mockup-apresentacao/web-0053-mockup-notebook-rocha-site/) | Notebook sobre rochas exibindo site escuro (vídeo) | agencia | video | Apresentar site/portfólio com impacto. | mockup, notebook, apresentacao, escuro |
+
+## identidade-marca (2)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0012](sites/identidade-marca/web-0012-logo-click-cursor/) | Logo 'click' com cursor no lugar do 'i' | logo | imagem | Inspiração de wordmark com ícone embutido. | logo, wordmark, cursor, icone |
+| [web-0042](sites/identidade-marca/web-0042-logo-connect-n-ligado/) | Logo 'CONNECT' com letras ligadas | logo | imagem | Inspiração de wordmark com conceito. | logo, wordmark, ligadura, conexao |
+
+## social-media (4)
+
+| ID | Título | Segmento | Mídia | Quando usar | Tags |
+|---|---|---|---|---|---|
+| [web-0023](sites/social-media/web-0023-foto-produto-burger-caixa-vermelha/) | Foto de produto: burger sobre caixa vermelha quadriculada | comida | imagem | Posts e anúncios de food service; hero de site de restaurante. | burger, foto-produto, vermelho, social |
+| [web-0034](sites/social-media/web-0034-posts-burger-arabe-amarelo/) | Grade de posts de burger com tipografia árabe (amarelo e vermelho) | comida | imagem | Planejar feed de restaurante/marca. | social, posts, burger, arabe, feed |
+| [web-0035](sites/social-media/web-0035-poster-burger-smashing/) | Pôster 'SMASHING!' com burger explodindo | comida | imagem | Anúncios de comida, hero de cardápio. | poster, burger, vermelho, anuncio |
+| [web-0040](sites/social-media/web-0040-posts-burger-laranja-arabe/) | Grade de posts de burger e frango laranja com árabe | comida | imagem | Feed de restaurante/fast food. | social, posts, burger, laranja, feed |

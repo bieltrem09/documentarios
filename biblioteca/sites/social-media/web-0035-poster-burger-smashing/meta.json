@@ -1,0 +1,53 @@
+{
+  "id": "web-0035",
+  "area": "site",
+  "arquivo": "poster-burger-smashing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "social-media",
+  "subcategoria": "comida",
+  "titulo": "Pôster 'SMASHING!' com burger explodindo",
+  "descricao": "Pôster vertical vermelho com hambúrguer partido no ar, queijo esticando, migalhas voando e título branco condensado no topo.",
+  "tecnica": {
+    "como_e_feito": "Foto de ação congelada; título condensado heavy; fundo vermelho; botão 'Order now'.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy"
+    ],
+    "cores_hex": [
+      "#D9161E",
+      "#FFFFFF",
+      "#E8B04A"
+    ],
+    "efeitos": [
+      "ação congelada",
+      "partículas"
+    ]
+  },
+  "quando_usar": "Anúncios de comida, hero de cardápio.",
+  "mood": [
+    "impactante",
+    "apetitoso"
+  ],
+  "tags": [
+    "poster",
+    "burger",
+    "vermelho",
+    "anuncio"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 984,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ref-0086",
+  "area": "edicao",
+  "arquivo": "cofre-lasers-vermelhos.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "cofre-3d",
+  "titulo": "Porta de cofre circular protegida por lasers vermelhos (3D)",
+  "descricao": "Corredor metálico escuro com uma grande porta de cofre redonda ao fundo, cruzado por feixes de laser vermelhos em várias direções.",
+  "tecnica": {
+    "como_e_feito": "Render 3D com luz de teto e reflexos; lasers como linhas emissivas vermelhas. Animável: lasers piscando/varrendo e câmera aproximando.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#2A2A2A",
+      "#B0B0B0",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "lasers",
+      "render 3D",
+      "reflexo"
+    ]
+  },
+  "quando_usar": "Roubos, segurança bancária, segredos protegidos.",
+  "mood": [
+    "tenso",
+    "misterioso"
+  ],
+  "tags": [
+    "cofre",
+    "laser",
+    "banco",
+    "roubo",
+    "3d",
+    "seguranca"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 420,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

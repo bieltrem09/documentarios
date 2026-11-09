@@ -1,0 +1,56 @@
+{
+  "id": "ref-0093",
+  "area": "edicao",
+  "arquivo": "artigo-papel-destaque-texto.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "documentos-jornal",
+  "subcategoria": "destaque-de-texto",
+  "titulo": "Trecho de artigo acadêmico impresso com frase destacada em vermelho",
+  "descricao": "Folha de papel inclinada com título serifado, autores e um parágrafo; um trecho da frase recebe marca-texto salmão, com vinheta escura nas bordas.",
+  "tecnica": {
+    "como_e_feito": "Texto real em serifada sobre papel 3D levemente inclinado; marca-texto animado (wipe) sobre a frase-chave; câmera com push-in e desfoque nas bordas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada (Georgia/Times)"
+    ],
+    "cores_hex": [
+      "#F2F2F2",
+      "#1E1E1E",
+      "#F08A70"
+    ],
+    "efeitos": [
+      "marca-texto",
+      "perspectiva",
+      "vinheta",
+      "push-in"
+    ]
+  },
+  "quando_usar": "Citar estudos, artigos e fontes como prova na narração.",
+  "mood": [
+    "informativo",
+    "sério"
+  ],
+  "tags": [
+    "artigo",
+    "marca-texto",
+    "citacao",
+    "papel",
+    "fonte"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "youtube",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1920,
+    "altura": 1080,
+    "tamanho_mb": 0.9
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

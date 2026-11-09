@@ -1,0 +1,54 @@
+{
+  "id": "web-0001",
+  "area": "site",
+  "arquivo": "silvana-ecommerce-banquinho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "ecommerce",
+  "subcategoria": "moveis",
+  "titulo": "Loja de móveis minimalista 'Silvana Stool' (desktop + mobile)",
+  "descricao": "Página de produto com título enorme cortado pelo banquinho branco orgânico, filtros em pílulas e cards arredondados com fotos do produto, ao lado da versão mobile.",
+  "tecnica": {
+    "como_e_feito": "Hero com tipografia gigante atrás do produto recortado (z-index); paleta bege; cards com raio grande; pílulas de filtro; layout responsivo lado a lado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold"
+    ],
+    "cores_hex": [
+      "#EEEAE4",
+      "#1A1A1A",
+      "#C9B8A4"
+    ],
+    "efeitos": [
+      "texto atrás do produto",
+      "cards arredondados"
+    ]
+  },
+  "quando_usar": "Lojas de design/móveis e produtos premium minimalistas.",
+  "mood": [
+    "minimalista",
+    "premium"
+  ],
+  "tags": [
+    "ecommerce",
+    "moveis",
+    "minimalista",
+    "hero",
+    "bege"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

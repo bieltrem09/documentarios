@@ -1,0 +1,54 @@
+{
+  "id": "web-0031",
+  "area": "site",
+  "arquivo": "clinica-dental-verde-claro.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "institucional",
+  "subcategoria": "saude",
+  "titulo": "Site de clínica odontológica claro com verde-limão",
+  "descricao": "Página de clínica com médico de jaleco, renders 3D de dentes e implantes, cards claros e versão mobile ao lado.",
+  "tecnica": {
+    "como_e_feito": "Paleta cinza-claro + verde-limão; renders 3D clínicos; cards arredondados; mobile.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#EEF0EE",
+      "#C7F25A",
+      "#1E1E1E"
+    ],
+    "efeitos": [
+      "3D clínico",
+      "cards"
+    ]
+  },
+  "quando_usar": "Clínicas, saúde e estética.",
+  "mood": [
+    "limpo",
+    "confiável"
+  ],
+  "tags": [
+    "saude",
+    "dentista",
+    "clinica",
+    "institucional",
+    "verde"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

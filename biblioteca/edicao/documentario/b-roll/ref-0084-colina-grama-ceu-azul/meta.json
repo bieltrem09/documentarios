@@ -1,0 +1,53 @@
+{
+  "id": "ref-0084",
+  "area": "edicao",
+  "arquivo": "colina-grama-ceu-azul.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "cenario-ia",
+  "titulo": "Colina de grama verde com flores sob céu azul (render)",
+  "descricao": "Morro de grama alta verde com pequenas flores vermelhas e brancas sob céu azul com nuvens, em estilo render 3D realista.",
+  "tecnica": {
+    "como_e_feito": "Fundo estático para composições; animável com vento na grama e nuvens em loop.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#7FB7E6",
+      "#FFFFFF",
+      "#3E8E2E",
+      "#D9473D"
+    ],
+    "efeitos": [
+      "render 3D",
+      "loop"
+    ]
+  },
+  "quando_usar": "Cenário neutro/positivo para colagens, transições calmas e fundos de texto.",
+  "mood": [
+    "calmo",
+    "positivo"
+  ],
+  "tags": [
+    "colina",
+    "grama",
+    "ceu",
+    "fundo",
+    "natureza"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 368,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

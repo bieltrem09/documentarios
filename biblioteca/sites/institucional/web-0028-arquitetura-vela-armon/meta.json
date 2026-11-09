@@ -1,0 +1,53 @@
+{
+  "id": "web-0028",
+  "area": "site",
+  "arquivo": "arquitetura-vela-armon.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "institucional",
+  "subcategoria": "arquitetura",
+  "titulo": "Site de arquitetura 'vela armon' com casas modernas",
+  "descricao": "Página com fotos de residências modernas, títulos minúsculos grandes ('about us', 'why vela armon') e texto com palavras destacadas em laranja.",
+  "tecnica": {
+    "como_e_feito": "Tipografia fina gigante em minúsculas; fotos arquitetônicas; destaque de palavras em cor; muito espaço.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#F2F0EC",
+      "#2B2B2B",
+      "#E87A2E"
+    ],
+    "efeitos": [
+      "palavras destacadas",
+      "tipografia gigante"
+    ]
+  },
+  "quando_usar": "Escritórios de arquitetura e imobiliárias de alto padrão.",
+  "mood": [
+    "elegante",
+    "calmo"
+  ],
+  "tags": [
+    "arquitetura",
+    "imobiliario",
+    "minimalista",
+    "institucional"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1356,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

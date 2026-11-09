@@ -1,0 +1,53 @@
+{
+  "id": "ref-0095",
+  "area": "edicao",
+  "arquivo": "scan-digital-verde-hud.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "texturas-overlays",
+  "subcategoria": "hud",
+  "titulo": "Leitura de impressão digital em túnel verde (HUD)",
+  "descricao": "Impressão digital se formando no centro de um túnel verde desfocado, com cantos de mira e grade de chão sutil.",
+  "tecnica": {
+    "como_e_feito": "Ícone de digital com stroke animado + cantos de HUD + fundo radial verde com movimento de câmera. Em código: SVG stroke draw-on.",
+    "duracao_seg": 4,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#0B2A1A",
+      "#1FE07A",
+      "#9FF5C8"
+    ],
+    "efeitos": [
+      "stroke draw-on",
+      "HUD",
+      "túnel"
+    ]
+  },
+  "quando_usar": "Biometria, identificação, segurança, invasão de sistemas.",
+  "mood": [
+    "tecnológico",
+    "tenso"
+  ],
+  "tags": [
+    "digital",
+    "biometria",
+    "hud",
+    "verde",
+    "scan"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 4,
+    "largura": 720,
+    "altura": 720,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

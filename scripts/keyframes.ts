@@ -24,7 +24,7 @@ const FONTE = ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "C:/Windo
 
 export function destinoContactSheet(arquivo: string): string {
   const pasta = basename(dirname(arquivo));
-  if (/^(ref|own)-\d{4}/.test(pasta)) return join(dirname(arquivo), "contact-sheet.jpg");
+  if (/^(ref|own|web)-\d{4}/.test(pasta)) return join(dirname(arquivo), "contact-sheet.jpg");
   return join(CACHE, "contact-sheets", parse(arquivo).name + ".jpg");
 }
 

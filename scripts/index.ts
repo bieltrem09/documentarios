@@ -10,14 +10,14 @@ import { existsSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { BIBLIOTECA, RAIZ, listar } from "./lib/util.ts";
 import { lerMetas } from "./lib/metas.ts";
-import { CATEGORIAS, type Meta } from "./lib/schema.ts";
+import { CATEGORIAS, SITE_CATEGORIAS, type Meta } from "./lib/schema.ts";
 
-export interface EntradaIndice extends Meta {
+export type EntradaIndice = Meta & {
   pasta: string;
   caminho_arquivo: string;
   contact_sheet: string | null;
   poster: string | null;
-}
+};
 
 const metas = lerMetas();
 const invalidas = metas.filter((m) => !m.meta);
@@ -52,6 +52,7 @@ const indice = {
   aviso: "ARQUIVO GERADO por `npm run index`. Não edite à mão.",
   gerado_em: new Date().toISOString(),
   total: refs.length,
+  por_area: contagem((r) => r.area),
   por_nicho: contagem((r) => r.nicho),
   por_categoria: contagem((r) => r.categoria),
   receitas,
@@ -65,12 +66,14 @@ const linhas: string[] = [
   "",
   "> Arquivo GERADO por `npm run index`. Não edite à mão.",
   "",
-  `**${refs.length} referências** · ${receitas.length} receitas · gerado em ${indice.gerado_em.slice(0, 10)}`,
+  `**${refs.length} referências** (${refs.filter((r) => r.area === "edicao").length} de edição · ${refs.filter((r) => r.area === "site").length} de sites) · ${receitas.length} receitas · gerado em ${indice.gerado_em.slice(0, 10)}`,
+  "",
+  "# Edição de vídeo",
   "",
 ];
 const esc = (s: string) => s.replace(/\|/g, "\\|").replace(/\n/g, " ");
 for (const nicho of ["documentario", "noticia", "ambos"] as const) {
-  const doNicho = refs.filter((r) => r.nicho === nicho);
+  const doNicho = refs.filter((r) => r.area === "edicao" && r.nicho === nicho);
   if (!doNicho.length) continue;
   linhas.push(`## ${nicho === "documentario" ? "Documentário" : nicho === "noticia" ? "Notícia" : "Ambos"}`, "");
   for (const cat of CATEGORIAS) {
@@ -80,6 +83,20 @@ for (const nicho of ["documentario", "noticia", "ambos"] as const) {
     for (const r of lista)
       linhas.push(
         `| [${r.id}](${r.pasta.replace(/^biblioteca\//, "")}/) | ${esc(r.titulo)} | ${r.tipo_midia} | ${esc(r.quando_usar)} | ${r.tags.join(", ")} |`,
+      );
+    linhas.push("");
+  }
+}
+const sites = refs.filter((r) => r.area === "site");
+if (sites.length) {
+  linhas.push("# Criação de sites", "");
+  for (const cat of SITE_CATEGORIAS) {
+    const lista = sites.filter((r) => r.categoria === cat);
+    if (!lista.length) continue;
+    linhas.push(`## ${cat} (${lista.length})`, "", "| ID | Título | Segmento | Mídia | Quando usar | Tags |", "|---|---|---|---|---|---|");
+    for (const r of lista)
+      linhas.push(
+        `| [${r.id}](${r.pasta.replace(/^biblioteca\//, "")}/) | ${esc(r.titulo)} | ${r.subcategoria ?? ""} | ${r.tipo_midia} | ${esc(r.quando_usar)} | ${r.tags.join(", ")} |`,
       );
     linhas.push("");
   }

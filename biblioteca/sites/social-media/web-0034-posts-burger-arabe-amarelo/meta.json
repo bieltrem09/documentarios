@@ -1,0 +1,54 @@
+{
+  "id": "web-0034",
+  "area": "site",
+  "arquivo": "posts-burger-arabe-amarelo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "social-media",
+  "subcategoria": "comida",
+  "titulo": "Grade de posts de burger com tipografia árabe (amarelo e vermelho)",
+  "descricao": "Mosaico de 9 posts com pessoas comendo burger, embalagens, batatas e tipografia árabe, alternando fundos amarelo e vermelho.",
+  "tecnica": {
+    "como_e_feito": "Sistema de posts com 2 cores de fundo; fotos de lifestyle; tipografia árabe display; logo consistente.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "árabe display"
+    ],
+    "cores_hex": [
+      "#F2B21A",
+      "#D92A1C",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "sistema de grade",
+      "alternância de cor"
+    ]
+  },
+  "quando_usar": "Planejar feed de restaurante/marca.",
+  "mood": [
+    "divertido",
+    "quente"
+  ],
+  "tags": [
+    "social",
+    "posts",
+    "burger",
+    "arabe",
+    "feed"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 920,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

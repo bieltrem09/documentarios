@@ -1,0 +1,52 @@
+{
+  "id": "ref-0091",
+  "area": "edicao",
+  "arquivo": "colina-grama-vertical-bolhas.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "cenario-ia",
+  "titulo": "Topo de colina verde com bolhas de sabão no céu (vertical)",
+  "descricao": "Imagem vertical com o topo arredondado de uma colina de grama, pedrinhas e bolhas de sabão subindo num céu azul claro.",
+  "tecnica": {
+    "como_e_feito": "Fundo vertical estilo 3D suave; animável com bolhas flutuando (loop).",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#A9CDEB",
+      "#5BA236",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "loop",
+      "3D suave"
+    ]
+  },
+  "quando_usar": "Fundos leves, transições, conteúdo infantil ou positivo (formato vertical).",
+  "mood": [
+    "leve",
+    "sonhador"
+  ],
+  "tags": [
+    "colina",
+    "bolhas",
+    "ceu",
+    "vertical",
+    "fundo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 1303,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

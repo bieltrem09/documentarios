@@ -1,0 +1,55 @@
+{
+  "id": "web-0047",
+  "area": "site",
+  "arquivo": "logistica-scroll-animado-caminhao.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "institucional",
+  "subcategoria": "logistica",
+  "titulo": "Logística com scroll animado: caminhão, estrada, navio e avião (vídeo)",
+  "descricao": "Site branco e preto em que um caminhão anda pela página, a estrada vira linha que conduz o scroll, aparece um navio de contêineres visto de cima e um avião.",
+  "tecnica": {
+    "como_e_feito": "Scroll storytelling (GSAP ScrollTrigger): objeto que percorre a página; path SVG como estrada; troca de seções claro/escuro; títulos grandes.",
+    "duracao_seg": 28,
+    "easing": null,
+    "fontes": [
+      "sans condensada bold"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#111111",
+      "#1E3F8A"
+    ],
+    "efeitos": [
+      "scroll storytelling",
+      "path SVG",
+      "objeto que acompanha o scroll"
+    ]
+  },
+  "quando_usar": "Sites institucionais que precisam contar um processo.",
+  "mood": [
+    "dinâmico",
+    "sólido"
+  ],
+  "tags": [
+    "logistica",
+    "scroll",
+    "gsap",
+    "storytelling",
+    "caminhao"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 28.25,
+    "largura": 740,
+    "altura": 460,
+    "tamanho_mb": 1.6
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

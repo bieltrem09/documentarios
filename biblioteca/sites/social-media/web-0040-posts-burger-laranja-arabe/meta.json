@@ -1,0 +1,54 @@
+{
+  "id": "web-0040",
+  "area": "site",
+  "arquivo": "posts-burger-laranja-arabe.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "social-media",
+  "subcategoria": "comida",
+  "titulo": "Grade de posts de burger e frango laranja com árabe",
+  "descricao": "Mosaico de 9 posts laranja com burger, frango frito, chef, quadro de menu e tipografia árabe com xadrez.",
+  "tecnica": {
+    "como_e_feito": "Sistema de posts monocromático laranja; padrões xadrez; fotos de produto e pessoas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "árabe display"
+    ],
+    "cores_hex": [
+      "#F28A1E",
+      "#FFFFFF",
+      "#C2381A"
+    ],
+    "efeitos": [
+      "sistema de grade",
+      "xadrez"
+    ]
+  },
+  "quando_usar": "Feed de restaurante/fast food.",
+  "mood": [
+    "quente",
+    "divertido"
+  ],
+  "tags": [
+    "social",
+    "posts",
+    "burger",
+    "laranja",
+    "feed"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 920,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

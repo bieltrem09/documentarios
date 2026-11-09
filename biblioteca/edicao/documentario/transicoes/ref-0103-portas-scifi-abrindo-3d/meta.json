@@ -1,0 +1,53 @@
+{
+  "id": "ref-0103",
+  "area": "edicao",
+  "arquivo": "portas-scifi-abrindo-3d.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "transicoes",
+  "subcategoria": "porta-abrindo",
+  "titulo": "Portas sci-fi abrindo em sequência (3D)",
+  "descricao": "Sequência 3D de portas futuristas (grade, porta blindada, porta com luzes ciano) se abrindo até uma câmara com plataforma e esfera verde de chroma key.",
+  "tecnica": {
+    "como_e_feito": "Animação 3D com portas deslizantes como transição; slot de chroma key no centro para inserir conteúdo.",
+    "duracao_seg": 15,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#1E2A30",
+      "#38D6E0",
+      "#3BE04A"
+    ],
+    "efeitos": [
+      "porta deslizante",
+      "chroma key",
+      "fumaça"
+    ]
+  },
+  "quando_usar": "Transição para revelar algo (dossiê, personagem, segredo).",
+  "mood": [
+    "tecnológico",
+    "misterioso"
+  ],
+  "tags": [
+    "porta",
+    "scifi",
+    "transicao",
+    "3d",
+    "chroma-key"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 15.02,
+    "largura": 1280,
+    "altura": 720,
+    "tamanho_mb": 6.4
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ref-0106",
+  "area": "edicao",
+  "arquivo": "mockups-celular-motion-perfil.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "outros",
+  "subcategoria": "mockup-celular-motion",
+  "titulo": "Motion com telas de celular: notificações, perfis e textos",
+  "descricao": "Vários celulares com bordas neon azuis mostram telas que mudam: céu, notificações, perfil de rapaz com texto manuscrito vermelho, logos de carros brilhando e a frase 'MAKE IT'.",
+  "tecnica": {
+    "como_e_feito": "Composição de 3 telas em fundo azul escuro; conteúdos trocando no ritmo da música; glow azul nas bordas; texto sobreposto.",
+    "duracao_seg": 11,
+    "easing": null,
+    "fontes": [
+      "sans",
+      "manuscrita"
+    ],
+    "cores_hex": [
+      "#0A1530",
+      "#2F6BFF",
+      "#FFFFFF",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "telas em grade",
+      "glow",
+      "troca rítmica"
+    ]
+  },
+  "quando_usar": "Contar história de pessoa/influenciador por meio de telas de celular.",
+  "mood": [
+    "jovem",
+    "dinâmico"
+  ],
+  "tags": [
+    "celular",
+    "mockup",
+    "perfil",
+    "notificacao",
+    "motion"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 10.92,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-09"
+}

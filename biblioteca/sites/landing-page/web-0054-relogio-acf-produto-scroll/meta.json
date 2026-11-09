@@ -1,0 +1,54 @@
+{
+  "id": "web-0054",
+  "area": "site",
+  "arquivo": "relogio-acf-produto-scroll.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "relojoaria",
+  "titulo": "Página de relógio mecânico 'ACF-01' com explosão de peças (vídeo)",
+  "descricao": "Site alternando preto e branco: relógio esqueletizado em close, peças do mecanismo em 3D explodido, especificações e fotos da fabricação; detalhes em laranja.",
+  "tecnica": {
+    "como_e_feito": "Scroll storytelling com renders 3D (vista explodida), seções técnicas com dados; botão laranja; tipografia fina.",
+    "duracao_seg": 30,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#EDEDED",
+      "#F26A1B"
+    ],
+    "efeitos": [
+      "vista explodida 3D",
+      "scroll storytelling"
+    ]
+  },
+  "quando_usar": "Produtos de engenharia/luxo: relógios, carros, hardware.",
+  "mood": [
+    "técnico",
+    "premium"
+  ],
+  "tags": [
+    "relogio",
+    "3d",
+    "explodido",
+    "produto",
+    "scroll"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 29.97,
+    "largura": 1280,
+    "altura": 800,
+    "tamanho_mb": 5.8
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}
