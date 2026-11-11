@@ -1,0 +1,54 @@
+{
+  "id": "web-0077",
+  "area": "site",
+  "arquivo": "colchoes-premium-nuvens.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "casa",
+  "titulo": "Hero de colchões 'Nuvem' com cama sobre nuvens",
+  "descricao": "Hero claro com cama sobre nuvens rosadas, título 'colchões premium' e palavra 'SONO' gigante translúcida, cards de benefícios flutuando.",
+  "tecnica": {
+    "como_e_feito": "Produto sobre nuvens (metáfora de conforto); palavra gigante em baixa opacidade; cards brancos com ícones.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans arredondada bold"
+    ],
+    "cores_hex": [
+      "#E9EEF7",
+      "#2B3A55",
+      "#F2C1C6"
+    ],
+    "efeitos": [
+      "metáfora visual",
+      "cards flutuantes"
+    ]
+  },
+  "quando_usar": "Colchões, casa, bem-estar.",
+  "mood": [
+    "suave",
+    "confortável"
+  ],
+  "tags": [
+    "colchao",
+    "nuvens",
+    "hero",
+    "casa",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1600,
+    "altura": 900,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

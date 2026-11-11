@@ -1,0 +1,53 @@
+{
+  "id": "web-0084",
+  "area": "site",
+  "arquivo": "tatuagem-uroki-pb.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "tatuagem",
+  "titulo": "Hero de estúdio de tatuagem 'UROKI TATTOO' preto e branco",
+  "descricao": "Monitor com site P&B: costas tatuadas de homem com as mãos na cabeça à frente do título gigante, links e miniatura de trabalhos.",
+  "tecnica": {
+    "como_e_feito": "Foto P&B de alto contraste; título gigante atrás do sujeito; layout minimalista.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#FFFFFF",
+      "#7A7A7A"
+    ],
+    "efeitos": [
+      "P&B",
+      "texto atrás do sujeito"
+    ]
+  },
+  "quando_usar": "Estúdios de tatuagem, artistas.",
+  "mood": [
+    "intenso",
+    "artístico"
+  ],
+  "tags": [
+    "tatuagem",
+    "pb",
+    "hero",
+    "estudio"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 552,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

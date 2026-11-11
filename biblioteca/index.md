@@ -2,7 +2,7 @@
 
 > Arquivo GERADO por `npm run index`. Não edite à mão.
 
-**176 referências** (122 de edição · 54 de sites) · 0 receitas · gerado em 2026-11-09
+**212 referências** (122 de edição · 90 de sites) · 0 receitas · gerado em 2026-11-11
 
 # Edição de vídeo
 
@@ -256,7 +256,7 @@
 
 # Criação de sites
 
-## hero (11)
+## hero (35)
 
 | ID | Título | Segmento | Mídia | Quando usar | Tags |
 |---|---|---|---|---|---|
@@ -271,8 +271,32 @@
 | [web-0033](sites/hero/web-0033-hero-tenis-nuvem-rosa/) | Hero de tênis flutuando em nuvens rosas | moda | imagem | Lançamento de calçados e produtos de moda. | hero, tenis, moda, nuvem, rosa |
 | [web-0041](sites/hero/web-0041-hero-moped-eletrico/) | Hero 'Super fast electric Moped' com scooter branca | mobilidade | imagem | Mobilidade elétrica, produtos de tecnologia. | hero, moped, mobilidade, produto |
 | [web-0043](sites/hero/web-0043-hero-galeria-arte-cards/) | Hero 'A place to display your masterpiece' com leque de cards | arte | imagem | Marketplaces criativos, portfólios. | hero, arte, galeria, cards, marketplace |
+| [web-0055](sites/hero/web-0055-hero-energetico-lata-verde-limao/) | Hero de energético 'MORE ENERGY' com lata inclinada e forma verde-limão | bebida | imagem | Bebidas, energéticos, produtos jovens. | hero, energetico, bebida, verde-limao, produto |
+| [web-0061](sites/hero/web-0061-agencia-laranja-balaclava/) | Hero de agência 'business agency' laranja com pessoa de balaclava | agencia | imagem | Agências de marketing/criação com atitude. | hero, agencia, laranja, editorial |
+| [web-0062](sites/hero/web-0062-energia-solar-hero-telhado/) | Hero de energia solar 'InovaSolar' com casa e painéis | energia-solar | imagem | Empresas de energia solar e serviços residenciais. | energia-solar, hero, casa, glass |
+| [web-0063](sites/hero/web-0063-agencia-atos-planeta-roxo/) | Hero 'Design bonito não basta. Ele precisa gerar ATOS.' com planeta roxo | agencia | imagem | Agências de landing page/marketing digital. | agencia, neon, roxo, hero, portugues |
+| [web-0065](sites/hero/web-0065-chale-primavera-titulo-gigante/) | Hero de chalé A-frame com título gigante 'PRIMAVERA' (foto da tela) | hotelaria | imagem | Hospedagem na natureza, glamping, turismo. | chale, hotelaria, titulo-gigante, natureza |
+| [web-0066](sites/hero/web-0066-chale-onde-o-tempo-respira/) | Hero de chalé 'Onde o tempo respira' com floresta (foto da tela) | hotelaria | imagem | Hospedagem, turismo de natureza, imóveis de campo. | chale, hotelaria, natureza, serifada |
+| [web-0067](sites/hero/web-0067-smash-burger-caixa-quente-azul/) | Hero de smash burger 'Chega quente na sua porta' azul (foto da tela) | comida | imagem | Hamburguerias e delivery. | burger, delivery, azul, hero, portugues |
+| [web-0069](sites/hero/web-0069-aura-imoveis-hero-casa-por-do-sol/) | Hero 'Aura Imóveis' com casa moderna ao pôr do sol (foto da tela) | imobiliario | imagem | Imobiliárias de alto padrão. | imobiliario, hero, casa, busca, portugues |
+| [web-0070](sites/hero/web-0070-energia-solar-espanhol-telhado/) | Hero de energia solar em espanhol com painéis ao pôr do sol (foto da tela) | energia-solar | imagem | Energia solar, economia. | energia-solar, hero, espanhol |
+| [web-0071](sites/hero/web-0071-restaurante-gastronomia-vermelho/) | Hero de restaurante 'Uma experiência além do sabor' vermelho (foto da tela) | comida | imagem | Restaurantes de gastronomia autoral. | restaurante, comida, vermelho, serifada, portugues |
+| [web-0072](sites/hero/web-0072-personal-trainer-verde-neon/) | Hero de personal trainer com nome gigante e verde neon | fitness | imagem | Personal trainers, academias, coaches. | fitness, personal, verde, hero, portugues |
+| [web-0074](sites/hero/web-0074-barbearia-cadeira-nas-nuvens/) | Hero de barbearia com homem em cadeira de barbeiro nas nuvens (foto da tela) | barbearia | imagem | Barbearias e salões masculinos. | barbearia, nuvens, surreal, hero |
+| [web-0076](sites/hero/web-0076-smash-burger-nuvens-laranja/) | Hero 'smash burger' gigante entre nuvens laranja (foto da tela) | comida | imagem | Hamburguerias e fast food. | burger, nuvens, laranja, hero |
+| [web-0077](sites/hero/web-0077-colchoes-premium-nuvens/) | Hero de colchões 'Nuvem' com cama sobre nuvens | casa | imagem | Colchões, casa, bem-estar. | colchao, nuvens, hero, casa, portugues |
+| [web-0078](sites/hero/web-0078-psicologia-mente-leve-nuvens/) | Hero 'Uma mente mais leve' com mulher relaxando nas nuvens (foto da tela) | saude | imagem | Psicólogos, terapeutas, clínicas de bem-estar. | psicologia, saude, nuvens, hero, portugues |
+| [web-0079](sites/hero/web-0079-reforma-nova-espanhol-mobile/) | Site de reformas 'Transformamos tu espacio' (foto da tela, espanhol) | construcao | imagem | Construtoras e empresas de reforma. | reforma, construcao, espanhol, hero |
+| [web-0080](sites/hero/web-0080-engenharia-casa-montanhas/) | Hero 'ENGENHARIA DORNELES' com casa moderna e montanhas | construcao | imagem | Engenharia, construtoras, arquitetura residencial. | engenharia, construcao, casa, hero, portugues |
+| [web-0081](sites/hero/web-0081-arquitetura-terra-cotta-russo/) | Hero de arquitetura 'TERRA cotta' com casa escura em colina | arquitetura | imagem | Escritórios de arquitetura e portfólios de projeto. | arquitetura, hero, serifada, colina |
+| [web-0082](sites/hero/web-0082-estetica-belleza-espanhol/) | Hero de clínica de estética 'Belleza que realza tu esencia' (foto da tela) | estetica | imagem | Clínicas de estética e beleza. | estetica, beleza, espanhol, hero |
+| [web-0083](sites/hero/web-0083-code-makers-cabeca-vermelha/) | Hero 'CODE MAKERS' com cabeça em linhas vermelhas (foto da tela) | tecnologia | imagem | Agências de software, cursos de programação. | tecnologia, codigo, vermelho, hero |
+| [web-0084](sites/hero/web-0084-tatuagem-uroki-pb/) | Hero de estúdio de tatuagem 'UROKI TATTOO' preto e branco | tatuagem | imagem | Estúdios de tatuagem, artistas. | tatuagem, pb, hero, estudio |
+| [web-0085](sites/hero/web-0085-tatuagem-resilience-estudio/) | Hero de estúdio de tatuagem 'RESILIENCE' com tatuador trabalhando | tatuagem | imagem | Estúdios de tatuagem e piercing. | tatuagem, pb, hero, portugues |
+| [web-0086](sites/hero/web-0086-padel-vertex-raquetes/) | Hero de padel 'vertex' com raquetes flutuando (foto da tela) | esporte | imagem | Lojas e clubes de esporte. | padel, esporte, hero, produto |
+| [web-0090](sites/hero/web-0090-frango-crocante-hero-vermelho/) | Hero 'Do primeiro crocante ao último pedaço' de frango frito | comida | imagem | Restaurantes de frango, fast food, delivery. | frango, fast-food, vermelho, hero, portugues |
 
-## landing-page (20)
+## landing-page (25)
 
 | ID | Título | Segmento | Mídia | Quando usar | Tags |
 |---|---|---|---|---|---|
@@ -296,6 +320,11 @@
 | [web-0044](sites/landing-page/web-0044-tenis-move-faster-pagina/) | Página de escola de tênis 'Move Faster' azul | esporte | imagem | Escolas de esporte, academias. | esporte, tenis, landing, azul |
 | [web-0052](sites/landing-page/web-0052-aluguel-carros-premium/) | Landing de aluguel de carros premium em Nova York (vídeo) | automotivo | video | Locadoras, concessionárias, serviços automotivos. | carros, aluguel, landing, automotivo |
 | [web-0054](sites/landing-page/web-0054-relogio-acf-produto-scroll/) | Página de relógio mecânico 'ACF-01' com explosão de peças (vídeo) | relojoaria | video | Produtos de engenharia/luxo: relógios, carros, hardware. | relogio, 3d, explodido, produto, scroll |
+| [web-0056](sites/landing-page/web-0056-imobiliaria-casa-moderna-ceu/) | Landing imobiliária com casa moderna branca sobre céu azul | imobiliario | imagem | Imobiliárias e construtoras de alto padrão. | imobiliario, casa, ceu, minimalista |
+| [web-0057](sites/landing-page/web-0057-oculos-ar-big-screen-landing/) | Landing de óculos de realidade aumentada 'Big Screen. Zero Bulk.' | tecnologia | imagem | Lançamento de gadget/eletrônico premium. | tecnologia, oculos, callouts, landing |
+| [web-0058](sites/landing-page/web-0058-fintech-carty-mobile-longa/) | Landing mobile longa de fintech 'Carty' com cartões coloridos | fintech | imagem | Estrutura de landing mobile de app financeiro. | fintech, mobile, cartao, landing |
+| [web-0059](sites/landing-page/web-0059-airlume-viagens-ia-cards/) | Landing de viagens com IA 'Airlume' azul com cards flutuantes | viagem | imagem | SaaS/apps mostrando o próprio produto no hero. | viagem, ia, saas, cards, azul |
+| [web-0064](sites/landing-page/web-0064-pousada-mobile-reserva/) | Site mobile de pousada com reserva ('Fique no coração de São Sebastião') | hotelaria | imagem | Pousadas, hotéis, hospedagem. | hotelaria, pousada, mobile, reserva, portugues |
 
 ## ecommerce (2)
 
@@ -324,7 +353,7 @@
 | [web-0049](sites/portfolio-editorial/web-0049-cosmos-curadoria-imagens/) | Site 'COSMOS' de curadoria de imagens com imagens flutuando (vídeo) | curadoria | video | Ferramentas criativas, portfólios de fotografia, apps de curadoria. | curadoria, portfolio, 3d, parallax, editorial |
 | [web-0050](sites/portfolio-editorial/web-0050-oda-nobunaga-site-historia/) | Site ilustrado 'Unifiers of Japan' (Oda Nobunaga) vermelho e creme (vídeo) | historia | video | Sites/vídeos de história, biografias e storytelling cultural (também inspira cenas de documentário). | historia, japao, ilustracao, timeline, editorial, vermelho |
 
-## mockup-apresentacao (5)
+## mockup-apresentacao (12)
 
 | ID | Título | Segmento | Mídia | Quando usar | Tags |
 |---|---|---|---|---|---|
@@ -333,6 +362,13 @@
 | [web-0046](sites/mockup-apresentacao/web-0046-cookie-antes-depois-site/) | 'From boring to wow': site de cookies em animação | comida | video | Mostrar redesign/antes-depois para clientes. | cookie, comida, antes-depois, mockup |
 | [web-0051](sites/mockup-apresentacao/web-0051-template-3d-rocha-glass/) | Template de site 3D com rocha flutuante e anel de vidro (vídeo) | ia-saas | video | Landing de SaaS/IA com visual 3D premium. | 3d, template, vidro, saas, ia |
 | [web-0053](sites/mockup-apresentacao/web-0053-mockup-notebook-rocha-site/) | Notebook sobre rochas exibindo site escuro (vídeo) | agencia | video | Apresentar site/portfólio com impacto. | mockup, notebook, apresentacao, escuro |
+| [web-0060](sites/mockup-apresentacao/web-0060-pixel-rise-notebook-rocha-laranja/) | Mockup de notebook sobre rocha com site 'Pixel Rise' laranja | agencia | imagem | Apresentar projeto de site em portfólio. | mockup, notebook, agencia, laranja, pixel |
+| [web-0068](sites/mockup-apresentacao/web-0068-post-tiktok-entrega-site-solar/) | Post em rede social mostrando entrega de site de energia solar | energia-solar | imagem | Ideias de conteúdo para vender criação de sites. | post, tiktok, entrega, energia-solar, conteudo |
+| [web-0073](sites/mockup-apresentacao/web-0073-post-tiktok-site-estetica/) | Post mostrando site de estética 'Realce sua beleza natural' | estetica | imagem | Ideias de conteúdo para divulgar sites entregues. | post, estetica, mockup, conteudo |
+| [web-0075](sites/mockup-apresentacao/web-0075-setup-monitor-site-energia-solar/) | Monitor em setup escuro exibindo site de energia solar | energia-solar | imagem | Conteúdo de bastidor e portfólio. | setup, monitor, energia-solar, portfolio |
+| [web-0087](sites/mockup-apresentacao/web-0087-post-tiktok-site-sushi/) | Post mostrando site de restaurante japonês vermelho | comida | imagem | Ideias de conteúdo para vender sites. | post, sushi, comida, conteudo |
+| [web-0088](sites/mockup-apresentacao/web-0088-post-tiktok-site-confeitaria-rosa/) | Post mostrando site de confeitaria rosa 'Delícias em cada mordida' | comida | imagem | Referência de site de confeitaria e de conteúdo de divulgação. | post, confeitaria, rosa, conteudo |
+| [web-0089](sites/mockup-apresentacao/web-0089-post-tiktok-site-pet-shop/) | Post mostrando site de pet shop com cachorro e gato | pet | imagem | Pet shops e clínicas veterinárias; conteúdo de divulgação. | post, pet, cachorro, conteudo |
 
 ## identidade-marca (2)
 

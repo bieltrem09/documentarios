@@ -1,0 +1,51 @@
+{
+  "id": "web-0070",
+  "area": "site",
+  "arquivo": "energia-solar-espanhol-telhado.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "energia-solar",
+  "titulo": "Hero de energia solar em espanhol com painéis ao pôr do sol (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; título 'Invierte una vez, ahorra para siempre' com a segunda linha em vermelho, botão vermelho e painéis solares sobre telhado de telhas ao pôr do sol.",
+  "tecnica": {
+    "como_e_feito": "Texto centralizado sobre céu claro; imagem de painéis na base; palavra-chave em cor de destaque.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#F7E9DC",
+      "#E0141E",
+      "#1E1E1E"
+    ],
+    "efeitos": [
+      "destaque de frase"
+    ]
+  },
+  "quando_usar": "Energia solar, economia.",
+  "mood": [
+    "confiável",
+    "otimista"
+  ],
+  "tags": [
+    "energia-solar",
+    "hero",
+    "espanhol"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 960,
+    "altura": 1280,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

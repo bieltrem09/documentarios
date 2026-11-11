@@ -1,0 +1,51 @@
+{
+  "id": "web-0087",
+  "area": "site",
+  "arquivo": "post-tiktok-site-sushi.png",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "comida",
+  "titulo": "Post mostrando site de restaurante japonês vermelho",
+  "descricao": "Captura de post vertical com a frase 'Faça um projeto irrecusável…' e print de site de sushi com fundo vermelho.",
+  "tecnica": {
+    "como_e_feito": "Conteúdo de rede social com print de site; texto de chamada no topo.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#B3121C",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "mockup em post"
+    ]
+  },
+  "quando_usar": "Ideias de conteúdo para vender sites.",
+  "mood": [
+    "comercial"
+  ],
+  "tags": [
+    "post",
+    "sushi",
+    "comida",
+    "conteudo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1080,
+    "altura": 2400,
+    "tamanho_mb": 1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

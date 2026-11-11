@@ -1,0 +1,54 @@
+{
+  "id": "web-0069",
+  "area": "site",
+  "arquivo": "aura-imoveis-hero-casa-por-do-sol.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "imobiliario",
+  "titulo": "Hero 'Aura Imóveis' com casa moderna ao pôr do sol (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; título grande 'Aura Imóveis', busca 'Descubra imóveis extraordinários', foto de casa moderna com vista para a cidade ao entardecer e card '+420 clientes'.",
+  "tecnica": {
+    "como_e_feito": "Hero com imagem em card de cantos grandes; barra de busca em pílula; card de prova social flutuante.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#F2EFEA",
+      "#1E1E1E",
+      "#E07A2E"
+    ],
+    "efeitos": [
+      "card de prova social",
+      "busca em pílula"
+    ]
+  },
+  "quando_usar": "Imobiliárias de alto padrão.",
+  "mood": [
+    "premium",
+    "acolhedor"
+  ],
+  "tags": [
+    "imobiliario",
+    "hero",
+    "casa",
+    "busca",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1280,
+    "altura": 940,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

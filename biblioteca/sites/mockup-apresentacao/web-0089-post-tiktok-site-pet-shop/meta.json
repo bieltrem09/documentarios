@@ -1,0 +1,52 @@
+{
+  "id": "web-0089",
+  "area": "site",
+  "arquivo": "post-tiktok-site-pet-shop.png",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "pet",
+  "titulo": "Post mostrando site de pet shop com cachorro e gato",
+  "descricao": "Captura de post vertical com print de site de pet shop azul claro (cachorro e gato sorrindo) e legenda 'Site pronto e com domínio incluso'.",
+  "tecnica": {
+    "como_e_feito": "Print de site em post; fotos de pets recortadas; paleta azul clara.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans arredondada"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#BFE3F7",
+      "#F2A33C"
+    ],
+    "efeitos": [
+      "mockup em post"
+    ]
+  },
+  "quando_usar": "Pet shops e clínicas veterinárias; conteúdo de divulgação.",
+  "mood": [
+    "fofo",
+    "comercial"
+  ],
+  "tags": [
+    "post",
+    "pet",
+    "cachorro",
+    "conteudo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1080,
+    "altura": 2400,
+    "tamanho_mb": 0.6
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

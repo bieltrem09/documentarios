@@ -1,0 +1,52 @@
+{
+  "id": "web-0086",
+  "area": "site",
+  "arquivo": "padel-vertex-raquetes.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "esporte",
+  "titulo": "Hero de padel 'vertex' com raquetes flutuando (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; duas raquetes de padel flutuando em fundo azul com o título 'vertex' grande na base.",
+  "tecnica": {
+    "como_e_feito": "Produtos 3D flutuando; título largo; fundo de cor única.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans larga"
+    ],
+    "cores_hex": [
+      "#2F6BFF",
+      "#FFFFFF",
+      "#111111"
+    ],
+    "efeitos": [
+      "produto flutuante"
+    ]
+  },
+  "quando_usar": "Lojas e clubes de esporte.",
+  "mood": [
+    "esportivo",
+    "moderno"
+  ],
+  "tags": [
+    "padel",
+    "esporte",
+    "hero",
+    "produto"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 3000,
+    "altura": 4000,
+    "tamanho_mb": 5.8
+  },
+  "receitas": [],
+  "confianca": "baixa",
+  "catalogado_em": "2026-11-11"
+}

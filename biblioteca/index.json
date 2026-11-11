@@ -1,16 +1,16 @@
 {
   "aviso": "ARQUIVO GERADO por `npm run index`. Não edite à mão.",
-  "gerado_em": "2026-11-09T23:12:07.198Z",
-  "total": 176,
+  "gerado_em": "2026-11-11T12:26:42.889Z",
+  "total": 212,
   "por_area": {
     "edicao": 122,
-    "site": 54
+    "site": 90
   },
   "por_nicho": {
     "documentario": 18,
     "noticia": 7,
     "ambos": 97,
-    "web": 54
+    "web": 90
   },
   "por_categoria": {
     "documentos-jornal": 8,
@@ -28,10 +28,10 @@
     "mapas": 5,
     "ritmo-cortes": 2,
     "ecommerce": 2,
-    "landing-page": 20,
-    "mockup-apresentacao": 5,
+    "landing-page": 25,
+    "mockup-apresentacao": 12,
     "institucional": 7,
-    "hero": 11,
+    "hero": 35,
     "identidade-marca": 2,
     "social-media": 4,
     "portfolio-editorial": 3
@@ -10366,6 +10366,2063 @@
       "caminho_arquivo": "biblioteca/sites/landing-page/web-0054-relogio-acf-produto-scroll/relogio-acf-produto-scroll.mp4",
       "contact_sheet": "biblioteca/sites/landing-page/web-0054-relogio-acf-produto-scroll/contact-sheet.jpg",
       "poster": "biblioteca/sites/landing-page/web-0054-relogio-acf-produto-scroll/poster.jpg"
+    },
+    {
+      "arquivo": "hero-energetico-lata-verde-limao.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "bebida",
+      "titulo": "Hero de energético 'MORE ENERGY' com lata inclinada e forma verde-limão",
+      "descricao": "Hero claro com título largo em caixa alta, lata preta inclinada sobre uma forma orgânica verde-limão, vídeo em card, aviso '18+' e barra de métricas escura arredondada.",
+      "tecnica": {
+        "como_e_feito": "Produto recortado inclinado sobre blob colorido; display extendida; card de vídeo; métricas em barra escura com cantos grandes.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans extendida bold"
+        ],
+        "cores_hex": [
+          "#F2F2F2",
+          "#111111",
+          "#C8F031"
+        ],
+        "efeitos": [
+          "blob colorido",
+          "produto inclinado"
+        ]
+      },
+      "quando_usar": "Bebidas, energéticos, produtos jovens.",
+      "mood": [
+        "energético",
+        "moderno"
+      ],
+      "tags": [
+        "hero",
+        "energetico",
+        "bebida",
+        "verde-limao",
+        "produto"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 552,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0055",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0055-hero-energetico-lata-verde-limao",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0055-hero-energetico-lata-verde-limao/hero-energetico-lata-verde-limao.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "imobiliaria-casa-moderna-ceu.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "imobiliario",
+      "titulo": "Landing imobiliária com casa moderna branca sobre céu azul",
+      "descricao": "Página com casa moderna branca em balanço sobre céu azul degradê, título fino 'Extraordinary living begins here' e seção 'Where your vision finds its home' com imagem inline no texto.",
+      "tecnica": {
+        "como_e_feito": "Céu em gradiente; arquitetura recortada; tipografia fina; imagem pequena embutida na frase (inline image).",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans fina"
+        ],
+        "cores_hex": [
+          "#BFD9F2",
+          "#FFFFFF",
+          "#1E1E1E"
+        ],
+        "efeitos": [
+          "imagem inline no texto",
+          "gradiente de céu"
+        ]
+      },
+      "quando_usar": "Imobiliárias e construtoras de alto padrão.",
+      "mood": [
+        "leve",
+        "premium"
+      ],
+      "tags": [
+        "imobiliario",
+        "casa",
+        "ceu",
+        "minimalista"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 981,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0056",
+      "nicho": "web",
+      "categoria": "landing-page",
+      "pasta": "biblioteca/sites/landing-page/web-0056-imobiliaria-casa-moderna-ceu",
+      "caminho_arquivo": "biblioteca/sites/landing-page/web-0056-imobiliaria-casa-moderna-ceu/imobiliaria-casa-moderna-ceu.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "oculos-ar-big-screen-landing.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "tecnologia",
+      "titulo": "Landing de óculos de realidade aumentada 'Big Screen. Zero Bulk.'",
+      "descricao": "Página longa: topo claro com mulher usando óculos escuros e título fino, depois seção preta com os óculos e linhas de chamada apontando recursos, e ícones na base.",
+      "tecnica": {
+        "como_e_feito": "Transição claro→escuro; produto com callouts (linhas e rótulos); tipografia fina grande.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans fina"
+        ],
+        "cores_hex": [
+          "#EDEDED",
+          "#0B0B0B",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "callouts",
+          "claro para escuro"
+        ]
+      },
+      "quando_usar": "Lançamento de gadget/eletrônico premium.",
+      "mood": [
+        "tecnológico",
+        "premium"
+      ],
+      "tags": [
+        "tecnologia",
+        "oculos",
+        "callouts",
+        "landing"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1324,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0057",
+      "nicho": "web",
+      "categoria": "landing-page",
+      "pasta": "biblioteca/sites/landing-page/web-0057-oculos-ar-big-screen-landing",
+      "caminho_arquivo": "biblioteca/sites/landing-page/web-0057-oculos-ar-big-screen-landing/oculos-ar-big-screen-landing.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "fintech-carty-mobile-longa.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "fintech",
+      "titulo": "Landing mobile longa de fintech 'Carty' com cartões coloridos",
+      "descricao": "Captura vertical muito longa de site mobile: cartões coloridos no topo, blocos com números, seções escuras e claras e CTA verde-limão no final.",
+      "tecnica": {
+        "como_e_feito": "Mobile first com seções empilhadas; cartões em 3D; contraste preto/branco + verde-limão.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans grotesca"
+        ],
+        "cores_hex": [
+          "#111111",
+          "#FFFFFF",
+          "#C8F031",
+          "#E85BD6"
+        ],
+        "efeitos": [
+          "mobile first",
+          "cartões 3D"
+        ]
+      },
+      "quando_usar": "Estrutura de landing mobile de app financeiro.",
+      "mood": [
+        "moderno",
+        "jovem"
+      ],
+      "tags": [
+        "fintech",
+        "mobile",
+        "cartao",
+        "landing"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 3468,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0058",
+      "nicho": "web",
+      "categoria": "landing-page",
+      "pasta": "biblioteca/sites/landing-page/web-0058-fintech-carty-mobile-longa",
+      "caminho_arquivo": "biblioteca/sites/landing-page/web-0058-fintech-carty-mobile-longa/fintech-carty-mobile-longa.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "airlume-viagens-ia-cards.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "viagem",
+      "titulo": "Landing de viagens com IA 'Airlume' azul com cards flutuantes",
+      "descricao": "Página azul com título 'Save Time & Money On Every Trip', cards de UI flutuando (voos, preços, reservas) em volta de uma imagem de avião, tags de usuário e grade de recursos.",
+      "tecnica": {
+        "como_e_feito": "UI do produto como ilustração (cards de interface flutuando com sombra); gradiente azul; tags flutuantes.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans geométrica"
+        ],
+        "cores_hex": [
+          "#2B3FD6",
+          "#FFFFFF",
+          "#C7D2FF"
+        ],
+        "efeitos": [
+          "cards de UI flutuantes",
+          "gradiente"
+        ]
+      },
+      "quando_usar": "SaaS/apps mostrando o próprio produto no hero.",
+      "mood": [
+        "confiável",
+        "tecnológico"
+      ],
+      "tags": [
+        "viagem",
+        "ia",
+        "saas",
+        "cards",
+        "azul"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 920,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0059",
+      "nicho": "web",
+      "categoria": "landing-page",
+      "pasta": "biblioteca/sites/landing-page/web-0059-airlume-viagens-ia-cards",
+      "caminho_arquivo": "biblioteca/sites/landing-page/web-0059-airlume-viagens-ia-cards/airlume-viagens-ia-cards.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "pixel-rise-notebook-rocha-laranja.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "agencia",
+      "titulo": "Mockup de notebook sobre rocha com site 'Pixel Rise' laranja",
+      "descricao": "Notebook flutuando sobre rocha escura com fundo laranja, exibindo site de agência com robô/fliperama 3D e tipografia pixelada.",
+      "tecnica": {
+        "como_e_feito": "Mockup 3D com luz quente; site com objeto 3D e fonte pixel; composição vertical.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "pixelada + sans"
+        ],
+        "cores_hex": [
+          "#E86A1C",
+          "#111111",
+          "#F2F2F2"
+        ],
+        "efeitos": [
+          "mockup 3D",
+          "fonte pixel"
+        ]
+      },
+      "quando_usar": "Apresentar projeto de site em portfólio.",
+      "mood": [
+        "criativo",
+        "quente"
+      ],
+      "tags": [
+        "mockup",
+        "notebook",
+        "agencia",
+        "laranja",
+        "pixel"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 1308,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0060",
+      "nicho": "web",
+      "categoria": "mockup-apresentacao",
+      "pasta": "biblioteca/sites/mockup-apresentacao/web-0060-pixel-rise-notebook-rocha-laranja",
+      "caminho_arquivo": "biblioteca/sites/mockup-apresentacao/web-0060-pixel-rise-notebook-rocha-laranja/pixel-rise-notebook-rocha-laranja.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "agencia-laranja-balaclava.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "agencia",
+      "titulo": "Hero de agência 'business agency' laranja com pessoa de balaclava",
+      "descricao": "Hero laranja com retrato de pessoa de balaclava e óculos escuros, título branco grande em minúsculas na base, menu em pílulas e cards de porcentagem.",
+      "tecnica": {
+        "como_e_feito": "Foto editorial de impacto sobre fundo de cor única; título gigante; cards translúcidos com números.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold minúscula"
+        ],
+        "cores_hex": [
+          "#F0531E",
+          "#FFFFFF",
+          "#111111"
+        ],
+        "efeitos": [
+          "cor única",
+          "cards de métricas"
+        ]
+      },
+      "quando_usar": "Agências de marketing/criação com atitude.",
+      "mood": [
+        "ousado",
+        "urbano"
+      ],
+      "tags": [
+        "hero",
+        "agencia",
+        "laranja",
+        "editorial"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "pinterest",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 700,
+        "altura": 525,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0061",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0061-agencia-laranja-balaclava",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0061-agencia-laranja-balaclava/agencia-laranja-balaclava.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "energia-solar-hero-telhado.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "energia-solar",
+      "titulo": "Hero de energia solar 'InovaSolar' com casa e painéis",
+      "descricao": "Hero com foto de casa com painéis solares no telhado, título branco 'Energizando casas com energia solar limpa' e cards translúcidos com textos e imagem.",
+      "tecnica": {
+        "como_e_feito": "Foto full-bleed com gradiente escuro; cards de vidro (glassmorphism) à direita; navbar em pílula.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans grotesca"
+        ],
+        "cores_hex": [
+          "#2E4A2B",
+          "#FFFFFF",
+          "#F2B01E"
+        ],
+        "efeitos": [
+          "glassmorphism",
+          "gradiente sobre foto"
+        ]
+      },
+      "quando_usar": "Empresas de energia solar e serviços residenciais.",
+      "mood": [
+        "confiável",
+        "sustentável"
+      ],
+      "tags": [
+        "energia-solar",
+        "hero",
+        "casa",
+        "glass"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1600,
+        "altura": 809,
+        "tamanho_mb": 0.3
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0062",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0062-energia-solar-hero-telhado",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0062-energia-solar-hero-telhado/energia-solar-hero-telhado.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "agencia-atos-planeta-roxo.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "agencia",
+      "titulo": "Hero 'Design bonito não basta. Ele precisa gerar ATOS.' com planeta roxo",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; hero escuro com anel de planeta em néon roxo, título branco com a última palavra em roxo e botão roxo.",
+      "tecnica": {
+        "como_e_feito": "Fundo escuro com objeto 3D/neon central; palavra-chave colorida; CTA com glow.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#0B0A12",
+          "#7B4DFF",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "neon",
+          "glow"
+        ]
+      },
+      "quando_usar": "Agências de landing page/marketing digital.",
+      "mood": [
+        "tecnológico",
+        "persuasivo"
+      ],
+      "tags": [
+        "agencia",
+        "neon",
+        "roxo",
+        "hero",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1599,
+        "altura": 899,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0063",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0063-agencia-atos-planeta-roxo",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0063-agencia-atos-planeta-roxo/agencia-atos-planeta-roxo.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "pousada-mobile-reserva.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "hotelaria",
+      "titulo": "Site mobile de pousada com reserva ('Fique no coração de São Sebastião')",
+      "descricao": "Site de pousada em celular: foto do prédio histórico, título serifado, formulário de reserva com datas e botão vermelho, ícones de comodidades e cards de quartos; botão de WhatsApp.",
+      "tecnica": {
+        "como_e_feito": "Mobile first; formulário de reserva no hero; serifada elegante; botão flutuante de WhatsApp.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada + sans"
+        ],
+        "cores_hex": [
+          "#FFFFFF",
+          "#1E3A5F",
+          "#E0141E",
+          "#25D366"
+        ],
+        "efeitos": [
+          "formulário de reserva",
+          "WhatsApp flutuante"
+        ]
+      },
+      "quando_usar": "Pousadas, hotéis, hospedagem.",
+      "mood": [
+        "acolhedor",
+        "confiável"
+      ],
+      "tags": [
+        "hotelaria",
+        "pousada",
+        "mobile",
+        "reserva",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 900,
+        "altura": 1600,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0064",
+      "nicho": "web",
+      "categoria": "landing-page",
+      "pasta": "biblioteca/sites/landing-page/web-0064-pousada-mobile-reserva",
+      "caminho_arquivo": "biblioteca/sites/landing-page/web-0064-pousada-mobile-reserva/pousada-mobile-reserva.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "chale-primavera-titulo-gigante.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "hotelaria",
+      "titulo": "Hero de chalé A-frame com título gigante 'PRIMAVERA' (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; chalé A-frame iluminado na floresta à frente do título gigante 'PRIMAVERA' e frase 'Onde o tempo respira'.",
+      "tecnica": {
+        "como_e_feito": "Título gigante atrás do sujeito (chalé); foto noturna quente; frase serifada itálica.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada + serifada itálica"
+        ],
+        "cores_hex": [
+          "#1E2A1A",
+          "#F2C46A",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "texto atrás do sujeito"
+        ]
+      },
+      "quando_usar": "Hospedagem na natureza, glamping, turismo.",
+      "mood": [
+        "aconchegante",
+        "natural"
+      ],
+      "tags": [
+        "chale",
+        "hotelaria",
+        "titulo-gigante",
+        "natureza"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 3024,
+        "altura": 4032,
+        "tamanho_mb": 0.9
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0065",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0065-chale-primavera-titulo-gigante",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0065-chale-primavera-titulo-gigante/chale-primavera-titulo-gigante.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "chale-onde-o-tempo-respira.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "hotelaria",
+      "titulo": "Hero de chalé 'Onde o tempo respira' com floresta (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; chalé A-frame entre pinheiros ao pôr do sol, título fino com 'respira' em serifada itálica e lista de diferenciais à direita.",
+      "tecnica": {
+        "como_e_feito": "Foto ambiente full-bleed; mistura sans fina + serifada itálica; navbar transparente; CTA em pílula.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans fina + serifada itálica"
+        ],
+        "cores_hex": [
+          "#2B2418",
+          "#E9A24A",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "mistura de fontes",
+          "foto ambiente"
+        ]
+      },
+      "quando_usar": "Hospedagem, turismo de natureza, imóveis de campo.",
+      "mood": [
+        "calmo",
+        "acolhedor"
+      ],
+      "tags": [
+        "chale",
+        "hotelaria",
+        "natureza",
+        "serifada"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 4032,
+        "altura": 3024,
+        "tamanho_mb": 1.2
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0066",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0066-chale-onde-o-tempo-respira",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0066-chale-onde-o-tempo-respira/chale-onde-o-tempo-respira.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "smash-burger-caixa-quente-azul.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "comida",
+      "titulo": "Hero de smash burger 'Chega quente na sua porta' azul (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; hero azul-céu com burger em caixa na mão, títulos condensados azuis enormes, selo circular 'Pedir meu smash' e faixas quadriculadas.",
+      "tecnica": {
+        "como_e_feito": "Display condensada pesada; produto na mão; selo rotativo; padrão xadrez; céu com nuvens.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada heavy"
+        ],
+        "cores_hex": [
+          "#BFE3F7",
+          "#1E3FD0",
+          "#FFFFFF",
+          "#F2B01E"
+        ],
+        "efeitos": [
+          "selo circular",
+          "xadrez"
+        ]
+      },
+      "quando_usar": "Hamburguerias e delivery.",
+      "mood": [
+        "divertido",
+        "faminto"
+      ],
+      "tags": [
+        "burger",
+        "delivery",
+        "azul",
+        "hero",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1043,
+        "altura": 795,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0067",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0067-smash-burger-caixa-quente-azul",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0067-smash-burger-caixa-quente-azul/smash-burger-caixa-quente-azul.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "post-tiktok-entrega-site-solar.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "energia-solar",
+      "titulo": "Post em rede social mostrando entrega de site de energia solar",
+      "descricao": "Captura de vídeo vertical com o texto 'Hospede o site, receba seu pagamento e entregue a posse do site ao cliente' sobre um mockup de site de energia solar.",
+      "tecnica": {
+        "como_e_feito": "Formato de conteúdo para divulgar serviço de criação de site: texto grande + print do site + interface de rede social.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans do app"
+        ],
+        "cores_hex": [
+          "#000000",
+          "#FFFFFF",
+          "#3B7A3B"
+        ],
+        "efeitos": [
+          "mockup em post"
+        ]
+      },
+      "quando_usar": "Ideias de conteúdo para vender criação de sites.",
+      "mood": [
+        "didático",
+        "comercial"
+      ],
+      "tags": [
+        "post",
+        "tiktok",
+        "entrega",
+        "energia-solar",
+        "conteudo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 738,
+        "altura": 1600,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0068",
+      "nicho": "web",
+      "categoria": "mockup-apresentacao",
+      "pasta": "biblioteca/sites/mockup-apresentacao/web-0068-post-tiktok-entrega-site-solar",
+      "caminho_arquivo": "biblioteca/sites/mockup-apresentacao/web-0068-post-tiktok-entrega-site-solar/post-tiktok-entrega-site-solar.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "aura-imoveis-hero-casa-por-do-sol.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "imobiliario",
+      "titulo": "Hero 'Aura Imóveis' com casa moderna ao pôr do sol (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; título grande 'Aura Imóveis', busca 'Descubra imóveis extraordinários', foto de casa moderna com vista para a cidade ao entardecer e card '+420 clientes'.",
+      "tecnica": {
+        "como_e_feito": "Hero com imagem em card de cantos grandes; barra de busca em pílula; card de prova social flutuante.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans grotesca"
+        ],
+        "cores_hex": [
+          "#F2EFEA",
+          "#1E1E1E",
+          "#E07A2E"
+        ],
+        "efeitos": [
+          "card de prova social",
+          "busca em pílula"
+        ]
+      },
+      "quando_usar": "Imobiliárias de alto padrão.",
+      "mood": [
+        "premium",
+        "acolhedor"
+      ],
+      "tags": [
+        "imobiliario",
+        "hero",
+        "casa",
+        "busca",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1280,
+        "altura": 940,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0069",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0069-aura-imoveis-hero-casa-por-do-sol",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0069-aura-imoveis-hero-casa-por-do-sol/aura-imoveis-hero-casa-por-do-sol.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "energia-solar-espanhol-telhado.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "energia-solar",
+      "titulo": "Hero de energia solar em espanhol com painéis ao pôr do sol (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; título 'Invierte una vez, ahorra para siempre' com a segunda linha em vermelho, botão vermelho e painéis solares sobre telhado de telhas ao pôr do sol.",
+      "tecnica": {
+        "como_e_feito": "Texto centralizado sobre céu claro; imagem de painéis na base; palavra-chave em cor de destaque.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#F7E9DC",
+          "#E0141E",
+          "#1E1E1E"
+        ],
+        "efeitos": [
+          "destaque de frase"
+        ]
+      },
+      "quando_usar": "Energia solar, economia.",
+      "mood": [
+        "confiável",
+        "otimista"
+      ],
+      "tags": [
+        "energia-solar",
+        "hero",
+        "espanhol"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 960,
+        "altura": 1280,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0070",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0070-energia-solar-espanhol-telhado",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0070-energia-solar-espanhol-telhado/energia-solar-espanhol-telhado.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "restaurante-gastronomia-vermelho.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "comida",
+      "titulo": "Hero de restaurante 'Uma experiência além do sabor' vermelho (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; fundo vermelho intenso com prato de massa visto de cima, especiarias e taça, título serifado branco e botão 'Conheça o menu'.",
+      "tecnica": {
+        "como_e_feito": "Foto de prato em plongée sobre fundo de cor única; serifada elegante; textura de toalha.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada"
+        ],
+        "cores_hex": [
+          "#B3121C",
+          "#FFFFFF",
+          "#F2C46A"
+        ],
+        "efeitos": [
+          "plongée",
+          "cor única"
+        ]
+      },
+      "quando_usar": "Restaurantes de gastronomia autoral.",
+      "mood": [
+        "elegante",
+        "apetitoso"
+      ],
+      "tags": [
+        "restaurante",
+        "comida",
+        "vermelho",
+        "serifada",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1200,
+        "altura": 976,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0071",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0071-restaurante-gastronomia-vermelho",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0071-restaurante-gastronomia-vermelho/restaurante-gastronomia-vermelho.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "personal-trainer-verde-neon.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "fitness",
+      "titulo": "Hero de personal trainer com nome gigante e verde neon",
+      "descricao": "Hero escuro com o profissional sorrindo, nome gigante cinza metálico atrás, título 'Seu treinamento. Sua evolução.' com destaque verde neon e botões de agendar via WhatsApp.",
+      "tecnica": {
+        "como_e_feito": "Pessoa recortada à frente do nome gigante; glow verde; CTA de WhatsApp; ícones de diferenciais.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans extendida heavy"
+        ],
+        "cores_hex": [
+          "#0B0F0B",
+          "#3BE04A",
+          "#FFFFFF",
+          "#9A9A9A"
+        ],
+        "efeitos": [
+          "texto atrás do sujeito",
+          "glow verde"
+        ]
+      },
+      "quando_usar": "Personal trainers, academias, coaches.",
+      "mood": [
+        "energético",
+        "confiável"
+      ],
+      "tags": [
+        "fitness",
+        "personal",
+        "verde",
+        "hero",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1600,
+        "altura": 900,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0072",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0072-personal-trainer-verde-neon",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0072-personal-trainer-verde-neon/personal-trainer-verde-neon.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "post-tiktok-site-estetica.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "estetica",
+      "titulo": "Post mostrando site de estética 'Realce sua beleza natural'",
+      "descricao": "Captura de post vertical com a frase 'Com a obra de arte finalizada' e mockup de site de estética em tons dourados com retrato.",
+      "tecnica": {
+        "como_e_feito": "Conteúdo de bastidor: print do site em mockup dentro de vídeo de rede social.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada"
+        ],
+        "cores_hex": [
+          "#0B0B0B",
+          "#C9A15A",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "mockup em post"
+        ]
+      },
+      "quando_usar": "Ideias de conteúdo para divulgar sites entregues.",
+      "mood": [
+        "elegante",
+        "comercial"
+      ],
+      "tags": [
+        "post",
+        "estetica",
+        "mockup",
+        "conteudo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 720,
+        "altura": 1600,
+        "tamanho_mb": 0.3
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0073",
+      "nicho": "web",
+      "categoria": "mockup-apresentacao",
+      "pasta": "biblioteca/sites/mockup-apresentacao/web-0073-post-tiktok-site-estetica",
+      "caminho_arquivo": "biblioteca/sites/mockup-apresentacao/web-0073-post-tiktok-site-estetica/post-tiktok-site-estetica.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "barbearia-cadeira-nas-nuvens.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "barbearia",
+      "titulo": "Hero de barbearia com homem em cadeira de barbeiro nas nuvens (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; homem estiloso sentado numa cadeira de barbeiro cromada flutuando sobre nuvens, título 'BARBER' gigante atrás e 'transform your style'.",
+      "tecnica": {
+        "como_e_feito": "Composição surreal (objeto sobre nuvens); título gigante atrás; prova social com avatares.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#6FB3E8",
+          "#FFFFFF",
+          "#111111"
+        ],
+        "efeitos": [
+          "surreal",
+          "texto atrás do sujeito"
+        ]
+      },
+      "quando_usar": "Barbearias e salões masculinos.",
+      "mood": [
+        "ousado",
+        "descolado"
+      ],
+      "tags": [
+        "barbearia",
+        "nuvens",
+        "surreal",
+        "hero"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1418,
+        "altura": 1600,
+        "tamanho_mb": 0.4
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0074",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0074-barbearia-cadeira-nas-nuvens",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0074-barbearia-cadeira-nas-nuvens/barbearia-cadeira-nas-nuvens.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "setup-monitor-site-energia-solar.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "energia-solar",
+      "titulo": "Monitor em setup escuro exibindo site de energia solar",
+      "descricao": "Foto de mesa escura com teclado, mouse, celular vermelho e monitor mostrando site 'Energia solar' com casa e painéis.",
+      "tecnica": {
+        "como_e_feito": "Foto de ambiente para divulgar trabalho entregue; luz de LED.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [],
+        "cores_hex": [
+          "#0B0B0B",
+          "#3B7A3B",
+          "#E0141E"
+        ],
+        "efeitos": [
+          "foto de setup"
+        ]
+      },
+      "quando_usar": "Conteúdo de bastidor e portfólio.",
+      "mood": [
+        "profissional",
+        "noturno"
+      ],
+      "tags": [
+        "setup",
+        "monitor",
+        "energia-solar",
+        "portfolio"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 3024,
+        "altura": 4032,
+        "tamanho_mb": 1.2
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0075",
+      "nicho": "web",
+      "categoria": "mockup-apresentacao",
+      "pasta": "biblioteca/sites/mockup-apresentacao/web-0075-setup-monitor-site-energia-solar",
+      "caminho_arquivo": "biblioteca/sites/mockup-apresentacao/web-0075-setup-monitor-site-energia-solar/setup-monitor-site-energia-solar.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "smash-burger-nuvens-laranja.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "comida",
+      "titulo": "Hero 'smash burger' gigante entre nuvens laranja (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; hambúrguer enorme no centro entre nuvens laranjas, título branco 'smash burger' grande no canto e cards com nota 4.9/5.",
+      "tecnica": {
+        "como_e_feito": "Produto surreal gigante no céu; paleta laranja/vermelho; cards de avaliação.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#F2551E",
+          "#FFD3A0",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "surreal",
+          "cards de avaliação"
+        ]
+      },
+      "quando_usar": "Hamburguerias e fast food.",
+      "mood": [
+        "faminto",
+        "divertido"
+      ],
+      "tags": [
+        "burger",
+        "nuvens",
+        "laranja",
+        "hero"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1200,
+        "altura": 1343,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0076",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0076-smash-burger-nuvens-laranja",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0076-smash-burger-nuvens-laranja/smash-burger-nuvens-laranja.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "colchoes-premium-nuvens.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "casa",
+      "titulo": "Hero de colchões 'Nuvem' com cama sobre nuvens",
+      "descricao": "Hero claro com cama sobre nuvens rosadas, título 'colchões premium' e palavra 'SONO' gigante translúcida, cards de benefícios flutuando.",
+      "tecnica": {
+        "como_e_feito": "Produto sobre nuvens (metáfora de conforto); palavra gigante em baixa opacidade; cards brancos com ícones.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans arredondada bold"
+        ],
+        "cores_hex": [
+          "#E9EEF7",
+          "#2B3A55",
+          "#F2C1C6"
+        ],
+        "efeitos": [
+          "metáfora visual",
+          "cards flutuantes"
+        ]
+      },
+      "quando_usar": "Colchões, casa, bem-estar.",
+      "mood": [
+        "suave",
+        "confortável"
+      ],
+      "tags": [
+        "colchao",
+        "nuvens",
+        "hero",
+        "casa",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1600,
+        "altura": 900,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0077",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0077-colchoes-premium-nuvens",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0077-colchoes-premium-nuvens/colchoes-premium-nuvens.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "psicologia-mente-leve-nuvens.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "saude",
+      "titulo": "Hero 'Uma mente mais leve' com mulher relaxando nas nuvens (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; mulher de branco recostada em nuvens ao lado de uma janela, título serifado 'Uma mente mais leve' e botão de agendar consulta.",
+      "tecnica": {
+        "como_e_feito": "Imagem onírica com céu; serifada leve; CTA de agendamento.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada leve"
+        ],
+        "cores_hex": [
+          "#9CC6E8",
+          "#FFFFFF",
+          "#1E3A5F"
+        ],
+        "efeitos": [
+          "onírico",
+          "serifada"
+        ]
+      },
+      "quando_usar": "Psicólogos, terapeutas, clínicas de bem-estar.",
+      "mood": [
+        "calmo",
+        "acolhedor"
+      ],
+      "tags": [
+        "psicologia",
+        "saude",
+        "nuvens",
+        "hero",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1600,
+        "altura": 1592,
+        "tamanho_mb": 0.4
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0078",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0078-psicologia-mente-leve-nuvens",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0078-psicologia-mente-leve-nuvens/psicologia-mente-leve-nuvens.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "reforma-nova-espanhol-mobile.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "construcao",
+      "titulo": "Site de reformas 'Transformamos tu espacio' (foto da tela, espanhol)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; título com 'espacio' em tipografia grande vermelha translúcida sobre a foto de uma casa reformada, botões e cards de projetos.",
+      "tecnica": {
+        "como_e_feito": "Palavra gigante com imagem por trás (máscara de texto); cards arredondados; layout vertical.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#F2EEE8",
+          "#C2412A",
+          "#1E1E1E"
+        ],
+        "efeitos": [
+          "texto com imagem",
+          "cards"
+        ]
+      },
+      "quando_usar": "Construtoras e empresas de reforma.",
+      "mood": [
+        "acolhedor",
+        "confiável"
+      ],
+      "tags": [
+        "reforma",
+        "construcao",
+        "espanhol",
+        "hero"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1200,
+        "altura": 1600,
+        "tamanho_mb": 0.4
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0079",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0079-reforma-nova-espanhol-mobile",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0079-reforma-nova-espanhol-mobile/reforma-nova-espanhol-mobile.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "engenharia-casa-montanhas.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "construcao",
+      "titulo": "Hero 'ENGENHARIA DORNELES' com casa moderna e montanhas",
+      "descricao": "Título enorme 'ENGENHARIA' atrás de uma casa moderna iluminada ao entardecer com montanhas nevadas ao fundo, e filtros em pílula na base.",
+      "tecnica": {
+        "como_e_feito": "Texto gigante atrás do sujeito; foto dramática; navbar em pílulas.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada bold"
+        ],
+        "cores_hex": [
+          "#2B2B2B",
+          "#F2EEE8",
+          "#E9A24A"
+        ],
+        "efeitos": [
+          "texto atrás do sujeito"
+        ]
+      },
+      "quando_usar": "Engenharia, construtoras, arquitetura residencial.",
+      "mood": [
+        "imponente",
+        "confiável"
+      ],
+      "tags": [
+        "engenharia",
+        "construcao",
+        "casa",
+        "hero",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1440,
+        "altura": 900,
+        "tamanho_mb": 0.2
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0080",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0080-engenharia-casa-montanhas",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0080-engenharia-casa-montanhas/engenharia-casa-montanhas.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "arquitetura-terra-cotta-russo.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "arquitetura",
+      "titulo": "Hero de arquitetura 'TERRA cotta' com casa escura em colina",
+      "descricao": "Título gigante 'TERRA' em sans e 'cotta' em serifada itálica atrás de uma casa moderna escura numa colina enevoada, com card de ficha técnica.",
+      "tecnica": {
+        "como_e_feito": "Mistura de sans gigante + serifada itálica; casa à frente do título; card translúcido com dados.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans + serifada itálica"
+        ],
+        "cores_hex": [
+          "#3A3A38",
+          "#F2EEE8",
+          "#8C7A64"
+        ],
+        "efeitos": [
+          "mistura de fontes",
+          "texto atrás do sujeito"
+        ]
+      },
+      "quando_usar": "Escritórios de arquitetura e portfólios de projeto.",
+      "mood": [
+        "sofisticado",
+        "sombrio"
+      ],
+      "tags": [
+        "arquitetura",
+        "hero",
+        "serifada",
+        "colina"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 735,
+        "altura": 462,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0081",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0081-arquitetura-terra-cotta-russo",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0081-arquitetura-terra-cotta-russo/arquitetura-terra-cotta-russo.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "estetica-belleza-espanhol.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "estetica",
+      "titulo": "Hero de clínica de estética 'Belleza que realza tu esencia' (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; fundo claro com mulher em tratamento facial, título bold com destaque rosa, foto em card e selo '+2.500'.",
+      "tecnica": {
+        "como_e_feito": "Tons claros perolados; destaque de cor numa palavra; cards e selos de prova social.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans bold"
+        ],
+        "cores_hex": [
+          "#F2F0EE",
+          "#E05A8A",
+          "#1E1E1E"
+        ],
+        "efeitos": [
+          "destaque de palavra",
+          "prova social"
+        ]
+      },
+      "quando_usar": "Clínicas de estética e beleza.",
+      "mood": [
+        "delicado",
+        "premium"
+      ],
+      "tags": [
+        "estetica",
+        "beleza",
+        "espanhol",
+        "hero"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1600,
+        "altura": 1200,
+        "tamanho_mb": 0.4
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0082",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0082-estetica-belleza-espanhol",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0082-estetica-belleza-espanhol/estetica-belleza-espanhol.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "code-makers-cabeca-vermelha.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "tecnologia",
+      "titulo": "Hero 'CODE MAKERS' com cabeça em linhas vermelhas (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; fundo preto com cabeça humana formada por linhas vermelhas brilhantes entre as palavras 'CODE' e 'MAKERS'.",
+      "tecnica": {
+        "como_e_feito": "Objeto 3D em wireframe/linhas com glow vermelho entre as palavras do título.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans larga"
+        ],
+        "cores_hex": [
+          "#0B0B0B",
+          "#E0141E",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "wireframe",
+          "glow"
+        ]
+      },
+      "quando_usar": "Agências de software, cursos de programação.",
+      "mood": [
+        "tecnológico",
+        "ousado"
+      ],
+      "tags": [
+        "tecnologia",
+        "codigo",
+        "vermelho",
+        "hero"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 3024,
+        "altura": 4032,
+        "tamanho_mb": 0.4
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0083",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0083-code-makers-cabeca-vermelha",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0083-code-makers-cabeca-vermelha/code-makers-cabeca-vermelha.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "tatuagem-uroki-pb.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "tatuagem",
+      "titulo": "Hero de estúdio de tatuagem 'UROKI TATTOO' preto e branco",
+      "descricao": "Monitor com site P&B: costas tatuadas de homem com as mãos na cabeça à frente do título gigante, links e miniatura de trabalhos.",
+      "tecnica": {
+        "como_e_feito": "Foto P&B de alto contraste; título gigante atrás do sujeito; layout minimalista.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans grotesca"
+        ],
+        "cores_hex": [
+          "#0B0B0B",
+          "#FFFFFF",
+          "#7A7A7A"
+        ],
+        "efeitos": [
+          "P&B",
+          "texto atrás do sujeito"
+        ]
+      },
+      "quando_usar": "Estúdios de tatuagem, artistas.",
+      "mood": [
+        "intenso",
+        "artístico"
+      ],
+      "tags": [
+        "tatuagem",
+        "pb",
+        "hero",
+        "estudio"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 736,
+        "altura": 552,
+        "tamanho_mb": 0
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0084",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0084-tatuagem-uroki-pb",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0084-tatuagem-uroki-pb/tatuagem-uroki-pb.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "tatuagem-resilience-estudio.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "tatuagem",
+      "titulo": "Hero de estúdio de tatuagem 'RESILIENCE' com tatuador trabalhando",
+      "descricao": "Tatuador mascarado trabalhando sob luz forte à frente do título gigante 'RESILIENCE', com nome em script, menu e miniaturas de trabalhos.",
+      "tecnica": {
+        "como_e_feito": "Foto dramática P&B; título condensado gigante; script elegante no logo; CTA quadrado.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada + script"
+        ],
+        "cores_hex": [
+          "#0B0B0B",
+          "#FFFFFF",
+          "#9A9A9A"
+        ],
+        "efeitos": [
+          "P&B dramático",
+          "texto atrás do sujeito"
+        ]
+      },
+      "quando_usar": "Estúdios de tatuagem e piercing.",
+      "mood": [
+        "intenso",
+        "autêntico"
+      ],
+      "tags": [
+        "tatuagem",
+        "pb",
+        "hero",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1600,
+        "altura": 900,
+        "tamanho_mb": 0.1
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0085",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0085-tatuagem-resilience-estudio",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0085-tatuagem-resilience-estudio/tatuagem-resilience-estudio.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "padel-vertex-raquetes.jpg",
+      "tipo_midia": "imagem",
+      "subcategoria": "esporte",
+      "titulo": "Hero de padel 'vertex' com raquetes flutuando (foto da tela)",
+      "descricao": "Foto da tela (monitor/celular) enviada como referência; duas raquetes de padel flutuando em fundo azul com o título 'vertex' grande na base.",
+      "tecnica": {
+        "como_e_feito": "Produtos 3D flutuando; título largo; fundo de cor única.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans larga"
+        ],
+        "cores_hex": [
+          "#2F6BFF",
+          "#FFFFFF",
+          "#111111"
+        ],
+        "efeitos": [
+          "produto flutuante"
+        ]
+      },
+      "quando_usar": "Lojas e clubes de esporte.",
+      "mood": [
+        "esportivo",
+        "moderno"
+      ],
+      "tags": [
+        "padel",
+        "esporte",
+        "hero",
+        "produto"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 3000,
+        "altura": 4000,
+        "tamanho_mb": 5.8
+      },
+      "receitas": [],
+      "confianca": "baixa",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0086",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0086-padel-vertex-raquetes",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0086-padel-vertex-raquetes/padel-vertex-raquetes.jpg",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "post-tiktok-site-sushi.png",
+      "tipo_midia": "imagem",
+      "subcategoria": "comida",
+      "titulo": "Post mostrando site de restaurante japonês vermelho",
+      "descricao": "Captura de post vertical com a frase 'Faça um projeto irrecusável…' e print de site de sushi com fundo vermelho.",
+      "tecnica": {
+        "como_e_feito": "Conteúdo de rede social com print de site; texto de chamada no topo.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans"
+        ],
+        "cores_hex": [
+          "#0B0B0B",
+          "#B3121C",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "mockup em post"
+        ]
+      },
+      "quando_usar": "Ideias de conteúdo para vender sites.",
+      "mood": [
+        "comercial"
+      ],
+      "tags": [
+        "post",
+        "sushi",
+        "comida",
+        "conteudo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1080,
+        "altura": 2400,
+        "tamanho_mb": 1
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0087",
+      "nicho": "web",
+      "categoria": "mockup-apresentacao",
+      "pasta": "biblioteca/sites/mockup-apresentacao/web-0087-post-tiktok-site-sushi",
+      "caminho_arquivo": "biblioteca/sites/mockup-apresentacao/web-0087-post-tiktok-site-sushi/post-tiktok-site-sushi.png",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "post-tiktok-site-confeitaria-rosa.png",
+      "tipo_midia": "imagem",
+      "subcategoria": "comida",
+      "titulo": "Post mostrando site de confeitaria rosa 'Delícias em cada mordida'",
+      "descricao": "Captura de post vertical com print de site de confeitaria rosa com bolos e doces.",
+      "tecnica": {
+        "como_e_feito": "Print de site em vídeo de rede social; paleta rosa.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "serifada itálica"
+        ],
+        "cores_hex": [
+          "#0B0B0B",
+          "#F2B8C6",
+          "#FFFFFF"
+        ],
+        "efeitos": [
+          "mockup em post"
+        ]
+      },
+      "quando_usar": "Referência de site de confeitaria e de conteúdo de divulgação.",
+      "mood": [
+        "doce",
+        "comercial"
+      ],
+      "tags": [
+        "post",
+        "confeitaria",
+        "rosa",
+        "conteudo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1080,
+        "altura": 2400,
+        "tamanho_mb": 0.6
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0088",
+      "nicho": "web",
+      "categoria": "mockup-apresentacao",
+      "pasta": "biblioteca/sites/mockup-apresentacao/web-0088-post-tiktok-site-confeitaria-rosa",
+      "caminho_arquivo": "biblioteca/sites/mockup-apresentacao/web-0088-post-tiktok-site-confeitaria-rosa/post-tiktok-site-confeitaria-rosa.png",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "post-tiktok-site-pet-shop.png",
+      "tipo_midia": "imagem",
+      "subcategoria": "pet",
+      "titulo": "Post mostrando site de pet shop com cachorro e gato",
+      "descricao": "Captura de post vertical com print de site de pet shop azul claro (cachorro e gato sorrindo) e legenda 'Site pronto e com domínio incluso'.",
+      "tecnica": {
+        "como_e_feito": "Print de site em post; fotos de pets recortadas; paleta azul clara.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans arredondada"
+        ],
+        "cores_hex": [
+          "#0B0B0B",
+          "#BFE3F7",
+          "#F2A33C"
+        ],
+        "efeitos": [
+          "mockup em post"
+        ]
+      },
+      "quando_usar": "Pet shops e clínicas veterinárias; conteúdo de divulgação.",
+      "mood": [
+        "fofo",
+        "comercial"
+      ],
+      "tags": [
+        "post",
+        "pet",
+        "cachorro",
+        "conteudo"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1080,
+        "altura": 2400,
+        "tamanho_mb": 0.6
+      },
+      "receitas": [],
+      "confianca": "media",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0089",
+      "nicho": "web",
+      "categoria": "mockup-apresentacao",
+      "pasta": "biblioteca/sites/mockup-apresentacao/web-0089-post-tiktok-site-pet-shop",
+      "caminho_arquivo": "biblioteca/sites/mockup-apresentacao/web-0089-post-tiktok-site-pet-shop/post-tiktok-site-pet-shop.png",
+      "contact_sheet": null,
+      "poster": null
+    },
+    {
+      "arquivo": "frango-crocante-hero-vermelho.png",
+      "tipo_midia": "imagem",
+      "subcategoria": "comida",
+      "titulo": "Hero 'Do primeiro crocante ao último pedaço' de frango frito",
+      "descricao": "Hero vermelho escuro com balde de frango crocante na mão, título condensado amarelo e branco em duas linhas, selo circular 'Quero o meu' e chamas na base; texto 'Website pronto, só basta hospedar'.",
+      "tecnica": {
+        "como_e_feito": "Produto na mão como herói; display condensada amarela; selo circular; fogo ilustrado.",
+        "duracao_seg": null,
+        "easing": null,
+        "fontes": [
+          "sans condensada heavy"
+        ],
+        "cores_hex": [
+          "#7A0A0A",
+          "#F2C200",
+          "#FFFFFF",
+          "#E0141E"
+        ],
+        "efeitos": [
+          "selo circular",
+          "fogo"
+        ]
+      },
+      "quando_usar": "Restaurantes de frango, fast food, delivery.",
+      "mood": [
+        "faminto",
+        "quente"
+      ],
+      "tags": [
+        "frango",
+        "fast-food",
+        "vermelho",
+        "hero",
+        "portugues"
+      ],
+      "dificuldade": "media",
+      "origem": {
+        "fonte": "outro",
+        "url": null
+      },
+      "media": {
+        "duracao_seg": null,
+        "largura": 1080,
+        "altura": 970,
+        "tamanho_mb": 0.8
+      },
+      "receitas": [],
+      "confianca": "alta",
+      "catalogado_em": "2026-11-11",
+      "area": "site",
+      "id": "web-0090",
+      "nicho": "web",
+      "categoria": "hero",
+      "pasta": "biblioteca/sites/hero/web-0090-frango-crocante-hero-vermelho",
+      "caminho_arquivo": "biblioteca/sites/hero/web-0090-frango-crocante-hero-vermelho/frango-crocante-hero-vermelho.png",
+      "contact_sheet": null,
+      "poster": null
     }
   ]
 }

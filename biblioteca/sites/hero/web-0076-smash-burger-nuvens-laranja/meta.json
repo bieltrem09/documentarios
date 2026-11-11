@@ -1,0 +1,53 @@
+{
+  "id": "web-0076",
+  "area": "site",
+  "arquivo": "smash-burger-nuvens-laranja.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "comida",
+  "titulo": "Hero 'smash burger' gigante entre nuvens laranja (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; hambúrguer enorme no centro entre nuvens laranjas, título branco 'smash burger' grande no canto e cards com nota 4.9/5.",
+  "tecnica": {
+    "como_e_feito": "Produto surreal gigante no céu; paleta laranja/vermelho; cards de avaliação.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#F2551E",
+      "#FFD3A0",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "surreal",
+      "cards de avaliação"
+    ]
+  },
+  "quando_usar": "Hamburguerias e fast food.",
+  "mood": [
+    "faminto",
+    "divertido"
+  ],
+  "tags": [
+    "burger",
+    "nuvens",
+    "laranja",
+    "hero"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1200,
+    "altura": 1343,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

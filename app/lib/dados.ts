@@ -81,6 +81,8 @@ const SEGMENTOS: Record<string, string> = {
   "nft-cripto": "NFT & cripto", arquitetura: "Arquitetura", produtividade: "Produtividade",
   imobiliario: "Imobiliário", saude: "Saúde", mobilidade: "Mobilidade", arte: "Arte", joias: "Joias",
   curadoria: "Curadoria", historia: "História", automotivo: "Automotivo", agencia: "Agência", relojoaria: "Relojoaria",
+  "energia-solar": "Energia solar", hotelaria: "Hotelaria", fitness: "Fitness", barbearia: "Barbearia",
+  estetica: "Estética", tatuagem: "Tatuagem", pet: "Pet", casa: "Casa",
 };
 /** nome legível de segmento (subcategoria dos sites) */
 export const nomeSegmento = (s: string) => SEGMENTOS[s] ?? s.replace(/-/g, " ").replace(/^./, (c) => c.toUpperCase());

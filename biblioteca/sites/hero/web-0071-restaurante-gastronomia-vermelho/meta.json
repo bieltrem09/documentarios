@@ -1,0 +1,54 @@
+{
+  "id": "web-0071",
+  "area": "site",
+  "arquivo": "restaurante-gastronomia-vermelho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "comida",
+  "titulo": "Hero de restaurante 'Uma experiência além do sabor' vermelho (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; fundo vermelho intenso com prato de massa visto de cima, especiarias e taça, título serifado branco e botão 'Conheça o menu'.",
+  "tecnica": {
+    "como_e_feito": "Foto de prato em plongée sobre fundo de cor única; serifada elegante; textura de toalha.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada"
+    ],
+    "cores_hex": [
+      "#B3121C",
+      "#FFFFFF",
+      "#F2C46A"
+    ],
+    "efeitos": [
+      "plongée",
+      "cor única"
+    ]
+  },
+  "quando_usar": "Restaurantes de gastronomia autoral.",
+  "mood": [
+    "elegante",
+    "apetitoso"
+  ],
+  "tags": [
+    "restaurante",
+    "comida",
+    "vermelho",
+    "serifada",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1200,
+    "altura": 976,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

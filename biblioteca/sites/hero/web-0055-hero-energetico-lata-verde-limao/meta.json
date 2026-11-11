@@ -1,0 +1,54 @@
+{
+  "id": "web-0055",
+  "area": "site",
+  "arquivo": "hero-energetico-lata-verde-limao.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "bebida",
+  "titulo": "Hero de energético 'MORE ENERGY' com lata inclinada e forma verde-limão",
+  "descricao": "Hero claro com título largo em caixa alta, lata preta inclinada sobre uma forma orgânica verde-limão, vídeo em card, aviso '18+' e barra de métricas escura arredondada.",
+  "tecnica": {
+    "como_e_feito": "Produto recortado inclinado sobre blob colorido; display extendida; card de vídeo; métricas em barra escura com cantos grandes.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans extendida bold"
+    ],
+    "cores_hex": [
+      "#F2F2F2",
+      "#111111",
+      "#C8F031"
+    ],
+    "efeitos": [
+      "blob colorido",
+      "produto inclinado"
+    ]
+  },
+  "quando_usar": "Bebidas, energéticos, produtos jovens.",
+  "mood": [
+    "energético",
+    "moderno"
+  ],
+  "tags": [
+    "hero",
+    "energetico",
+    "bebida",
+    "verde-limao",
+    "produto"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 552,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}
