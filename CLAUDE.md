@@ -86,6 +86,7 @@ Quando a cena pedir footage/foto que a biblioteca não tem (ex.: "pessoas corren
 │   ├── _novas/                  ← entrada: jogar arquivos aqui sem organizar
 │   ├── proprias/                ← referências criadas pelo Claude/usuário
 │   ├── receitas/                ← receitas reproduzíveis (.md)
+│   ├── estudos/                 ← estudos de sites/galerias de referência (ex.: estudos/motionsites.md, índice com links)
 │   ├── index.json               ← GERADO, não editar à mão
 │   └── index.md                 ← GERADO, versão legível
 ├── projetos/                    ← material de produção de cada vídeo (ex.: projetos/ueno/)

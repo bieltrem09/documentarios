@@ -52,23 +52,20 @@ function CardBanco({ r, onAbrir }: { r: Resultado; onAbrir: () => void }) {
       onMouseEnter={() => video.current?.play().catch(() => {})}
       onMouseLeave={() => video.current?.pause()}
     >
-      <button className="card-botao" onClick={onAbrir} aria-label={`Abrir ${r.titulo}`}>
-        <div className="card-midia" style={{ aspectRatio: `1 / ${prop}` }}>
-          {r.tipo === "video" && r.preview ? (
-            <video ref={video} src={r.preview} poster={r.thumb} muted loop playsInline preload="none" />
-          ) : (
-            <img src={r.thumb} alt={r.titulo} loading="lazy" />
-          )}
-          <div className="card-topo">
-            <span className={`card-id fonte-${r.fonte}`}>{NOME_FONTE[r.fonte]}</span>
-            {r.tipo === "video" && <span className="card-play">▶ {r.duracao_seg ? `${r.duracao_seg}s` : ""}</span>}
-          </div>
-        </div>
-        <div className="card-info">
-          <span className="card-cat">{r.autor}</span>
-          <h3>{r.titulo}</h3>
-        </div>
+      <button className="card-midia" style={{ aspectRatio: `1 / ${prop}` }} onClick={onAbrir} aria-label={`Abrir ${r.titulo}`}>
+        {r.tipo === "video" && r.preview ? (
+          <video ref={video} src={r.preview} poster={r.thumb} muted loop playsInline preload="none" />
+        ) : (
+          <img src={r.thumb} alt={r.titulo} loading="lazy" />
+        )}
+        {r.tipo === "video" && <span className="card-selo">▶ {r.duracao_seg ? `${r.duracao_seg}s` : ""}</span>}
       </button>
+      <div className="card-info">
+        <button className="card-titulo" onClick={onAbrir}>
+          <h3>{r.titulo}</h3>
+          <span>{NOME_FONTE[r.fonte]}</span>
+        </button>
+      </div>
     </article>
   );
 }
@@ -203,11 +200,17 @@ export default function Banco() {
 
   return (
     <>
-      <Topo ativo="banco" numeros={<span>Pexels · Unsplash · Pixabay</span>} />
+      <Topo ativo="banco" onBuscar={() => document.getElementById("busca-banco")?.focus()} numeros={<>Pexels · Unsplash · Pixabay</>} />
 
-      <section className="barra">
+      <section className="hero hero-banco">
+        <span className="selo">Fotos e vídeos gratuitos</span>
+        <h1>
+          <span>Banco de</span>
+          <span className="gradiente">Imagens</span>
+        </h1>
+        <p>Busca direto no Pexels, Unsplash e Pixabay. Abra, baixe o original e copie o crédito pronto.</p>
         <form
-          className="busca"
+          className="busca busca-hero"
           onSubmit={(e) => {
             e.preventDefault();
             nova();
@@ -215,42 +218,18 @@ export default function Banco() {
         >
           <svg viewBox="0 0 24 24" aria-hidden><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
           <input
+            id="busca-banco"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Buscar fotos e vídeos gratuitos… (ex.: pessoas correndo)"
+            placeholder="pessoas correndo, cidade à noite, tribunal…"
             aria-label="Buscar no banco de imagens"
             autoFocus
           />
-          <button type="submit" className="buscar-btn" disabled={carregando}>
-            {carregando ? "Buscando…" : "Buscar"}
+          <button type="submit" className="botao-claro" disabled={carregando}>
+            {carregando ? "Buscando…" : "Buscar →"}
           </button>
         </form>
-
-        <div className="filtros-linha">
-          <div className="grupo">
-            {(["foto", "video"] as const).map((t) => (
-              <button key={t} className={`chip ${tipo === t ? "ativo" : ""}`} onClick={() => nova(q, { tipo: t })}>
-                {t === "foto" ? "Fotos" : "Vídeos"}
-              </button>
-            ))}
-          </div>
-          <div className="grupo">
-            {["todas", "pexels", "unsplash", "pixabay"].map((f) => (
-              <button key={f} className={`chip ${fonte === f ? "ativo" : ""}`} onClick={() => nova(q, { fonte: f })}>
-                {f === "todas" ? "Todas as fontes" : NOME_FONTE[f]}
-              </button>
-            ))}
-          </div>
-          <div className="grupo">
-            {[["horizontal", "16:9"], ["vertical", "9:16"], ["todas", "Qualquer"]].map(([o, n]) => (
-              <button key={o} className={`chip ${orientacao === o ? "ativo" : ""}`} onClick={() => nova(q, { orientacao: o })}>
-                {n}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="filtros-linha rolavel tags">
+        <div className="sugestoes">
           {SUGESTOES.map((s) => (
             <button
               key={s}
@@ -264,26 +243,52 @@ export default function Banco() {
             </button>
           ))}
         </div>
+      </section>
 
-        <div className="resultado">
-          {buscado ? (
-            <>
-              <span>{itens.length.toLocaleString("pt-BR")}</span>&nbsp;carregados de{" "}
-              {Object.values(fontes).filter((f) => f.ok).reduce((a, f) => a + (f.total ?? 0), 0).toLocaleString("pt-BR")} para “{buscado}”
-              {Object.entries(fontes)
-                .filter(([, s]) => s.ok)
-                .map(([n, s]) => (
-                  <em key={n} className="fonte-total">
-                    · {NOME_FONTE[n]} {s.total?.toLocaleString("pt-BR")}
-                    {s.termo_usado ? ` (busca: “${s.termo_usado}”)` : ""}
-                  </em>
-                ))}
-            </>
-          ) : (
-            "Digite o que procura e aperte Enter. Resultados em 16:9 por padrão."
-          )}
+      <section className="filtros" aria-label="Filtros">
+        <div className="grupo-pilulas">
+          {(["foto", "video"] as const).map((t) => (
+            <button key={t} className={`pilula ${tipo === t ? "ativa" : ""}`} onClick={() => nova(q, { tipo: t })}>
+              {t === "foto" ? "Fotos" : "Vídeos"}
+            </button>
+          ))}
+        </div>
+        <div className="grupo-pilulas">
+          {["todas", "pexels", "unsplash", "pixabay"].map((f) => (
+            <button key={f} className={`pilula ${fonte === f ? "ativa" : ""}`} onClick={() => nova(q, { fonte: f })}>
+              {f === "todas" ? "Todas as fontes" : NOME_FONTE[f]}
+            </button>
+          ))}
+        </div>
+        <div className="filtros-dir">
+          <div className="grupo-pilulas">
+            {[["horizontal", "16:9"], ["vertical", "9:16"], ["todas", "Qualquer"]].map(([o, n]) => (
+              <button key={o} className={`pilula ${orientacao === o ? "ativa" : ""}`} onClick={() => nova(q, { orientacao: o })}>
+                {n}
+              </button>
+            ))}
+          </div>
         </div>
       </section>
+
+      <div className="resultado">
+        {buscado ? (
+          <>
+            <b>{itens.length.toLocaleString("pt-BR")}</b> carregados de{" "}
+            {Object.values(fontes).filter((f) => f.ok).reduce((a, f) => a + (f.total ?? 0), 0).toLocaleString("pt-BR")} para “{buscado}”
+            {Object.entries(fontes)
+              .filter(([, s]) => s.ok)
+              .map(([n, s]) => (
+                <em key={n} className="fonte-total">
+                  · {NOME_FONTE[n]} {s.total?.toLocaleString("pt-BR")}
+                  {s.termo_usado ? ` (busca: “${s.termo_usado}”)` : ""}
+                </em>
+              ))}
+          </>
+        ) : (
+          "Digite o que procura e aperte Enter. Resultados em 16:9 por padrão."
+        )}
+      </div>
 
       <main className="grade-wrap">
         {erro && <div className="aviso">{erro}</div>}
@@ -342,7 +347,7 @@ export default function Banco() {
               </div>
               <div className="detalhe-corpo">
                 <div className="detalhe-meta">
-                  <span className={`pill fonte-${aberto.fonte}`}>{NOME_FONTE[aberto.fonte]}</span>
+                  <span className="pill">{NOME_FONTE[aberto.fonte]}</span>
                   <span className="pill">{aberto.tipo === "video" ? "Vídeo" : "Foto"}</span>
                 </div>
                 <h2 className="titulo-banco">{aberto.titulo}</h2>
@@ -350,9 +355,9 @@ export default function Banco() {
                   por {aberto.autor_url ? <a href={aberto.autor_url} target="_blank" rel="noreferrer">{aberto.autor}</a> : aberto.autor}
                 </p>
                 <div className="acoes">
-                  <button className="acao principal" onClick={() => baixar(aberto)} disabled={!aberto.download}>Baixar original</button>
-                  <a className="acao" href={aberto.url_pagina} target="_blank" rel="noreferrer">Abrir no {NOME_FONTE[aberto.fonte]}</a>
-                  <button className="acao" onClick={() => copiarCredito(aberto)}>{copiado ? "Crédito copiado ✓" : "Copiar crédito"}</button>
+                  <button className="botao-claro" onClick={() => baixar(aberto)} disabled={!aberto.download}>Baixar original</button>
+                  <a className="botao-escuro" href={aberto.url_pagina} target="_blank" rel="noreferrer">Abrir no {NOME_FONTE[aberto.fonte]}</a>
+                  <button className="botao-escuro" onClick={() => copiarCredito(aberto)}>{copiado ? "Crédito copiado ✓" : "Copiar crédito"}</button>
                 </div>
                 <section className="bloco">
                   <h4>Licença</h4>

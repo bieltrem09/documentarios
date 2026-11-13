@@ -4,17 +4,17 @@ import { proporcao } from "@/lib/proporcao";
 
 import Fuse from "fuse.js";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { CORES, NOME_CATEGORIA, NOME_NICHO, familia, nomeSegmento, type Ref } from "@/lib/dados";
+import { CORES, NOME_CATEGORIA, NOME_NICHO, familia, midia, nomeSegmento, type Ref } from "@/lib/dados";
 import Card from "./Card";
 import Detalhe from "./Detalhe";
 import Topo from "./Topo";
 
-function useColunas() {
+export function useColunas() {
   const [n, setN] = useState(4);
   useEffect(() => {
     const calc = () => {
       const w = window.innerWidth;
-      setN(w < 560 ? 1 : w < 900 ? 2 : w < 1350 ? 3 : 4);
+      setN(w < 640 ? 1 : w < 960 ? 2 : w < 1280 ? 3 : 4);
     };
     calc();
     window.addEventListener("resize", calc);
@@ -23,11 +23,50 @@ function useColunas() {
   return n;
 }
 
-function Chip({ ativo, onClick, children }: { ativo: boolean; onClick: () => void; children: React.ReactNode }) {
+type Ordem = "destaque" | "recentes" | "az";
+const ORDENS: { id: Ordem; nome: string }[] = [
+  { id: "destaque", nome: "Destaque" },
+  { id: "recentes", nome: "Recentes" },
+  { id: "az", nome: "A–Z" },
+];
+const PESO_CONFIANCA = { alta: 0, media: 1, baixa: 2 } as const;
+
+export function Hero({ selo, linha1, destaque, sub, cta, onCta }: { selo: string; linha1: React.ReactNode; destaque: string; sub: string; cta: string; onCta: () => void }) {
   return (
-    <button className={`chip ${ativo ? "ativo" : ""}`} onClick={onClick} aria-pressed={ativo}>
-      {children}
-    </button>
+    <section className="hero">
+      <span className="selo">{selo}</span>
+      <h1>
+        <span>{linha1}</span>
+        <span className="gradiente">{destaque}</span>
+      </h1>
+      <p>{sub}</p>
+      <button className="cta" onClick={onCta}>
+        {cta} <span aria-hidden>→</span>
+      </button>
+    </section>
+  );
+}
+
+/** Linha de pílulas com rolagem horizontal e seta à direita, como uma barra de categorias. */
+export function Pilulas({ children }: { children: React.ReactNode }) {
+  const trilho = useRef<HTMLDivElement>(null);
+  const [fim, setFim] = useState(false);
+  const checar = () => {
+    const t = trilho.current;
+    if (t) setFim(t.scrollLeft + t.clientWidth >= t.scrollWidth - 4);
+  };
+  useEffect(checar, [children]);
+  return (
+    <div className="grupo-pilulas rolavel">
+      <div className="trilho" ref={trilho} onScroll={checar}>
+        {children}
+      </div>
+      {!fim && (
+        <button className="seta" aria-label="Mais categorias" onClick={() => trilho.current?.scrollBy({ left: 260, behavior: "smooth" })}>
+          <svg viewBox="0 0 24 24" aria-hidden><path d="M9 6l6 6-6 6" /></svg>
+        </button>
+      )}
+    </div>
   );
 }
 
@@ -41,16 +80,20 @@ export default function Biblioteca({
   area: "edicao" | "site";
 }) {
   const ehSite = area === "site";
+  const [ordem, setOrdem] = useState<Ordem>("destaque");
   const [segmento, setSegmento] = useState("todos");
   const [busca, setBusca] = useState("");
+  const [buscaAberta, setBuscaAberta] = useState(false);
   const [nicho, setNicho] = useState("todos");
   const [categoria, setCategoria] = useState("todas");
   const [tipo, setTipo] = useState("todos");
   const [cor, setCor] = useState<string | null>(null);
   const [tags, setTags] = useState<Set<string>>(new Set());
+  const [maisFiltros, setMaisFiltros] = useState(false);
   const [aberto, setAberto] = useState<string | null>(null);
   const colunas = useColunas();
   const buscaRef = useRef<HTMLInputElement>(null);
+  const filtrosRef = useRef<HTMLDivElement>(null);
 
   const fuse = useMemo(
     () =>
@@ -81,7 +124,7 @@ export default function Biblioteca({
   const tagsPopulares = useMemo(() => {
     const c = new Map<string, number>();
     refs.forEach((r) => r.tags.forEach((t) => c.set(t, (c.get(t) ?? 0) + 1)));
-    return [...c.entries()].filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]).slice(0, 18).map(([t]) => t);
+    return [...c.entries()].filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]).slice(0, 24).map(([t]) => t);
   }, [refs]);
 
   const segmentos = useMemo(() => {
@@ -91,8 +134,9 @@ export default function Biblioteca({
   }, [refs]);
 
   const filtradas = useMemo(() => {
-    const base = busca.trim() ? fuse.search(busca.trim()).map((x) => x.item) : refs;
-    return base.filter(
+    const comBusca = !!busca.trim();
+    const base = comBusca ? fuse.search(busca.trim()).map((x) => x.item) : refs;
+    const lista = base.filter(
       (r) =>
         (ehSite || nicho === "todos" || r.nicho === nicho || r.nicho === "ambos") &&
         (!ehSite || segmento === "todos" || r.subcategoria === segmento) &&
@@ -101,17 +145,28 @@ export default function Biblioteca({
         (!cor || r.tecnica.cores_hex.some((h) => familia(h) === cor)) &&
         [...tags].every((t) => r.tags.includes(t)),
     );
-  }, [refs, fuse, busca, nicho, categoria, tipo, cor, tags, ehSite, segmento]);
+    if (comBusca && ordem === "destaque") return lista; // mantém a relevância da busca
+    const ord = [...lista];
+    if (ordem === "az") ord.sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR"));
+    else if (ordem === "recentes") ord.sort((a, b) => b.catalogado_em.localeCompare(a.catalogado_em) || b.id.localeCompare(a.id));
+    else
+      ord.sort(
+        (a, b) =>
+          PESO_CONFIANCA[a.confianca] - PESO_CONFIANCA[b.confianca] ||
+          Number(a.tipo_midia === "imagem") - Number(b.tipo_midia === "imagem") ||
+          b.id.localeCompare(a.id),
+      );
+    return ord;
+  }, [refs, fuse, busca, nicho, categoria, tipo, cor, tags, ehSite, segmento, ordem]);
 
-  // masonry: cada card vai para a coluna mais curta (altura estimada pela proporção)
+  // masonry: cada card vai para a coluna mais curta (altura estimada pela proporção + legenda)
   const grade = useMemo(() => {
     const cols: Ref[][] = Array.from({ length: colunas }, () => []);
     const alturas = new Array(colunas).fill(0);
     filtradas.forEach((r) => {
-      const prop = proporcao(r.media.altura, r.media.largura);
       const i = alturas.indexOf(Math.min(...alturas));
       cols[i].push(r);
-      alturas[i] += prop + 0.18;
+      alturas[i] += proporcao(r.media.altura, r.media.largura) + 0.16;
     });
     return cols;
   }, [filtradas, colunas]);
@@ -119,6 +174,7 @@ export default function Biblioteca({
   const abrir = useCallback((id: string | null) => {
     setAberto(id);
     window.history.pushState({ ref: id }, "", id ? `?ref=${id}` : window.location.pathname);
+    if (id) requestAnimationFrame(() => document.getElementById("painel")?.scrollIntoView({ behavior: "smooth", block: "start" }));
   }, []);
 
   useEffect(() => {
@@ -140,24 +196,40 @@ export default function Biblioteca({
     [indiceAberto, filtradas],
   );
 
+  const focarBusca = useCallback(() => {
+    setBuscaAberta(true);
+    requestAnimationFrame(() => {
+      buscaRef.current?.focus();
+      buscaRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  }, []);
+
   useEffect(() => {
     const tecla = (e: KeyboardEvent) => {
-      if (e.key === "/" && document.activeElement !== buscaRef.current) {
+      const digitando = document.activeElement instanceof HTMLInputElement || document.activeElement instanceof HTMLSelectElement;
+      if (e.key === "/" && !digitando) {
         e.preventDefault();
-        buscaRef.current?.focus();
+        focarBusca();
       }
-      if (!aberto) return;
-      if (e.key === "Escape") abrir(null);
+      if (e.key === "Escape") {
+        if (maisFiltros) setMaisFiltros(false);
+        else if (aberto) abrir(null);
+      }
+      if (!aberto || digitando) return;
       if (e.key === "ArrowRight") navegar(1);
       if (e.key === "ArrowLeft") navegar(-1);
     };
     window.addEventListener("keydown", tecla);
     return () => window.removeEventListener("keydown", tecla);
-  }, [aberto, abrir, navegar]);
+  }, [aberto, abrir, navegar, focarBusca, maisFiltros]);
 
+  // fecha o painel "Filtros" ao clicar fora
   useEffect(() => {
-    document.body.style.overflow = aberto ? "hidden" : "";
-  }, [aberto]);
+    if (!maisFiltros) return;
+    const fora = (e: MouseEvent) => !filtrosRef.current?.contains(e.target as Node) && setMaisFiltros(false);
+    document.addEventListener("mousedown", fora);
+    return () => document.removeEventListener("mousedown", fora);
+  }, [maisFiltros]);
 
   const alternarTag = (t: string) =>
     setTags((s) => {
@@ -176,119 +248,209 @@ export default function Biblioteca({
     setCor(null);
     setTags(new Set());
   };
-  const temFiltro = busca || nicho !== "todos" || segmento !== "todos" || categoria !== "todas" || tipo !== "todos" || cor || tags.size > 0;
+  const extras = (tipo !== "todos" ? 1 : 0) + (cor ? 1 : 0) + tags.size;
+  const temFiltro = busca || nicho !== "todos" || segmento !== "todos" || categoria !== "todas" || extras > 0;
   const videos = refs.filter((r) => r.tipo_midia !== "imagem").length;
 
   return (
     <>
       <Topo
         ativo={ehSite ? "sites" : "edicao"}
+        onBuscar={focarBusca}
         numeros={
           <>
-            <span><strong>{refs.length}</strong> refs</span>
-            <span><strong>{videos}</strong> vídeos</span>
-            <span><strong>{categoriasPresentes.length}</strong> categorias</span>
+            <b>{refs.length}</b> refs · <b>{videos}</b> vídeos
           </>
         }
       />
 
-      <section className="barra">
-        <div className="busca">
-          <svg viewBox="0 0 24 24" aria-hidden><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
-          <input
-            ref={buscaRef}
-            value={busca}
-            onChange={(e) => setBusca(e.target.value)}
-            placeholder={
-              ehSite
-                ? "Buscar estilo de site… (ex.: hero com produto, landing de comida, scroll animado)"
-                : "Buscar técnica, efeito, mood… (ex.: film burn, mapa, tarja vermelha)"
-            }
-            aria-label="Buscar referências"
-          />
-          <kbd>/</kbd>
+      {ehSite ? (
+        <Hero
+          selo="Referências de sites"
+          linha1={<>Ideias para o seu</>}
+          destaque="Próximo site"
+          sub="Heros, landing pages, e-commerce e mockups organizados por categoria e segmento. Abra, estude a técnica e recrie."
+          cta="Buscar referência"
+          onCta={focarBusca}
+        />
+      ) : (
+        <Hero
+          selo="Biblioteca do canal"
+          linha1={
+            <>
+              Edite <em>como</em> um
+            </>
+          }
+          destaque="Documentário"
+          sub="Transições, tipografia, mapas, arquivo e texturas para documentário e notícia. Cada referência com técnica, paleta e quando usar."
+          cta="Buscar referência"
+          onCta={focarBusca}
+        />
+      )}
+
+      {(buscaAberta || busca) && (
+        <div className="busca-wrap">
+          <label className="busca">
+            <svg viewBox="0 0 24 24" aria-hidden><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+            <input
+              ref={buscaRef}
+              value={busca}
+              onChange={(e) => setBusca(e.target.value)}
+              onBlur={() => !busca && setBuscaAberta(false)}
+              placeholder={ehSite ? "Buscar estilo de site… (hero com produto, comida, 3D)" : "Buscar técnica, efeito, mood… (film burn, mapa, tarja vermelha)"}
+              aria-label="Buscar referências"
+            />
+            {busca ? (
+              <button className="busca-limpar" onClick={() => setBusca("")} aria-label="Limpar busca">✕</button>
+            ) : (
+              <kbd>/</kbd>
+            )}
+          </label>
+        </div>
+      )}
+
+      <section className="filtros" aria-label="Filtros">
+        <div className="grupo-pilulas">
+          {ORDENS.map((o) => (
+            <button key={o.id} className={`pilula ${ordem === o.id ? "ativa" : ""}`} aria-pressed={ordem === o.id} onClick={() => setOrdem(o.id)}>
+              {o.nome}
+            </button>
+          ))}
         </div>
 
-        <div className="filtros-linha">
-          {!ehSite && (
-            <div className="grupo">
-              {(["todos", "documentario", "noticia"] as const).map((n) => (
-                <Chip key={n} ativo={nicho === n} onClick={() => setNicho(n)}>
-                  {n === "todos" ? "Todos" : NOME_NICHO[n]}
-                </Chip>
-              ))}
-            </div>
-          )}
-          <div className="grupo">
-            {(["todos", "video", "imagem"] as const).map((t) => (
-              <Chip key={t} ativo={tipo === t} onClick={() => setTipo(t)}>
-                {t === "todos" ? "Toda mídia" : t === "video" ? "Vídeo" : "Imagem"}
-              </Chip>
-            ))}
-          </div>
-          <div className="grupo cores" role="group" aria-label="Filtrar por cor">
-            {CORES.map((c) => (
-              <button
-                key={c.id}
-                className={`cor ${cor === c.id ? "ativo" : ""}`}
-                style={{ background: c.amostra }}
-                title={c.nome}
-                aria-label={c.nome}
-                aria-pressed={cor === c.id}
-                onClick={() => setCor(cor === c.id ? null : c.id)}
-              />
-            ))}
-          </div>
-        </div>
-
-        <div className="filtros-linha rolavel">
-          <Chip ativo={categoria === "todas"} onClick={() => setCategoria("todas")}>
-            Todas <small>{refs.length}</small>
-          </Chip>
+        <Pilulas>
+          <button className={`pilula ${categoria === "todas" ? "ativa" : ""}`} onClick={() => setCategoria("todas")}>
+            Todas
+          </button>
           {categoriasPresentes.map(([c, n]) => (
-            <Chip key={c} ativo={categoria === c} onClick={() => setCategoria(c)}>
-              {NOME_CATEGORIA[c] ?? c} <small>{n}</small>
-            </Chip>
+            <button key={c} className={`pilula ${categoria === c ? "ativa" : ""}`} onClick={() => setCategoria(c)} title={`${n} refs`}>
+              {NOME_CATEGORIA[c] ?? c}
+            </button>
           ))}
-        </div>
+        </Pilulas>
 
-        {ehSite && (
-          <div className="filtros-linha rolavel">
-            <Chip ativo={segmento === "todos"} onClick={() => setSegmento("todos")}>
-              Todos os segmentos
-            </Chip>
-            {segmentos.map(([sg, n]) => (
-              <Chip key={sg} ativo={segmento === sg} onClick={() => setSegmento(sg)}>
-                {nomeSegmento(sg)} <small>{n}</small>
-              </Chip>
-            ))}
+        <div className="filtros-dir">
+          <div className="selecao">
+            {ehSite ? (
+              <select value={segmento} onChange={(e) => setSegmento(e.target.value)} aria-label="Segmento">
+                <option value="todos">Segmento</option>
+                {segmentos.map(([sg, n]) => (
+                  <option key={sg} value={sg}>
+                    {nomeSegmento(sg)} ({n})
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <select value={nicho} onChange={(e) => setNicho(e.target.value)} aria-label="Nicho">
+                <option value="todos">Nicho</option>
+                <option value="documentario">{NOME_NICHO.documentario}</option>
+                <option value="noticia">{NOME_NICHO.noticia}</option>
+              </select>
+            )}
+            <svg viewBox="0 0 24 24" aria-hidden><path d="M7 10l5 5 5-5" /></svg>
           </div>
-        )}
 
-        <div className="filtros-linha rolavel tags">
-          {tagsPopulares.map((t) => (
-            <button key={t} className={`tag ${tags.has(t) ? "ativo" : ""}`} onClick={() => alternarTag(t)}>
-              #{t}
+          <div className="pop-wrap" ref={filtrosRef}>
+            <button className={`selecao botao ${extras ? "com-filtro" : ""}`} onClick={() => setMaisFiltros((v) => !v)} aria-expanded={maisFiltros}>
+              Filtros{extras ? <b>{extras}</b> : null}
+              <svg viewBox="0 0 24 24" aria-hidden><path d="M7 10l5 5 5-5" /></svg>
             </button>
-          ))}
-        </div>
-
-        <div className="resultado">
-          <span>{filtradas.length}</span>&nbsp;de {refs.length} referências
-          {temFiltro ? (
-            <button className="limpar" onClick={limpar}>
-              limpar filtros ✕
-            </button>
-          ) : null}
+            {maisFiltros && (
+              <div className="pop" role="dialog" aria-label="Mais filtros">
+                <h5>Mídia</h5>
+                <div className="pop-linha">
+                  {(["todos", "video", "imagem"] as const).map((t) => (
+                    <button key={t} className={`pilula pequena ${tipo === t ? "ativa" : ""}`} onClick={() => setTipo(t)}>
+                      {t === "todos" ? "Todas" : t === "video" ? "Vídeo" : "Imagem"}
+                    </button>
+                  ))}
+                </div>
+                <h5>Cor</h5>
+                <div className="pop-linha">
+                  {CORES.map((c) => (
+                    <button
+                      key={c.id}
+                      className={`cor ${cor === c.id ? "ativa" : ""}`}
+                      style={{ background: c.amostra }}
+                      title={c.nome}
+                      aria-label={c.nome}
+                      aria-pressed={cor === c.id}
+                      onClick={() => setCor(cor === c.id ? null : c.id)}
+                    />
+                  ))}
+                </div>
+                <h5>Tags</h5>
+                <div className="pop-linha tags">
+                  {tagsPopulares.map((t) => (
+                    <button key={t} className={`tag ${tags.has(t) ? "ativa" : ""}`} onClick={() => alternarTag(t)}>
+                      #{t}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </section>
 
+      {temFiltro ? (
+        <div className="resultado">
+          <b>{filtradas.length}</b> de {refs.length}
+          <button onClick={limpar}>Limpar filtros</button>
+        </div>
+      ) : null}
+
       <main className="grade-wrap">
+        {refAberta && (
+          <section id="painel" className="painel" key={refAberta.id} aria-label={refAberta.titulo}>
+            <div className="painel-midia">
+              {refAberta.tipo_midia === "imagem" ? (
+                <img src={midia(refAberta)} alt={refAberta.titulo} />
+              ) : (
+                <video src={midia(refAberta)} controls autoPlay muted loop playsInline />
+              )}
+              <button className="painel-voltar" onClick={() => abrir(null)} aria-label="Fechar (Esc)">
+                <svg viewBox="0 0 24 24" aria-hidden><path d="M19 12H5M11 6l-6 6 6 6" /></svg>
+              </button>
+            </div>
+            <aside className="painel-lado">
+              <div className="painel-cabeca">
+                <h2>{refAberta.titulo}</h2>
+                <p className="painel-cat">
+                  {NOME_CATEGORIA[refAberta.categoria] ?? refAberta.categoria}
+                  {refAberta.subcategoria ? ` · ${refAberta.area === "site" ? nomeSegmento(refAberta.subcategoria) : refAberta.subcategoria}` : ""}
+                </p>
+                <p className="painel-desc">{refAberta.descricao}</p>
+                <div className="painel-acoes">
+                  <a className="botao-claro" href={`/ref/${refAberta.id}/`}>
+                    Abrir página
+                  </a>
+                  <button className="botao-escuro" onClick={() => navegar(-1)} aria-label="Anterior (←)">←</button>
+                  <button className="botao-escuro" onClick={() => navegar(1)} aria-label="Próxima (→)">→</button>
+                </div>
+                <p className="painel-pos">
+                  {refAberta.id}
+                  {indiceAberto >= 0 ? ` · ${indiceAberto + 1} de ${filtradas.length}` : ""}
+                </p>
+              </div>
+              <Detalhe
+                r={refAberta}
+                receitas={receitas}
+                semMidia
+                onTag={(t) => {
+                  abrir(null);
+                  setTags(new Set([t]));
+                }}
+              />
+            </aside>
+          </section>
+        )}
+
         <div className="grade" style={{ gridTemplateColumns: `repeat(${colunas}, minmax(0, 1fr))` }}>
           {grade.map((col, ci) => (
             <div key={ci} className="coluna">
               {col.map((r) => (
-                <Card key={r.id} r={r} onAbrir={() => abrir(r.id)} />
+                <Card key={r.id} r={r} ativo={r.id === aberto} onAbrir={() => abrir(r.id)} />
               ))}
             </div>
           ))}
@@ -296,40 +458,19 @@ export default function Biblioteca({
         {filtradas.length === 0 && (
           <div className="vazio">
             <p>Nenhuma referência com esses filtros.</p>
-            <button onClick={limpar}>Limpar filtros</button>
+            <button className="botao-claro" onClick={limpar}>
+              Limpar filtros
+            </button>
           </div>
         )}
       </main>
 
       <footer className="rodape">
-        Biblioteca InDeep · {ehSite ? "referências de sites" : "referências de edição"} de terceiros para estudo de técnica · <kbd>/</kbd> busca · <kbd>←</kbd> <kbd>→</kbd> navegar · <kbd>Esc</kbd> fechar
+        <span>© InDeep · {ehSite ? "referências de sites" : "referências de edição"} de terceiros, para estudo de técnica</span>
+        <span>
+          <kbd>/</kbd> buscar · <kbd>←</kbd> <kbd>→</kbd> navegar · <kbd>Esc</kbd> fechar
+        </span>
       </footer>
-
-      {refAberta && (
-        <div className="modal-fundo" onClick={() => abrir(null)}>
-          <div className="modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label={refAberta.titulo}>
-            <div className="modal-topo">
-              <span className="modal-pos">{indiceAberto >= 0 ? `${indiceAberto + 1} / ${filtradas.length}` : refAberta.id}</span>
-              <div>
-                <button className="nav" onClick={() => navegar(-1)} aria-label="Anterior">←</button>
-                <button className="nav" onClick={() => navegar(1)} aria-label="Próxima">→</button>
-                <a className="nav" href={`/ref/${refAberta.id}/`} title="Abrir página da referência">↗</a>
-                <button className="nav fechar" onClick={() => abrir(null)} aria-label="Fechar">✕</button>
-              </div>
-            </div>
-            <div key={refAberta.id} className="modal-conteudo">
-              <Detalhe
-                r={refAberta}
-                receitas={receitas}
-                onTag={(t) => {
-                  abrir(null);
-                  setTags(new Set([t]));
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      )}
     </>
   );
 }

@@ -16,10 +16,13 @@ export default function Detalhe({
   r,
   receitas,
   onTag,
+  semMidia,
 }: {
   r: Ref;
   receitas: Record<string, string>;
   onTag?: (t: string) => void;
+  /** no painel expandido a mídia fica à esquerda; aqui só o texto */
+  semMidia?: boolean;
 }) {
   const [copiado, setCopiado] = useState<string | null>(null);
   const cs = contactSheet(r);
@@ -32,7 +35,8 @@ export default function Detalhe({
   const receitasDaRef = r.receitas.filter((x) => receitas[x]);
 
   return (
-    <div className="detalhe">
+    <div className={`detalhe ${semMidia ? "so-texto" : ""}`}>
+      {!semMidia && (
       <div className={`detalhe-midia ${r.media.altura > r.media.largura ? "vertical" : ""}`}>
         {r.tipo_midia === "imagem" ? (
           <img src={midia(r)} alt={r.titulo} />
@@ -40,8 +44,10 @@ export default function Detalhe({
           <video src={midia(r)} controls autoPlay muted loop playsInline />
         )}
       </div>
+      )}
 
       <div className="detalhe-corpo">
+        {!semMidia && (
         <div className="detalhe-cabeca">
           <div className="detalhe-meta">
             <button className="pill id" onClick={() => copiar(r.id)} title="Copiar ID">
@@ -54,6 +60,7 @@ export default function Detalhe({
           <h2>{r.titulo}</h2>
           <p className="descricao">{r.descricao}</p>
         </div>
+        )}
 
         <Bloco titulo="Quando usar">
           <p>{r.quando_usar}</p>
