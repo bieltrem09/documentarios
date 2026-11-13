@@ -1,0 +1,53 @@
+{
+  "id": "web-0056",
+  "area": "site",
+  "arquivo": "imobiliaria-casa-moderna-ceu.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "imobiliario",
+  "titulo": "Landing imobiliária com casa moderna branca sobre céu azul",
+  "descricao": "Página com casa moderna branca em balanço sobre céu azul degradê, título fino 'Extraordinary living begins here' e seção 'Where your vision finds its home' com imagem inline no texto.",
+  "tecnica": {
+    "como_e_feito": "Céu em gradiente; arquitetura recortada; tipografia fina; imagem pequena embutida na frase (inline image).",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#BFD9F2",
+      "#FFFFFF",
+      "#1E1E1E"
+    ],
+    "efeitos": [
+      "imagem inline no texto",
+      "gradiente de céu"
+    ]
+  },
+  "quando_usar": "Imobiliárias e construtoras de alto padrão.",
+  "mood": [
+    "leve",
+    "premium"
+  ],
+  "tags": [
+    "imobiliario",
+    "casa",
+    "ceu",
+    "minimalista"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 981,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

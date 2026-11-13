@@ -1,0 +1,55 @@
+{
+  "id": "web-0051",
+  "area": "site",
+  "arquivo": "template-3d-rocha-glass.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "ia-saas",
+  "titulo": "Template de site 3D com rocha flutuante e anel de vidro (vídeo)",
+  "descricao": "Telas de site cinza-claro inclinadas em perspectiva com uma rocha com musgo flutuando atravessada por um anel de vidro, cards e textos 'Remixed with AI'.",
+  "tecnica": {
+    "como_e_feito": "Objeto 3D (Spline/Three.js) com material de vidro; telas em perspectiva; tons neutros.",
+    "duracao_seg": 16.8,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#E9E9E9",
+      "#3A4A2E",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "3D",
+      "vidro",
+      "perspectiva"
+    ]
+  },
+  "quando_usar": "Landing de SaaS/IA com visual 3D premium.",
+  "mood": [
+    "sofisticado",
+    "calmo"
+  ],
+  "tags": [
+    "3d",
+    "template",
+    "vidro",
+    "saas",
+    "ia"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 16.79,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.4
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "web-0044",
+  "area": "site",
+  "arquivo": "tenis-move-faster-pagina.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "esporte",
+  "titulo": "Página de escola de tênis 'Move Faster' azul",
+  "descricao": "Página com hero azul de tenista em movimento e título gigante, números, card azul inclinado com jogador e seção 'Take a tour'.",
+  "tecnica": {
+    "como_e_feito": "Título gigante sobreposto à foto; card rotacionado; números; azul + branco.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#2C6FD6",
+      "#FFFFFF",
+      "#111111"
+    ],
+    "efeitos": [
+      "card rotacionado",
+      "título sobre foto"
+    ]
+  },
+  "quando_usar": "Escolas de esporte, academias.",
+  "mood": [
+    "energético",
+    "esportivo"
+  ],
+  "tags": [
+    "esporte",
+    "tenis",
+    "landing",
+    "azul"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1324,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "ref-0005",
+  "area": "edicao",
+  "arquivo": "reportagem-ciberataque-banco.mp4",
+  "tipo_midia": "video",
+  "nicho": "noticia",
+  "categoria": "elementos-noticia",
+  "subcategoria": "reportagem-tv",
+  "titulo": "Reportagem de TV sobre ciberataque a banco (lower thirds, números e infográfico)",
+  "descricao": "Reportagem completa (2 min 25 s) de canal de notícias sobre ciberataque a um banco. Mostra print de notificação do app sobre a cena, entrevistas com lower thirds brancos sobre tarja preta, hacker de moletom, número grande '100 millions €' sobre a imagem e infográfico de servidores ligados a contas.",
+  "tecnica": {
+    "como_e_feito": "Estrutura de telejornal: b-roll de rua + sonoras; lower third em duas linhas (nome em caixa alta bold, cargo em regular) sobre tarja preta translúcida no canto inferior esquerdo; número grande em sans bold com desfoque do fundo; infográfico flat (ícones de servidor, setas, valores) sobre fundo desfocado; print de tela flutuando sobre o vídeo.",
+    "duracao_seg": 145,
+    "easing": null,
+    "fontes": [
+      "sans grotesca bold/regular (tipo Helvetica/Roboto)"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#000000",
+      "#1BA3C6",
+      "#2E8B57"
+    ],
+    "efeitos": [
+      "lower third",
+      "print de tela sobreposto",
+      "número grande com blur de fundo",
+      "infográfico flat"
+    ]
+  },
+  "quando_usar": "Vídeos de notícia sobre golpes, vazamentos e ataques digitais; base para lower thirds, números de impacto e infográficos simples. Dividir em recortes (npm run trim) para refs específicas.",
+  "mood": [
+    "sério",
+    "informativo"
+  ],
+  "tags": [
+    "telejornal",
+    "lower-third",
+    "infografico",
+    "hacker",
+    "banco",
+    "numero-grande",
+    "ciberataque"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "youtube",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 145.15,
+    "largura": 1280,
+    "altura": 720,
+    "tamanho_mb": 18.7
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

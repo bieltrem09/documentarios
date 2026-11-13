@@ -1,0 +1,56 @@
+{
+  "id": "ref-0080",
+  "area": "edicao",
+  "arquivo": "thumb-cabeca-aberta-cerebro-logos.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "rosto-e-objeto",
+  "titulo": "Thumbnail: empresário com o topo da cabeça aberto mostrando o cérebro conectado",
+  "descricao": "Retrato sorridente com a calota craniana cortada revelando um cérebro com cabo conectado; ao fundo, nome gigante cinza e logos de empresas desfocados.",
+  "tecnica": {
+    "como_e_feito": "Recorte com máscara na testa + cérebro em camada; cabo como elemento surreal; fundo claro com texto gigante e logos em baixa opacidade.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#F2F2F2",
+      "#E04A6A",
+      "#1C1C1C",
+      "#C8102E"
+    ],
+    "efeitos": [
+      "surreal",
+      "máscara",
+      "texto de fundo"
+    ]
+  },
+  "quando_usar": "Tecnologia, implantes cerebrais, mente de empreendedores.",
+  "mood": [
+    "surreal",
+    "curioso"
+  ],
+  "tags": [
+    "thumbnail",
+    "cerebro",
+    "surreal",
+    "tecnologia",
+    "rosto"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

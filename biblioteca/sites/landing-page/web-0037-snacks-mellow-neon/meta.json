@@ -1,0 +1,56 @@
+{
+  "id": "web-0037",
+  "area": "site",
+  "arquivo": "snacks-mellow-neon.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "comida",
+  "titulo": "Landing de snacks 'Mellow' com neon e adesivos",
+  "descricao": "Página escura com títulos verde-limão e rosa, TV retrô com logo, adesivos, pacotes de salgadinho e seções coloridas com mascote.",
+  "tecnica": {
+    "como_e_feito": "Estética street/zine: adesivos rotacionados, fita, neon, tipografia display variada.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "display bold variada"
+    ],
+    "cores_hex": [
+      "#111111",
+      "#C8F031",
+      "#FF4FB0",
+      "#FFD21F"
+    ],
+    "efeitos": [
+      "adesivos",
+      "neon",
+      "colagem"
+    ]
+  },
+  "quando_usar": "Marcas jovens de snacks/bebidas.",
+  "mood": [
+    "irreverente",
+    "energético"
+  ],
+  "tags": [
+    "snacks",
+    "neon",
+    "landing",
+    "adesivo",
+    "jovem"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1104,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

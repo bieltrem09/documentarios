@@ -1,0 +1,55 @@
+{
+  "id": "web-0090",
+  "area": "site",
+  "arquivo": "frango-crocante-hero-vermelho.png",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "comida",
+  "titulo": "Hero 'Do primeiro crocante ao último pedaço' de frango frito",
+  "descricao": "Hero vermelho escuro com balde de frango crocante na mão, título condensado amarelo e branco em duas linhas, selo circular 'Quero o meu' e chamas na base; texto 'Website pronto, só basta hospedar'.",
+  "tecnica": {
+    "como_e_feito": "Produto na mão como herói; display condensada amarela; selo circular; fogo ilustrado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy"
+    ],
+    "cores_hex": [
+      "#7A0A0A",
+      "#F2C200",
+      "#FFFFFF",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "selo circular",
+      "fogo"
+    ]
+  },
+  "quando_usar": "Restaurantes de frango, fast food, delivery.",
+  "mood": [
+    "faminto",
+    "quente"
+  ],
+  "tags": [
+    "frango",
+    "fast-food",
+    "vermelho",
+    "hero",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1080,
+    "altura": 970,
+    "tamanho_mb": 0.8
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

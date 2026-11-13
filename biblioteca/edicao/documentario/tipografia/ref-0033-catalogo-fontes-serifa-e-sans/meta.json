@@ -1,0 +1,53 @@
+{
+  "id": "ref-0033",
+  "area": "edicao",
+  "arquivo": "catalogo-fontes-serifa-e-sans.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "combinacao-de-fontes",
+  "titulo": "Catálogo de fontes: serifada bold, grotescas e serifada itálica fina",
+  "descricao": "Quatro cartões escuros com amostras de fontes: uma serifada bold ('Azurio'), duas sans grotescas ('Goga', 'Remixa') e uma serifada itálica fina ('Emilio'), cada uma com um ponto laranja como detalhe.",
+  "tecnica": {
+    "como_e_feito": "Referência de pareamento: serifada pesada para títulos editoriais, grotesca para corpo/legenda, itálica fina para citações. Alternativas livres: Fraunces, Inter/Manrope, Playfair Display Italic.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada bold (Fraunces)",
+      "grotesca (Inter, Manrope)",
+      "serifada itálica fina (Playfair Italic)"
+    ],
+    "cores_hex": [
+      "#1C1C1C",
+      "#FFFFFF",
+      "#FF4A1C"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Escolher a família tipográfica de um vídeo (título, citação, legenda).",
+  "mood": [
+    "editorial",
+    "elegante"
+  ],
+  "tags": [
+    "fonte",
+    "serifada",
+    "grotesca",
+    "italico",
+    "pareamento"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 920,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

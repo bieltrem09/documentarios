@@ -1,0 +1,60 @@
+{
+  "id": "ref-0030",
+  "area": "edicao",
+  "arquivo": "colagem-grafico-seta-vermelha-predios.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "noticia",
+  "categoria": "dados-graficos",
+  "subcategoria": "colagem-com-grafico",
+  "titulo": "Colagem: prédios P&B, contorno de pessoa e seta de gráfico vermelha",
+  "descricao": "Colagem editorial sobre grade escura: prédios corporativos em P&B na base, contorno branco de uma cabeça/ombros por cima, linha de gráfico vermelha em zigue-zague terminando em seta e placa 'IT SECTOR' em vermelho.",
+  "tecnica": {
+    "como_e_feito": "Recortes P&B de prédios; contorno em linha branca (stroke) de silhueta; gráfico em linha vermelha grossa com glow e seta; grade fina de fundo; placa de texto vermelha em sans condensada. Animável: seta desenhando-se (trim path) e prédios subindo com parallax.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada bold branca em placa vermelha"
+    ],
+    "cores_hex": [
+      "#111111",
+      "#E21B1B",
+      "#FFFFFF",
+      "#8A8A8A"
+    ],
+    "efeitos": [
+      "colagem",
+      "stroke",
+      "seta de gráfico",
+      "grade",
+      "parallax 2.5D"
+    ]
+  },
+  "quando_usar": "Notícias de economia/mercado de trabalho, demissões, crise de setor; abertura de matéria.",
+  "mood": [
+    "sério",
+    "editorial"
+  ],
+  "tags": [
+    "colagem",
+    "grafico",
+    "seta",
+    "vermelho",
+    "predios",
+    "economia",
+    "noticia"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

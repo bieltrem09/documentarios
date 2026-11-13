@@ -1,0 +1,55 @@
+{
+  "id": "ref-0076",
+  "area": "edicao",
+  "arquivo": "contador-views-celulares-3d.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "contador",
+  "titulo": "Contador de visualizações com celulares de vidro flutuando",
+  "descricao": "Número grande ('270677 Views') no topo sobre fundo preto, com celulares de vidro translúcido flutuando em 3D, cada um repetindo o número.",
+  "tecnica": {
+    "como_e_feito": "Render 3D de telas de vidro com glow; texto com contador animado; profundidade de campo. Em código: number count-up + cards 3D com float.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans regular grande"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF",
+      "#7A7A7A"
+    ],
+    "efeitos": [
+      "vidro 3D",
+      "glow",
+      "contador"
+    ]
+  },
+  "quando_usar": "Mostrar viralização, audiência, alcance de vídeo/notícia.",
+  "mood": [
+    "tecnológico",
+    "minimalista"
+  ],
+  "tags": [
+    "contador",
+    "views",
+    "3d",
+    "celular",
+    "viral"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-09"
+}

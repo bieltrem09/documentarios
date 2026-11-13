@@ -1,0 +1,53 @@
+{
+  "id": "web-0041",
+  "area": "site",
+  "arquivo": "hero-moped-eletrico.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "mobilidade",
+  "titulo": "Hero 'Super fast electric Moped' com scooter branca",
+  "descricao": "Hero cinza claro com scooter branca no centro, título preto com ícones, card com modelo e miniatura do produto.",
+  "tecnica": {
+    "como_e_feito": "Produto recortado grande; cards flutuantes com dados; tipografia média.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#E6E6E6",
+      "#111111",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "cards flutuantes",
+      "produto recortado"
+    ]
+  },
+  "quando_usar": "Mobilidade elétrica, produtos de tecnologia.",
+  "mood": [
+    "moderno",
+    "limpo"
+  ],
+  "tags": [
+    "hero",
+    "moped",
+    "mobilidade",
+    "produto"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 643,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

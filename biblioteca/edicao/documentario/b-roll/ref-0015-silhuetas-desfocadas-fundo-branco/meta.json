@@ -1,0 +1,54 @@
+{
+  "id": "ref-0015",
+  "area": "edicao",
+  "arquivo": "silhuetas-desfocadas-fundo-branco.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "multidao-anonima",
+  "titulo": "Silhuetas humanas desfocadas caminhando contra fundo branco",
+  "descricao": "Figuras humanas sem rosto, de costas, em tons de marrom e rosa, cruzam lentamente um fundo branco estourado, em camadas com níveis diferentes de desfoque.",
+  "tecnica": {
+    "como_e_feito": "Manequins 3D (ou footage) em contraluz com fundo superexposto; várias camadas em profundidade com desfoque diferente; movimento lateral lento em loop; leve lens flare.",
+    "duracao_seg": 10,
+    "easing": "linear",
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#3B2A26",
+      "#C9A9A6"
+    ],
+    "efeitos": [
+      "desfoque de profundidade",
+      "contraluz",
+      "loop"
+    ]
+  },
+  "quando_usar": "Representar 'pessoas comuns', vítimas anônimas, população ou estatísticas sem mostrar rostos; fundo para texto.",
+  "mood": [
+    "etéreo",
+    "melancólico"
+  ],
+  "tags": [
+    "silhueta",
+    "multidao",
+    "anonimo",
+    "desfoque",
+    "fundo-branco",
+    "loop"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 9.96,
+    "largura": 640,
+    "altura": 360,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

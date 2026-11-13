@@ -1,0 +1,55 @@
+{
+  "id": "ref-0041",
+  "area": "edicao",
+  "arquivo": "colagem-dedos-grafico-vermelho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "colagem-com-grafico",
+  "titulo": "Colagem: dedos vintage apontando para gráfico em zigue-zague sobre grade vermelha",
+  "descricao": "Fundo vermelho com grade fina; linha de gráfico creme grossa em zigue-zague descendo; duas mãos recortadas em tom sépia, uma apontando para baixo e outra para cima.",
+  "tecnica": {
+    "como_e_feito": "Fundo chapado vermelho com grid; gráfico em stroke grosso creme; recortes de mãos antigas (sépia, halftone) apontando para os picos. Animável: linha desenhando + mãos entrando com parallax.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#D3302F",
+      "#F2E6D0",
+      "#B89B6A",
+      "#8E1C1C"
+    ],
+    "efeitos": [
+      "grade",
+      "stroke draw-on",
+      "recorte vintage"
+    ]
+  },
+  "quando_usar": "Altos e baixos do mercado, culpa/acusação, volatilidade econômica.",
+  "mood": [
+    "editorial",
+    "tenso"
+  ],
+  "tags": [
+    "colagem",
+    "grafico",
+    "maos",
+    "vermelho",
+    "grade",
+    "economia"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

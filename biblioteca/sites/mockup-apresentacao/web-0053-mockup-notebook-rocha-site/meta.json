@@ -1,0 +1,53 @@
+{
+  "id": "web-0053",
+  "area": "site",
+  "arquivo": "mockup-notebook-rocha-site.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "agencia",
+  "titulo": "Notebook sobre rochas exibindo site escuro (vídeo)",
+  "descricao": "Notebook aberto sobre rochas escuras mostrando um site preto com logo grande, fotos de produtos e títulos ('Revolutionize Product Visualization').",
+  "tecnica": {
+    "como_e_feito": "Mockup 3D com iluminação dramática; câmera orbitando; telas trocando.",
+    "duracao_seg": 13.5,
+    "easing": null,
+    "fontes": [
+      "sans"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#FFFFFF",
+      "#7A7A7A"
+    ],
+    "efeitos": [
+      "mockup 3D",
+      "câmera orbitando"
+    ]
+  },
+  "quando_usar": "Apresentar site/portfólio com impacto.",
+  "mood": [
+    "dramático",
+    "premium"
+  ],
+  "tags": [
+    "mockup",
+    "notebook",
+    "apresentacao",
+    "escuro"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 13.53,
+    "largura": 720,
+    "altura": 900,
+    "tamanho_mb": 1.4
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

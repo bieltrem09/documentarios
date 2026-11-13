@@ -1,0 +1,53 @@
+{
+  "id": "ref-0060",
+  "area": "edicao",
+  "arquivo": "mockup-celular-na-mao.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "mockup-de-tela",
+  "titulo": "Mockup de celular na mão com tela branca",
+  "descricao": "Mão segurando um smartphone moderno em leve inclinação, tela branca para substituição, sobre fundo cinza-claro.",
+  "tecnica": {
+    "como_e_feito": "Mockup com mão real; corner pin na tela; fundo claro neutro. Animável: leve float e rolagem do conteúdo da tela.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#E9EAEC",
+      "#FFFFFF",
+      "#2B2B2B",
+      "#E8C9B5"
+    ],
+    "efeitos": [
+      "mockup",
+      "corner pin"
+    ]
+  },
+  "quando_usar": "Mostrar mensagens, posts, apps de banco e golpes de celular.",
+  "mood": [
+    "neutro",
+    "limpo"
+  ],
+  "tags": [
+    "mockup",
+    "celular",
+    "mao",
+    "tela",
+    "screen-replacement"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 980,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "web-0014",
+  "area": "site",
+  "arquivo": "confeitaria-golden-landing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "comida",
+  "titulo": "Confeitaria 'Golden Creations' vinho e rosa",
+  "descricao": "Landing com fundo vinho, título rosa display 'Baking happiness for every heart', fotos de pães e doces recortados, caixa de doces e seções com ícones.",
+  "tecnica": {
+    "como_e_feito": "Paleta vinho/rosa/creme; display bold; produtos recortados flutuando; seções em cards.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "display bold"
+    ],
+    "cores_hex": [
+      "#5C0E25",
+      "#E43D6A",
+      "#FFF3EC",
+      "#E2A33C"
+    ],
+    "efeitos": [
+      "produtos recortados"
+    ]
+  },
+  "quando_usar": "Padarias, confeitarias, cafés.",
+  "mood": [
+    "acolhedor",
+    "doce"
+  ],
+  "tags": [
+    "confeitaria",
+    "padaria",
+    "comida",
+    "landing",
+    "rosa"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1307,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

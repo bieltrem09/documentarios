@@ -1,0 +1,53 @@
+{
+  "id": "web-0052",
+  "area": "site",
+  "arquivo": "aluguel-carros-premium.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "automotivo",
+  "titulo": "Landing de aluguel de carros premium em Nova York (vídeo)",
+  "descricao": "Site branco com conversível prata no hero, logos de marcas, frota em grade de fotos, recursos com ícones e CTA preto.",
+  "tecnica": {
+    "como_e_feito": "Layout limpo; produto recortado no hero; grid de cards; footer simples.",
+    "duracao_seg": 13.7,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#111111",
+      "#BFBFBF"
+    ],
+    "efeitos": [
+      "produto recortado",
+      "grade de frota"
+    ]
+  },
+  "quando_usar": "Locadoras, concessionárias, serviços automotivos.",
+  "mood": [
+    "limpo",
+    "premium"
+  ],
+  "tags": [
+    "carros",
+    "aluguel",
+    "landing",
+    "automotivo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 13.7,
+    "largura": 720,
+    "altura": 540,
+    "tamanho_mb": 0.6
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

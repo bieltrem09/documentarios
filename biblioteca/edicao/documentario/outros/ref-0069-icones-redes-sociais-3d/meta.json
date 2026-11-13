@@ -1,0 +1,53 @@
+{
+  "id": "ref-0069",
+  "area": "edicao",
+  "arquivo": "icones-redes-sociais-3d.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "outros",
+  "subcategoria": "icones",
+  "titulo": "Grade de ícones de redes sociais em estilo 3D suave",
+  "descricao": "Quinze ícones de apps e redes sociais em quadrados arredondados com leve volume e sombra, em grade 5x3 sobre fundo transparente.",
+  "tecnica": {
+    "como_e_feito": "Ícones com bevel/sombra suave para compor cenas sobre redes sociais. Usar só como referência de estilo; recriar ícones genéricos para não depender de marcas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#1877F2",
+      "#E1306C",
+      "#25D366",
+      "#FF0000",
+      "#000000"
+    ],
+    "efeitos": [
+      "ícones 3D suaves",
+      "sombra"
+    ]
+  },
+  "quando_usar": "Cenas sobre redes sociais, viralização, plataformas.",
+  "mood": [
+    "moderno",
+    "neutro"
+  ],
+  "tags": [
+    "icones",
+    "redes-sociais",
+    "apps",
+    "3d"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 456,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-08"
+}

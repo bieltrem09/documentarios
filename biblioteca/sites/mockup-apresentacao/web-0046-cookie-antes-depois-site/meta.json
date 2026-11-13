@@ -1,0 +1,53 @@
+{
+  "id": "web-0046",
+  "area": "site",
+  "arquivo": "cookie-antes-depois-site.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "comida",
+  "titulo": "'From boring to wow': site de cookies em animação",
+  "descricao": "Vídeo vertical marrom com o site de cookies rolando: título 'Cookie' com biscoito no lugar do 'o', seções 'Taste the difference' e cards de sabores.",
+  "tecnica": {
+    "como_e_feito": "Hero com letra substituída por produto; transições de scroll; paleta marrom/bege.",
+    "duracao_seg": 13,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#4A2414",
+      "#FFFFFF",
+      "#D9C9B6"
+    ],
+    "efeitos": [
+      "letra-produto",
+      "scroll"
+    ]
+  },
+  "quando_usar": "Mostrar redesign/antes-depois para clientes.",
+  "mood": [
+    "divertido",
+    "doce"
+  ],
+  "tags": [
+    "cookie",
+    "comida",
+    "antes-depois",
+    "mockup"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 13.08,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.7
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

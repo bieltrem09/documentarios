@@ -1,0 +1,54 @@
+{
+  "id": "web-0020",
+  "area": "site",
+  "arquivo": "burger-crave-amarelo-landing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "comida",
+  "titulo": "Landing de burger 'Crave it' amarelo e vinho com versão mobile",
+  "descricao": "Página com fundo amarelo, topo vinho com fotos de burgers, cards de cardápio, selos coloridos e fotos de pessoas comendo; mockups mobile nas laterais.",
+  "tecnica": {
+    "como_e_feito": "Paleta amarelo/vinho; cards com fotos; selos; mobile first mostrado ao lado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada"
+    ],
+    "cores_hex": [
+      "#F7C23A",
+      "#6E1022",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "cards",
+      "selos"
+    ]
+  },
+  "quando_usar": "Fast food e apps de pedido.",
+  "mood": [
+    "divertido",
+    "faminto"
+  ],
+  "tags": [
+    "burger",
+    "comida",
+    "amarelo",
+    "landing",
+    "mobile"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1104,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

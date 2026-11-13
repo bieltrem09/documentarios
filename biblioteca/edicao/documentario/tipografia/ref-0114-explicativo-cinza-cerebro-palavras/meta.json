@@ -1,0 +1,57 @@
+{
+  "id": "ref-0114",
+  "area": "edicao",
+  "arquivo": "explicativo-cinza-cerebro-palavras.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "texto-explicativo-animado",
+  "titulo": "Motion explicativo cinza: cérebro 3D, dinheiro e palavras-chave (priming)",
+  "descricao": "Vídeo vertical em fundo cinza claro com grade em perspectiva: palavras surgem em tamanhos diferentes ('priming', 'tiny hints', 'mood'), com objetos 3D cinza (cérebro, maço de dinheiro, poltrona, celular) e uma mão de marionete.",
+  "tecnica": {
+    "como_e_feito": "Tipografia cinética palavra a palavra com hierarquia de tamanho; objetos 3D monocromáticos entrando e girando; linhas tracejadas conectando palavras; grade de chão em perspectiva; paleta toda cinza.",
+    "duracao_seg": 54,
+    "easing": "ease-out",
+    "fontes": [
+      "sans grotesca (tipo Inter)"
+    ],
+    "cores_hex": [
+      "#EFEFEF",
+      "#2B2B2B",
+      "#9A9A9A"
+    ],
+    "efeitos": [
+      "texto cinético",
+      "objetos 3D cinza",
+      "linhas tracejadas",
+      "grade em perspectiva"
+    ]
+  },
+  "quando_usar": "Explicar psicologia, manipulação, marketing de forma limpa e sóbria.",
+  "mood": [
+    "minimalista",
+    "didático"
+  ],
+  "tags": [
+    "explicativo",
+    "cerebro",
+    "texto-cinetico",
+    "3d",
+    "cinza",
+    "psicologia"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 54.04,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

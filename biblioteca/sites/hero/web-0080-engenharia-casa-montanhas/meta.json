@@ -1,0 +1,53 @@
+{
+  "id": "web-0080",
+  "area": "site",
+  "arquivo": "engenharia-casa-montanhas.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "construcao",
+  "titulo": "Hero 'ENGENHARIA DORNELES' com casa moderna e montanhas",
+  "descricao": "Título enorme 'ENGENHARIA' atrás de uma casa moderna iluminada ao entardecer com montanhas nevadas ao fundo, e filtros em pílula na base.",
+  "tecnica": {
+    "como_e_feito": "Texto gigante atrás do sujeito; foto dramática; navbar em pílulas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada bold"
+    ],
+    "cores_hex": [
+      "#2B2B2B",
+      "#F2EEE8",
+      "#E9A24A"
+    ],
+    "efeitos": [
+      "texto atrás do sujeito"
+    ]
+  },
+  "quando_usar": "Engenharia, construtoras, arquitetura residencial.",
+  "mood": [
+    "imponente",
+    "confiável"
+  ],
+  "tags": [
+    "engenharia",
+    "construcao",
+    "casa",
+    "hero",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1440,
+    "altura": 900,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

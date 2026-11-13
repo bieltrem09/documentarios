@@ -1,0 +1,56 @@
+{
+  "id": "ref-0096",
+  "area": "edicao",
+  "arquivo": "explicativo-azul-livro-icones.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "texto-explicativo-animado",
+  "titulo": "Motion explicativo azul: livro de regras, pessoa no celular e frases reveladas",
+  "descricao": "Vídeo vertical em três faixas: um livro numerado sobre a mesa vista de cima, cenas 2.5D de uma pessoa estudando e usando celular, e ícones/frases ('What you don't know is') surgindo com uma lupa.",
+  "tecnica": {
+    "como_e_feito": "Paleta azul escura monocromática; ilustrações 2.5D com luz de luminária; ícones em cards arredondados; texto revelado palavra a palavra; lupa animada atravessando a tela.",
+    "duracao_seg": 16,
+    "easing": null,
+    "fontes": [
+      "sans geométrica"
+    ],
+    "cores_hex": [
+      "#0E1A2B",
+      "#3B6EA8",
+      "#E6EEF8"
+    ],
+    "efeitos": [
+      "2.5D",
+      "texto palavra a palavra",
+      "ícones",
+      "monocromático"
+    ]
+  },
+  "quando_usar": "Explicar métodos, estratégias e 'segredos' em ritmo de narração.",
+  "mood": [
+    "didático",
+    "misterioso"
+  ],
+  "tags": [
+    "explicativo",
+    "azul",
+    "icones",
+    "lupa",
+    "texto-animado"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 16.07,
+    "largura": 740,
+    "altura": 1260,
+    "tamanho_mb": 1.5
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

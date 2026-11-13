@@ -1,0 +1,51 @@
+{
+  "id": "ref-0102",
+  "area": "edicao",
+  "arquivo": "contador-dolares-subindo.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "contador",
+  "titulo": "Contador de dólares subindo rapidamente",
+  "descricao": "Número grande cinza com cifrão subindo de $31,579 até $968,421 sobre fundo quase preto.",
+  "tecnica": {
+    "como_e_feito": "Count-up com easing (rápido no início, desacelera); fonte sans pesada; pode ganhar cor/escala no valor final.",
+    "duracao_seg": 10,
+    "easing": "ease-out",
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#141114",
+      "#9A9A9A"
+    ],
+    "efeitos": [
+      "count-up"
+    ]
+  },
+  "quando_usar": "Mostrar acúmulo de dinheiro, prejuízos, fortunas.",
+  "mood": [
+    "tenso",
+    "direto"
+  ],
+  "tags": [
+    "contador",
+    "dinheiro",
+    "numero",
+    "count-up"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 10.01,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

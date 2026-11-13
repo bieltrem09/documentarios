@@ -1,0 +1,54 @@
+{
+  "id": "web-0021",
+  "area": "site",
+  "arquivo": "hero-headset-vr-minimalista.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "tecnologia",
+  "titulo": "Hero minimalista de headset de realidade mista",
+  "descricao": "Hero branco com título fino 'Stay in the Orbit of Vision', preço, botões e um headset de VR visto de cima com feixe de luz suave.",
+  "tecnica": {
+    "como_e_feito": "Muito espaço em branco; tipografia fina; produto centralizado; feixe de luz em gradiente; botões pequenos.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#111111",
+      "#E6E6E6"
+    ],
+    "efeitos": [
+      "espaço negativo",
+      "gradiente de luz"
+    ]
+  },
+  "quando_usar": "Lançamento de produto tech premium.",
+  "mood": [
+    "minimalista",
+    "premium"
+  ],
+  "tags": [
+    "hero",
+    "tecnologia",
+    "vr",
+    "minimalista",
+    "branco"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

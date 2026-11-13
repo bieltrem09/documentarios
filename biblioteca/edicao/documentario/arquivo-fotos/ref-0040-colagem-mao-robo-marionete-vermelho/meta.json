@@ -1,0 +1,55 @@
+{
+  "id": "ref-0040",
+  "area": "edicao",
+  "arquivo": "colagem-mao-robo-marionete-vermelho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "colagem-recorte",
+  "titulo": "Colagem: mão robótica gigante manipulando pessoa de terno vermelho por fios",
+  "descricao": "Mão robótica preta e cinza no topo controla com fios vermelhos uma pequena pessoa de terno vermelho caindo, sobre fundo branco.",
+  "tecnica": {
+    "como_e_feito": "Recortes em fundo branco: objeto grande no topo, figura pequena embaixo, fios vermelhos finos ligando (trim path). Contraste de escala transmite poder.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#1A1A1A",
+      "#D61F26",
+      "#8C8C8C"
+    ],
+    "efeitos": [
+      "recorte",
+      "fios",
+      "contraste de escala"
+    ]
+  },
+  "quando_usar": "IA/tecnologia controlando pessoas, manipulação, algoritmos.",
+  "mood": [
+    "opressivo",
+    "conceitual"
+  ],
+  "tags": [
+    "colagem",
+    "marionete",
+    "robo",
+    "ia",
+    "manipulacao",
+    "vermelho"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 700,
+    "altura": 697,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

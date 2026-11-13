@@ -1,0 +1,53 @@
+{
+  "id": "web-0057",
+  "area": "site",
+  "arquivo": "oculos-ar-big-screen-landing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "tecnologia",
+  "titulo": "Landing de óculos de realidade aumentada 'Big Screen. Zero Bulk.'",
+  "descricao": "Página longa: topo claro com mulher usando óculos escuros e título fino, depois seção preta com os óculos e linhas de chamada apontando recursos, e ícones na base.",
+  "tecnica": {
+    "como_e_feito": "Transição claro→escuro; produto com callouts (linhas e rótulos); tipografia fina grande.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#EDEDED",
+      "#0B0B0B",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "callouts",
+      "claro para escuro"
+    ]
+  },
+  "quando_usar": "Lançamento de gadget/eletrônico premium.",
+  "mood": [
+    "tecnológico",
+    "premium"
+  ],
+  "tags": [
+    "tecnologia",
+    "oculos",
+    "callouts",
+    "landing"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1324,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

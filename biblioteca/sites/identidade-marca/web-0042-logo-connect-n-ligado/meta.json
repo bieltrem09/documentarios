@@ -1,0 +1,51 @@
+{
+  "id": "web-0042",
+  "area": "site",
+  "arquivo": "logo-connect-n-ligado.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "identidade-marca",
+  "subcategoria": "logo",
+  "titulo": "Logo 'CONNECT' com letras ligadas",
+  "descricao": "Wordmark preto em caixa alta em que os dois 'N' se fundem numa forma contínua, sobre fundo cinza claro.",
+  "tecnica": {
+    "como_e_feito": "Logo tipográfico com ligação entre letras (ideia de conexão).",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold"
+    ],
+    "cores_hex": [
+      "#F2F2F2",
+      "#111111"
+    ],
+    "efeitos": [
+      "ligadura"
+    ]
+  },
+  "quando_usar": "Inspiração de wordmark com conceito.",
+  "mood": [
+    "moderno",
+    "simples"
+  ],
+  "tags": [
+    "logo",
+    "wordmark",
+    "ligadura",
+    "conexao"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 919,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

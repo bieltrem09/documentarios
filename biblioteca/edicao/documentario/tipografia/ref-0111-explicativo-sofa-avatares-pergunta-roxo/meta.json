@@ -1,0 +1,55 @@
+{
+  "id": "ref-0111",
+  "area": "edicao",
+  "arquivo": "explicativo-sofa-avatares-pergunta-roxo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "texto-explicativo-animado",
+  "titulo": "Quadro explicativo: pessoa no sofá, avatares com '?' e texto em destaque (roxo)",
+  "descricao": "Fundo branco com manchas roxas nas bordas; empresário lendo jornal num sofá preto, três círculos roxos com silhuetas e '?', e frase em sans bold ('isn't the real game').",
+  "tecnica": {
+    "como_e_feito": "Recorte de pessoa + ícones circulares com borda roxa; texto em dois tamanhos (frase pequena + palavra grande); blobs roxos entrando pelas bordas como transição.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold (tipo Poppins)"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#7E57C2",
+      "#111111"
+    ],
+    "efeitos": [
+      "recorte",
+      "avatares com ?",
+      "blobs nas bordas"
+    ]
+  },
+  "quando_usar": "Explicações rápidas de negócios/comportamento com narrador; quadros de 'quem é?'.",
+  "mood": [
+    "didático",
+    "curioso"
+  ],
+  "tags": [
+    "explicativo",
+    "roxo",
+    "avatar",
+    "silhueta",
+    "pergunta"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

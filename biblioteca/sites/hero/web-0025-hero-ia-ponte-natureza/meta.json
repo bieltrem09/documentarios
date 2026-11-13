@@ -1,0 +1,55 @@
+{
+  "id": "web-0025",
+  "area": "site",
+  "arquivo": "hero-ia-ponte-natureza.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "ia-saas",
+  "titulo": "Hero de SaaS de IA com ponte de pedra entre montanhas",
+  "descricao": "Hero com foto épica de ponte natural entre montanhas verdes e névoa, título verde e branco 'Bridge the gap between data and decisions', menu em pílula e card de vídeo.",
+  "tecnica": {
+    "como_e_feito": "Imagem full-bleed como metáfora do produto; título grande com duas cores; navbar flutuante; card de vídeo no canto.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#E8EFE2",
+      "#4E7A3A",
+      "#FFFFFF",
+      "#1C2A1C"
+    ],
+    "efeitos": [
+      "metáfora visual",
+      "navbar flutuante"
+    ]
+  },
+  "quando_usar": "SaaS/IA que quer fugir do visual tech genérico.",
+  "mood": [
+    "inspirador",
+    "calmo"
+  ],
+  "tags": [
+    "hero",
+    "ia",
+    "saas",
+    "natureza",
+    "metafora"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 460,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+public/media/
+data/
+next-env.d.ts
+*.tsbuildinfo

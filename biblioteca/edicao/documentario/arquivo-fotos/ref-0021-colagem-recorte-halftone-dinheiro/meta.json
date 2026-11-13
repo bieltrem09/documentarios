@@ -1,0 +1,58 @@
+{
+  "id": "ref-0021",
+  "area": "edicao",
+  "arquivo": "colagem-recorte-halftone-dinheiro.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "colagem-recorte",
+  "titulo": "Recorte de pessoa em halftone sobre notas e moedas (colagem editorial)",
+  "descricao": "Retrato P&B recortado com retícula de jornal posicionado sobre notas de 100 dólares e moedas grandes em fundo off-white, com título serifado vermelho no topo ('Buffett's formula for wealth').",
+  "tecnica": {
+    "como_e_feito": "Pessoa recortada, P&B, com efeito halftone e sombra; notas e moedas recortadas em camadas atrás (parallax 2.5D); fundo papel claro; moedas com leve aberração cromática; título serifado vermelho.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada editorial vermelha"
+    ],
+    "cores_hex": [
+      "#EFEDE8",
+      "#B23A2E",
+      "#1F1F1F",
+      "#9FA89A"
+    ],
+    "efeitos": [
+      "recorte",
+      "halftone",
+      "parallax 2.5D",
+      "sombra suave"
+    ]
+  },
+  "quando_usar": "Apresentar uma personalidade ligada a dinheiro/negócios; cena de abertura de bloco ou thumbnail.",
+  "mood": [
+    "editorial",
+    "sério"
+  ],
+  "tags": [
+    "colagem",
+    "recorte",
+    "halftone",
+    "dinheiro",
+    "retrato",
+    "parallax"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

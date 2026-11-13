@@ -1,0 +1,57 @@
+{
+  "id": "ref-0046",
+  "area": "edicao",
+  "arquivo": "thumb-quadro-equacoes-pincelada.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "personagem-historico",
+  "titulo": "Thumbnail: cientista famoso diante de quadro com equações e pincelada vermelha",
+  "descricao": "Retrato de um cientista histórico na frente de um quadro branco cheio de equações e rabiscos; frase manuscrita com uma palavra sobre pincelada vermelha.",
+  "tecnica": {
+    "como_e_feito": "Recorte de personagem com textura de giz ao fundo; palavra-chave sobre pincelada vermelha (brush) em fonte manuscrita branca; resto da frase em manuscrita escura.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "manuscrita marcador (tipo Permanent Marker)"
+    ],
+    "cores_hex": [
+      "#E9E9E9",
+      "#1E1E1E",
+      "#D7262C",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "pincelada",
+      "manuscrito",
+      "recorte"
+    ]
+  },
+  "quando_usar": "Vídeos sobre ciência, gênios, história e aprendizado.",
+  "mood": [
+    "curioso",
+    "didático"
+  ],
+  "tags": [
+    "thumbnail",
+    "quadro",
+    "equacoes",
+    "pincelada",
+    "manuscrito",
+    "historia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

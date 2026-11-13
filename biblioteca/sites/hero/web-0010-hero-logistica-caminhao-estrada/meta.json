@@ -1,0 +1,53 @@
+{
+  "id": "web-0010",
+  "area": "site",
+  "arquivo": "hero-logistica-caminhao-estrada.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "logistica",
+  "titulo": "Hero de transportadora com caminhão na estrada e números",
+  "descricao": "Hero com foto de caminhão branco numa estrada verde ao entardecer, título branco em três linhas, botões e três números grandes na base.",
+  "tecnica": {
+    "como_e_feito": "Foto full-bleed com gradiente escuro à esquerda; título bold; CTA em pílula branca; métricas em linha.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold"
+    ],
+    "cores_hex": [
+      "#2B3A2F",
+      "#FFFFFF",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "gradiente sobre foto",
+      "métricas"
+    ]
+  },
+  "quando_usar": "Transportadoras e empresas de serviços.",
+  "mood": [
+    "confiável",
+    "sólido"
+  ],
+  "tags": [
+    "hero",
+    "logistica",
+    "caminhao",
+    "metricas"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 523,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

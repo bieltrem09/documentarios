@@ -1,0 +1,57 @@
+{
+  "id": "ref-0079",
+  "area": "edicao",
+  "arquivo": "thumb-retrato-cedula-papel-rasgado.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "colagem-cedula",
+  "titulo": "Thumbnail: retrato de bilionário fundido a uma cédula de 100 dólares",
+  "descricao": "Retrato de empresário com o rosto parcialmente transformado na gravura verde de uma nota de 100 dólares, entre faixas de papel rasgado e recortes de jornal, com o título irônico na nota.",
+  "tecnica": {
+    "como_e_feito": "Colagem: retrato colorido + máscara com gravura da cédula; papel rasgado nas bordas; recortes de jornal; tons sépia.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada de cédula"
+    ],
+    "cores_hex": [
+      "#C9A26B",
+      "#2F6B4F",
+      "#EDE3CC",
+      "#1C1C1C"
+    ],
+    "efeitos": [
+      "colagem",
+      "papel rasgado",
+      "gravura de cédula"
+    ]
+  },
+  "quando_usar": "Documentários sobre fortunas, filantropia questionada, poder do dinheiro.",
+  "mood": [
+    "irônico",
+    "editorial"
+  ],
+  "tags": [
+    "thumbnail",
+    "cedula",
+    "dinheiro",
+    "colagem",
+    "papel-rasgado",
+    "bilionario"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

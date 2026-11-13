@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+.next/
+out/
+dist/
+*.log
+.DS_Store
+# frames soltos: só o contact-sheet.jpg é versionado
+frames/
+keyframes/
+*.frame.jpg

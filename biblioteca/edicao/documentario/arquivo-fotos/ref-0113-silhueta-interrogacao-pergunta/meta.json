@@ -1,0 +1,54 @@
+{
+  "id": "ref-0113",
+  "area": "edicao",
+  "arquivo": "silhueta-interrogacao-pergunta.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "silhueta-anonima",
+  "titulo": "Silhueta preta com ponto de interrogação e frase com destaque roxo",
+  "descricao": "Silhueta de busto preta com '?' branco no rosto, desvanecendo para o branco, e frase centralizada com a segunda linha em roxo.",
+  "tecnica": {
+    "como_e_feito": "Silhueta com gradiente para branco; ícone '?' recortado; texto em duas cores.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#111111",
+      "#7E57C2"
+    ],
+    "efeitos": [
+      "silhueta",
+      "degradê"
+    ]
+  },
+  "quando_usar": "Pessoa desconhecida, suspeito, pergunta-chave da narração.",
+  "mood": [
+    "misterioso",
+    "didático"
+  ],
+  "tags": [
+    "silhueta",
+    "interrogacao",
+    "anonimo",
+    "pergunta",
+    "roxo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

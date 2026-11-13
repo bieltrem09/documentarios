@@ -1,0 +1,53 @@
+{
+  "id": "ref-0087",
+  "area": "edicao",
+  "arquivo": "vagao-metro-vazio-3d.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "ambiente-3d",
+  "titulo": "Interior vazio de vagão de metrô antigo (render Unreal)",
+  "descricao": "Vagão de metrô vazio com bancos turquesa, portas com janelas e um mapa emoldurado, luz fria e atmosfera de abandono; marca do motor 3D no canto.",
+  "tecnica": {
+    "como_e_feito": "Cena 3D (Unreal) com câmera parada; animável com leve balanço e luz piscando.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#2F6B66",
+      "#C9B9A6",
+      "#1E2E2C",
+      "#B7533E"
+    ],
+    "efeitos": [
+      "render 3D",
+      "luz fria"
+    ]
+  },
+  "quando_usar": "Cenas urbanas noturnas, solidão, crimes em transporte público.",
+  "mood": [
+    "solitário",
+    "sombrio"
+  ],
+  "tags": [
+    "metro",
+    "vagao",
+    "urbano",
+    "3d",
+    "abandonado"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

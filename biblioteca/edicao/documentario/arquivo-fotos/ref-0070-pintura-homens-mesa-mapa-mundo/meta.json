@@ -1,0 +1,55 @@
+{
+  "id": "ref-0070",
+  "area": "edicao",
+  "arquivo": "pintura-homens-mesa-mapa-mundo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "pintura-historica",
+  "titulo": "Pintura: homens em silhueta em volta de mesa com mapa-múndi sob lâmpada",
+  "descricao": "Ilustração em estilo pintura a óleo: quatro homens de casaca em silhueta ao redor de uma mesa verde com mapa do mundo e peças, sob uma lâmpada, em sala de madeira com mapa na parede.",
+  "tecnica": {
+    "como_e_feito": "Imagem estilo pintura (IA ou arquivo) com luz pontual de cima e contraluz; tons marrons quentes. Animável: Ken Burns lento + parallax separando as silhuetas do fundo.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#2B1D14",
+      "#5A3E2B",
+      "#3F6B4A",
+      "#E8C77A"
+    ],
+    "efeitos": [
+      "pintura a óleo",
+      "luz pontual",
+      "Ken Burns"
+    ]
+  },
+  "quando_usar": "Conspirações, elites dividindo o mundo, geopolítica, sociedades secretas.",
+  "mood": [
+    "conspiratório",
+    "sombrio"
+  ],
+  "tags": [
+    "pintura",
+    "conspiracao",
+    "mapa",
+    "elite",
+    "geopolitica",
+    "historico"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 552,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

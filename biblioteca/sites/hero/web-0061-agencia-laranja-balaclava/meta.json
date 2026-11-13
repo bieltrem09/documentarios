@@ -1,0 +1,53 @@
+{
+  "id": "web-0061",
+  "area": "site",
+  "arquivo": "agencia-laranja-balaclava.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "agencia",
+  "titulo": "Hero de agência 'business agency' laranja com pessoa de balaclava",
+  "descricao": "Hero laranja com retrato de pessoa de balaclava e óculos escuros, título branco grande em minúsculas na base, menu em pílulas e cards de porcentagem.",
+  "tecnica": {
+    "como_e_feito": "Foto editorial de impacto sobre fundo de cor única; título gigante; cards translúcidos com números.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold minúscula"
+    ],
+    "cores_hex": [
+      "#F0531E",
+      "#FFFFFF",
+      "#111111"
+    ],
+    "efeitos": [
+      "cor única",
+      "cards de métricas"
+    ]
+  },
+  "quando_usar": "Agências de marketing/criação com atitude.",
+  "mood": [
+    "ousado",
+    "urbano"
+  ],
+  "tags": [
+    "hero",
+    "agencia",
+    "laranja",
+    "editorial"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 700,
+    "altura": 525,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

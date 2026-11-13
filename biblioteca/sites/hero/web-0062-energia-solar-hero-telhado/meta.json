@@ -1,0 +1,53 @@
+{
+  "id": "web-0062",
+  "area": "site",
+  "arquivo": "energia-solar-hero-telhado.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "energia-solar",
+  "titulo": "Hero de energia solar 'InovaSolar' com casa e painéis",
+  "descricao": "Hero com foto de casa com painéis solares no telhado, título branco 'Energizando casas com energia solar limpa' e cards translúcidos com textos e imagem.",
+  "tecnica": {
+    "como_e_feito": "Foto full-bleed com gradiente escuro; cards de vidro (glassmorphism) à direita; navbar em pílula.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#2E4A2B",
+      "#FFFFFF",
+      "#F2B01E"
+    ],
+    "efeitos": [
+      "glassmorphism",
+      "gradiente sobre foto"
+    ]
+  },
+  "quando_usar": "Empresas de energia solar e serviços residenciais.",
+  "mood": [
+    "confiável",
+    "sustentável"
+  ],
+  "tags": [
+    "energia-solar",
+    "hero",
+    "casa",
+    "glass"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1600,
+    "altura": 809,
+    "tamanho_mb": 0.3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

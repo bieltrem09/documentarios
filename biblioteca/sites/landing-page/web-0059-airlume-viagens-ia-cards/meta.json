@@ -1,0 +1,54 @@
+{
+  "id": "web-0059",
+  "area": "site",
+  "arquivo": "airlume-viagens-ia-cards.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "viagem",
+  "titulo": "Landing de viagens com IA 'Airlume' azul com cards flutuantes",
+  "descricao": "Página azul com título 'Save Time & Money On Every Trip', cards de UI flutuando (voos, preços, reservas) em volta de uma imagem de avião, tags de usuário e grade de recursos.",
+  "tecnica": {
+    "como_e_feito": "UI do produto como ilustração (cards de interface flutuando com sombra); gradiente azul; tags flutuantes.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica"
+    ],
+    "cores_hex": [
+      "#2B3FD6",
+      "#FFFFFF",
+      "#C7D2FF"
+    ],
+    "efeitos": [
+      "cards de UI flutuantes",
+      "gradiente"
+    ]
+  },
+  "quando_usar": "SaaS/apps mostrando o próprio produto no hero.",
+  "mood": [
+    "confiável",
+    "tecnológico"
+  ],
+  "tags": [
+    "viagem",
+    "ia",
+    "saas",
+    "cards",
+    "azul"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 920,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

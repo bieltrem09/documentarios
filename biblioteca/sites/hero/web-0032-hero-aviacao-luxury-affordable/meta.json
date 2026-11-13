@@ -1,0 +1,53 @@
+{
+  "id": "web-0032",
+  "area": "site",
+  "arquivo": "hero-aviacao-luxury-affordable.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "aviacao",
+  "titulo": "Hero 'Luxury. Affordable.' com turbina de jato",
+  "descricao": "Hero claro em janela de navegador com título fino centralizado e uma asa/turbina de avião com nuvens em primeiro plano.",
+  "tecnica": {
+    "como_e_feito": "Objeto grande cortado na lateral; tipografia leve; fundo cinza-azulado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina"
+    ],
+    "cores_hex": [
+      "#E9EDF2",
+      "#2B2B2B",
+      "#E87A2E"
+    ],
+    "efeitos": [
+      "objeto cortado",
+      "espaço negativo"
+    ]
+  },
+  "quando_usar": "Viagens premium, aviação, serviços de luxo acessível.",
+  "mood": [
+    "leve",
+    "premium"
+  ],
+  "tags": [
+    "hero",
+    "aviacao",
+    "luxo",
+    "minimalista"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

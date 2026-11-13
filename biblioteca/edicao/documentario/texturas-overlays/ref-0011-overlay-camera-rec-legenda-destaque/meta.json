@@ -1,0 +1,60 @@
+{
+  "id": "ref-0011",
+  "area": "edicao",
+  "arquivo": "overlay-camera-rec-legenda-destaque.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "texturas-overlays",
+  "subcategoria": "viewfinder-rec",
+  "titulo": "Overlay de câmera REC com legenda e palavra destacada em amarelo",
+  "descricao": "Vídeo vertical de suspense com moldura de visor de câmera (cantos, 'REC', '4K 60FPS', 'HD', ícone de bateria) sobre imagens de corredor escuro. Entre as cenas, cartelas pretas com frase curta em que uma palavra fica amarela ('no te quedes afuera.').",
+  "tecnica": {
+    "como_e_feito": "Overlay vetorial de viewfinder (cantos em L, textos técnicos, ponto vermelho piscando no REC) sobre o vídeo; cartelas de texto centralizado com fade e a palavra-chave colorida; grade azulada fria alternando com luz quente laranja; desfoque de movimento nas transições.",
+    "duracao_seg": 28,
+    "easing": "fade rápido",
+    "fontes": [
+      "sans geométrica regular (tipo Inter/Poppins)"
+    ],
+    "cores_hex": [
+      "#0A0F1A",
+      "#3B5A7A",
+      "#FFFFFF",
+      "#F5B400",
+      "#E5262E"
+    ],
+    "efeitos": [
+      "viewfinder REC",
+      "cartela de texto",
+      "palavra destacada",
+      "motion blur"
+    ]
+  },
+  "quando_usar": "Simular filmagem amadora/câmera de segurança e criar suspense; cartelas de frase de impacto entre cenas.",
+  "mood": [
+    "suspense",
+    "misterioso"
+  ],
+  "tags": [
+    "rec",
+    "viewfinder",
+    "camera",
+    "overlay",
+    "cartela",
+    "palavra-destacada",
+    "amarelo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 28.49,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.9
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

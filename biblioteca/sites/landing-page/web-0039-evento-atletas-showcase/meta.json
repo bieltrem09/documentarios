@@ -1,0 +1,53 @@
+{
+  "id": "web-0039",
+  "area": "site",
+  "arquivo": "evento-atletas-showcase.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "esporte",
+  "titulo": "Página de evento 'Athlete Showcase' com atletas e contagem",
+  "descricao": "Página escura/branca com título condensado, cards de atletas, logos de parceiros, seção 'About' e contador verde-limão.",
+  "tecnica": {
+    "como_e_feito": "Cards de pessoas; condensada; contador regressivo; contraste preto/branco + verde-limão.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada"
+    ],
+    "cores_hex": [
+      "#111111",
+      "#FFFFFF",
+      "#C8F031"
+    ],
+    "efeitos": [
+      "cards de pessoas",
+      "contador"
+    ]
+  },
+  "quando_usar": "Eventos esportivos, campeonatos.",
+  "mood": [
+    "esportivo",
+    "forte"
+  ],
+  "tags": [
+    "esporte",
+    "evento",
+    "atletas",
+    "landing"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1201,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ref-0010",
+  "area": "edicao",
+  "arquivo": "sala-de-controle-monitores-cctv.mp4",
+  "tipo_midia": "video",
+  "nicho": "documentario",
+  "categoria": "b-roll",
+  "subcategoria": "vigilancia",
+  "titulo": "Sala de controle escura com monitores de vigilância",
+  "descricao": "Ambiente industrial escuro e enfumaçado com mesa cheia de cabos, teclado, notebook e monitores. Um painel suspenso mostra 4 câmeras de segurança; as telas trocam de conteúdo (rostos, multidão, mão) enquanto a câmera fica quase parada.",
+  "tecnica": {
+    "como_e_feito": "Cena 3D (ou foto) com telas como planos onde se aplicam vídeos/imagens (screen replacement); névoa volumétrica e luz fria de cima; troca de conteúdo das telas a cada beat; câmera com drift lento.",
+    "duracao_seg": 22,
+    "easing": "drift linear",
+    "fontes": [],
+    "cores_hex": [
+      "#0B0D10",
+      "#2A3138",
+      "#D8DDE2",
+      "#6B7785"
+    ],
+    "efeitos": [
+      "screen replacement",
+      "névoa volumétrica",
+      "CCTV",
+      "drift de câmera"
+    ]
+  },
+  "quando_usar": "Falar de vigilância, hackers, investigação policial ou monitoramento; moldura para mostrar imagens de arquivo dentro das telas.",
+  "mood": [
+    "sombrio",
+    "tenso",
+    "tecnológico"
+  ],
+  "tags": [
+    "cctv",
+    "vigilancia",
+    "monitores",
+    "hacker",
+    "nevoa",
+    "screen-replacement"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 22.69,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 2.8
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

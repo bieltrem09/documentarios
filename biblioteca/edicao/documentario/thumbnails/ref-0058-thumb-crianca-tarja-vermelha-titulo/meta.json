@@ -1,0 +1,57 @@
+{
+  "id": "ref-0058",
+  "area": "edicao",
+  "arquivo": "thumb-crianca-tarja-vermelha-titulo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "thumbnails",
+  "subcategoria": "titulo-e-tarja",
+  "titulo": "Thumbnail: rosto de criança P&B com tarja vermelha nos olhos e título gasto",
+  "descricao": "Garoto em P&B no centro, com uma faixa vermelha cobrindo os olhos; título enorme em letras brancas desgastadas atrás; fundo vermelho escuro com recortes de documentos.",
+  "tecnica": {
+    "como_e_feito": "Sujeito P&B sobre fundo vermelho monocromático; tarja vermelha nos olhos; título em fonte grunge branca atrás do rosto; textura de papéis/fotos ao fundo.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold grunge/desgastada"
+    ],
+    "cores_hex": [
+      "#8E0F14",
+      "#E8E8E8",
+      "#D4141C",
+      "#111111"
+    ],
+    "efeitos": [
+      "tarja nos olhos",
+      "duotone vermelho",
+      "texto grunge"
+    ]
+  },
+  "quando_usar": "Documentários de denúncia, abuso, exposição de casos.",
+  "mood": [
+    "sombrio",
+    "perturbador"
+  ],
+  "tags": [
+    "thumbnail",
+    "tarja-olhos",
+    "vermelho",
+    "pb",
+    "grunge",
+    "denuncia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

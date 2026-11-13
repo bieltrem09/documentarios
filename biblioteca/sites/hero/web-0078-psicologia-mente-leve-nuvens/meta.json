@@ -1,0 +1,54 @@
+{
+  "id": "web-0078",
+  "area": "site",
+  "arquivo": "psicologia-mente-leve-nuvens.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "saude",
+  "titulo": "Hero 'Uma mente mais leve' com mulher relaxando nas nuvens (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; mulher de branco recostada em nuvens ao lado de uma janela, título serifado 'Uma mente mais leve' e botão de agendar consulta.",
+  "tecnica": {
+    "como_e_feito": "Imagem onírica com céu; serifada leve; CTA de agendamento.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada leve"
+    ],
+    "cores_hex": [
+      "#9CC6E8",
+      "#FFFFFF",
+      "#1E3A5F"
+    ],
+    "efeitos": [
+      "onírico",
+      "serifada"
+    ]
+  },
+  "quando_usar": "Psicólogos, terapeutas, clínicas de bem-estar.",
+  "mood": [
+    "calmo",
+    "acolhedor"
+  ],
+  "tags": [
+    "psicologia",
+    "saude",
+    "nuvens",
+    "hero",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1600,
+    "altura": 1592,
+    "tamanho_mb": 0.4
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

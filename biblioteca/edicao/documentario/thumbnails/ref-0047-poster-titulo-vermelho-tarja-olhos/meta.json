@@ -1,0 +1,55 @@
+{
+  "id": "ref-0047",
+  "area": "edicao",
+  "arquivo": "poster-titulo-vermelho-tarja-olhos.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "thumbnails",
+  "subcategoria": "titulo-e-tarja",
+  "titulo": "Pôster: título vermelho gigante e tarja escurecendo os olhos do personagem",
+  "descricao": "Homem de terno sentado numa poltrona em fundo preto com texto vermelho miúdo; título enorme vermelho em caixa alta atrás dele e uma faixa escura cobrindo os olhos.",
+  "tecnica": {
+    "como_e_feito": "Grade vermelha/preta; título condensado heavy vermelho atrás do sujeito; tarja preta translúcida nos olhos (anonimização dramática); textura de texto pequeno ao fundo.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy"
+    ],
+    "cores_hex": [
+      "#0A0A0A",
+      "#C8102E",
+      "#E6E6E6"
+    ],
+    "efeitos": [
+      "tarja nos olhos",
+      "texto atrás do sujeito",
+      "duotone vermelho"
+    ]
+  },
+  "quando_usar": "Documentários sobre fraude financeira, golpistas e crimes de colarinho branco.",
+  "mood": [
+    "sombrio",
+    "agressivo"
+  ],
+  "tags": [
+    "poster",
+    "tarja-olhos",
+    "vermelho",
+    "titulo",
+    "fraude"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

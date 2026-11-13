@@ -1,0 +1,51 @@
+{
+  "id": "ref-0105",
+  "area": "edicao",
+  "arquivo": "x-neon-vermelho.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "texturas-overlays",
+  "subcategoria": "icone-neon",
+  "titulo": "X vermelho em néon aparecendo e sumindo",
+  "descricao": "Dois pontos vermelhos se estendem formando um X em néon que brilha e depois se recolhe, sobre fundo preto.",
+  "tecnica": {
+    "como_e_feito": "Duas linhas com stroke animado e glow; entrada e saída simétricas. Em código: SVG + filtro de glow.",
+    "duracao_seg": 5,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#000000",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "stroke draw-on",
+      "glow neon"
+    ]
+  },
+  "quando_usar": "Negar, errado, proibido, falha, eliminação de opção.",
+  "mood": [
+    "direto",
+    "tenso"
+  ],
+  "tags": [
+    "x",
+    "neon",
+    "erro",
+    "vermelho",
+    "icone"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 5.02,
+    "largura": 720,
+    "altura": 720,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

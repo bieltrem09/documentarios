@@ -1,0 +1,56 @@
+{
+  "id": "ref-0049",
+  "area": "edicao",
+  "arquivo": "colagem-predio-circulo-vermelho-silhuetas.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "noticia",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "colagem-recorte",
+  "titulo": "Colagem: prédio de tribunal P&B com círculo vermelho e silhuetas laterais",
+  "descricao": "Prédio institucional em preto e branco no centro com um grande círculo vermelho atrás da cúpula; silhuetas de um juiz e de outra pessoa nas laterais; fundo de papel claro.",
+  "tecnica": {
+    "como_e_feito": "Foto P&B de edifício com halftone; círculo vermelho chapado atrás (sol/alvo); silhuetas pretas nas bordas; arco fino de linha; textura de papel. Animável: círculo cresce, silhuetas deslizam.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#F0EFEB",
+      "#D81E1E",
+      "#1A1A1A",
+      "#9A9A9A"
+    ],
+    "efeitos": [
+      "círculo de cor",
+      "halftone",
+      "silhueta",
+      "papel"
+    ]
+  },
+  "quando_usar": "Notícias de justiça, julgamentos, política e instituições.",
+  "mood": [
+    "sério",
+    "editorial"
+  ],
+  "tags": [
+    "colagem",
+    "tribunal",
+    "circulo-vermelho",
+    "silhueta",
+    "justica",
+    "politica"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

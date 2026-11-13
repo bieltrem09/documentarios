@@ -1,0 +1,53 @@
+{
+  "id": "web-0048",
+  "area": "site",
+  "arquivo": "logistica-scroll-navio-depoimentos.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "institucional",
+  "subcategoria": "logistica",
+  "titulo": "Logística: navio no oceano, benefícios e depoimentos (vídeo)",
+  "descricao": "Continuação: vista aérea de navio de contêineres em azul profundo com benefícios ao redor, avião sobre nuvens e seção branca de depoimentos.",
+  "tecnica": {
+    "como_e_feito": "Vídeo/imagem de fundo com texto distribuído ao redor do objeto central; transição para seção clara.",
+    "duracao_seg": 11,
+    "easing": null,
+    "fontes": [
+      "sans condensada"
+    ],
+    "cores_hex": [
+      "#0E2A6B",
+      "#FFFFFF",
+      "#3B5FD6"
+    ],
+    "efeitos": [
+      "texto ao redor do objeto",
+      "fundo de vídeo"
+    ]
+  },
+  "quando_usar": "Complementa web-scroll de logística; seções de benefícios e prova social.",
+  "mood": [
+    "confiável",
+    "amplo"
+  ],
+  "tags": [
+    "logistica",
+    "navio",
+    "depoimentos",
+    "scroll"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 11.35,
+    "largura": 740,
+    "altura": 460,
+    "tamanho_mb": 1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "web-0019",
+  "area": "site",
+  "arquivo": "padaria-azul-russa-landing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "comida",
+  "titulo": "Landing de padaria azul com pães flutuando (russo)",
+  "descricao": "Página azul royal com cards brancos, fotos de pães e croissants flutuando ao redor, seções de produtos e mapa de lojas, versões mobile ao lado.",
+  "tecnica": {
+    "como_e_feito": "Fundo azul sólido; produtos flutuando fora do grid; tipografia preta bold; mockups mobile.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#2F55D4",
+      "#FFFFFF",
+      "#E8A74A"
+    ],
+    "efeitos": [
+      "objetos flutuantes",
+      "mobile"
+    ]
+  },
+  "quando_usar": "Padarias e cafés com identidade forte.",
+  "mood": [
+    "acolhedor",
+    "divertido"
+  ],
+  "tags": [
+    "padaria",
+    "comida",
+    "azul",
+    "landing",
+    "russo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1104,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "web-0007",
+  "area": "site",
+  "arquivo": "hero-seguranca-moldura-device.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "seguranca",
+  "titulo": "Hero 'SECURITY' com foto surreal dentro de moldura de dispositivo",
+  "descricao": "Hero com foto de três pessoas com óculos de VR num ponto de ônibus, título condensado gigante 'SECURITY', menu mínimo e moldura técnica cinza com detalhes de HUD.",
+  "tecnica": {
+    "como_e_feito": "Hero full-bleed dentro de moldura tipo hardware (bordas chanfradas, etiquetas amarelas); tipografia condensada branca; UI mínima.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada"
+    ],
+    "cores_hex": [
+      "#8D9196",
+      "#F2C200",
+      "#FFFFFF",
+      "#2B2B2B"
+    ],
+    "efeitos": [
+      "moldura de hardware",
+      "HUD"
+    ]
+  },
+  "quando_usar": "Produtos de tecnologia/segurança com estética tech-industrial.",
+  "mood": [
+    "tecnológico",
+    "ousado"
+  ],
+  "tags": [
+    "hero",
+    "seguranca",
+    "tech",
+    "moldura",
+    "condensada"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 551,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}
