@@ -1,0 +1,53 @@
+{
+  "id": "web-0068",
+  "area": "site",
+  "arquivo": "post-tiktok-entrega-site-solar.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "energia-solar",
+  "titulo": "Post em rede social mostrando entrega de site de energia solar",
+  "descricao": "Captura de vídeo vertical com o texto 'Hospede o site, receba seu pagamento e entregue a posse do site ao cliente' sobre um mockup de site de energia solar.",
+  "tecnica": {
+    "como_e_feito": "Formato de conteúdo para divulgar serviço de criação de site: texto grande + print do site + interface de rede social.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans do app"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF",
+      "#3B7A3B"
+    ],
+    "efeitos": [
+      "mockup em post"
+    ]
+  },
+  "quando_usar": "Ideias de conteúdo para vender criação de sites.",
+  "mood": [
+    "didático",
+    "comercial"
+  ],
+  "tags": [
+    "post",
+    "tiktok",
+    "entrega",
+    "energia-solar",
+    "conteudo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 738,
+    "altura": 1600,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ref-0110",
+  "area": "edicao",
+  "arquivo": "mapa-pais-vermelho-relevo-escuro.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "mapas",
+  "subcategoria": "pais-destacado",
+  "titulo": "Mapa em relevo escuro com país destacado em vermelho brilhante",
+  "descricao": "Mapa de satélite em P&B escuro com relevo; a Índia aparece preenchida em vermelho com textura de terreno e contorno branco brilhante.",
+  "tecnica": {
+    "como_e_feito": "Mapa em relevo dessaturado + máscara do país com preenchimento vermelho (multiply sobre o relevo) e stroke branco com glow. Animável: preenchimento entrando e câmera aproximando.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#1A1A1A",
+      "#C8161D",
+      "#FFFFFF",
+      "#6E6E6E"
+    ],
+    "efeitos": [
+      "relevo",
+      "país destacado",
+      "glow no contorno"
+    ]
+  },
+  "quando_usar": "Apresentar o país/região de uma história em documentário ou notícia.",
+  "mood": [
+    "sério",
+    "geopolítico"
+  ],
+  "tags": [
+    "mapa",
+    "pais",
+    "vermelho",
+    "relevo",
+    "destaque"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1104,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

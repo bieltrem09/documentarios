@@ -1,0 +1,54 @@
+{
+  "id": "ref-0022",
+  "area": "edicao",
+  "arquivo": "cerebro-gravura-fundo-branco.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "objeto-isolado",
+  "titulo": "Cérebro em estilo gravura isolado em fundo branco",
+  "descricao": "Ilustração de cérebro em P&B com textura de gravura/halftone, centralizada em fundo branco puro, com sombra mínima.",
+  "tecnica": {
+    "como_e_feito": "Objeto recortado com filtro de gravura ou halftone fino; fundo limpo para compor em colagens; animável com rotação 3D leve, float e pulso.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#1A1A1A",
+      "#8A8A8A"
+    ],
+    "efeitos": [
+      "gravura",
+      "halftone",
+      "objeto isolado"
+    ]
+  },
+  "quando_usar": "Elemento de colagem para temas de psicologia, manipulação e mente; ícone central de um bloco explicativo.",
+  "mood": [
+    "clínico",
+    "minimalista"
+  ],
+  "tags": [
+    "cerebro",
+    "gravura",
+    "halftone",
+    "objeto",
+    "colagem",
+    "psicologia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 981,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

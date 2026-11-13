@@ -1,0 +1,54 @@
+{
+  "id": "ref-0098",
+  "area": "edicao",
+  "arquivo": "baloes-chat-mensagens-aparecendo.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "outros",
+  "subcategoria": "chat-mensagens",
+  "titulo": "Balões de mensagem de chat surgindo (estilo WhatsApp)",
+  "descricao": "Fundo preto com balões de mensagem: um branco à esquerda e um verde-claro à direita com horário e confirmação de leitura, entrando em sequência.",
+  "tecnica": {
+    "como_e_feito": "Balões com cantos arredondados e rabicho; entrada com scale/slide; horário e checks. Em código: componentes simples com spring.",
+    "duracao_seg": 5,
+    "easing": null,
+    "fontes": [
+      "sans do sistema"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF",
+      "#DCF8C6"
+    ],
+    "efeitos": [
+      "pop-in",
+      "balões"
+    ]
+  },
+  "quando_usar": "Recriar conversas (golpes, ameaças, provas) sem prints reais.",
+  "mood": [
+    "neutro",
+    "narrativo"
+  ],
+  "tags": [
+    "chat",
+    "mensagem",
+    "whatsapp",
+    "conversa",
+    "template"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 5.04,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

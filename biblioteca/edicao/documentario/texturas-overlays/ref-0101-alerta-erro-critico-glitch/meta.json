@@ -1,0 +1,54 @@
+{
+  "id": "ref-0101",
+  "area": "edicao",
+  "arquivo": "alerta-erro-critico-glitch.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "texturas-overlays",
+  "subcategoria": "alerta",
+  "titulo": "Ícone de alerta vermelho 'CRITICAL ERROR' com glitch",
+  "descricao": "Triângulo de alerta vermelho com '!' surgindo em pontos diferentes da tela preta, às vezes com o texto 'CRITICAL ERROR' e falhas de glitch.",
+  "tecnica": {
+    "como_e_feito": "Ícone vetorial com glow vermelho; aparições com glitch (deslocamento RGB) e flicker; usar em Screen sobre a cena.",
+    "duracao_seg": 12.7,
+    "easing": null,
+    "fontes": [
+      "sans bold pequena"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "glitch",
+      "flicker",
+      "glow"
+    ]
+  },
+  "quando_usar": "Falhas de sistema, ataques, alertas, perigo.",
+  "mood": [
+    "urgente",
+    "tenso"
+  ],
+  "tags": [
+    "alerta",
+    "erro",
+    "glitch",
+    "vermelho",
+    "overlay"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 12.73,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.7
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

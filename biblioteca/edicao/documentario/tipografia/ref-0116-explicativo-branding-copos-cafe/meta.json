@@ -1,0 +1,55 @@
+{
+  "id": "ref-0116",
+  "area": "edicao",
+  "arquivo": "explicativo-branding-copos-cafe.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "texto-explicativo-animado",
+  "titulo": "Motion 'O segredo do branding' com copos de café e ícones (PT)",
+  "descricao": "Vídeo vertical dentro de uma moldura de celular sobre a timeline do editor: título 'O segredo do Branding', copos de café recortados girando, palavra 'definitivo' e personagens em ícones para 'Autoridade'.",
+  "tecnica": {
+    "como_e_feito": "Produtos recortados com rotação e sombra; tipografia com palavras de pesos diferentes; folhas pretas decorativas entrando pelas bordas; ilustrações flat de pessoas.",
+    "duracao_seg": 21.3,
+    "easing": null,
+    "fontes": [
+      "sans fina + bold"
+    ],
+    "cores_hex": [
+      "#F2EFEC",
+      "#111111",
+      "#1E5A3C"
+    ],
+    "efeitos": [
+      "produto recortado",
+      "tipografia mista",
+      "elementos decorativos"
+    ]
+  },
+  "quando_usar": "Explicar marketing/branding com produtos conhecidos (recriar com produtos genéricos).",
+  "mood": [
+    "didático",
+    "elegante"
+  ],
+  "tags": [
+    "explicativo",
+    "branding",
+    "cafe",
+    "produto",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 21.34,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.7
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-09"
+}

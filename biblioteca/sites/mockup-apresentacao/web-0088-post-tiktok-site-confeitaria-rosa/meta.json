@@ -1,0 +1,52 @@
+{
+  "id": "web-0088",
+  "area": "site",
+  "arquivo": "post-tiktok-site-confeitaria-rosa.png",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "comida",
+  "titulo": "Post mostrando site de confeitaria rosa 'Delícias em cada mordida'",
+  "descricao": "Captura de post vertical com print de site de confeitaria rosa com bolos e doces.",
+  "tecnica": {
+    "como_e_feito": "Print de site em vídeo de rede social; paleta rosa.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada itálica"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#F2B8C6",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "mockup em post"
+    ]
+  },
+  "quando_usar": "Referência de site de confeitaria e de conteúdo de divulgação.",
+  "mood": [
+    "doce",
+    "comercial"
+  ],
+  "tags": [
+    "post",
+    "confeitaria",
+    "rosa",
+    "conteudo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1080,
+    "altura": 2400,
+    "tamanho_mb": 0.6
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

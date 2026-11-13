@@ -1,0 +1,55 @@
+{
+  "id": "web-0067",
+  "area": "site",
+  "arquivo": "smash-burger-caixa-quente-azul.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "comida",
+  "titulo": "Hero de smash burger 'Chega quente na sua porta' azul (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; hero azul-céu com burger em caixa na mão, títulos condensados azuis enormes, selo circular 'Pedir meu smash' e faixas quadriculadas.",
+  "tecnica": {
+    "como_e_feito": "Display condensada pesada; produto na mão; selo rotativo; padrão xadrez; céu com nuvens.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy"
+    ],
+    "cores_hex": [
+      "#BFE3F7",
+      "#1E3FD0",
+      "#FFFFFF",
+      "#F2B01E"
+    ],
+    "efeitos": [
+      "selo circular",
+      "xadrez"
+    ]
+  },
+  "quando_usar": "Hamburguerias e delivery.",
+  "mood": [
+    "divertido",
+    "faminto"
+  ],
+  "tags": [
+    "burger",
+    "delivery",
+    "azul",
+    "hero",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1043,
+    "altura": 795,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

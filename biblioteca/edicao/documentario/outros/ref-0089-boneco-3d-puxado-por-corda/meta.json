@@ -1,0 +1,52 @@
+{
+  "id": "ref-0089",
+  "area": "edicao",
+  "arquivo": "boneco-3d-puxado-por-corda.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "outros",
+  "subcategoria": "conceitual-3d",
+  "titulo": "Figura 3D cinza sem rosto sendo puxada por uma corda",
+  "descricao": "Modelo humano cinza sem rosto, de regata, estendendo a mão para a câmera enquanto uma corda grossa envolve seu pescoço e o puxa para trás.",
+  "tecnica": {
+    "como_e_feito": "Escultura 3D monocromática com luz de estúdio; composição em perspectiva forçada (mão grande). Usar com cuidado em temas sensíveis.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#3A3A3A",
+      "#9A9A9A",
+      "#1E1E1E"
+    ],
+    "efeitos": [
+      "render 3D",
+      "perspectiva forçada"
+    ]
+  },
+  "quando_usar": "Metáfora de dívida, controle, opressão, vício (evitar em temas de suicídio).",
+  "mood": [
+    "opressivo",
+    "tenso"
+  ],
+  "tags": [
+    "3d",
+    "conceitual",
+    "corda",
+    "controle",
+    "opressao"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 349,
+    "altura": 261,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-09"
+}

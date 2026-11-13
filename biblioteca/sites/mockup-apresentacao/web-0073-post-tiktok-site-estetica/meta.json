@@ -1,0 +1,52 @@
+{
+  "id": "web-0073",
+  "area": "site",
+  "arquivo": "post-tiktok-site-estetica.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "estetica",
+  "titulo": "Post mostrando site de estética 'Realce sua beleza natural'",
+  "descricao": "Captura de post vertical com a frase 'Com a obra de arte finalizada' e mockup de site de estética em tons dourados com retrato.",
+  "tecnica": {
+    "como_e_feito": "Conteúdo de bastidor: print do site em mockup dentro de vídeo de rede social.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#C9A15A",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "mockup em post"
+    ]
+  },
+  "quando_usar": "Ideias de conteúdo para divulgar sites entregues.",
+  "mood": [
+    "elegante",
+    "comercial"
+  ],
+  "tags": [
+    "post",
+    "estetica",
+    "mockup",
+    "conteudo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 720,
+    "altura": 1600,
+    "tamanho_mb": 0.3
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

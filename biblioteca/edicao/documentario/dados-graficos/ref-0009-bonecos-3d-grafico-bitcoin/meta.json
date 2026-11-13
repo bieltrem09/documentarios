@@ -1,0 +1,60 @@
+{
+  "id": "ref-0009",
+  "area": "edicao",
+  "arquivo": "bonecos-3d-grafico-bitcoin.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "personagens-e-grafico",
+  "titulo": "Bonecos 3D brancos diante de telão com gráfico do Bitcoin subindo e caindo",
+  "descricao": "Bonecos humanoides brancos e minimalistas olham um telão com gráfico de velas: primeiro sobe em verde (BTC a $70,000) com balões de fala ('To the moon!'), depois despenca em vermelho ($15,500) e resta um boneco sozinho. Fecha com pergunta em texto sobre fundo preto.",
+  "tecnica": {
+    "como_e_feito": "Cena 3D escura com chão em linha verde neon; personagens low-detail em material branco translúcido; telão emissivo com gráfico de candles animado; balões de fala brancos aparecendo em pop; troca de cor verde→vermelho no clímax; corte para cartela de texto com palavras destacadas em verde.",
+    "duracao_seg": 15,
+    "easing": "pop com overshoot nos balões",
+    "fontes": [
+      "sans geométrica (tipo Montserrat)"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#22C55E",
+      "#E11D2E",
+      "#F5C542",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "gráfico de candles animado",
+      "personagens 3D",
+      "balões de fala",
+      "glow"
+    ]
+  },
+  "quando_usar": "Explicar bolhas, euforia e quebra de mercado (cripto, ações, golpes de pirâmide) de forma visual e narrativa.",
+  "mood": [
+    "tenso",
+    "irônico"
+  ],
+  "tags": [
+    "bitcoin",
+    "cripto",
+    "grafico",
+    "candles",
+    "personagens-3d",
+    "balao-de-fala",
+    "mercado"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 14.7,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.8
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

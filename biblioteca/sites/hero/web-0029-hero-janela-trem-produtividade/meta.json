@@ -1,0 +1,54 @@
+{
+  "id": "web-0029",
+  "area": "site",
+  "arquivo": "hero-janela-trem-produtividade.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "produtividade",
+  "titulo": "Hero 'Focus in a Constantly Distracted World' visto pela janela de trem",
+  "descricao": "Hero em que a interface do site aparece através da janela de um trem: campo verde e montanhas ao fundo, título escuro centralizado e campo de e-mail para lista de espera.",
+  "tecnica": {
+    "como_e_feito": "Moldura de janela como máscara do hero; paisagem em movimento (vídeo em loop) atrás; formulário de waitlist.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#E5EEF5",
+      "#1E2A35",
+      "#B8572A"
+    ],
+    "efeitos": [
+      "máscara de janela",
+      "vídeo de fundo"
+    ]
+  },
+  "quando_usar": "Apps de produtividade/foco, lista de espera de lançamento.",
+  "mood": [
+    "calmo",
+    "focado"
+  ],
+  "tags": [
+    "hero",
+    "janela",
+    "trem",
+    "waitlist",
+    "produtividade"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 475,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

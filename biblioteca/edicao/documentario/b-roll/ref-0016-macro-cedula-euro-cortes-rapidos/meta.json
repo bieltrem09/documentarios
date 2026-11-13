@@ -1,0 +1,55 @@
+{
+  "id": "ref-0016",
+  "area": "edicao",
+  "arquivo": "macro-cedula-euro-cortes-rapidos.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "dinheiro-macro",
+  "titulo": "Macro de cédula de euro com cortes rápidos de detalhe",
+  "descricao": "Close extremo de uma nota de 20 euros: holograma, assinatura, bandeira da UE, estrelas, '20' verde e 'EURO', em cortes de cerca de 0,6 s. Footage de banco de imagens (com marca d'água).",
+  "tecnica": {
+    "como_e_feito": "Footage macro com slide lento; edição em cortes rápidos alternando detalhes repetidos no ritmo da música; cores saturadas naturais da cédula.",
+    "duracao_seg": 10.5,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#7FC8D6",
+      "#A0307A",
+      "#E9E3C8",
+      "#1A6B3C"
+    ],
+    "efeitos": [
+      "macro",
+      "cortes rápidos",
+      "slide lento"
+    ]
+  },
+  "quando_usar": "Matérias sobre economia, inflação, fraude e lavagem de dinheiro; ritmo acelerado em montagem de dinheiro.",
+  "mood": [
+    "dinâmico",
+    "econômico"
+  ],
+  "tags": [
+    "dinheiro",
+    "euro",
+    "macro",
+    "cortes-rapidos",
+    "cedula",
+    "economia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 10.51,
+    "largura": 1280,
+    "altura": 720,
+    "tamanho_mb": 6.9
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

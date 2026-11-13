@@ -1,0 +1,54 @@
+{
+  "id": "ref-0109",
+  "area": "edicao",
+  "arquivo": "estudio-virtual-telejornal-vermelho.mp4",
+  "tipo_midia": "video",
+  "nicho": "noticia",
+  "categoria": "elementos-noticia",
+  "subcategoria": "estudio-virtual",
+  "titulo": "Estúdio virtual de telejornal vermelho com telão chroma key",
+  "descricao": "Cenário 3D de telejornal com tons vermelhos e brancos, globo terrestre girando ao fundo e um telão com tela verde para inserir imagens.",
+  "tecnica": {
+    "como_e_feito": "Loop 3D com chroma key no telão; flares de luz; usar com imagens ou narração por cima.",
+    "duracao_seg": 10,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#B3121C",
+      "#D9D9D9",
+      "#3BE020",
+      "#2A0A0A"
+    ],
+    "efeitos": [
+      "chroma key",
+      "globo girando",
+      "flare"
+    ]
+  },
+  "quando_usar": "Abertura e blocos de vídeos de notícia; moldura para mostrar footage.",
+  "mood": [
+    "jornalístico",
+    "sério"
+  ],
+  "tags": [
+    "telejornal",
+    "estudio",
+    "chroma-key",
+    "globo",
+    "vermelho"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 10.01,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

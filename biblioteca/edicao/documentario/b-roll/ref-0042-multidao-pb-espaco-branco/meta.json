@@ -1,0 +1,52 @@
+{
+  "id": "ref-0042",
+  "area": "edicao",
+  "arquivo": "multidao-pb-espaco-branco.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "multidao-anonima",
+  "titulo": "Plateia em P&B de costas com grande espaço branco acima",
+  "descricao": "Multidão de costas em preto e branco ocupando só a parte de baixo da imagem; o resto é branco puro, ideal para texto.",
+  "tecnica": {
+    "como_e_feito": "Foto P&B com fundo estourado em branco; espaço negativo superior para título. Animável: leve push-in e texto entrando no branco.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#1C1C1C",
+      "#8A8A8A"
+    ],
+    "efeitos": [
+      "espaço negativo",
+      "P&B"
+    ]
+  },
+  "quando_usar": "Fundo para títulos sobre sociedade, público, opinião pública.",
+  "mood": [
+    "neutro",
+    "social"
+  ],
+  "tags": [
+    "multidao",
+    "pb",
+    "espaco-negativo",
+    "fundo",
+    "plateia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 490,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

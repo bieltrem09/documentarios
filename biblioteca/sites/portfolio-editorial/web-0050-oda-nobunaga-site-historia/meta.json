@@ -1,0 +1,56 @@
+{
+  "id": "web-0050",
+  "area": "site",
+  "arquivo": "oda-nobunaga-site-historia.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "portfolio-editorial",
+  "subcategoria": "historia",
+  "titulo": "Site ilustrado 'Unifiers of Japan' (Oda Nobunaga) vermelho e creme (vídeo)",
+  "descricao": "Site sobre os unificadores do Japão: retratos ilustrados em vermelho e preto atrás de títulos gigantes, mapa do Japão, linha do tempo de batalhas, galeria e brasões.",
+  "tecnica": {
+    "como_e_feito": "Ilustração vetorial com duotone vermelho; título condensado atrás do personagem; timeline em acordeão; cards com bordas; transições de página.",
+    "duracao_seg": 40.7,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy"
+    ],
+    "cores_hex": [
+      "#D9183B",
+      "#F3ECE0",
+      "#111111"
+    ],
+    "efeitos": [
+      "duotone",
+      "timeline acordeão",
+      "texto atrás do sujeito"
+    ]
+  },
+  "quando_usar": "Sites/vídeos de história, biografias e storytelling cultural (também inspira cenas de documentário).",
+  "mood": [
+    "histórico",
+    "marcante"
+  ],
+  "tags": [
+    "historia",
+    "japao",
+    "ilustracao",
+    "timeline",
+    "editorial",
+    "vermelho"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 40.68,
+    "largura": 714,
+    "altura": 408,
+    "tamanho_mb": 3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

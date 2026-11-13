@@ -1,0 +1,56 @@
+{
+  "id": "ref-0099",
+  "area": "edicao",
+  "arquivo": "explicativo-vermelho-busca-local.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "ritmo-cortes",
+  "subcategoria": "explicativo-rapido",
+  "titulo": "Motion explicativo vermelho e escuro: Google, mapas e loja (cortes rápidos)",
+  "descricao": "Vídeo vertical em painéis com cortes muito rápidos: cifrões e gráfico verde, celular com Google, mapa, fachada de loja, lupa, notebook com busca, silhuetas e legenda fixa com palavra em vermelho.",
+  "tecnica": {
+    "como_e_feito": "Composição em grade 2x2 com cenas 3D/2.5D; cortes a cada 0,3-0,8 s; palavras-chave em vermelho; luz dramática; legenda persistente embaixo.",
+    "duracao_seg": 5,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#140A0B",
+      "#B3121C",
+      "#FFFFFF",
+      "#3CCB7F"
+    ],
+    "efeitos": [
+      "cortes rápidos",
+      "grade de painéis",
+      "palavra-chave colorida"
+    ]
+  },
+  "quando_usar": "Explicações rápidas de negócio/marketing com ritmo alto.",
+  "mood": [
+    "urgente",
+    "dinâmico"
+  ],
+  "tags": [
+    "explicativo",
+    "cortes-rapidos",
+    "google",
+    "mapa",
+    "vermelho"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 5.18,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.8
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

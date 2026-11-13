@@ -1,0 +1,53 @@
+{
+  "id": "web-0030",
+  "area": "site",
+  "arquivo": "centro-empresarial-russo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "institucional",
+  "subcategoria": "imobiliario",
+  "titulo": "Site de centro empresarial 'Meridian' (russo) com cards",
+  "descricao": "Página clara com cards: gráfico de queda de tráfego, prédio de vidro, textos grandes com palavras destacadas e foto de pessoas.",
+  "tecnica": {
+    "como_e_feito": "Cards com gradientes sutis; tipografia grande com destaque de palavras; fotos de arquitetura.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#EFEFEF",
+      "#1E1E1E",
+      "#F08A24"
+    ],
+    "efeitos": [
+      "cards",
+      "destaque de palavras"
+    ]
+  },
+  "quando_usar": "Imobiliário comercial e apresentações de venda.",
+  "mood": [
+    "corporativo",
+    "claro"
+  ],
+  "tags": [
+    "imobiliario",
+    "institucional",
+    "cards",
+    "russo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1294,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ref-0121",
+  "area": "edicao",
+  "arquivo": "explicativo-serifado-cerebro-design.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "texto-explicativo-animado",
+  "titulo": "Motion editorial serifado: 'seu cérebro lê o visual' com cérebro 3D",
+  "descricao": "Fundo cinza claro com estrelas pretas 3D nos cantos e linha de gráfico ao fundo; frases em serifada itálica bold aparecem ('Let's suppose you're', 'Because your brain read visual'), com cérebro rosa e cards de fotos arredondados.",
+  "tecnica": {
+    "como_e_feito": "Serifada itálica com contraste de pesos; elementos 3D decorativos nos cantos; imagens em cards com sombra; texto entrando com desfoque.",
+    "duracao_seg": 23.7,
+    "easing": null,
+    "fontes": [
+      "serifada itálica bold (tipo Playfair Display)"
+    ],
+    "cores_hex": [
+      "#E9E9E9",
+      "#111111",
+      "#E57A8A"
+    ],
+    "efeitos": [
+      "serifada itálica",
+      "cards com sombra",
+      "objetos 3D decorativos"
+    ]
+  },
+  "quando_usar": "Explicações elegantes sobre design, percepção e marketing.",
+  "mood": [
+    "elegante",
+    "didático"
+  ],
+  "tags": [
+    "explicativo",
+    "serifada",
+    "cerebro",
+    "design",
+    "editorial"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 23.66,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.6
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

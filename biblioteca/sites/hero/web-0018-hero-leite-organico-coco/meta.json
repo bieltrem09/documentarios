@@ -1,0 +1,53 @@
+{
+  "id": "web-0018",
+  "area": "site",
+  "arquivo": "hero-leite-organico-coco.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "bebida",
+  "titulo": "Hero de leite orgânico com cocos e palavra gigante",
+  "descricao": "Hero claro com garrafas de leite e cocos partidos na frente das palavras gigantes 'milk organic' em branco.",
+  "tecnica": {
+    "como_e_feito": "Produto e ingredientes recortados sobre tipografia gigante branca em fundo cinza-azulado; menu fino.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#D9E1E8",
+      "#FFFFFF",
+      "#5B7FA6",
+      "#8A5A3B"
+    ],
+    "efeitos": [
+      "texto atrás do produto"
+    ]
+  },
+  "quando_usar": "Produtos naturais, laticínios, cosméticos.",
+  "mood": [
+    "fresco",
+    "limpo"
+  ],
+  "tags": [
+    "hero",
+    "leite",
+    "organico",
+    "produto"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 490,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

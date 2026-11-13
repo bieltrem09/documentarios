@@ -1,0 +1,53 @@
+{
+  "id": "ref-0081",
+  "area": "edicao",
+  "arquivo": "janela-aviao-nuvens-ilustracao.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "cenario-ia",
+  "titulo": "Interior de avião com poltrona e janelas mostrando nuvens (estilo 3D suave)",
+  "descricao": "Ilustração 3D luminosa de uma poltrona de avião ao lado de duas janelas ovais com céu e nuvens brancas.",
+  "tecnica": {
+    "como_e_feito": "Render/ilustração com luz suave; animável com nuvens passando na janela (loop) e leve balanço.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#BFD6EA",
+      "#F3EEE6",
+      "#C99A6B",
+      "#6A7C93"
+    ],
+    "efeitos": [
+      "render suave",
+      "loop de nuvens"
+    ]
+  },
+  "quando_usar": "Viagens, fuga, deslocamento, início de capítulo.",
+  "mood": [
+    "calmo",
+    "sonhador"
+  ],
+  "tags": [
+    "aviao",
+    "janela",
+    "nuvens",
+    "viagem",
+    "3d"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 429,
+    "altura": 240,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

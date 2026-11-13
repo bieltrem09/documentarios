@@ -1,0 +1,57 @@
+{
+  "id": "ref-0073",
+  "area": "edicao",
+  "arquivo": "fontes-classicas-sistema.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "catalogo-de-fontes",
+  "titulo": "Catálogo de fontes clássicas de sistema (Arial, Times, Helvetica, Courier…)",
+  "descricao": "Grade vertical de cartões com nomes de fontes clássicas escritos na própria fonte: Arial, Times, Helvetica, Courier, Verdana, Trebuchet, Georgia, Tahoma.",
+  "tecnica": {
+    "como_e_feito": "Referência para escolher fontes seguras/neutras; cada cartão mostra a fonte em peso regular ou bold.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "Arial",
+      "Times New Roman",
+      "Helvetica",
+      "Courier",
+      "Verdana",
+      "Georgia",
+      "Tahoma"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#111111",
+      "#EDEDED"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Escolher fonte neutra para legendas, documentos simulados e interfaces.",
+  "mood": [
+    "neutro",
+    "clássico"
+  ],
+  "tags": [
+    "fonte",
+    "catalogo",
+    "serifada",
+    "sans",
+    "sistema"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1311,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ref-0088",
+  "area": "edicao",
+  "arquivo": "fontes-display-metal-gotico.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "catalogo-de-fontes",
+  "titulo": "Fontes display ultracondensadas, góticas e 'metal' em fundo preto",
+  "descricao": "Amostras de fontes display: ultracondensada ('I Stand Alone', 'Love'), letras estilo metal com espinhos, blackletter estilizada, serifada romana ('Lux Aeterna') e 'Vortex' gótica.",
+  "tecnica": {
+    "como_e_feito": "Referência de títulos agressivos/sombrios; usar com moderação para impacto.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "ultracondensadas",
+      "blackletter",
+      "fontes estilo metal"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Títulos de true crime, terror, seitas, subculturas.",
+  "mood": [
+    "sombrio",
+    "agressivo"
+  ],
+  "tags": [
+    "fonte",
+    "gotica",
+    "metal",
+    "display",
+    "condensada"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 921,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "ref-0001",
+  "area": "edicao",
+  "arquivo": "mesa-evidencias-3d-dossie.mp4",
+  "tipo_midia": "video",
+  "nicho": "documentario",
+  "categoria": "documentos-jornal",
+  "subcategoria": "mesa-de-evidencias",
+  "titulo": "Mesa de evidências 3D com dossiê, tarjas nos olhos e rótulos de nomes",
+  "descricao": "Câmera virtual passeia sobre objetos de investigação vistos de cima numa mesa escura: pasta 'Private', ficha com foto P&B, raio-X, walkman, saco de 'EVIDENCE' com cápsula de bala e foto antiga. Tarjas pretas e vermelhas cobrem os olhos e nomes aparecem como rótulos. O vídeo mostra lado a lado o preview com as guias de câmera 3D e o render final, com a timeline de SFX.",
+  "tecnica": {
+    "como_e_feito": "Fotos/documentos recortados como planos 2.5D espalhados numa cena 3D; câmera com movimentos lentos de dolly/rotação passando de objeto em objeto; vinheta forte e luz pontual; destaques em vermelho (círculo à mão no nome, tarja nos olhos, linha vermelha); rótulos de texto pequenos ancorados nos rostos; muitos SFX (papel, foley) sincronizados a cada movimento.",
+    "duracao_seg": null,
+    "easing": "ease-in-out suave nos movimentos de câmera",
+    "fontes": [
+      "máquina de escrever (tipo Courier) nos documentos",
+      "manuscrita para rótulos"
+    ],
+    "cores_hex": [
+      "#0E0E0E",
+      "#E9E4D8",
+      "#C1121F",
+      "#7A7A7A"
+    ],
+    "efeitos": [
+      "câmera 3D sobre planos 2.5D",
+      "vinheta forte",
+      "tarja nos olhos",
+      "círculo desenhado à mão",
+      "sombra de contato",
+      "foley/SFX"
+    ]
+  },
+  "quando_usar": "Abertura ou apresentação de caso em documentário de crime/conspiração; mostrar provas, suspeitos e documentos sem footage real.",
+  "mood": [
+    "sombrio",
+    "investigativo",
+    "misterioso"
+  ],
+  "tags": [
+    "evidencias",
+    "dossie",
+    "camera-3d",
+    "parallax",
+    "tarja-olhos",
+    "true-crime",
+    "vermelho",
+    "mesa"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 39.64,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 8
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

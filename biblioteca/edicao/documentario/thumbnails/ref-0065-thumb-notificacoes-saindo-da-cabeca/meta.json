@@ -1,0 +1,57 @@
+{
+  "id": "ref-0065",
+  "area": "edicao",
+  "arquivo": "thumb-notificacoes-saindo-da-cabeca.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "titulo-gigante",
+  "titulo": "Thumbnail: notificações de apps saindo da cabeça aberta de uma pessoa",
+  "descricao": "Rosto sério no centro com o topo da cabeça aberto e uma pilha de notificações de celular saindo dele; palavra gigante vermelha atrás da pessoa sobre fundo branco.",
+  "tecnica": {
+    "como_e_feito": "Recorte da pessoa com máscara no topo da cabeça; cards de notificação (UI) empilhados em perspectiva; título condensado vermelho atrás do sujeito; fundo branco.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy itálica"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#E31B23",
+      "#1E1E1E",
+      "#2C2C2E"
+    ],
+    "efeitos": [
+      "texto atrás do sujeito",
+      "cards de UI",
+      "surreal"
+    ]
+  },
+  "quando_usar": "Vício em redes sociais, dopamina, atenção, tecnologia e mente.",
+  "mood": [
+    "provocativo",
+    "moderno"
+  ],
+  "tags": [
+    "thumbnail",
+    "notificacoes",
+    "cabeca",
+    "dopamina",
+    "redes-sociais",
+    "vermelho"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

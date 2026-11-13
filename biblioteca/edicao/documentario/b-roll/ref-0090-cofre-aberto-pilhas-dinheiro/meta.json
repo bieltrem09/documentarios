@@ -1,0 +1,52 @@
+{
+  "id": "ref-0090",
+  "area": "edicao",
+  "arquivo": "cofre-aberto-pilhas-dinheiro.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "cofre-3d",
+  "titulo": "Porta de cofre aberta com pilhas de dinheiro transbordando (3D)",
+  "descricao": "Porta maciça de cofre bancário aberta com montanhas de maços de dinheiro saindo para o chão, em tons de aço frio.",
+  "tecnica": {
+    "como_e_feito": "Render 3D frio com câmera baixa; animável com push-in e notas caindo.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#3E4A55",
+      "#9AA7B0",
+      "#D9DEE2"
+    ],
+    "efeitos": [
+      "render 3D",
+      "câmera baixa"
+    ]
+  },
+  "quando_usar": "Fortunas, lavagem de dinheiro, bancos, roubos.",
+  "mood": [
+    "impactante",
+    "frio"
+  ],
+  "tags": [
+    "cofre",
+    "dinheiro",
+    "banco",
+    "3d",
+    "fortuna"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

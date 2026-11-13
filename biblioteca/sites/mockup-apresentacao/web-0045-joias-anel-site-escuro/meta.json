@@ -1,0 +1,55 @@
+{
+  "id": "web-0045",
+  "area": "site",
+  "arquivo": "joias-anel-site-escuro.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "joias",
+  "titulo": "Apresentação de site de joias com anéis cromados (vídeo)",
+  "descricao": "Tablet com site preto de anel ('Reveal its radiance') cercado por anéis cromados 3D; as telas trocam entre seções com tipografia serifada fina.",
+  "tecnica": {
+    "como_e_feito": "Site escuro com produto 3D cromado; serifada fina em caixa alta; transições entre seções; apresentação em mockup.",
+    "duracao_seg": 15,
+    "easing": null,
+    "fontes": [
+      "serifada fina",
+      "sans pequena"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF",
+      "#BFC3C7"
+    ],
+    "efeitos": [
+      "3D cromado",
+      "transição de seções"
+    ]
+  },
+  "quando_usar": "Joalherias e produtos de luxo.",
+  "mood": [
+    "luxuoso",
+    "misterioso"
+  ],
+  "tags": [
+    "joias",
+    "anel",
+    "luxo",
+    "escuro",
+    "mockup"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 15,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

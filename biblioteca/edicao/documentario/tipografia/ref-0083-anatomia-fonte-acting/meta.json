@@ -1,0 +1,53 @@
+{
+  "id": "ref-0083",
+  "area": "edicao",
+  "arquivo": "anatomia-fonte-acting.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "anatomia-tipografica",
+  "titulo": "Anatomia tipográfica da palavra 'Acting' (cap-height, x-height, baseline)",
+  "descricao": "A palavra 'Acting' em sans geométrica preta com linhas de cap-height, x-height e baseline, e círculos azuis destacando detalhes com rótulos ('unique character', 'corporate shape').",
+  "tecnica": {
+    "como_e_feito": "Diagrama sobre fundo branco texturizado; linhas finas e rótulos em caixa alta; destaques circulares translúcidos azuis. Animável: linhas desenhando e círculos pulsando.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#111111",
+      "#5B6BE0"
+    ],
+    "efeitos": [
+      "linhas guia",
+      "destaque circular"
+    ]
+  },
+  "quando_usar": "Explicar design/marcas; estética de 'análise' para títulos.",
+  "mood": [
+    "didático",
+    "limpo"
+  ],
+  "tags": [
+    "fonte",
+    "anatomia",
+    "tipografia",
+    "diagrama"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 490,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

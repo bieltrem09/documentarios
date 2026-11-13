@@ -1,0 +1,53 @@
+{
+  "id": "web-0085",
+  "area": "site",
+  "arquivo": "tatuagem-resilience-estudio.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "tatuagem",
+  "titulo": "Hero de estúdio de tatuagem 'RESILIENCE' com tatuador trabalhando",
+  "descricao": "Tatuador mascarado trabalhando sob luz forte à frente do título gigante 'RESILIENCE', com nome em script, menu e miniaturas de trabalhos.",
+  "tecnica": {
+    "como_e_feito": "Foto dramática P&B; título condensado gigante; script elegante no logo; CTA quadrado.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada + script"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#FFFFFF",
+      "#9A9A9A"
+    ],
+    "efeitos": [
+      "P&B dramático",
+      "texto atrás do sujeito"
+    ]
+  },
+  "quando_usar": "Estúdios de tatuagem e piercing.",
+  "mood": [
+    "intenso",
+    "autêntico"
+  ],
+  "tags": [
+    "tatuagem",
+    "pb",
+    "hero",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1600,
+    "altura": 900,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

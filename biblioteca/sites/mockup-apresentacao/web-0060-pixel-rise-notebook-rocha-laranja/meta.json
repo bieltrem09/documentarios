@@ -1,0 +1,54 @@
+{
+  "id": "web-0060",
+  "area": "site",
+  "arquivo": "pixel-rise-notebook-rocha-laranja.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "agencia",
+  "titulo": "Mockup de notebook sobre rocha com site 'Pixel Rise' laranja",
+  "descricao": "Notebook flutuando sobre rocha escura com fundo laranja, exibindo site de agência com robô/fliperama 3D e tipografia pixelada.",
+  "tecnica": {
+    "como_e_feito": "Mockup 3D com luz quente; site com objeto 3D e fonte pixel; composição vertical.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "pixelada + sans"
+    ],
+    "cores_hex": [
+      "#E86A1C",
+      "#111111",
+      "#F2F2F2"
+    ],
+    "efeitos": [
+      "mockup 3D",
+      "fonte pixel"
+    ]
+  },
+  "quando_usar": "Apresentar projeto de site em portfólio.",
+  "mood": [
+    "criativo",
+    "quente"
+  ],
+  "tags": [
+    "mockup",
+    "notebook",
+    "agencia",
+    "laranja",
+    "pixel"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

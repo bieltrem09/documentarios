@@ -1,0 +1,58 @@
+{
+  "id": "ref-0072",
+  "area": "edicao",
+  "arquivo": "thumb-retrato-recortado-titulo-gigante-rabiscos.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "rosto-e-titulo",
+  "titulo": "Thumbnail: retrato P&B recortado, título gigante vermelho e rabiscos à mão",
+  "descricao": "Dois recortes do mesmo empresário em P&B sobre papel texturizado: um com o topo da cabeça aberto e outro rindo com olhos de laser vermelhos. Atrás, título enorme vermelho; frases curtas circuladas e setas desenhadas à mão.",
+  "tecnica": {
+    "como_e_feito": "Recortes P&B com borda branca (sticker) sobre papel; título condensado heavy vermelho atrás; anotações manuscritas com círculos e setas vermelhas; efeito de laser nos olhos com glow.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada heavy",
+      "manuscrita marcador"
+    ],
+    "cores_hex": [
+      "#E9E4DC",
+      "#D7261E",
+      "#111111"
+    ],
+    "efeitos": [
+      "recorte sticker",
+      "rabiscos à mão",
+      "glow nos olhos",
+      "texto atrás do sujeito"
+    ]
+  },
+  "quando_usar": "Thumbnails de documentário sobre bilionários, polêmicas e perfis psicológicos.",
+  "mood": [
+    "provocativo",
+    "caótico"
+  ],
+  "tags": [
+    "thumbnail",
+    "recorte",
+    "rabisco",
+    "vermelho",
+    "bilionario",
+    "papel"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

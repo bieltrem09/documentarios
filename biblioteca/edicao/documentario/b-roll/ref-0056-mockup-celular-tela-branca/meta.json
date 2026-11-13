@@ -1,0 +1,51 @@
+{
+  "id": "ref-0056",
+  "area": "edicao",
+  "arquivo": "mockup-celular-tela-branca.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "mockup-de-tela",
+  "titulo": "Mockup de celular deitado em perspectiva com tela branca",
+  "descricao": "Smartphone moderno visto em perspectiva, deitado, com a tela totalmente branca para substituição, sobre fundo branco.",
+  "tecnica": {
+    "como_e_feito": "Mockup PNG para screen replacement: aplicar print/vídeo na tela com corner pin. Animável: celular entra girando em 3D.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#C0C0C0",
+      "#1A1A1A"
+    ],
+    "efeitos": [
+      "mockup",
+      "corner pin"
+    ]
+  },
+  "quando_usar": "Mostrar apps, mensagens, notificações e posts em vídeos de golpe/tecnologia.",
+  "mood": [
+    "neutro",
+    "limpo"
+  ],
+  "tags": [
+    "mockup",
+    "celular",
+    "tela",
+    "screen-replacement"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

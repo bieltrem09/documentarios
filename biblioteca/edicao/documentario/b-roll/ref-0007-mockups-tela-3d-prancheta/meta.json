@@ -1,0 +1,60 @@
+{
+  "id": "ref-0007",
+  "area": "edicao",
+  "arquivo": "mockups-tela-3d-prancheta.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "mockup-de-tela",
+  "titulo": "Mockups 3D de telas e prancheta com texto manuscrito",
+  "descricao": "Sequência rápida: webcam de um rapaz falando, cartão 3D de saldo do PayPal ('10,000,000$') sobre fundo azul, prancheta com frase escrita à mão sendo revelada ('How you yourself can make hundreds of thousands??') e páginas de site mostradas em perspectiva.",
+  "tecnica": {
+    "como_e_feito": "Capturas de tela recriadas como cartões/planos 3D com sombra e leve rotação; fundo azul com ícones; texto manuscrito revelado palavra a palavra sobre papel numa prancheta com câmera inclinada; cortes rápidos casados com a narração.",
+    "duracao_seg": 24,
+    "easing": "ease-out",
+    "fontes": [
+      "script/manuscrita",
+      "sans bold no cartão"
+    ],
+    "cores_hex": [
+      "#0B1E6B",
+      "#1D4ED8",
+      "#FFFFFF",
+      "#22303F"
+    ],
+    "efeitos": [
+      "cartão 3D",
+      "reveal de escrita",
+      "perspectiva de tela",
+      "cortes rápidos"
+    ]
+  },
+  "quando_usar": "Mostrar sites, saldos, perfis e prints em vídeos de golpe/dinheiro online sem gravar tela crua; frase-chave em prancheta.",
+  "mood": [
+    "curioso",
+    "dinâmico"
+  ],
+  "tags": [
+    "mockup",
+    "tela",
+    "3d",
+    "prancheta",
+    "manuscrito",
+    "dinheiro",
+    "ui"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 24.43,
+    "largura": 396,
+    "altura": 704,
+    "tamanho_mb": 1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-08"
+}

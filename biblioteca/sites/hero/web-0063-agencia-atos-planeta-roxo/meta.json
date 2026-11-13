@@ -1,0 +1,54 @@
+{
+  "id": "web-0063",
+  "area": "site",
+  "arquivo": "agencia-atos-planeta-roxo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "agencia",
+  "titulo": "Hero 'Design bonito não basta. Ele precisa gerar ATOS.' com planeta roxo",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; hero escuro com anel de planeta em néon roxo, título branco com a última palavra em roxo e botão roxo.",
+  "tecnica": {
+    "como_e_feito": "Fundo escuro com objeto 3D/neon central; palavra-chave colorida; CTA com glow.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#0B0A12",
+      "#7B4DFF",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "neon",
+      "glow"
+    ]
+  },
+  "quando_usar": "Agências de landing page/marketing digital.",
+  "mood": [
+    "tecnológico",
+    "persuasivo"
+  ],
+  "tags": [
+    "agencia",
+    "neon",
+    "roxo",
+    "hero",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1599,
+    "altura": 899,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

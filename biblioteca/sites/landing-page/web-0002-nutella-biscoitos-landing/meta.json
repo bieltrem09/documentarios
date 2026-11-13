@@ -1,0 +1,55 @@
+{
+  "id": "web-0002",
+  "area": "site",
+  "arquivo": "nutella-biscoitos-landing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "comida",
+  "titulo": "Landing de biscoitos com faixas onduladas e chocolate escorrendo",
+  "descricao": "Landing vertical rosa e laranja com logo do produto, chocolate escorrendo no topo, faixas tipográficas onduladas atravessando a página e seções de receitas.",
+  "tecnica": {
+    "como_e_feito": "Fundo em gradiente quente; faixas de texto em loop (marquee curvo em SVG); produto recortado; seções alternadas com fotos de mão segurando o biscoito.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "display arredondada bold"
+    ],
+    "cores_hex": [
+      "#F6A497",
+      "#E94F37",
+      "#FFE3C9",
+      "#5A2D17"
+    ],
+    "efeitos": [
+      "marquee curvo",
+      "produto recortado"
+    ]
+  },
+  "quando_usar": "Produtos alimentícios divertidos e campanhas de lançamento.",
+  "mood": [
+    "divertido",
+    "doce"
+  ],
+  "tags": [
+    "landing",
+    "comida",
+    "marquee",
+    "doce",
+    "colorido"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1303,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

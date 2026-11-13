@@ -1,0 +1,56 @@
+{
+  "id": "ref-0071",
+  "area": "edicao",
+  "arquivo": "fichas-pessoais-mesa-escura.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "documentos-jornal",
+  "subcategoria": "fichas",
+  "titulo": "Fichas pessoais com fotos 3x4 e código de barras sobre mesa escura",
+  "descricao": "Vista de cima de uma pilha de fichas de identificação com fotos 3x4, código de barras e campos preenchidos, sobre um envelope pardo numa mesa de madeira escura.",
+  "tecnica": {
+    "como_e_feito": "Documentos fictícios gerados com template (foto, barcode, campos) empilhados com leve rotação; luz de cima suave e vinheta. Animável: fichas deslizam uma sobre a outra.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "máquina de escrever / sans pequena de formulário"
+    ],
+    "cores_hex": [
+      "#1C1714",
+      "#EDEBE6",
+      "#B08A5A",
+      "#2B2B2B"
+    ],
+    "efeitos": [
+      "top-down",
+      "pilha de papéis",
+      "vinheta"
+    ]
+  },
+  "quando_usar": "Apresentar personagens de um caso como 'arquivos' (suspeitos, vítimas, agentes).",
+  "mood": [
+    "investigativo",
+    "sóbrio"
+  ],
+  "tags": [
+    "fichas",
+    "documentos",
+    "dossie",
+    "foto-3x4",
+    "top-down"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

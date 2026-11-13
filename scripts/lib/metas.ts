@@ -11,9 +11,9 @@ export interface MetaLida {
   erros: string[];
 }
 
-/** Lê todos os meta.json de biblioteca/edicao e biblioteca/proprias. */
+/** Lê todos os meta.json de biblioteca/edicao, biblioteca/sites e biblioteca/proprias. */
 export function lerMetas(): MetaLida[] {
-  const arquivos = [...listar(join(BIBLIOTECA, "edicao")), ...listar(join(BIBLIOTECA, "proprias"))].filter(
+  const arquivos = [...listar(join(BIBLIOTECA, "edicao")), ...listar(join(BIBLIOTECA, "sites")), ...listar(join(BIBLIOTECA, "proprias"))].filter(
     (f) => basename(f) === "meta.json",
   );
   return arquivos.sort().map((caminho) => {

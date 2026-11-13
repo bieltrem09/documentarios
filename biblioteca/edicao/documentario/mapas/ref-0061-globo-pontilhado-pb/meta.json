@@ -1,0 +1,52 @@
+{
+  "id": "ref-0061",
+  "area": "edicao",
+  "arquivo": "globo-pontilhado-pb.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "mapas",
+  "subcategoria": "globo",
+  "titulo": "Globo terrestre em pontos brancos sobre fundo preto",
+  "descricao": "Globo formado por pontos brancos (dot matrix) mostrando os continentes, em perspectiva, sobre fundo preto.",
+  "tecnica": {
+    "como_e_feito": "Globo em pontos (meia-tom) com sombreamento por densidade; fundo preto. Em código: esfera com pontos amostrados de um mapa, girando lentamente; destacar país com ponto vermelho e arco.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF",
+      "#6B6B6B"
+    ],
+    "efeitos": [
+      "dot matrix",
+      "globo 3D"
+    ]
+  },
+  "quando_usar": "Abrir matérias internacionais, mostrar localização/rotas, transição para mapa.",
+  "mood": [
+    "global",
+    "minimalista"
+  ],
+  "tags": [
+    "globo",
+    "mapa",
+    "pontos",
+    "dot-matrix",
+    "mundo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 658,
+    "altura": 658,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

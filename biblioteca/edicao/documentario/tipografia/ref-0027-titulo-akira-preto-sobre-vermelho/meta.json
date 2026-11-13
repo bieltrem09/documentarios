@@ -1,0 +1,53 @@
+{
+  "id": "ref-0027",
+  "area": "edicao",
+  "arquivo": "titulo-akira-preto-sobre-vermelho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "titulo-com-subtitulo-espacado",
+  "titulo": "Título preto pesado sobre vermelho com subtítulo de letras espaçadas",
+  "descricao": "Palavra 'AKIRA' em sans condensada black preta sobre fundo vermelho chapado, com 'AWAKEN' logo abaixo em letras muito espaçadas e 'BRANDING' pequeno.",
+  "tecnica": {
+    "como_e_feito": "Título grande condensado + subtítulo com tracking enorme alinhado à largura do título; fundo vermelho saturado. Animável: título entra com wipe vertical e o subtítulo letra a letra.",
+    "duracao_seg": null,
+    "easing": "ease-out",
+    "fontes": [
+      "sans condensada black",
+      "sans regular com tracking largo"
+    ],
+    "cores_hex": [
+      "#D10A0A",
+      "#0D0D0D"
+    ],
+    "efeitos": [
+      "tracking largo"
+    ]
+  },
+  "quando_usar": "Cartela de título de capítulo ou nome de operação; abertura com cor forte.",
+  "mood": [
+    "agressivo",
+    "impactante"
+  ],
+  "tags": [
+    "titulo",
+    "vermelho",
+    "condensada",
+    "tracking",
+    "cartela"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

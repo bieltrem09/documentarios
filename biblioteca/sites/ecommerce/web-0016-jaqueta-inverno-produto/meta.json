@@ -1,0 +1,53 @@
+{
+  "id": "web-0016",
+  "area": "site",
+  "arquivo": "jaqueta-inverno-produto.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "ecommerce",
+  "subcategoria": "moda",
+  "titulo": "Página de produto de jaqueta de inverno (marrom acinzentado)",
+  "descricao": "Card de e-commerce com jaqueta puffer preta no centro, título gigante 'WINTER JACKET' atrás, preço, tamanhos e seletor de quantidade.",
+  "tecnica": {
+    "como_e_feito": "Produto 3D/recortado no centro; título enorme em baixa opacidade atrás; UI de compra mínima; paleta taupe.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold"
+    ],
+    "cores_hex": [
+      "#8C807A",
+      "#E8E2DE",
+      "#1A1A1A"
+    ],
+    "efeitos": [
+      "texto atrás do produto",
+      "UI mínima"
+    ]
+  },
+  "quando_usar": "Lojas de moda e páginas de produto único.",
+  "mood": [
+    "premium",
+    "sóbrio"
+  ],
+  "tags": [
+    "ecommerce",
+    "moda",
+    "jaqueta",
+    "produto"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 535,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

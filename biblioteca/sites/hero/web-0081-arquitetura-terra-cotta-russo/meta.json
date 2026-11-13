@@ -1,0 +1,53 @@
+{
+  "id": "web-0081",
+  "area": "site",
+  "arquivo": "arquitetura-terra-cotta-russo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "arquitetura",
+  "titulo": "Hero de arquitetura 'TERRA cotta' com casa escura em colina",
+  "descricao": "Título gigante 'TERRA' em sans e 'cotta' em serifada itálica atrás de uma casa moderna escura numa colina enevoada, com card de ficha técnica.",
+  "tecnica": {
+    "como_e_feito": "Mistura de sans gigante + serifada itálica; casa à frente do título; card translúcido com dados.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans + serifada itálica"
+    ],
+    "cores_hex": [
+      "#3A3A38",
+      "#F2EEE8",
+      "#8C7A64"
+    ],
+    "efeitos": [
+      "mistura de fontes",
+      "texto atrás do sujeito"
+    ]
+  },
+  "quando_usar": "Escritórios de arquitetura e portfólios de projeto.",
+  "mood": [
+    "sofisticado",
+    "sombrio"
+  ],
+  "tags": [
+    "arquitetura",
+    "hero",
+    "serifada",
+    "colina"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 462,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

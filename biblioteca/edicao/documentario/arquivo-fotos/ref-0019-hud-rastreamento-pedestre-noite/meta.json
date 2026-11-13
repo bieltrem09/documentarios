@@ -1,0 +1,58 @@
+{
+  "id": "ref-0019",
+  "area": "edicao",
+  "arquivo": "hud-rastreamento-pedestre-noite.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "arquivo-fotos",
+  "subcategoria": "hud-vigilancia",
+  "titulo": "HUD de rastreamento facial sobre pedestre na faixa à noite",
+  "descricao": "Foto noturna de cima de uma mulher atravessando a faixa de pedestres, com caixas verdes de rastreamento no corpo e no rosto, recorte do rosto ampliado com dados técnicos e grade fina de interface nas bordas.",
+  "tecnica": {
+    "como_e_feito": "Foto com grade laranja/sódio; bounding boxes verdes finas; linha ligando o rosto a um painel com foto ampliada e texto mono ('LOW-LIGHT TRACKING ENABLED…'); moldura HUD com timestamp. Animável: caixas seguem o alvo (tracking) e o texto digita.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "mono pequena verde"
+    ],
+    "cores_hex": [
+      "#1C1A17",
+      "#C88B4A",
+      "#3BD16F",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "bounding box",
+      "HUD",
+      "texto digitando",
+      "tracking"
+    ]
+  },
+  "quando_usar": "Vigilância, reconhecimento facial, perseguição de suspeito, IA e privacidade.",
+  "mood": [
+    "tenso",
+    "tecnológico"
+  ],
+  "tags": [
+    "hud",
+    "rastreamento",
+    "reconhecimento-facial",
+    "cctv",
+    "noite",
+    "verde"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 920,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

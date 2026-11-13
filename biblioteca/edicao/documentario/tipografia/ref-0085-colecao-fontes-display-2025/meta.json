@@ -1,0 +1,55 @@
+{
+  "id": "ref-0085",
+  "area": "edicao",
+  "arquivo": "colecao-fontes-display-2025.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "catalogo-de-fontes",
+  "titulo": "Coleção de fontes display 2025 (Bebas, Dharma Gothic, Futura, Octin…)",
+  "descricao": "Pôster preto e branco com pares de fontes display condensadas e geométricas: Bebas Neue, Dharma Gothic, Proxima, Bourbon, Abolition, Futura, Industry, Octin, Sheepman, Gill Sans Nova Inline, Boucherie, Alverata.",
+  "tecnica": {
+    "como_e_feito": "Referência de fontes para títulos de vídeo; muitas condensadas pesadas ideais para canal dark.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "Bebas Neue",
+      "Dharma Gothic",
+      "Futura",
+      "Octin",
+      "Abolition",
+      "Industry"
+    ],
+    "cores_hex": [
+      "#111111",
+      "#FFFFFF"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Escolher a fonte de títulos e thumbnails do canal.",
+  "mood": [
+    "impactante",
+    "clássico"
+  ],
+  "tags": [
+    "fonte",
+    "catalogo",
+    "condensada",
+    "display",
+    "titulo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1288,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

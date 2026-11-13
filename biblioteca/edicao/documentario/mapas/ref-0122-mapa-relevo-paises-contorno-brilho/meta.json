@@ -1,0 +1,54 @@
+{
+  "id": "ref-0122",
+  "area": "edicao",
+  "arquivo": "mapa-relevo-paises-contorno-brilho.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "mapas",
+  "subcategoria": "pais-destacado",
+  "titulo": "Mapa em relevo escuro com países acendendo (azul e dourado) e brasões",
+  "descricao": "Mapa em relevo 3D cinza escuro; a Índia acende com contorno azul brilhante e o emblema nacional no centro, depois o Irã se ilumina em dourado com seu emblema.",
+  "tecnica": {
+    "como_e_feito": "Mapa de relevo (heightmap) com luz rasante; país com preenchimento/contorno emissivo colorido; emblema em linha branca no centro; câmera desliza entre países.",
+    "duracao_seg": 9.5,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#1A1A1A",
+      "#4A8BFF",
+      "#C9A65A",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "relevo 3D",
+      "contorno emissivo",
+      "câmera entre países"
+    ]
+  },
+  "quando_usar": "Comparar países, conflitos e relações internacionais.",
+  "mood": [
+    "geopolítico",
+    "sério"
+  ],
+  "tags": [
+    "mapa",
+    "relevo",
+    "pais",
+    "geopolitica",
+    "brilho"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 9.5,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 1.3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

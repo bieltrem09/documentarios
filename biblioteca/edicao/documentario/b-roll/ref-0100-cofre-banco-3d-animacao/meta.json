@@ -1,0 +1,52 @@
+{
+  "id": "ref-0100",
+  "area": "edicao",
+  "arquivo": "cofre-banco-3d-animacao.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "cofre-3d",
+  "titulo": "Animação 3D de cofre de banco abrindo até cofres individuais",
+  "descricao": "Câmera atravessa uma porta de cofre redonda que se abre, passa por grades e chega a uma sala de caixas de depósito, onde uma caixa é aberta sobre a mesa.",
+  "tecnica": {
+    "como_e_feito": "Animação 3D simples (estilo institucional) com movimento de câmera contínuo; útil como estrutura de cena.",
+    "duracao_seg": 19,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#D9D9D9",
+      "#7A8A7A",
+      "#B8975A"
+    ],
+    "efeitos": [
+      "câmera 3D",
+      "abertura de porta"
+    ]
+  },
+  "quando_usar": "Explicar como bancos guardam valores, roubos e segredos.",
+  "mood": [
+    "institucional",
+    "curioso"
+  ],
+  "tags": [
+    "cofre",
+    "banco",
+    "3d",
+    "animacao",
+    "deposito"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 19,
+    "largura": 1280,
+    "altura": 720,
+    "tamanho_mb": 4.1
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-09"
+}

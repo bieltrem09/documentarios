@@ -1,0 +1,57 @@
+{
+  "id": "ref-0112",
+  "area": "edicao",
+  "arquivo": "orbita-empresas-predio-valor.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "dados-graficos",
+  "subcategoria": "orbita-de-empresas",
+  "titulo": "Órbitas com logos de empresas em volta de um empresário sobre arranha-céu",
+  "descricao": "Fundo cinza claro com um prédio escuro na base; acima, círculos concêntricos com a foto do empresário no centro e logos de empresas orbitando; no topo, valor em dólares grande em roxo.",
+  "tecnica": {
+    "como_e_feito": "Diagrama de órbitas (círculos finos) com ícones girando; foto central em círculo com borda roxa; contador de valor; prédio como base visual.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold + manuscrita"
+    ],
+    "cores_hex": [
+      "#D9D9D9",
+      "#111111",
+      "#7E57C2",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "órbitas",
+      "contador",
+      "ícones girando"
+    ]
+  },
+  "quando_usar": "Mostrar império/empresas de uma pessoa, conglomerados, fortunas.",
+  "mood": [
+    "informativo",
+    "poderoso"
+  ],
+  "tags": [
+    "orbita",
+    "empresas",
+    "valor",
+    "contador",
+    "diagrama",
+    "roxo"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

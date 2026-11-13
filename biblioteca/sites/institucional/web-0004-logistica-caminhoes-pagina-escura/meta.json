@@ -1,0 +1,54 @@
+{
+  "id": "web-0004",
+  "area": "site",
+  "arquivo": "logistica-caminhoes-pagina-escura.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "institucional",
+  "subcategoria": "logistica",
+  "titulo": "Página escura de logística com caminhões, contêiner e números",
+  "descricao": "Página longa preta com wireframe de caminhão, fotos recortadas de caminhões laranja e contêiner pendurado, números grandes de toneladas e listas de serviços.",
+  "tecnica": {
+    "como_e_feito": "Seções alternando preto e branco; objetos recortados em PNG atravessando seções; números grandes; texto pequeno em listas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca"
+    ],
+    "cores_hex": [
+      "#121212",
+      "#F2F2F2",
+      "#E36A1C"
+    ],
+    "efeitos": [
+      "objetos recortados",
+      "seções alternadas"
+    ]
+  },
+  "quando_usar": "Sites de transporte, indústria e serviços pesados.",
+  "mood": [
+    "robusto",
+    "industrial"
+  ],
+  "tags": [
+    "logistica",
+    "caminhao",
+    "institucional",
+    "escuro",
+    "industria"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1472,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

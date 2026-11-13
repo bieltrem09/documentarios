@@ -1,0 +1,56 @@
+{
+  "id": "web-0049",
+  "area": "site",
+  "arquivo": "cosmos-curadoria-imagens.mp4",
+  "tipo_midia": "video",
+  "nicho": "web",
+  "categoria": "portfolio-editorial",
+  "subcategoria": "curadoria",
+  "titulo": "Site 'COSMOS' de curadoria de imagens com imagens flutuando (vídeo)",
+  "descricao": "Página escura e clara com logo 'COSMOS' central e imagens flutuando em 3D; seções 'Bring order to your creative universe', tagging com IA e app iOS.",
+  "tecnica": {
+    "como_e_feito": "Cards de imagem em espaço 3D com parallax de mouse; serifada fina; alternância dark/light; mockups de app.",
+    "duracao_seg": 36.6,
+    "easing": null,
+    "fontes": [
+      "serifada fina",
+      "sans"
+    ],
+    "cores_hex": [
+      "#0B0B0B",
+      "#EDEBE6",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "parallax 3D",
+      "imagens flutuantes",
+      "dark/light"
+    ]
+  },
+  "quando_usar": "Ferramentas criativas, portfólios de fotografia, apps de curadoria.",
+  "mood": [
+    "sofisticado",
+    "calmo"
+  ],
+  "tags": [
+    "curadoria",
+    "portfolio",
+    "3d",
+    "parallax",
+    "editorial"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 36.64,
+    "largura": 720,
+    "altura": 450,
+    "tamanho_mb": 1.3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

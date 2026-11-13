@@ -1,0 +1,57 @@
+{
+  "id": "ref-0039",
+  "area": "edicao",
+  "arquivo": "manchete-papel-rasgado-marca-texto.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "noticia",
+  "categoria": "documentos-jornal",
+  "subcategoria": "manchete-destacada",
+  "titulo": "Manchete de site em papel rasgado com trecho destacado em amarelo",
+  "descricao": "Manchete de portal de finanças recriada sobre faixa de papel claro com bordas rasgadas, logo do veículo acima, data abaixo e um trecho grifado com marca-texto amarelo; colunas de jornal desfocadas ao fundo.",
+  "tecnica": {
+    "como_e_feito": "Texto da manchete em sans bold sobre papel texturizado com bordas rasgadas (máscara); grifo amarelo animado por wipe; fundo com texto de jornal desfocado e vinheta. Câmera com push-in lento.",
+    "duracao_seg": null,
+    "easing": "ease-in-out no grifo",
+    "fontes": [
+      "sans bold (tipo Franklin Gothic/Inter)"
+    ],
+    "cores_hex": [
+      "#E9E7E2",
+      "#1E1E1E",
+      "#F2D33B",
+      "#9A9A9A"
+    ],
+    "efeitos": [
+      "papel rasgado",
+      "marca-texto",
+      "push-in",
+      "desfoque"
+    ]
+  },
+  "quando_usar": "Citar manchetes e matérias como prova na narração (notícia e documentário).",
+  "mood": [
+    "informativo",
+    "sério"
+  ],
+  "tags": [
+    "manchete",
+    "papel-rasgado",
+    "marca-texto",
+    "jornal",
+    "citacao"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

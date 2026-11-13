@@ -1,0 +1,60 @@
+{
+  "id": "ref-0092",
+  "area": "edicao",
+  "arquivo": "mapa-neon-fluxo-dinheiro-china-eua.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "documentario",
+  "categoria": "mapas",
+  "subcategoria": "mapa-de-rede",
+  "titulo": "Mapa neon com rede de fluxo de dinheiro entre China, EUA e México",
+  "descricao": "Mapa escuro com fronteiras em néon vermelho e azul, separado por uma linha luminosa; ícones de pessoas em hexágonos ligados por linhas tracejadas, com valores ('$13M') e rótulos como 'Chinese mafia' e 'Drug cartel'.",
+  "tecnica": {
+    "como_e_feito": "Mapa vetorial escuro com glow nas bordas dos países; nós em hexágono com avatar e rótulo; linhas tracejadas animadas (stroke-dashoffset) mostrando o caminho do dinheiro; etiquetas de valor verdes/vermelhas; status 'SETTLED'.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada pequena"
+    ],
+    "cores_hex": [
+      "#0B1E33",
+      "#E8334A",
+      "#2FA3E6",
+      "#3CCB7F",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "glow de fronteira",
+      "linhas tracejadas animadas",
+      "nós hexagonais",
+      "etiquetas de valor"
+    ]
+  },
+  "quando_usar": "Explicar esquemas de lavagem, cartéis, rotas de dinheiro ou tráfico entre países.",
+  "mood": [
+    "investigativo",
+    "tenso"
+  ],
+  "tags": [
+    "mapa",
+    "rede",
+    "lavagem",
+    "dinheiro",
+    "neon",
+    "fluxo",
+    "cartel"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "youtube",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1920,
+    "altura": 1080,
+    "tamanho_mb": 1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

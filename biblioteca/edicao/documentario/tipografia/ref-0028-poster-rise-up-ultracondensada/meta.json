@@ -1,0 +1,52 @@
+{
+  "id": "ref-0028",
+  "area": "edicao",
+  "arquivo": "poster-rise-up-ultracondensada.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "fonte-condensada",
+  "titulo": "Pôster 'RISE UP' em ultracondensada preta sobre off-white",
+  "descricao": "Pôster com 'RISE UP' em duas linhas de sans ultracondensada preta ocupando quase toda a altura, sobre fundo off-white, com microtexto repetido nas bordas (inclusive girado).",
+  "tecnica": {
+    "como_e_feito": "Tipografia gigante ultracondensada preenchendo o quadro; microtexto em caixa alta nas quatro bordas como moldura. Animável: microtexto correndo como ticker nas bordas.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans ultracondensada (alternativas: League Gothic, Six Caps)"
+    ],
+    "cores_hex": [
+      "#EDEBE7",
+      "#0D0D0D"
+    ],
+    "efeitos": [
+      "moldura de microtexto"
+    ]
+  },
+  "quando_usar": "Cartela de citação/slogan, movimentos sociais, protestos; contraste claro entre blocos escuros.",
+  "mood": [
+    "militante",
+    "forte"
+  ],
+  "tags": [
+    "poster",
+    "condensada",
+    "caixa-alta",
+    "off-white",
+    "microtexto"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 736,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

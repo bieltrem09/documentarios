@@ -1,0 +1,50 @@
+{
+  "id": "web-0075",
+  "area": "site",
+  "arquivo": "setup-monitor-site-energia-solar.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "mockup-apresentacao",
+  "subcategoria": "energia-solar",
+  "titulo": "Monitor em setup escuro exibindo site de energia solar",
+  "descricao": "Foto de mesa escura com teclado, mouse, celular vermelho e monitor mostrando site 'Energia solar' com casa e painéis.",
+  "tecnica": {
+    "como_e_feito": "Foto de ambiente para divulgar trabalho entregue; luz de LED.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#0B0B0B",
+      "#3B7A3B",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "foto de setup"
+    ]
+  },
+  "quando_usar": "Conteúdo de bastidor e portfólio.",
+  "mood": [
+    "profissional",
+    "noturno"
+  ],
+  "tags": [
+    "setup",
+    "monitor",
+    "energia-solar",
+    "portfolio"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 3024,
+    "altura": 4032,
+    "tamanho_mb": 1.2
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

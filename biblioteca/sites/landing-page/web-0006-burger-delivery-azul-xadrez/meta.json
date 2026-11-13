@@ -1,0 +1,55 @@
+{
+  "id": "web-0006",
+  "area": "site",
+  "arquivo": "burger-delivery-azul-xadrez.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "comida",
+  "titulo": "Landing de delivery de burger azul com faixa xadrez",
+  "descricao": "Página azul royal com título condensado amarelo e branco, hambúrguer na mão, faixa quadriculada branca e cards de produtos com tipografia display.",
+  "tecnica": {
+    "como_e_feito": "Paleta azul + amarelo; display condensada; padrão xadrez como divisória; produtos recortados e embalagens.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada display"
+    ],
+    "cores_hex": [
+      "#1E3FD0",
+      "#FFFFFF",
+      "#F5C400",
+      "#E0141E"
+    ],
+    "efeitos": [
+      "xadrez",
+      "produto recortado"
+    ]
+  },
+  "quando_usar": "Restaurantes, food trucks, delivery.",
+  "mood": [
+    "divertido",
+    "energético"
+  ],
+  "tags": [
+    "comida",
+    "burger",
+    "delivery",
+    "azul",
+    "landing"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1308,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

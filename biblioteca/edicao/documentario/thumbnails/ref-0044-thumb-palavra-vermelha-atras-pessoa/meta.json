@@ -1,0 +1,55 @@
+{
+  "id": "ref-0044",
+  "area": "edicao",
+  "arquivo": "thumb-palavra-vermelha-atras-pessoa.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "titulo-gigante",
+  "titulo": "Thumbnail: palavra gigante vermelha atrás de pessoa digitando ('Psychology')",
+  "descricao": "Homem sorridente com as mãos no teclado em primeiro plano; atrás dele a palavra enorme em vermelho e, acima, texto menor cinza; fundo papel quadriculado claro.",
+  "tecnica": {
+    "como_e_feito": "Texto gigante vermelho atrás do recorte da pessoa; frase de apoio pequena em cinza; fundo grid claro; mãos em primeiro plano para profundidade.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans bold (tipo Inter/Poppins)"
+    ],
+    "cores_hex": [
+      "#F4F4F4",
+      "#E5322D",
+      "#4A4A4A",
+      "#1E2A38"
+    ],
+    "efeitos": [
+      "texto atrás do sujeito",
+      "recorte"
+    ]
+  },
+  "quando_usar": "Thumbnails de psicologia, persuasão, manipulação.",
+  "mood": [
+    "provocativo",
+    "didático"
+  ],
+  "tags": [
+    "thumbnail",
+    "titulo-gigante",
+    "texto-atras",
+    "vermelho",
+    "psicologia"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

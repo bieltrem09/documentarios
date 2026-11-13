@@ -1,0 +1,53 @@
+{
+  "id": "web-0066",
+  "area": "site",
+  "arquivo": "chale-onde-o-tempo-respira.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "hotelaria",
+  "titulo": "Hero de chalé 'Onde o tempo respira' com floresta (foto da tela)",
+  "descricao": "Foto da tela (monitor/celular) enviada como referência; chalé A-frame entre pinheiros ao pôr do sol, título fino com 'respira' em serifada itálica e lista de diferenciais à direita.",
+  "tecnica": {
+    "como_e_feito": "Foto ambiente full-bleed; mistura sans fina + serifada itálica; navbar transparente; CTA em pílula.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans fina + serifada itálica"
+    ],
+    "cores_hex": [
+      "#2B2418",
+      "#E9A24A",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "mistura de fontes",
+      "foto ambiente"
+    ]
+  },
+  "quando_usar": "Hospedagem, turismo de natureza, imóveis de campo.",
+  "mood": [
+    "calmo",
+    "acolhedor"
+  ],
+  "tags": [
+    "chale",
+    "hotelaria",
+    "natureza",
+    "serifada"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 4032,
+    "altura": 3024,
+    "tamanho_mb": 1.2
+  },
+  "receitas": [],
+  "confianca": "media",
+  "catalogado_em": "2026-11-11"
+}

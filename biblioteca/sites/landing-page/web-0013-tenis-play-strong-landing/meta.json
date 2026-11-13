@@ -1,0 +1,54 @@
+{
+  "id": "web-0013",
+  "area": "site",
+  "arquivo": "tenis-play-strong-landing.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "esporte",
+  "titulo": "Landing de tênis 'Play Strong' com atleta saltando",
+  "descricao": "Página com atleta saltando sobre céu azul atrás de título condensado branco, seções com fotos de jogadores, números e galeria.",
+  "tecnica": {
+    "como_e_feito": "Hero com sujeito à frente do título; display condensada; grid de fotos esportivas; números grandes em verde-limão.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada"
+    ],
+    "cores_hex": [
+      "#2F7BD9",
+      "#FFFFFF",
+      "#C8F031",
+      "#1E1E1E"
+    ],
+    "efeitos": [
+      "sujeito à frente do título",
+      "grid de fotos"
+    ]
+  },
+  "quando_usar": "Academias, clubes e escolas de esporte.",
+  "mood": [
+    "energético",
+    "esportivo"
+  ],
+  "tags": [
+    "esporte",
+    "tenis",
+    "landing",
+    "condensada"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1411,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

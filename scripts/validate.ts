@@ -35,7 +35,12 @@ for (const m of metas) {
   if ((meta.tipo_midia === "video" || meta.tipo_midia === "gif") && !existsSync(join(dir, "contact-sheet.jpg")))
     erros.push(`${m.pasta}: falta contact-sheet.jpg (rode npm run keyframes)`);
 
-  if (partes[1] === "edicao") {
+  if (partes[1] === "sites") {
+    if (meta.area !== "site") erros.push(`${m.pasta}: ref em biblioteca/sites precisa de "area": "site"`);
+    if (meta.categoria !== partes[2]) erros.push(`${m.pasta}: categoria "${meta.categoria}" diferente da pasta "${partes[2]}"`);
+  }
+  if (partes[1] === "edicao" && meta.area !== "edicao") erros.push(`${m.pasta}: ref em biblioteca/edicao precisa de "area": "edicao"`);
+  if (partes[1] === "edicao" && meta.area === "edicao") {
     const [, , nicho, categoria] = partes;
     if (meta.nicho !== "ambos" && meta.nicho !== nicho)
       erros.push(`${m.pasta}: nicho "${meta.nicho}" diferente da pasta "${nicho}"`);

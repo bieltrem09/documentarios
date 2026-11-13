@@ -1,0 +1,62 @@
+{
+  "id": "ref-0002",
+  "area": "edicao",
+  "arquivo": "mural-investigacao-mugshots.mp4",
+  "tipo_midia": "video",
+  "nicho": "documentario",
+  "categoria": "documentos-jornal",
+  "subcategoria": "mural-de-investigacao",
+  "titulo": "Mural de investigação com mugshots, perfis e mapas em cortiça",
+  "descricao": "Quadro de cortiça com relatório de caso, crânio, mapa, fichas 'PROFILE' e 'FORENSIC REPORT', polaroids de suspeitos e post-it 'VICTIM'. A câmera faz zoom de detalhe em cada elemento e volta ao plano geral; um rosto recebe círculo vermelho desenhado à mão.",
+  "tecnica": {
+    "como_e_feito": "Elementos 2D (polaroids, papéis, post-its) montados sobre textura de cortiça com sombras; câmera 2.5D alternando plano geral e close inclinado em cada item (zoom + rotação leve); círculo vermelho animado com trim path; leve desfoque de profundidade nas bordas.",
+    "duracao_seg": 35,
+    "easing": "ease-in-out nos zooms",
+    "fontes": [
+      "sans bold condensada para títulos das fichas",
+      "manuscrita nos post-its e polaroids"
+    ],
+    "cores_hex": [
+      "#5A4A38",
+      "#EDE6D6",
+      "#E8D27A",
+      "#B3121C",
+      "#1A1410"
+    ],
+    "efeitos": [
+      "zoom/rotação 2.5D",
+      "círculo trim path",
+      "sombra projetada",
+      "vinheta",
+      "profundidade de campo"
+    ]
+  },
+  "quando_usar": "Apresentar suspeitos, vítimas e relações num documentário de true crime; recapitular o caso antes de um capítulo.",
+  "mood": [
+    "sombrio",
+    "investigativo"
+  ],
+  "tags": [
+    "mural",
+    "cortica",
+    "mugshot",
+    "polaroid",
+    "true-crime",
+    "zoom",
+    "circulo-vermelho"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 35,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 5.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

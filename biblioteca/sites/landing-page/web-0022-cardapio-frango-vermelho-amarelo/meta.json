@@ -1,0 +1,54 @@
+{
+  "id": "web-0022",
+  "area": "site",
+  "arquivo": "cardapio-frango-vermelho-amarelo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "comida",
+  "titulo": "Cardápio online de frango com fogo e tipografia retrô",
+  "descricao": "Página de cardápio com título retrô amarelo sobre vermelho, grade de pratos com fotos e botões vermelhos, lista de acompanhamentos e chamas na base.",
+  "tecnica": {
+    "como_e_feito": "Display retrô com contorno; grade 3 colunas; fundo creme com faixas vermelhas; ilustração de fogo.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "display retrô com contorno"
+    ],
+    "cores_hex": [
+      "#E8361E",
+      "#F6C53B",
+      "#FFF3DD"
+    ],
+    "efeitos": [
+      "tipografia retrô",
+      "grade de produtos"
+    ]
+  },
+  "quando_usar": "Restaurantes e cardápios digitais.",
+  "mood": [
+    "quente",
+    "divertido"
+  ],
+  "tags": [
+    "cardapio",
+    "restaurante",
+    "frango",
+    "retro",
+    "vermelho"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1380,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

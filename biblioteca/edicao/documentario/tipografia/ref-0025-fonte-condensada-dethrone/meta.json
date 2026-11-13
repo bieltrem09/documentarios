@@ -1,0 +1,50 @@
+{
+  "id": "ref-0025",
+  "area": "edicao",
+  "arquivo": "fonte-condensada-dethrone.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "fonte-condensada",
+  "titulo": "Fonte sans ultracondensada pesada (estilo 'Dethrone')",
+  "descricao": "Apresentação de uma fonte sans serif ultracondensada e pesada em caixa alta, branca sobre preto, com subtítulos pequenos serifados.",
+  "tecnica": {
+    "como_e_feito": "Título em caixa alta, ultracondensada, espaçamento justo, ocupando a largura; contraste com microtexto serifado espaçado. Alternativas livres: Anton, Bebas Neue, Oswald Bold, League Gothic.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans ultracondensada heavy (alternativas livres: Anton, League Gothic)"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Títulos de capítulo, nomes de casos e palavras de impacto em documentário dark.",
+  "mood": [
+    "impactante",
+    "sério"
+  ],
+  "tags": [
+    "fonte",
+    "condensada",
+    "caixa-alta",
+    "titulo",
+    "pb"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 718,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

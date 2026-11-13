@@ -1,0 +1,56 @@
+{
+  "id": "ref-0094",
+  "area": "edicao",
+  "arquivo": "overlay-codigo-matrix-vermelho.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "texturas-overlays",
+  "subcategoria": "codigo-digital",
+  "titulo": "Chuva de código estilo Matrix em vermelho (vertical)",
+  "descricao": "Colunas de caracteres vermelhos brilhantes caindo sobre fundo vermelho escuro, em loop.",
+  "tecnica": {
+    "como_e_feito": "Partículas de texto em colunas com velocidades diferentes e glow; usar em Screen/Add sobre imagens. Em código: canvas com colunas de glifos.",
+    "duracao_seg": 6.7,
+    "easing": null,
+    "fontes": [
+      "mono"
+    ],
+    "cores_hex": [
+      "#3A0000",
+      "#FF2A2A",
+      "#7A0A0A"
+    ],
+    "efeitos": [
+      "chuva de código",
+      "glow",
+      "loop"
+    ]
+  },
+  "quando_usar": "Hackers, ataques, vazamentos, invasão digital.",
+  "mood": [
+    "tenso",
+    "tecnológico"
+  ],
+  "tags": [
+    "matrix",
+    "codigo",
+    "hacker",
+    "vermelho",
+    "overlay",
+    "loop"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 6.67,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.9
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

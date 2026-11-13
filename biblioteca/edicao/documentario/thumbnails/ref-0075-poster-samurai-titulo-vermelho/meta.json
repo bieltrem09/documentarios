@@ -1,0 +1,56 @@
+{
+  "id": "ref-0075",
+  "area": "edicao",
+  "arquivo": "poster-samurai-titulo-vermelho.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "poster",
+  "titulo": "Pôster: samurai ilustrado sobre título preto gigante em fundo vermelho",
+  "descricao": "Ilustração detalhada de um samurai com armadura e chifres, em tons de cinza, sobreposta a um título preto enorme em fundo vermelho chapado, com texto miúdo e 'VOL.1'.",
+  "tecnica": {
+    "como_e_feito": "Ilustração em primeiro plano + título condensado preto gigante cortado pelo personagem; fundo vermelho; microtexto em blocos.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada black"
+    ],
+    "cores_hex": [
+      "#D9261C",
+      "#111111",
+      "#E8E4DA"
+    ],
+    "efeitos": [
+      "texto atrás do sujeito",
+      "ilustração",
+      "duotone"
+    ]
+  },
+  "quando_usar": "Capas e cartelas de capítulos sobre história do Japão, guerra, guerreiros.",
+  "mood": [
+    "épico",
+    "agressivo"
+  ],
+  "tags": [
+    "poster",
+    "samurai",
+    "vermelho",
+    "titulo-gigante",
+    "ilustracao",
+    "japao"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 735,
+    "altura": 412,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

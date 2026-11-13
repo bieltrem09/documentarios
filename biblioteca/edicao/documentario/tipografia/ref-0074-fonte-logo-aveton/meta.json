@@ -1,0 +1,52 @@
+{
+  "id": "ref-0074",
+  "area": "edicao",
+  "arquivo": "fonte-logo-aveton.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "fonte-display",
+  "titulo": "Fonte geométrica de logotipo 'Aveton' sobre fundo marrom sedoso",
+  "descricao": "Apresentação de fonte para logotipos: palavra branca geométrica com 'A' sem travessão, sobre fundo escuro com ondas de seda cobre.",
+  "tecnica": {
+    "como_e_feito": "Sans geométrica bold com ligaduras/alternativas; fundo 3D de tecido. Alternativas livres: Outfit, Lexend.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans geométrica bold (Outfit, Lexend)"
+    ],
+    "cores_hex": [
+      "#120B07",
+      "#FFFFFF",
+      "#C2702F"
+    ],
+    "efeitos": [
+      "fundo 3D de seda"
+    ]
+  },
+  "quando_usar": "Títulos e marcas com visual corporativo premium.",
+  "mood": [
+    "premium",
+    "moderno"
+  ],
+  "tags": [
+    "fonte",
+    "logo",
+    "geometrica",
+    "corporativa"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 491,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ref-0104",
+  "area": "edicao",
+  "arquivo": "busca-google-digitando.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "tela-de-busca",
+  "titulo": "Busca no Google sendo digitada (tema escuro)",
+  "descricao": "Tela escura do Google com o texto 'search engine optimization' sendo digitado e sugestões aparecendo, com leve rotação 3D.",
+  "tecnica": {
+    "como_e_feito": "Gravação/recriação de UI de busca com digitação; tela inclinada em perspectiva. Em código: recriar a UI genérica, sem logo real.",
+    "duracao_seg": 6.8,
+    "easing": null,
+    "fontes": [
+      "sans do sistema"
+    ],
+    "cores_hex": [
+      "#202124",
+      "#E8EAED",
+      "#8AB4F8"
+    ],
+    "efeitos": [
+      "digitação",
+      "perspectiva 3D"
+    ]
+  },
+  "quando_usar": "Mostrar pesquisas, curiosidade pública, tendências.",
+  "mood": [
+    "neutro",
+    "curioso"
+  ],
+  "tags": [
+    "google",
+    "busca",
+    "digitacao",
+    "tela",
+    "ui"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 6.81,
+    "largura": 640,
+    "altura": 360,
+    "tamanho_mb": 0.3
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

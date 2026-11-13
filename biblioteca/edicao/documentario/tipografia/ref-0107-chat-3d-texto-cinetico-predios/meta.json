@@ -1,0 +1,56 @@
+{
+  "id": "ref-0107",
+  "area": "edicao",
+  "arquivo": "chat-3d-texto-cinetico-predios.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "texto-cinetico",
+  "titulo": "Chat 3D em celular e texto cinético projetado em prédios",
+  "descricao": "Celular em perspectiva com mensagens saindo do campo de texto em sequência; depois, frases em branco aparecem coladas às fachadas de prédios numa rua roxa.",
+  "tecnica": {
+    "como_e_feito": "Câmera 3D sobre UI de chat; depois tracking de texto em fachadas (camera tracking) com tipografia condensada; grade roxa.",
+    "duracao_seg": 14.8,
+    "easing": null,
+    "fontes": [
+      "sans condensada bold"
+    ],
+    "cores_hex": [
+      "#0B0B0F",
+      "#FFFFFF",
+      "#7C5CC4"
+    ],
+    "efeitos": [
+      "UI 3D",
+      "camera tracking",
+      "texto cinético"
+    ]
+  },
+  "quando_usar": "Lyric-style, citações, pensamentos do personagem em cenário urbano.",
+  "mood": [
+    "melancólico",
+    "moderno"
+  ],
+  "tags": [
+    "texto-cinetico",
+    "chat",
+    "celular",
+    "3d",
+    "predios",
+    "tracking"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 14.75,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 2.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

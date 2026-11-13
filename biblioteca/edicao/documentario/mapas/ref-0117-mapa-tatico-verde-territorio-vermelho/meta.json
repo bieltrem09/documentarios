@@ -1,0 +1,58 @@
+{
+  "id": "ref-0117",
+  "area": "edicao",
+  "arquivo": "mapa-tatico-verde-territorio-vermelho.mp4",
+  "tipo_midia": "video",
+  "nicho": "documentario",
+  "categoria": "mapas",
+  "subcategoria": "mapa-tatico",
+  "titulo": "Mapa tático verde com território vermelho se expandindo e cerco tracejado",
+  "descricao": "Mapa da Ásia em P&B que aproxima até um mapa verde de províncias; manchas vermelhas surgem e se unem num território com triângulo 'RED ARMY', rótulo da região e um círculo tracejado de forças inimigas cercando.",
+  "tecnica": {
+    "como_e_feito": "Mapa em camadas com zoom; regiões em vermelho semitransparente crescendo (máscaras animadas); ícone triangular com texto; linhas de chamada; círculo tracejado girando; grão e textura de papel quadriculado nas bordas.",
+    "duracao_seg": 22.8,
+    "easing": null,
+    "fontes": [
+      "sans condensada bold"
+    ],
+    "cores_hex": [
+      "#0F3B2E",
+      "#3FAE7A",
+      "#D42A2A",
+      "#FFFFFF"
+    ],
+    "efeitos": [
+      "zoom de mapa",
+      "território crescendo",
+      "círculo tracejado",
+      "rótulos com linha"
+    ]
+  },
+  "quando_usar": "Guerras, revoluções, ocupações e cercos em documentário histórico.",
+  "mood": [
+    "histórico",
+    "tenso"
+  ],
+  "tags": [
+    "mapa",
+    "guerra",
+    "territorio",
+    "cerco",
+    "historia",
+    "verde"
+  ],
+  "dificuldade": "dificil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 22.78,
+    "largura": 736,
+    "altura": 414,
+    "tamanho_mb": 1.7
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "web-0064",
+  "area": "site",
+  "arquivo": "pousada-mobile-reserva.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "landing-page",
+  "subcategoria": "hotelaria",
+  "titulo": "Site mobile de pousada com reserva ('Fique no coração de São Sebastião')",
+  "descricao": "Site de pousada em celular: foto do prédio histórico, título serifado, formulário de reserva com datas e botão vermelho, ícones de comodidades e cards de quartos; botão de WhatsApp.",
+  "tecnica": {
+    "como_e_feito": "Mobile first; formulário de reserva no hero; serifada elegante; botão flutuante de WhatsApp.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "serifada + sans"
+    ],
+    "cores_hex": [
+      "#FFFFFF",
+      "#1E3A5F",
+      "#E0141E",
+      "#25D366"
+    ],
+    "efeitos": [
+      "formulário de reserva",
+      "WhatsApp flutuante"
+    ]
+  },
+  "quando_usar": "Pousadas, hotéis, hospedagem.",
+  "mood": [
+    "acolhedor",
+    "confiável"
+  ],
+  "tags": [
+    "hotelaria",
+    "pousada",
+    "mobile",
+    "reserva",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 900,
+    "altura": 1600,
+    "tamanho_mb": 0.2
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

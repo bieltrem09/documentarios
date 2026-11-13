@@ -1,0 +1,49 @@
+{
+  "id": "ref-0078",
+  "area": "edicao",
+  "arquivo": "fontes-corporativas-sans.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "tipografia",
+  "subcategoria": "catalogo-de-fontes",
+  "titulo": "Catálogo de fontes sans corporativas (Neutiva, Gutica, Rumeno, Batica, Berneo)",
+  "descricao": "Lista vertical em fundo escuro com cinco famílias sans bold, cada uma com o número de pesos disponíveis.",
+  "tecnica": {
+    "como_e_feito": "Referência de sans grotescas/geométricas pesadas para títulos. Alternativas livres: Inter, Manrope, Plus Jakarta Sans.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans grotesca bold (Inter, Manrope)"
+    ],
+    "cores_hex": [
+      "#1C1C1E",
+      "#FFFFFF"
+    ],
+    "efeitos": []
+  },
+  "quando_usar": "Escolher família de títulos limpa para vídeo ou site.",
+  "mood": [
+    "moderno",
+    "neutro"
+  ],
+  "tags": [
+    "fonte",
+    "catalogo",
+    "sans",
+    "corporativa"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 1472,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

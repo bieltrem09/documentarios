@@ -1,0 +1,52 @@
+{
+  "id": "ref-0045",
+  "area": "edicao",
+  "arquivo": "icone-espiao-chapeu-sobretudo.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "outros",
+  "subcategoria": "icone-flat",
+  "titulo": "Ícone flat de espião anônimo (chapéu e sobretudo)",
+  "descricao": "Ilustração flat minimalista de uma figura sem rosto com chapéu fedora e sobretudo de gola alta, em branco e azul claro sobre fundo preto.",
+  "tecnica": {
+    "como_e_feito": "Formas vetoriais simples com sombreamento em 2 tons (metade clara, metade azulada); rosto vazio preto. Animável: surge com fade e o chapéu inclina.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#000000",
+      "#FFFFFF",
+      "#C7D7F2"
+    ],
+    "efeitos": [
+      "ilustração flat",
+      "2 tons"
+    ]
+  },
+  "quando_usar": "Representar espiões, informantes anônimos, hackers, agentes secretos.",
+  "mood": [
+    "misterioso",
+    "minimalista"
+  ],
+  "tags": [
+    "icone",
+    "espiao",
+    "anonimo",
+    "flat",
+    "incognito"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 720,
+    "altura": 750,
+    "tamanho_mb": 0
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ref-0008",
+  "area": "edicao",
+  "arquivo": "overlay-filme-antigo-branco.mp4",
+  "tipo_midia": "video",
+  "nicho": "documentario",
+  "categoria": "texturas-overlays",
+  "subcategoria": "filme-antigo",
+  "titulo": "Overlay de película antiga branca com riscos, sujeira e vinheta",
+  "descricao": "Loop de 9 s de película branca com riscos verticais, pontos de sujeira, um fio de cabelo passando e vinheta escura nas bordas. Feito para ser sobreposto a outro vídeo.",
+  "tecnica": {
+    "como_e_feito": "Aplicar por cima do vídeo em modo Multiply (o branco some e ficam riscos, poeira e vinheta); opacidade 40-80%; pode combinar com flicker de exposição e P&B/sépia.",
+    "duracao_seg": 9,
+    "easing": null,
+    "fontes": [],
+    "cores_hex": [
+      "#FFFFFF",
+      "#2A2A2A"
+    ],
+    "efeitos": [
+      "riscos de película",
+      "poeira",
+      "vinheta",
+      "blend multiply"
+    ]
+  },
+  "quando_usar": "Imagens de arquivo, flashbacks e trechos históricos (anos 20-70) em documentário.",
+  "mood": [
+    "nostálgico",
+    "histórico"
+  ],
+  "tags": [
+    "filme-antigo",
+    "overlay",
+    "riscos",
+    "poeira",
+    "vinheta",
+    "multiply",
+    "arquivo"
+  ],
+  "dificuldade": "facil",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 9.24,
+    "largura": 256,
+    "altura": 144,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}

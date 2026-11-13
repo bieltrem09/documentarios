@@ -39,28 +39,61 @@ Como consultar (na ordem de preferência):
 
 Ao usar referências, **cite os IDs** (ex.: `ref-0042`) e diga o que está sendo aproveitado de cada uma.
 
+## Área de sites (criação de sites / web design)
+
+A biblioteca tem **duas áreas separadas**; nunca misture:
+
+| Área | Pasta | IDs | `nicho` | Categorias |
+|---|---|---|---|---|
+| Edição de vídeo | `biblioteca/edicao/<nicho>/<categoria>/` | `ref-XXXX` | documentario · noticia · ambos | taxonomia de edição (abaixo) |
+| Criação de sites | `biblioteca/sites/<categoria>/` | `web-XXXX` | `web` | `hero` · `landing-page` · `ecommerce` · `institucional` · `portfolio-editorial` · `mockup-apresentacao` · `identidade-marca` · `social-media` · `outros` |
+
+- Todo `meta.json` tem `"area": "edicao"` ou `"area": "site"`.
+- Em sites, `subcategoria` = **segmento** (comida, fintech, logistica, esporte, moda, ia-saas…).
+- Em sites, `tecnica.como_e_feito` descreve como construir (layout, CSS, animação de scroll com GSAP, 3D com Three.js/Spline etc.).
+- Ao catalogar, decida a área olhando o conteúdo: layout de página/UI/marca/post → `site`; técnica de vídeo, thumbnail, overlay, b-roll → `edicao`. Catálogos de fontes ficam em edição › tipografia.
+- No app: abas **Edição**, **Sites** e **Banco de imagens**.
+- Gatilhos para consultar a área de sites: criar/redesenhar site, landing page, hero, e-commerce, portfólio, identidade/logo, posts de redes sociais.
+
+## Banco de imagens (fotos e vídeos gratuitos)
+
+Quando a cena pedir footage/foto que a biblioteca não tem (ex.: "pessoas correndo"), busque no banco de imagens:
+
+- **Endpoint:** `https://biblioteca-indeep.vercel.app/api/banco?q=<termo>&tipo=foto|video&fonte=todas|pexels|unsplash|pixabay&orientacao=horizontal|vertical|todas&pagina=1`
+  (no Claude Code, use a ferramenta `web_fetch_vercel_url` do MCP da Vercel ou o MCP da biblioteca quando existir).
+- **Na interface:** aba **Banco de imagens** do app (`/banco/?q=...`).
+- Cada resultado traz `download`, `preview`, `url_pagina`, `autor`, `licenca` e `credito` (texto pronto).
+- Termos em inglês costumam render mais resultados. Padrão: horizontal (16:9).
+- Ao usar uma imagem num vídeo, registre o `credito` em `projetos/<video>/creditos.md`. Unsplash exige crédito; Pexels e Pixabay não, mas é boa prática.
+- Chaves ficam só na Vercel (`PEXELS_API_KEY`, `UNSPLASH_ACCESS_KEY`, `PIXABAY_API_KEY`). Nunca colocar chaves no repositório.
+- Código: `api/banco.js` (testes: `npm run teste:banco`).
+
 ## Estrutura (alvo)
 
 ```
 /
 ├── CLAUDE.md
 ├── biblioteca/
+│   ├── sites/<categoria>/<web-id>/   ← refs de criação de sites (área separada)
 │   ├── edicao/
 │   │   ├── documentario/        ← refs originais organizadas por categoria
 │   │   │   └── <categoria>/<ref-id>/
 │   │   │       ├── <arquivo original>.mp4|.gif|.jpg|.png
 │   │   │       ├── meta.json
-│   │   │       └── contact-sheet.jpg   (vídeos/GIFs: grade de keyframes)
+│   │   │       ├── contact-sheet.jpg   (vídeos/GIFs: grade de keyframes)
+│   │   │       └── poster.jpg          (vídeos/GIFs: capa usada no app)
 │   │   └── noticia/
 │   ├── _novas/                  ← entrada: jogar arquivos aqui sem organizar
 │   ├── proprias/                ← referências criadas pelo Claude/usuário
 │   ├── receitas/                ← receitas reproduzíveis (.md)
+│   ├── estudos/                 ← estudos de sites/galerias de referência (ex.: estudos/motionsites.md, índice com links)
 │   ├── index.json               ← GERADO, não editar à mão
 │   └── index.md                 ← GERADO, versão legível
 ├── projetos/                    ← material de produção de cada vídeo (ex.: projetos/ueno/)
 ├── scripts/                     ← compressão, keyframes, validação, índice
 ├── mcp/                         ← servidor MCP da biblioteca
-├── app/                         ← app web para navegar na biblioteca
+├── app/                         ← app web para navegar na biblioteca (abas Referências e Banco de imagens)
+├── api/banco.js                 ← função Vercel: busca em Pexels/Unsplash/Pixabay
 └── .claude/
     ├── skills/biblioteca-edicao/SKILL.md
     └── commands/                ← /catalogar, /buscar-ref, /receita, /plano-edicao

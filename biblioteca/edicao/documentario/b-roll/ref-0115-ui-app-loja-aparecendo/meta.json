@@ -1,0 +1,56 @@
+{
+  "id": "ref-0115",
+  "area": "edicao",
+  "arquivo": "ui-app-loja-aparecendo.mp4",
+  "tipo_midia": "video",
+  "nicho": "ambos",
+  "categoria": "b-roll",
+  "subcategoria": "ui-app",
+  "titulo": "Card de app em loja de aplicativos surgindo com glow",
+  "descricao": "Fundo preto; um card de app com ícone e botão 'Open' surge, expande para mostrar telas do app e lista de apps, ganha brilho roxo e volta a ser só o ícone.",
+  "tecnica": {
+    "como_e_feito": "UI recriada de loja de apps em cards arredondados; animação de expandir/encolher; glow roxo no destaque. Recriar com app genérico em vez de marca real.",
+    "duracao_seg": 6.3,
+    "easing": null,
+    "fontes": [
+      "sans do sistema"
+    ],
+    "cores_hex": [
+      "#000000",
+      "#2C2C2E",
+      "#FFFFFF",
+      "#A238FF"
+    ],
+    "efeitos": [
+      "expand/collapse",
+      "glow",
+      "UI de loja"
+    ]
+  },
+  "quando_usar": "Mostrar um app ou ferramenta citada na narração (IA, redes, golpes de app).",
+  "mood": [
+    "tecnológico",
+    "limpo"
+  ],
+  "tags": [
+    "app",
+    "ui",
+    "loja",
+    "card",
+    "glow"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": 6.29,
+    "largura": 720,
+    "altura": 1280,
+    "tamanho_mb": 0.5
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-09"
+}

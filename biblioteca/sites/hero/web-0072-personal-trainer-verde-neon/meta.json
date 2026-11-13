@@ -1,0 +1,55 @@
+{
+  "id": "web-0072",
+  "area": "site",
+  "arquivo": "personal-trainer-verde-neon.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "web",
+  "categoria": "hero",
+  "subcategoria": "fitness",
+  "titulo": "Hero de personal trainer com nome gigante e verde neon",
+  "descricao": "Hero escuro com o profissional sorrindo, nome gigante cinza metálico atrás, título 'Seu treinamento. Sua evolução.' com destaque verde neon e botões de agendar via WhatsApp.",
+  "tecnica": {
+    "como_e_feito": "Pessoa recortada à frente do nome gigante; glow verde; CTA de WhatsApp; ícones de diferenciais.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans extendida heavy"
+    ],
+    "cores_hex": [
+      "#0B0F0B",
+      "#3BE04A",
+      "#FFFFFF",
+      "#9A9A9A"
+    ],
+    "efeitos": [
+      "texto atrás do sujeito",
+      "glow verde"
+    ]
+  },
+  "quando_usar": "Personal trainers, academias, coaches.",
+  "mood": [
+    "energético",
+    "confiável"
+  ],
+  "tags": [
+    "fitness",
+    "personal",
+    "verde",
+    "hero",
+    "portugues"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "outro",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 1600,
+    "altura": 900,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-11"
+}

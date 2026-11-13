@@ -1,0 +1,56 @@
+{
+  "id": "ref-0057",
+  "area": "edicao",
+  "arquivo": "thumbs-rosto-dividido-fragmentado.jpg",
+  "tipo_midia": "imagem",
+  "nicho": "ambos",
+  "categoria": "thumbnails",
+  "subcategoria": "rosto-fragmentado",
+  "titulo": "Thumbnails com rosto dividido em fragmentos e rostos fundidos",
+  "descricao": "Duas thumbnails: um rosto recortado em faixas deslocadas com fita vermelha, metade P&B e metade colorida; e dois rostos fundidos/derretendo um no outro sobre fundo vermelho.",
+  "tecnica": {
+    "como_e_feito": "Rosto fatiado em tiras com deslocamento (glitch de papel); contraste P&B x cor; fusão de dois rostos com distorção (liquify) sobre fundo chapado vermelho com título pequeno.",
+    "duracao_seg": null,
+    "easing": null,
+    "fontes": [
+      "sans condensada bold"
+    ],
+    "cores_hex": [
+      "#C8161D",
+      "#1A1A1A",
+      "#E6E6E6",
+      "#F2C14E"
+    ],
+    "efeitos": [
+      "rosto fatiado",
+      "liquify",
+      "P&B x cor"
+    ]
+  },
+  "quando_usar": "Duplicidade, traição, identidade dupla, perdão/conflito entre duas pessoas.",
+  "mood": [
+    "intenso",
+    "dramático"
+  ],
+  "tags": [
+    "thumbnail",
+    "rosto",
+    "fragmentado",
+    "duplo",
+    "vermelho"
+  ],
+  "dificuldade": "media",
+  "origem": {
+    "fonte": "pinterest",
+    "url": null
+  },
+  "media": {
+    "duracao_seg": null,
+    "largura": 736,
+    "altura": 920,
+    "tamanho_mb": 0.1
+  },
+  "receitas": [],
+  "confianca": "alta",
+  "catalogado_em": "2026-11-08"
+}
