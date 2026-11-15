@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Marca from "./Marca";
 
 type Aba = "edicao" | "sites" | "banco";
 
@@ -21,14 +22,7 @@ export default function Topo({
   return (
     <header className="nav">
       <div className="nav-esq">
-        <Link href="/" className="marca" aria-label="InDeep, início">
-          <span className="marca-simbolo" aria-hidden>
-            <i />
-            <i />
-            <i />
-          </span>
-          indeep
-        </Link>
+        <Marca />
         <nav className="nav-abas" aria-label="Seções">
           {ABAS.map((a) => (
             <Link key={a.id} href={a.href} className={ativo === a.id ? "ativo" : ""} aria-current={ativo === a.id ? "page" : undefined}>
