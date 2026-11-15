@@ -4,6 +4,8 @@ import { proporcao } from "@/lib/proporcao";
 
 import { useEffect, useRef, useState } from "react";
 import { NOME_CATEGORIA, midia, nomeSegmento, poster, type Ref } from "@/lib/dados";
+import { anexoDeRef } from "@/lib/claude";
+import { MarcarCard } from "./Claude";
 
 /** Toca vídeos só enquanto estão visíveis na tela (como uma vitrine), pausa fora dela. */
 export function useAutoplay() {
@@ -42,6 +44,7 @@ export default function Card({ r, onAbrir, ativo }: { r: Ref; onAbrir: () => voi
 
   return (
     <article className={`card ${ativo ? "ativo" : ""}`}>
+      <div className="card-caixa">
       <button className="card-midia" style={{ aspectRatio: `1 / ${prop}` }} onClick={onAbrir} aria-label={`Abrir ${r.id}: ${r.titulo}`}>
         {ehVideo ? (
           <video ref={video} src={midia(r)} poster={poster(r)} muted loop playsInline preload="none" />
@@ -49,6 +52,8 @@ export default function Card({ r, onAbrir, ativo }: { r: Ref; onAbrir: () => voi
           <img src={midia(r)} alt={r.titulo} loading="lazy" />
         )}
       </button>
+      <MarcarCard anexo={anexoDeRef(r)} />
+      </div>
       <div className="card-info">
         <button className="card-titulo" onClick={onAbrir}>
           <h3>{r.titulo}</h3>

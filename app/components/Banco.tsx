@@ -4,6 +4,22 @@ import { proporcao } from "@/lib/proporcao";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Topo from "./Topo";
+import { BotoesClaude, MarcarCard } from "./Claude";
+import type { Anexo } from "@/lib/claude";
+
+const NOME_F: Record<string, string> = { pexels: "Pexels", unsplash: "Unsplash", pixabay: "Pixabay" };
+function anexoDoBanco(r: Resultado): Anexo {
+  const texto = [
+    `${r.tipo === "video" ? "Vídeo" : "Foto"} gratuito do ${NOME_F[r.fonte]} (banco de imagens InDeep)`,
+    `Título: ${r.titulo}`,
+    `${r.largura}×${r.altura}${r.duracao_seg ? ` · ${r.duracao_seg}s` : ""}`,
+    `Download: ${r.download ?? r.preview ?? r.thumb}`,
+    `Página: ${r.url_pagina}`,
+    `Licença: ${r.licenca.nome}${r.licenca.credito_obrigatorio ? " (crédito obrigatório)" : ""}`,
+    `Crédito: ${r.credito}`,
+  ].join("\n");
+  return { id: `${r.fonte}-${r.tipo}-${r.id}`, texto, imagem: r.tipo === "foto" ? r.preview ?? r.thumb : r.thumb };
+}
 
 interface Resultado {
   fonte: "pexels" | "unsplash" | "pixabay";
@@ -52,6 +68,7 @@ function CardBanco({ r, onAbrir }: { r: Resultado; onAbrir: () => void }) {
       onMouseEnter={() => video.current?.play().catch(() => {})}
       onMouseLeave={() => video.current?.pause()}
     >
+      <div className="card-caixa">
       <button className="card-midia" style={{ aspectRatio: `1 / ${prop}` }} onClick={onAbrir} aria-label={`Abrir ${r.titulo}`}>
         {r.tipo === "video" && r.preview ? (
           <video ref={video} src={r.preview} poster={r.thumb} muted loop playsInline preload="none" />
@@ -60,6 +77,8 @@ function CardBanco({ r, onAbrir }: { r: Resultado; onAbrir: () => void }) {
         )}
         {r.tipo === "video" && <span className="card-selo">▶ {r.duracao_seg ? `${r.duracao_seg}s` : ""}</span>}
       </button>
+      <MarcarCard anexo={anexoDoBanco(r)} />
+      </div>
       <div className="card-info">
         <button className="card-titulo" onClick={onAbrir}>
           <h3>{r.titulo}</h3>
@@ -354,6 +373,7 @@ export default function Banco() {
                 <p className="descricao">
                   por {aberto.autor_url ? <a href={aberto.autor_url} target="_blank" rel="noreferrer">{aberto.autor}</a> : aberto.autor}
                 </p>
+                <BotoesClaude anexo={anexoDoBanco(aberto)} />
                 <div className="acoes">
                   <button className="botao-claro" onClick={() => baixar(aberto)} disabled={!aberto.download}>Baixar original</button>
                   <a className="botao-escuro" href={aberto.url_pagina} target="_blank" rel="noreferrer">Abrir no {NOME_FONTE[aberto.fonte]}</a>

@@ -6,6 +6,8 @@ import Fuse from "fuse.js";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { CORES, NOME_CATEGORIA, NOME_NICHO, familia, midia, nomeSegmento, type Ref } from "@/lib/dados";
 import Card from "./Card";
+import { BotoesClaude } from "./Claude";
+import { anexoDeRef } from "@/lib/claude";
 import Detalhe from "./Detalhe";
 import Topo from "./Topo";
 
@@ -421,8 +423,9 @@ export default function Biblioteca({
                   {refAberta.subcategoria ? ` · ${refAberta.area === "site" ? nomeSegmento(refAberta.subcategoria) : refAberta.subcategoria}` : ""}
                 </p>
                 <p className="painel-desc">{refAberta.descricao}</p>
+                <BotoesClaude anexo={anexoDeRef(refAberta)} />
                 <div className="painel-acoes">
-                  <a className="botao-claro" href={`/ref/${refAberta.id}/`}>
+                  <a className="botao-escuro" href={`/ref/${refAberta.id}/`} style={{ flex: 1 }}>
                     Abrir página
                   </a>
                   <button className="botao-escuro" onClick={() => navegar(-1)} aria-label="Anterior (←)">←</button>

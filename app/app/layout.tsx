@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { BarraSelecao } from "@/components/Claude";
 
 export const metadata: Metadata = {
   title: "InDeep · Biblioteca de Edição",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         {children}
+        <BarraSelecao />
       </body>
     </html>
   );

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Detalhe from "@/components/Detalhe";
 import Topo from "@/components/Topo";
+import { BotoesClaude } from "@/components/Claude";
+import { anexoDeRef } from "@/lib/claude";
 import { dados } from "@/lib/dados";
 
 export const dynamicParams = false;
@@ -28,6 +30,7 @@ export default async function PaginaRef({ params }: { params: Promise<{ id: stri
       <Link href={r.area === "site" ? "/sites/" : "/"} className="voltar">
         ← {r.area === "site" ? "Sites" : "Edição"}
       </Link>
+      <div className="ref-claude"><BotoesClaude anexo={anexoDeRef(r)} /></div>
       <Detalhe r={r} receitas={dados.receitas_md} />
     </main>
     </>
